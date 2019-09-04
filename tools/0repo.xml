@@ -108,20 +108,33 @@
           <manifest-digest sha256new="3P62CQ6EU36QZNIOBDJKYBWC7RZB7OHRYFY4L3MZFNDYWN24Z2ZQ"/>
           <archive extract="0repo-0.7" href="https://downloads.sourceforge.net/project/zero-install/0repo/0.7/0repo-0.7.tar.bz2" size="59067"/>
         </implementation>
-        <implementation id="sha1new=c93cece6c5c9e053fd4c7052658597f4da316707" released="2019-05-14" version="0.8">
+        <implementation id="sha1new=c93cece6c5c9e053fd4c7052658597f4da316707" released="2019-05-14" stability="stable" version="0.8">
           <manifest-digest sha256new="XDR7YKN7A5Q4DBIFI6MXIAF2MJN6GCNK5LGNHER2RYNSIBE656NA"/>
           <archive extract="0repo-0.8" href="https://downloads.sourceforge.net/project/zero-install/0repo/0.8/0repo-0.8.tar.bz2" size="59122"/>
+        </implementation>
+      </group>
+      <group>
+        <requires interface="http://repo.roscidus.com/git/core">
+          <executable-in-path name="git"/>
+        </requires>
+        <requires interface="http://repo.roscidus.com/security/gnupg">
+          <executable-in-path name="gpg"/>
+          <executable-in-var name="GNUPG_PATH"/>
+        </requires>
+        <implementation id="sha1new=61000364299225fe3d9c3a5e53ea655a4f0b8d33" released="2019-09-04" version="0.9">
+          <manifest-digest sha256new="JZWXPIFZKJWO5NW2GN6OLRMM6DV3WHK336T4YJX24ZE5POX5YCDQ"/>
+          <archive extract="0repo-0.9" href="https://downloads.sourceforge.net/project/zero-install/0repo/0.9/0repo-0.9.tar.bz2" size="59315"/>
         </implementation>
       </group>
     </group>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAlzbFyoACgkQBxM/lsp02LrK5ggAk4yj
-Y/qLswPo12YSpy4dOjW0QQ8M4aKRmQW2xGRIvJzh9ym6V0M0UORHrbatXLCZttUKU9SfCDWvqnEO
-FK4zscKC4cGOHuOtRgWvHPqHZumEpyVfqpZwHR5cJ6Rso/HnmwKmOhD648icPlHXp76GTXBySQ9O
-H2FS+giEeRysBm9OTHDGjds5LLJ8QIHPGhPA9t8Rj4i+EzHLmsg0AKfgNb5LeD6bWZhzy7Ma4DGC
-ynHTJObGgLZtg/UcyWVzjuxr/s7UXu4QqE3/olMgXzWHUOwy5QD+vvvZFTnuB6wWrWV9fjU0fYX4
-AN+N0+uuvWJKuAnsEPREa1AUfa2xviOq6g==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl1vfscACgkQBxM/lsp02Lr9WQf/X9h2
+/DmxRf+i4ipnP5HXCEcnjJZqPX1BTZ4E17YUIx//6ZCyIWReFhaodzarRdf0Cvna7RdShe8tHl4w
+iHkFvBksuN3PyBAjQ6VTBwo9Vd9BU+tZBdZMhrTU5+1uZjX2ekCBjfzgMAaTOCmVawgMtI0R9DUS
+EPvznHK0FRgrNtHKPTkmeba3nuJ/qtlLLMSwcDgwmH0QIJkiHikU/E5C6xl3LzlQKnN5pzko1isZ
+agLwbKLjusvtcG9pq3SyLuJMsDWp9hAeDIwYsWffs7aSg15S9STKMD8YMDvdZ5GGZczdxF9kBU0R
+ECvRvucb8HWvOj8wMA8jiX1JNMPZgubEyQ==
 
 -->
