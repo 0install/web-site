@@ -41,9 +41,9 @@
   and <k>Windows</k> systems. It is fully <k>Open Source</k>.</p>
 
 <quicklinks>
-  <link href='why.html' img='tango/book.png'>Read more</link>
+  <link href='https://docs.0install.net/' img='tango/book.png'>Read more</link>
   <link href='packagers.html' img='tango/applications-development.png'>Make packages</link>
-  <link href='faq.html' img='tango/help-browser.png'>FAQ</link>
+  <link href='https://docs.0install.net/about/faq/' img='tango/help-browser.png'>FAQ</link>
   <a href='injector.html' id='autodownload' class='autodownload'>Get Zero Install</a>
 </quicklinks>
 </div>

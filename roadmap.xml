@@ -44,9 +44,9 @@ This is a quick overview of the major features added to Zero Install. It focuses
 <ul>
 <li>Extracting from .tar.lzma and .tar (uncompressed) archives.</li>
 <li>Background checking for updates.</li>
-<li>Automatic <a href='sharing.html'>secure sharing</a> of downloads.</li>
+<li>Automatic <a href='https://docs.0install.net/details/sharing/'>secure sharing</a> of downloads.</li>
 <li>Bug reporting.</li>
-<li><a href='distribution-integration.html'>Native package manager integration</a> for Debian and RPM systems.</li>
+<li><a href='https://docs.0install.net/details/distribution-integration/'>Native package manager integration</a> for Debian and RPM systems.</li>
 <li>Implementation bindings (&lt;environment&gt; directly inside &lt;implementation&gt;).</li>
 </ul>
 
@@ -78,7 +78,7 @@ This is a quick overview of the major features added to Zero Install. It focuses
   <li>Specify distribution name in &lt;package-implementation&gt;.</li>
   <li>Support for multiple hash algorithms for a single implementation.</li>
   <li>Added 'local-path' attribute.</li>
-  <li><a href='solver.html'>SAT solver</a> handles complex version requirements.</li>
+  <li><a href='https://docs.0install.net/developers/solver/'>SAT solver</a> handles complex version requirements.</li>
   <li>Select implementations based on user's locale.</li>
   <li>Support for PackageKit (prompt the user to install distribution packages where necessary).</li>
   <li>Initial Windows support.</li>
@@ -115,7 +115,7 @@ This is a quick overview of the major features added to Zero Install. It focuses
   <li>"Explain this decision" feature.</li>
   <li>"POSIX" architecture (everything except Windows).</li>
   <li>Limits on the number of concurrent connections to a site.</li>
-  <li>Support for <a href='user-guide-apps.html'>apps</a>.</li>
+  <li>Support for <a href='https://docs.0install.net/basics/using-apps/'>apps</a>.</li>
   <li>Better Windows support from Python (so tools like 0compile work out of the box).</li>
   <li><a href='http://thread.gmane.org/gmane.comp.file-systems.zero-install.devel/6097'>Support for programs such as cmake that can't cope with "=" in pathnames</a>.</li>
   <li>Support for Python 3 and GTK 3 (in addition to Python 2 and GTK 2).</li>
@@ -123,7 +123,7 @@ This is a quick overview of the major features added to Zero Install. It focuses
   <li>The recipe &lt;rename&gt; step type.</li>
   <li><a href='http://thread.gmane.org/gmane.comp.file-systems.zero-install.devel/6103'>Mirrors for archives</a>.</li>
   <li>Support for headless servers (<a href='http://thread.gmane.org/gmane.comp.file-systems.zero-install.devel/6297'>0install-core</a> package).</li>
-  <li><a href='injector-trouble.html'>Improved diagnostics</a> when a solve fails.</li>
+  <li><a href='https://docs.0install.net/details/troubleshooting/'>Improved diagnostics</a> when a solve fails.</li>
   <li>The 'if-0install-version' attribute.</li>
   <li>The --version EXPR and --version-for URI EXPR command-line options.</li>
   <li>Disjoint version ranges (e.g. "2.6..!3 | 3.2.2..").</li>
@@ -149,7 +149,7 @@ This is a quick overview of the major features added to Zero Install. It focuses
 
 <ul>
 <li><a href='http://roscidus.com/blog/blog/2014/06/06/python-to-ocaml-retrospective/'>OCaml port completed</a>.</li>
-<li><a href='json-api.html'>JSON API</a> (<b>0install slave</b>)</li>
+<li><a href='https://docs.0install.net/developers/json-api/'>JSON API</a> (<b>0install slave</b>)</li>
 <li>Separate <b>0install</b> and <b>0install-core</b> packages in Debian, to allow installing on headless servers without pulling in any GUI dependencies.</li>
 <li>Support for &lt;requires source='true'/&gt; dependences.</li>
 <li>Getting credentials from <b>.netrc</b>.</li>
@@ -168,7 +168,7 @@ This is a bunch of ideas. <a href='get-involved.html'>Volunteers welcome!</a>
 
 <dt><a href='http://thread.gmane.org/gmane.comp.file-systems.zero-install.devel/5045'>Support for multiple ABIs</a> (for C++ on Windows)</dt>
 <dt><a href='http://thread.gmane.org/gmane.comp.file-systems.zero-install.devel/6276'>Alternatives for dependencies</a></dt>
-<dt><a href='user-guide-apps.html'>App support</a> for XDG launchers</dt>
+<dt><a href='https://docs.0install.net/basics/using-apps/'>App support</a> for XDG launchers</dt>
 
 <dt>HTTP connection pooling, pipelining and DNS caching</dt>
 <dd>Rate limiting is already supported, but further performance improvements are still possible.</dd>
@@ -197,7 +197,7 @@ of locally cached feeds, to enable quick off-line searching.
 <dt><a href='http://thread.gmane.org/gmane.comp.file-systems.zero-install.devel/1285/focus=1285'>Sandboxing</a></dt>
 <dd>
 Provide better integration with sandboxing systems such as Rainbow, <a href='http://plash.beasts.org/'>Plash</a> or LXC. Sandboxed software must still
-be able to run other programs through Zero Install, adding them to the cache as needed in a secure fashion. <a href='ebox.html'>EBox</a> shows how this integration can work.
+be able to run other programs through Zero Install, adding them to the cache as needed in a secure fashion. <a href='https://docs.0install.net/tools/ebox/'>EBox</a> shows how this integration can work.
 </dd>
 
 <dt>Better desktop integration</dt>
@@ -244,7 +244,7 @@ optional dependency; one which isn't listed in the main feed file at all.
 <dd>The tricky bit about P2P is normally the free-text searching, but we already know the secure hash
 of the manifest we want, and when we get it we have the hash of every file we need, so this should be easy!
 The idea is that if someone on your local network has already downloaded a program, you can get it from them
-automatically. See <a href='0share.html'>0share</a> for current experimental version.
+automatically. See <a href='https://docs.0install.net/tools/0share/'>0share</a> for current experimental version.
 </dd>
 
 <dt><a href='http://thread.gmane.org/gmane.comp.file-systems.zero-install.devel/1214/focus=1214'>Binary patches</a></dt>

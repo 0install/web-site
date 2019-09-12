@@ -102,7 +102,7 @@ Each piece of software is licensed separately. Please consult the documentation 
 </p>
 
 <p>
-  Although the package files may be <a href='sharing.html'>shared between users</a>, the feeds are not. Therefore, it is possible to see which programs a user has ever run by looking in their
+  Although the package files may be <a href='https://docs.0install.net/details/sharing/'>shared between users</a>, the feeds are not. Therefore, it is possible to see which programs a user has ever run by looking in their
   home directory (~/.cache/0install.net/ or ~/.config/0install.net/). Zero Install creates both of these directories with the permissions "rwx------" (owner access
   only), but of course the superuser of the machine you're using still has access.
 </p>
