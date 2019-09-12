@@ -267,7 +267,7 @@ http://creativecommons.org/licenses/by-sa/2.5/
 											<xsl:value-of select="zi:name"/> ist eine Bibliothek und kann nicht direkt als Anwendung ausgeführt werden.
 										</p>
 										<p>
-											Für weitere Informationen über die Verwendung von Zero Install Paketen, lesen Sie die <a href="http://0install.net/dev.html">Zero Install Entwickleranleitung</a>.
+											Für weitere Informationen über die Verwendung von Zero Install Paketen, lesen Sie: <a href="https://docs.0install.net/packaging/">0install packaging guide</a>
 										</p>
 									</xsl:otherwise>
 								</xsl:choose>

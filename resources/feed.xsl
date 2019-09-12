@@ -240,7 +240,7 @@ http://creativecommons.org/licenses/by-sa/2.5/
 
 											<p>This is a Zero Install feed.
 											This software cannot be run as an application directly. It is a library for other programs to use.</p>
-											<p>For more information about using Zero Install packages, see the <a href="http://0install.net/dev.html">0install.net developer's guide</a>.</p>
+											<p>For more information about using Zero Install packages, see the <a href="https://docs.0install.net/packaging/">0install packaging guide</a>.</p>
 
 										</xsl:otherwise>
 									</xsl:choose>

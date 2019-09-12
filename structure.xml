@@ -38,13 +38,13 @@
 
   <item base="doc" label="Documentation">
     <item base='users' label='For users'>
-      <item href='user-guide-intro.html' label='Basic usage'>
+      <item href='https://docs.0install.net/basics/' label='Basic usage'>
         <item base='user-guide-intro' label='Introduction'/>
         <item base='user-guide-first-launch' label='First launch'/>
         <item base='user-guide-shortcuts' label='Making shortcuts'/>
         <item base='user-guide-apps' label='Apps'/>
       </item>
-      <item href='user-guide-policy.html' label='Advanced usage'>
+      <item href='https://docs.0install.net/details/policy-settings/' label='Advanced usage'>
         <item base='user-guide-policy' label="Policy settings"/>
         <item base='user-guide-cache' label="Cache and sharing"/>
         <item base='servers' label="Servers"/>

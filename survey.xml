@@ -84,7 +84,7 @@ people aren't using any of the suggested options.
 <p>
 We have a surprisingly varied set of architectures. I'm currently trying to get a project on the OpenSUSE build service for Zero Install, which
 should allow us to build binaries for multiple architectures automatically. So far, <a href='http://thread.gmane.org/gmane.linux.suse.opensuse.buildservice/3331'>I haven't been able to attract the attention of an admin</a>, though. That would provide support for the two most popular architectures. If anyone has an automatic build system for other platforms, let us know. You should be
-able to set it up to automatically download, compile and publish new versions using <a href='0compile.html'>0compile</a>.
+able to set it up to automatically download, compile and publish new versions using <a href='https://docs.0install.net/tools/0compile/'>0compile</a>.
 </p>
 
 <p>
@@ -151,7 +151,7 @@ href='support.html'>mailing list</a> and <i>tell us your GPG fingerprint</i>!
 
 <p>
 Most of the time, the only reason for installing a program as root is so that a single copy can be shared between multiple users. Since Zero Install can support
-<a href='sharing.html'>sharing between untrusted and unprivileged users</a>, users can install without needing root access.
+<a href='https://docs.0install.net/details/sharing/'>sharing between untrusted and unprivileged users</a>, users can install without needing root access.
 </p>
 
 <p>
@@ -263,7 +263,7 @@ to download <a href='http://rox.sourceforge.net/desktop/Archive'>Archive</a>, fo
 <blockquote><p><q>* Being the only install method for a whole distribution, or transparent
 * Being able to share an installed software between users (MOST IMPORTANT)</q></p></blockquote>
 
-<p>Sharing is <a href='sharing.html'>already supported</a>!</p>
+<p>Sharing is <a href='https://docs.0install.net/details/sharing/'>already supported</a>!</p>
 
 <blockquote><p><q>With rox desktop</q></p></blockquote>
 <blockquote><p><q>Integration with PackageKit ?</q></p></blockquote>
@@ -335,7 +335,7 @@ keys, or some kind of distributed trust system ("3 of your friends trust this ke
 <blockquote><p><strong>Other comments: </strong><q>I am the only user, there is no sharing</q>, <q>Didn't notice sharing abilities...</q>.</p></blockquote>
 
 <p>
-We do mention the sharing on the <a href='/'>front page</a> (4th bullet), the <a href='comparison.html'>comparison page</a> and the <a href='sharing.html'>sharing</a> page.
+We do mention the sharing on the <a href='/'>front page</a> (4th bullet), the <a href='https://docs.0install.net/about/comparison/'>comparison page</a> and the <a href='https://docs.0install.net/details/sharing/'>sharing</a> page.
 People still seem to miss it, though. Good to see someone using it with VMs already.
 </p>
 
@@ -464,7 +464,7 @@ because unless lots of you ask your distributions for it to be installed by defa
 
 <p>
 And don't forget to ask software authors to <a
-href='injector-packagers.html'>provide a feed</a> for their programs. They need
+href='https://docs.0install.net/packaging/'>provide a feed</a> for their programs. They need
 to know people will use it before they go to the trouble of reading up about
 it.
 </p>
@@ -501,7 +501,7 @@ which resemble the MS Windows environment familiar to most of their users).
 <blockquote><p><q>Portage is good enough</q></p></blockquote>
 <blockquote><p><q>Packages too often have dependencies on binary-only packages and so can't be compiled</q></p></blockquote>
 
-<p>I need to make it easier to add support for <a href='0compile.html'>0compile</a> so we can reduce the number of binary-only packages.</p>
+<p>I need to make it easier to add support for <a href='https://docs.0install.net/tools/0compile/'>0compile</a> so we can reduce the number of binary-only packages.</p>
 
 <blockquote><p><q>It should have built on an existing package system</q></p></blockquote>
 
@@ -521,7 +521,7 @@ restarting downloads.
 <blockquote><p><q>Doesnt intergrate with distro packages</q></p></blockquote>
 
 <p>
-It does now! See <a href='distribution-integration.html'>Distribution Integration</a>.
+It does now! See <a href='https://docs.0install.net/details/distribution-integration/'>Distribution Integration</a>.
 </p>
 
 <blockquote><p><q>The adoption must be more wide-spread. Its time that other distributions focus on Zero install as well. I think starting with smaller distributions like Gobolinux, adoption will be easier than with the biggies</q></p></blockquote>
@@ -805,9 +805,9 @@ The word "find" confused a few people here. I'll try to be clearer in future!
 <h3>Which tools do you use to make packages?</h3>
 
 <p>
-<a href='injector-packagers.html'>0publish-gui</a> is a GTK application to help you publish a package. As long as your package is
+<a href='https://docs.0install.net/packaging/'>0publish-gui</a> is a GTK application to help you publish a package. As long as your package is
 relocatable (can be run from any directory), this is very simple and only takes a few minutes. <a href='0publish.html'>0publish</a> is a command-line tool, intended
-for people writing scripts to update their feeds automatically. <a href='0compile.html'>0compile</a> downloads and builds a package from source. <a href='feedlint.html'>FeedLint</a>
+for people writing scripts to update their feeds automatically. <a href='https://docs.0install.net/tools/0compile/'>0compile</a> downloads and builds a package from source. <a href='feedlint.html'>FeedLint</a>
 checks your feeds for problems. All these programs are, of course, themselves available though Zero Install.
 </p>
 
@@ -845,7 +845,7 @@ email if it's confidential) and tell us what kind of support you need!
 <blockquote><p><q>Would like a mechanism for distributing *source* and having it built on target machines, to avoid having to build and distribute binaries.</q></p></blockquote>
 
 <p>
-This can be done with <a href='0compile.html'>0compile</a>, but it's not possible to share between users in that case, because there's no way for one user to know they can
+This can be done with <a href='https://docs.0install.net/tools/0compile/'>0compile</a>, but it's not possible to share between users in that case, because there's no way for one user to know they can
 trust a binary compiled by a different user. A trusted build service (local or remote) could solve that problem.
 </p>
 
