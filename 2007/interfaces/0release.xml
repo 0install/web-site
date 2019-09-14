@@ -190,13 +190,54 @@ can help you to create new releases easily.</description>
     </group>
   </group>
 
+  <group main="0release">
+    <requires interface="http://repo.roscidus.com/python/python">
+      <version before="3"/>
+    </requires>
+    <requires interface="http://0install.net/tools/0repo.xml">
+      <environment insert="." mode="replace" name="RELEASE_0REPO"/>
+      <version not-before="0.2"/>
+    </requires>
+    <requires interface="http://0install.net/2006/interfaces/0publish">
+      <version not-before="0.17"/>
+      <environment if-0install-version="..!1.13" insert="0publish" mode="replace" name="ZI_PUBLISH"/>
+      <executable-in-var name="ZI_PUBLISH"/>
+    </requires>
+    <requires interface="http://0install.net/2007/interfaces/ZeroInstall.xml">
+      <version not-before="1.6"/>
+      <environment insert="" mode="replace" name="ZI_RELEASE_ZEROINSTALL"/>
+    </requires>
+    <requires interface="http://0install.net/2008/interfaces/0test.xml">
+      <version not-before="0.4-post"/>
+      <environment if-0install-version="..!1.13" insert="0test" mode="replace" name="ZI_TEST"/>
+      <executable-in-var name="ZI_TEST"/>
+    </requires>
+    <requires interface="http://0install.net/2006/interfaces/0compile.xml">
+      <version not-before="1.2"/>
+      <executable-in-var name="ZI_COMPILE"/>
+    </requires>
+    <command name="test" path="tests/testall.py">
+      <runner interface="http://repo.roscidus.com/python/python"/>
+      <executable-in-path name="0release"/>
+      <requires interface="http://repo.roscidus.com/devel/make">
+        <executable-in-path name="make"/>
+      </requires>
+    </command>
+    <command name="run" path="0release">
+      <runner interface="http://repo.roscidus.com/python/python"/>
+    </command>
+    <implementation id="sha1new=06a42d6e1fe8fd324bfb3148d3d97aaa356bf18b" license="OSI Approved :: GNU Lesser General Public License (LGPL)" released="2019-09-14" version="0.16">
+      <manifest-digest sha256new="WEJ5XRLDJO7UX3CY7PPPC7I7VAL2G5ZMESTJ7VGX2WPH3M56EVPQ"/>
+      <archive extract="0release-0.16" href="https://downloads.sourceforge.net/project/zero-install/0release/0.16/0release-0.16.tar.bz2" size="47898"/>
+    </implementation>
+  </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJSOHVyAAoJEAcTP5bKdNi6si4IAIco8xf7LcXzRohCTDt5OjF7reQqztfxz9LC
-S/uNtZYRhNr68mvtrDNR6b0RJ5uKecjK2Bm872BdEeKQ8dWuTw6iEvfpi9dDHlMkxP5u2dTOxym5
-Y4fby+eOnhg05hfPo4cGrIcWtf2dxsD70a3DHRi55aaPojQfGRg/brAiXDVWzTYHePJCMaAAstsR
-7mllIn4fikD7EaGe20dSG3YXvTC6/Ku3MvnYjyzQjxGBpW4Ojy8xM+AT9fi0SzBVzJj7i2g4V2OX
-hY+jdNp69j4FMLXaj2EXhJm8yTGpTNZunLoPcUuqfdjiiMFJI5quqvw2QP+eNeKjb5SAGSWImwso
-P00=
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl182tkACgkQBxM/lsp02LoVOwgAjSwt
+xbaM8z+b8h2CM2V9K7NFfjOW2wuMg414Dpo8jAD5e4jkA0JrvMH+jcby/PItHo4c6Uc0SK1IYTv6
+884p+XlHC/9Ig4m5R3ldDCOOkjanckpGL4woVzNEXmNNcA+VexInn8Xbik83twonmgM0LUaTfajU
+LQpW3vvZYVzR+UxHoOdpr3Bf5jMrhjBu4e5/UYNhtrhJskx4C7x9mAG7ox6wouvo/LyxIEis4TEf
+6WR3LYXlNJZ1oWZ7yA8JCUO1wApvlA058F5rqdqqD5y4lUI/B1VXbSWMzCKu4DLkf6Yilv36xP/h
+SnEbnYsdf/jqLlJPw3Kdt9M5KJku1Asrww==
 
 -->
