@@ -4,6 +4,11 @@
 <div>
 <h2>News</h2>
 <dl>
+  <dt>Oct 2019</dt>
+  <dd>
+    Much of the documentation has been converted to markdown format and merged with the Windows
+    documentation. The new documents are hosted on the new <a href='https://docs.0install.net/'>docs.0install.net</a> site. Some of the guides have also been updated. There have been <a href='https://sourceforge.net/p/zero-install/mailman/message/36761063/'>bug-fix releases</a> of 0compile and the old Python version of 0install. <a href='https://sourceforge.net/p/zero-install/mailman/message/36763011/'>0release 0.16 </a> has been released, adding Windows support and the &lt;release:update-version&gt; element for updating any version numbers embedded in your code.
+  </dd>
   <dt>May 2019</dt>
   <dd><a href='https://sourceforge.net/p/zero-install/mailman/message/36648439/'>0install 2.14.1 released</a>, fixing a bug handling HTTP redirects when using HTTP/2.
     <a href='https://sourceforge.net/p/zero-install/mailman/message/36638968/'>0compile 1.5 released</a>, fixing some minor bugs.
