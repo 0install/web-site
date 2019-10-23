@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Zero Install: Get</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
+  <script src="injector.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <nav class="navbar navbar-expand my-3">
+      <div class="media">
+        <a href="index.html"><img class="mr-2" src="logo/zeroinstall-icon.png" width="64" height="64" alt="Zero Install Logo"></a>
+        <a class="navbar-brand text-dark media-body align-self-center" href="index.html">Zero Install</a>
+      </div>
+      <div class="nav nav-pills">
+        <a class="nav-item nav-link active" href="injector.html">Get</a>
+        <a class="nav-item nav-link" href="injector-feeds.html">Apps</a>
+        <a class="nav-item nav-link" href="support.html">Support</a>
+        <a class="nav-item nav-link" href="https://docs.0install.net/">Docs</a>
+      </div>
+    </nav>
+
+    <main>
+      <p>Zero Install is released under the GNU Lesser General Public License.</p>
+
+      <div class="card mb-4">
+        <div class="card-header">
+          <div class="nav nav-tabs card-header-tabs">
+            <a class="nav-item nav-link" href="#linux"><i class="fab fa-linux"></i> Linux</a>
+            <a class="nav-item nav-link" href="#windows"><i class="fab fa-windows"></i> Windows</a>
+            <a class="nav-item nav-link" href="#mac"><i class="fab fa-apple"></i> macOS</a>
+          </div>
+        </div>
+
+        <div class="card-body tab-body" id="linux">
+          <div class="card">
+            <div class="card-header bg-white">
+              <div class="nav nav-tabs card-header-tabs">
+                <a class="nav-item nav-link" href="#linux-generic">Generic</a>
+                <a class="nav-item nav-link" href="#linux-ubuntu"><i class="fab fa-ubuntu"></i> Ubuntu</a>
+                <a class="nav-item nav-link" href="#linux-fedora"><i class="fab fa-fedora"></i> Fedora</a>
+                <a class="nav-item nav-link" href="#linux-redhat"><i class="fab fa-redhat"></i> Red Hat</a>
+                <a class="nav-item nav-link" href="#linux-suse"><i class="fab fa-suse"></i> OpenSUSE</a>
+              </div>
+            </div>
+            <div class="card-body tab-body" id="linux-generic">
+              <p>
+                <a class="btn btn-primary" href="https://downloads.sourceforge.net/zero-install/0install-linux-x86_64-2.14.1.tar.bz2"><i class="fas fa-download"></i> Download</a>
+                <a class="btn btn-outline-primary" href="http://0install.net/tools/0install.xml"><i class="fas fa-history"></i> Specific version</a>
+              </p>
+              <div class="alert alert-primary">
+                <h5><i class="fas fa-terminal"></i> Shell</h5>
+                <code>
+                  <textarea readonly style="resize: none;" class="form-control-plaintext" onclick="this.select();" rows="3">sudo apt-get install libcurl3
+curl -L https://downloads.sourceforge.net/zero-install/0install-linux-x86_64-2.14.1.tar.bz2 | tar xj
+sudo 0install-linux-x86_64-2.14.1/install.sh local</textarea>
+                </code>
+              </div>
+              <a href="https://docs.0install.net/details/linux/">Learn more...</a>
+            </div>
+            <div class="card-body tab-body" id="linux-ubuntu">
+              <p>
+                <a class="btn btn-primary" href="apt://0install"><i class="fas fa-download"></i> Install</a>
+              </p>
+              <div class="alert alert-primary">
+                <h5><i class="fas fa-server"></i> Server/headless install</h5>
+                <code>
+                <input type="text" readonly class="form-control-plaintext" onclick="this.select();" value="apt-get install 0install-core --no-install-recommends">
+              </code>
+              </div>
+            </div>
+            <div class="card-body tab-body" id="linux-fedora">
+              <div class="alert alert-primary">
+                <h5><i class="fas fa-terminal"></i> Shell</h5>
+                <code>
+                <input type="text" readonly class="form-control-plaintext" onclick="this.select();" value="yum install 0install">
+              </code>
+              </div>
+            </div>
+            <div class="card-body tab-body" id="linux-redhat">
+              <div class="alert alert-warning">
+                <i class="fas fa-exclamation-triangle"></i> Make sure you have <a href="https://fedoraproject.org/wiki/EPEL">Extra Packages for Enterprise Linux</a> configured.
+              </div>
+              <div class="alert alert-primary">
+                <h5><i class="fas fa-terminal"></i> Shell</h5>
+                <code>
+                <input type="text" readonly class="form-control-plaintext" onclick="this.select();" value="yum install zeroinstall-injector">
+              </code>
+              </div>
+            </div>
+            <div class="card-body tab-body" id="linux-suse">
+              <p>
+                <a class="btn btn-primary" href="https://software.opensuse.org/ymp/openSUSE:Factory/standard/zeroinstall-injector.ymp?base=openSUSE%3AFactory&query=zeroinstall-injector"><i class="fas fa-download"></i> Install</a>
+              </p>
+              <div class="alert alert-primary">
+                <h5><i class="fas fa-terminal"></i> Shell</h5>
+                <code>
+                <input type="text" readonly class="form-control-plaintext" onclick="this.select();" value="yast -i zeroinstall-injector">
+              </code>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-body tab-body" id="windows">
+          <div class="card">
+            <div class="card-header bg-white">
+              <div class="nav nav-tabs card-header-tabs">
+                <a class="nav-item nav-link" href="#windows-legacy">Windows Vista/7</a>
+                <a class="nav-item nav-link" href="#windows-current">Windows 8/10</a>
+              </div>
+            </div>
+            <div class="card-body tab-body" id="windows-legacy">
+              <div class="alert alert-warning">
+                <i class="fas fa-exclamation-triangle"></i> Make sure you have the latest Windows updates installed for TLS 1.2 support.
+              </div>
+              <p>
+                <a class="btn btn-primary" href="https://0install.de/files/zero-install-net20.exe"><i class="fas fa-download"></i> Download</a>
+                <a class="btn btn-outline-primary" href="https://0install.de/files/zero-install.zip"><i class="far fa-file-archive"></i> ZIP version</a>
+              </p>
+              <div class="alert alert-primary">
+                <h5><i class="fas fa-terminal"></i> PowerShell</h5>
+                <code>
+                <textarea readonly style="resize: none;" class="form-control-plaintext" onclick="this.select();">Invoke-WebRequest https://0install.de/files/0install-net20.exe -OutFile 0install.exe
+.\0install.exe --help</textarea>
+              </code>
+              </div>
+              <a href="https://docs.0install.net/details/windows/">Learn more...</a>
+            </div>
+            <div class="card-body tab-body" id="windows-current">
+              <p>
+                <a class="btn btn-primary" href="https://0install.de/files/zero-install.exe"><i class="fas fa-download"></i> Download</a>
+                <a class="btn btn-outline-primary" href="https://0install.de/files/zero-install.zip"><i class="far fa-file-archive"></i> ZIP version</a>
+              </p>
+              <div class="alert alert-primary">
+                <h5><i class="fas fa-terminal"></i> PowerShell</h5>
+                <code>
+                <textarea style="resize: none;" readonly class="form-control-plaintext" onclick="this.select();">Invoke-WebRequest https://0install.de/files/0install.exe -OutFile 0install.exe
+.\0install.exe --help</textarea>
+              </code>
+              </div>
+              <a href="https://docs.0install.net/details/windows/">Learn more...</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-body tab-body" id="mac">
+          <p>
+            <a class="btn btn-primary" href="https://downloads.sourceforge.net/project/zero-install/0install/2.8/ZeroInstall.pkg"><i class="fas fa-download"></i> Download</a>
+          </p>
+          <a href="https://docs.0install.net/details/macos/">Learn more...</a>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <hr>
+      <small class="text-muted">
+        © Copyright 2003-2019 Thomas Leonard, Bastian Eicher and others<br>
+        Permission is granted to use the site (excluding the software, which is licensed separately) in accordance with the terms of the <a href="https://creativecommons.org/licenses/by-sa/2.5/">Creative Commons Attribution-ShareAlike 2.5 license</a>.
+      </small>
+    </footer>
+  </div>
+</body>
+
+</html>
