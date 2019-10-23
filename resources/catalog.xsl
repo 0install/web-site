@@ -13,7 +13,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta http-equiv="Content-Language" content="en" />
         <title>Zero Install - Software catalogue</title>
-        <link rel="stylesheet" href="@REPOSITORY_BASE_URL@/resources/catalog.css" type="text/css" />
+        <link rel="stylesheet" href="/resources/catalog.css" type="text/css" />
         <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.1.1/list.min.js"></script>
         <script>
           window.addEventListener("keydown",function (e) {
@@ -23,16 +23,18 @@
             }
           })
         </script>
+        <base target="_parent" />
       </head>
 
       <body>
         <div id="main">
-          <h1>Zero Install - Software catalogue</h1>
-          <input id="search" class="search" placeholder="Search" />
+          <div class="searchBar">
+            <input class="search" placeholder="Search" />
+          </div>
           <div class="list">
             <xsl:for-each select="interface:interface">
               <div class="app">
-                <a class="subtle" href="{@uri}">
+                <a href="{@uri}">
                   <xsl:variable name="icon" select="interface:icon[@type='image/png']/@href"/>
                   <xsl:if test="$icon">
                     <img class="icon" src="{$icon}"/>
@@ -43,7 +45,7 @@
                 </a>
                 <div class="info">
                   <h2 class="name">
-                    <a class="subtle" href="{@uri}">
+                    <a href="{@uri}">
                       <xsl:value-of select="interface:name"/>
                     </a>
                   </h2>
@@ -57,13 +59,13 @@
                   </p>
                 </div>
                 <div class="actions">
-                  <form action="http://0install.de/bootstrap/" method="get">
+                  <form action="https://0install.de/bootstrap/" method="get">
                     <input type="hidden" name="name" value="{interface:name}"/>
                     <input type="hidden" name="uri" value="{@uri}"/>
                     <input type="hidden" name="mode" value="run"/>
                     <input type="submit" value="Run"/>
                   </form>
-                  <form action="http://0install.de/bootstrap/" method="get">
+                  <form action="https://0install.de/bootstrap/" method="get">
                     <input type="hidden" name="name" value="{interface:name}"/>
                     <input type="hidden" name="uri" value="{@uri}"/>
                     <input type="hidden" name="mode" value="integrate"/>
