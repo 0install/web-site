@@ -44,7 +44,7 @@
             <div class="card-header bg-white">
               <div class="nav nav-tabs card-header-tabs">
                 <a class="nav-item nav-link" href="#linux-generic">Generic</a>
-                <a class="nav-item nav-link" href="#linux-ubuntu"><i class="fab fa-ubuntu"></i> Ubuntu</a>
+                <a class="nav-item nav-link" href="#linux-ubuntu"><i class="fab fa-ubuntu"></i> Ubuntu/Debian</a>
                 <a class="nav-item nav-link" href="#linux-fedora"><i class="fab fa-fedora"></i> Fedora</a>
                 <a class="nav-item nav-link" href="#linux-redhat"><i class="fab fa-redhat"></i> Red Hat</a>
                 <a class="nav-item nav-link" href="#linux-suse"><i class="fab fa-suse"></i> OpenSUSE</a>
@@ -72,8 +72,14 @@ sudo 0install-linux-x86_64-2.14.1/install.sh local</textarea>
               <div class="alert alert-primary">
                 <h5><i class="fas fa-server"></i> Server/headless install</h5>
                 <code>
-                <input type="text" readonly class="form-control-plaintext" onclick="this.select();" value="apt-get install 0install-core --no-install-recommends">
-              </code>
+                  <input type="text" readonly class="form-control-plaintext" onclick="this.select();" value="apt-get install 0install-core --no-install-recommends">
+                </code>
+              </div>
+              <div class="alert alert-primary">
+                <h5><i class="fas fa-server"></i> Older Ubuntu/Debian versions</h5>
+                <code>
+                  <input type="text" readonly class="form-control-plaintext" onclick="this.select();" value="apt-get install zeroinstall-injector">
+                </code>
               </div>
             </div>
             <div class="card-body tab-body" id="linux-fedora">
