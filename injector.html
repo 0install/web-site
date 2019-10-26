@@ -44,7 +44,7 @@
           <div class="card">
             <div class="card-header bg-white">
               <div class="nav nav-tabs card-header-tabs">
-                <a class="nav-item nav-link" href="#linux-generic">Generic</a>
+                <a class="nav-item nav-link" href="#linux-generic">Generic binaries</a>
                 <a class="nav-item nav-link" href="#linux-ubuntu"><i class="fab fa-ubuntu"></i> Ubuntu/Debian</a>
                 <a class="nav-item nav-link" href="#linux-fedora"><i class="fab fa-fedora"></i> Fedora</a>
                 <a class="nav-item nav-link" href="#linux-redhat"><i class="fab fa-redhat"></i> Red Hat</a>
@@ -53,6 +53,9 @@
               </div>
             </div>
             <div class="card-body tab-body" id="linux-generic">
+              <div class="alert alert-warning">
+                <i class="fas fa-exclamation-triangle"></i> You may need to install <code>libcurl3</code> first, e.g. with <code>apt-get install libcurl3</code> on Ubuntu or <code>pacman -Sy libcurl-compat</code> on Arch Linux.
+              </div>
               <p>
                 <a class="btn btn-primary" href="https://downloads.sourceforge.net/zero-install/0install-linux-x86_64-2.14.1.tar.bz2"><i class="fas fa-download"></i> Download</a>
                 <a class="btn btn-outline-primary" href="http://0install.net/tools/0install.xml"><i class="fas fa-history"></i> Specific version</a>
@@ -60,12 +63,11 @@
               <div class="alert alert-primary">
                 <h5><i class="fas fa-terminal"></i> Shell</h5>
                 <code>
-                  <textarea readonly style="resize: none;" class="form-control-plaintext" onclick="this.select();" rows="3">sudo apt-get install libcurl3
-curl -L https://downloads.sourceforge.net/zero-install/0install-linux-x86_64-2.14.1.tar.bz2 | tar xj
+                  <textarea readonly style="resize: none;" class="form-control-plaintext" onclick="this.select();" rows="2">curl -L https://downloads.sourceforge.net/zero-install/0install-linux-x86_64-2.14.1.tar.bz2 | tar xj
 sudo 0install-linux-x86_64-2.14.1/install.sh local</textarea>
                 </code>
               </div>
-              <a href="https://docs.0install.net/details/linux/">Learn more...</a>
+              <a href="https://docs.0install.net/details/linux/#generic-binaries">Learn more...</a>
             </div>
             <div class="card-body tab-body" id="linux-ubuntu">
               <p>
