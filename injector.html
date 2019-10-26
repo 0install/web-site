@@ -48,6 +48,7 @@
                 <a class="nav-item nav-link" href="#linux-fedora"><i class="fab fa-fedora"></i> Fedora</a>
                 <a class="nav-item nav-link" href="#linux-redhat"><i class="fab fa-redhat"></i> Red Hat</a>
                 <a class="nav-item nav-link" href="#linux-suse"><i class="fab fa-suse"></i> OpenSUSE</a>
+                <a class="nav-item nav-link" href="#linux-arch">Arch</a>
               </div>
             </div>
             <div class="card-body tab-body" id="linux-generic">
@@ -111,6 +112,21 @@ sudo 0install-linux-x86_64-2.14.1/install.sh local</textarea>
                 <input type="text" readonly class="form-control-plaintext" onclick="this.select();" value="yast -i zeroinstall-injector">
               </code>
               </div>
+            </div>
+            <div class="card-body tab-body" id="linux-arch">
+              <p>
+                <a class="btn btn-primary" href="https://aur.archlinux.org/packages/zeroinstall-injector/"><i class="fas fa-download"></i> AUR package</a>
+              </p>
+              <div class="alert alert-primary">
+                <h5><i class="fas fa-terminal"></i> Build from source</h5>
+                <code>
+                  <textarea readonly style="resize: none;" class="form-control-plaintext" onclick="this.select();" rows="4">pacman -Sy opam make m4 patch unzip gcc sed awk grep diffutils curl pkg-config which
+opam init
+opam install 0install
+eval $(opam config env)</textarea>
+                </code>
+              </div>
+              <a href="https://docs.0install.net/details/linux/#from-source">Learn more...</a>
             </div>
           </div>
         </div>

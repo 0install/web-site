@@ -7,6 +7,7 @@ function detect() {
     if (is('Fedora')) { return 'linux-fedora'; }
     if (is('Red Hat')) { return 'linux-redhat'; }
     if (is('SUSE')) { return 'linux-suse'; }
+    if (is('Arch')) { return 'linux-arch'; }
     if (is('Linux')) { return 'linux-generic'; }
     if (is('OS X')) { return 'mac'; }
     if (is('Windows NT 6.1') || is('Windows NT 6.2') || is('Windows NT 10.0')) { return 'windows-current'; }
