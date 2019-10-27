@@ -21,7 +21,7 @@ function hideTabs() {
 
 function showTab(name) {
     $('.nav-tabs a.nav-link[href="#' + name + '"]').addClass('active');
-    $('#' + name).show();
+    $('#' + name + '-tab').show();
 }
 
 function updateTabs() {

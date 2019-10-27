@@ -5,17 +5,13 @@ function hideTabs() {
 
 function showTab(name) {
     $('.nav-tabs a.nav-link[href="#' + name + '"]').addClass('active');
-    $('#' + name).show();
+    $('#' + name + '-tab').show();
 }
 
 function updateTabs() {
     if (window.location.hash) {
-        tabName = window.location.hash.slice(1);
-        outerTabName = tabName.split('-')[0];
-
         hideTabs();
-        showTab(outerTabName);
-        showTab(tabName);
+        showTab(window.location.hash.slice(1));
     } else {
         window.location.hash = '#featured';
     }
