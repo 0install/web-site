@@ -1,16 +1,12 @@
 HTML = 0install-2.0.html \
        deb2zero.html \
        dev-site.html \
-       doc.html \
        get-involved.html \
        install-python.html \
-       install-unix.html \
        legal.html \
        news.html \
-       packagers.html \
        roadmap.html \
        survey.html \
-       users.html \
        why-not.html
 
 all: htmlfiles
