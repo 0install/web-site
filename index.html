@@ -78,6 +78,182 @@
         </div>
       </div>
       <p class="lead text-center"><a href="https://github.com/0install"><i class="fab fa-github"></i> GitHub</a></p>
+
+      <section class="accordion" id="news">
+        <div class="card">
+          <div class="card-header">
+            <h5 class="mb-0">News</h5>
+          </div>
+          <dl class="card-body">
+            <dt>Nov 2019</dt>
+            <dd>The website has been redesigned to be simpler and more mobile-friendly.</dd>
+            <dt>Oct 2019</dt>
+            <dd>
+              Much of the documentation has been converted to markdown format and merged with the Windows
+              documentation. The new documents are hosted on the new <a href='https://docs.0install.net/'>docs.0install.net</a> site. Some of the guides have also been updated. There have been <a href='https://sourceforge.net/p/zero-install/mailman/message/36761063/'>bug-fix releases</a> of 0compile and the old Python version of 0install. <a href='https://sourceforge.net/p/zero-install/mailman/message/36763011/'>0release 0.16 </a> has been released, adding Windows support and the <code>&lt;release:update-version&gt;</code> element for updating any version numbers embedded in your code.
+            </dd>
+            <dt>May 2019</dt>
+            <dd><a href='https://sourceforge.net/p/zero-install/mailman/message/36648439/'>0install 2.14.1 released</a>, fixing a bug handling HTTP redirects when using HTTP/2.
+              <a href='https://sourceforge.net/p/zero-install/mailman/message/36638968/'>0compile 1.5 released</a>, fixing some minor bugs.
+            </dd>
+            <dt>Apr 2019</dt>
+            <dd><a href='https://sourceforge.net/p/zero-install/mailman/message/36620582/'>0install 2.14 released</a>, adding support for the <code>&lt;package-implementation version=...&gt;</code> attribute and converting the build system to Dune.</dd>
+          </dl>
+        </div>
+        <div class="card" id="news-archive">
+          <div class="card-header">
+            <button class="btn w-100 text-left collapsed" type="button" data-toggle="collapse" data-target="#news-archive-expanded" aria-expanded="false" aria-controls="news-archive-expanded">Archive <i class="fas fa-chevron-down float-right"></i></button>
+          </div>
+          <dl class="card-body collapse" id="news-archive-expanded" data-parent="#news-archive">
+            <dt>Jul 2018</dt>
+            <dd><a href='https://sourceforge.net/p/zero-install/mailman/message/36332604/'>0install 2.13 released</a>, adding support for <code>&lt;file executable='true'></code>, and <a href='https://sourceforge.net/p/zero-install/mailman/message/36343891/'>0install 2.15 for Windows</a>, with various changes including support for <code>&lt;executable-in-*></code> in <code>&lt;command></code>s.</dd>
+            <dt>May 2018</dt>
+            <dd>The main <a href='https://0install.net'>0install.net web-site</a> now supports https (due to GitHub adding support for it on custom domains).</dd>
+            <dt>Apr 2018</dt>
+            <dd><a href='https://sourceforge.net/p/zero-install/mailman/zero-install-devel/?viewmonth=201803'>0repo 0.6</a> released. This adds a new <code>0repo modify</code> command, which makes it easy to promote a release to <code>stable</code>, and fixes an error about multiple sub-keys when used with newer versions of gpg.</dd>
+            <dt>Dec 2017</dt>
+            <dd><a href='https://sourceforge.net/p/zero-install/mailman/message/36116351/'>0install 2.12.3</a> released. The main change is that the bug reporter now uses a new service (SourceForge no longer delivers email, so the old address had stopped working). There are also some minor improvements to the native package manager support on Debian, and code updates to work with OCaml 4.06 and Lwt 3.0.
+              The web-site is now hosted on GitHub (the bug reporter was the only thing keeping us on SF).
+              <a href='https://sourceforge.net/p/zero-install/mailman/message/36116496/'>0repo 0.5.2</a> was released, fixing some bugs.
+            </dd>
+            <dt>Sep 2017</dt>
+            <dd>
+              <a href='https://sourceforge.net/p/zero-install/mailman/message/35984292/'>0install 2.12.2</a> released. This fixes a bug handling large HTTP redirect pages and updates the build to cope with various upstream changes.<br>
+              <a href='https://sourceforge.net/p/zero-install/mailman/message/35996144/'>0repo 0.5</a> released. This provides better support for hosting on S3, has more configuration options to disable certain checks, and makes it easier to import missing archives.
+            </dd>
+            <dt>Aug 2017</dt>
+            <dd>
+              <a href='https://sourceforge.net/p/zero-install/mailman/message/35942773/'>0watch</a> released - this monitors an upstream site and adds new releases using 0template.
+              <a href='https://sourceforge.net/p/zero-install/mailman/message/35972198/'>0template 0.5</a> released. This has better support for Windows and can generate archives automatically.
+            </dd>
+            <dt>Jun 2017</dt>
+            <dd><a href='https://sourceforge.net/p/zero-install/mailman/message/35822153/'>0install 2.13 for Windows released</a>, including support for <code>copy-from</code> and extracting from <code>.tar.xz</code> archives.</dd>
+            <dt>Apr 2017</dt>
+            <dd><a href='https://sourceforge.net/p/zero-install/mailman/message/35749292/'>0install 2.12.1 released</a>. This is mainly small updates to the build to cope with various changes in upstream packages.</dd>
+            <dt>Oct 2016</dt>
+            <dd><a href='https://sourceforge.net/p/zero-install/mailman/message/35343487/'>0install 2.12 released</a>. This is mainly code cleanups and improvements to the build. A minor caching bug, which resulted in some unnecessary extra work being done, was fixed.</dd>
+            <dt>Apr 2016</dt>
+            <dd>
+              <a href='http://article.gmane.org/gmane.comp.file-systems.zero-install.devel/7967'>0install 2.11 for Windows released</a>, with a new installer, support for .tar.xz archives, and some bug fixes.
+              The OCaml code can now be <a href='http://article.gmane.org/gmane.comp.file-systems.zero-install.devel/7966'>built easily on Windows</a>, using the new OPAM support.
+            </dd>
+            <dt>Mar 2016</dt>
+            <dd>
+              <a href='http://thread.gmane.org/gmane.comp.file-systems.zero-install.devel/7955'>0install 2.11 released</a>, with support for the latest PackageKit API, a way to specify a particular version by ID (for tools) and a change to <code>ZEROINSTALL_PORTABLE_BASE</code> to be compatible with the Windows version. Some bugs were fixed, including an error if the user had a <code>~/bin</code> directory in PATH but the directory didn't exist.<br>
+              <a href='http://thread.gmane.org/gmane.comp.file-systems.zero-install.devel/7962'>0install 2.10 for Windows</a> released, including new <code>0install store add-dir / remove-dir / export</code> commands and use of the OCaml solver (removing the old embedded Python solver and reducing the download size by over 50%).
+            </dd>
+            <dt>Feb 2016</dt>
+            <dd><a href='http://article.gmane.org/gmane.comp.file-systems.zero-install.devel/7953'>The Windows version of 0install can now use the new OCaml solver</a>.</dd>
+            <dt>Nov 2015</dt>
+            <dd><a href='https://sourceforge.net/p/zero-install/mailman/message/34514650/'>0install 2.10 released</a>. This has several bug fixes and improvements for OS X, including support for finding the native make and Java 8 packages. The diagnostics now provide detailed information about why a feed was missing (didn't download, was empty, error from PackageKit, missing DBUS support, etc).</dd>
+            <dt>Sep 2015</dt>
+            <dd><a href='http://thread.gmane.org/gmane.comp.file-systems.zero-install.devel/7862'>0install 2.9</a> and <a href='http://thread.gmane.org/gmane.comp.file-systems.zero-install.devel/7882'>2.9.1</a> released, adding a <code>0install select --may-compile</code> option and some bug fixes. Our Travis tests now also test on OS X and, as a result, our test-suite now passes there. There's also <a href='https://github.com/Homebrew/homebrew/pull/42405'>another effort to get the 0install Homebrew formula approved</a>. <a href='http://thread.gmane.org/gmane.comp.file-systems.zero-install.devel/7883'>0install 2.9 for Windows</a> was released, with many new features. <a href='http://thread.gmane.org/gmane.comp.file-systems.zero-install.devel/7878'>0template 0.3</a> was released, adding Windows support.</dd>
+            <dt>Aug 2015</dt>
+            <dd>
+              <a href='http://thread.gmane.org/gmane.comp.file-systems.zero-install.devel/7818'>0publish 0.25 released</a>, with Windows support and an XML namespacing fix.
+              <a href='http://thread.gmane.org/gmane.comp.file-systems.zero-install.devel/7831'>0repo 0.4 released</a> - new features include searching in the catalogue, a <code>0repo serve</code> command to test locally, and Windows support.
+            </dd>
+            <dt>Jul 2015</dt>
+            <dd><a href='http://thread.gmane.org/gmane.comp.file-systems.zero-install.devel/7791'>0install 2.8.1 and 2.8.2 for Windows</a> released with some minor bug fixes. <a href='http://thread.gmane.org/gmane.comp.file-systems.zero-install.devel/7808/focus=7809'>0publish 0.15</a> released, adding Windows support.</dd>
+            <dt>Jun 2015</dt>
+            <dd><a href='https://0install.de/news/v2-8-released/?lang=en'>0install 2.8 for Windows released</a>. Changes: improve updating of stale feeds, automatically close running applications when removing them from the implementation cache, OneGet integration, more detailed <code>--verbose</code> console output, and many small tweaks and bugfixes.</dd>
+            <dt>Apr 2015</dt>
+            <dd><a href='https://0install.de/news/v2-7-2-released/?lang=en'>Version 2.7.2 for Windows released</a>. This adds <code>auto-start</code> and <code>send-to</code> access points, <code>--add-standard</code> and <code>--add-all</code> options, <code>0install import-apps</code>, a <code>--background</code> option to activate the tray icon, and a fix for the <code>Could not find "implementation-dirs"</code> error.</dd>
+            <dt>Feb 2015</dt>
+            <dd>The <a href='http://thread.gmane.org/gmane.comp.file-systems.zero-install.devel/7722'>--may-compile</a> feature is now merged. This means that the 0install solver can now find selections that require first compiling some of the components. This should be useful for people writing build tools (such as 0compile).</dd>
+            <dt>Jan 2015</dt>
+            <dd>
+              2014 was a busy year for 0install. We released 0install 2.6, completing <a href='http://roscidus.com/blog/blog/2014/06/06/python-to-ocaml-retrospective/'>the port from Python to OCaml</a>, added a <a href='https://docs.0install.net/developers/json-api/'>JSON API</a> to allow other programs to use 0install easily, split the Debian package into separate <code>0install</code> and <code>0install-core</code> packages to make using it easy on headless servers, and <a href='http://roscidus.com/blog/blog/2014/09/17/simplifying-the-solver-with-functors/'>refactored the solver</a> (allowing support for dependencies on source code). Work is currently continuing on <a href='https://github.com/0install/0install/pull/29'>moving 0compile's autocompile feature into 0install</a> itself, which should make working with source code much easier.
+              The Windows version also saw many new features - see <a href='https://0install.de/news/'>0install.de/news</a> for details.
+            </dd>
+            <dt>Dec 2014</dt>
+            <dd>
+              <a href='http://thread.gmane.org/gmane.comp.file-systems.zero-install.devel/7683'>0install 2.8 released</a>, adding support for dependencies on source code (e.g. for header files), for selecting a source and binary implementation of the same interface (e.g. for a compiler that compiles itself), and for using credentials from .netrc (for protected repositories). The updates to the solver are described in the blog post <a href='http://roscidus.com/blog/blog/2014/09/17/simplifying-the-solver-with-functors/'>Simplifying the Solver With Functors</a>.
+              A maintenance release of the old Python version - <a href='http://thread.gmane.org/gmane.comp.file-systems.zero-install.devel/7695'>0install 2.3.4</a> - adds support for SNI certificate verification and local file references from local feeds. <a href='http://thread.gmane.org/gmane.comp.file-systems.zero-install.devel/7682'>0compile 1.4</a> was released, adding support for <code>pin-components</code> (makes the resulting binary depend on a similar version of the source), and <code>if-0install-version</code> (useful if you want 0compile to see an element, but generate a plain <code>if-0install-version</code> attribute in the generated binary feed).
+            </dd>
+            <dt>Nov 2014</dt>
+            <dd>
+              0install gained <a href='http://thread.gmane.org/gmane.comp.file-systems.zero-install.devel/7655'>support for source dependencies</a> (where one program depends on the source code to another).
+              The OPAM OCaml package manager is now available through 0install, as described in the <a href='http://opam.ocaml.org/blog/0install-intro/'>Binary distribution with 0install</a> blog post, which also explains how to publish software using <a href='https://docs.0install.net/tools/0template/'>0template</a>.
+            </dd>
+            <dt>Oct 2014</dt>
+            <dd>
+              <a href='http://thread.gmane.org/gmane.comp.file-systems.zero-install.devel/7586'>0install 2.6.7 for Windows</a> was released (bugfixes and performance improvements), as well as
+              <a href='http://thread.gmane.org/gmane.comp.file-systems.zero-install.devel/7585'>0template 0.2</a> - new features include support for Windows and <code>&lt;recipe&gt;</code>s.
+              The solver code has been refactored (see the <a href='http://roscidus.com/blog/blog/2014/09/17/simplifying-the-solver-with-functors/'>Simplifying the Solver with Functors</a> blog post for details), which should make it easier to understand and more flexible. In particular, it can now support building a compiler with a build dependency on an earlier version of the same compiler.
+              Finally, here's a video of a short <a href='http://youtu.be/dYRT6z0NGII'>Introduction to 0install</a> talk from OCaml 2014.
+            </dd>
+            <dt>Sep 2014</dt>
+            <dd>Lots of progress on <a href='http://article.gmane.org/gmane.comp.file-systems.zero-install.devel/7558'>auto compilation</a> support in 0install. This allows 0install to compile missing dependencies from source automatically (previously, this required getting and running <a href='https://docs.0install.net/tools/0compile/'>0compile</a>).
+            </dd>
+            <dt>Aug 2014</dt>
+            <dd>
+              There's a new <a href='http://article.gmane.org/gmane.comp.file-systems.zero-install.devel/7544'>0bootstrap-php</a> service for creating installation scripts for Windows and Unix for users who don't want to learn about 0install before installing something.
+              The bug reporting tool now <a href='http://article.gmane.org/gmane.comp.file-systems.zero-install.devel/7538'>offers hints for common problems</a>.
+              Work has started on a <a href='http://roscidus.com/blog/blog/2014/07/28/my-first-unikernel/'>queuing service</a> to support <a href='https://docs.0install.net/tools/0repo/'>0repo</a> repositories for groups (where multiple developers can submit new packages to a shared repository and have them imported by a service).
+            </dd>
+            <dt>Jul 2014</dt>
+            <dd>
+              0compile gains support for a <a href='http://sourceforge.net/p/zero-install/mailman/message/32404475/'>"pin-components"</a> attribute, to say that a source implementation can build against different versions of a library, but whichever version is picked, the resulting binary must run with a similar version (e.g. same major.minor components).
+              The <a href='http://roscidus.com/blog/blog/2014/06/06/python-to-ocaml-retrospective/'>Python to OCaml: Retrospective</a> blog post looks back at the now-complete porting work.</dd>
+            <dt>Jun 2014</dt>
+            <dd>
+              <a href='http://thread.gmane.org/gmane.comp.file-systems.zero-install.devel/7522'>0install 2.7 released</a>. This contains lots of minor fixes and code cleanups, better binary compatibility (we no longer depend on OpenSSL and don't require GLib unless the GUI is used). Installation on Windows is now much simpler and <code>0install select</code> should be working correctly there (unpacking archives requires a .NET helper, however).
+              A new <a href='https://github.com/fhoech/0install-apptemplate/'>Generic OS X application bundle template for 0install applications</a> makes it easy to create an installer for OS X users who don't already have 0install.
+            </dd>
+            <dt>May 2014</dt>
+            <dd>In Debian, the old <code>zeroinstall-injector</code> package has been replaced by separate <code>0install</code> and <code>0install-core</code> packages. The <code>0install-core</code> package doesn't include the GTK GUI, which is very useful on headless servers because it doesn't pull in the whole GUI stack. <a href='http://thread.gmane.org/gmane.comp.file-systems.zero-install.devel/7398'>0install 2.6 for Windows</a> was released. There are now NuGet packages, allowing 3rd party .NET developers to integrate Zero Install functionality into their applications. There's a <a href='https://github.com/Homebrew/homebrew/pull/28771'>new 0install Homebrew package</a> for OS X users.</dd>
+            <dt>Apr 2014</dt>
+            <dd>
+              <p>0install <a href='http://thread.gmane.org/gmane.comp.file-systems.zero-install.devel/7368'>2.4</a>, <a href='http://thread.gmane.org/gmane.comp.file-systems.zero-install.devel/7387'>2.5</a> and <a href='http://thread.gmane.org/gmane.comp.file-systems.zero-install.devel/7390'>2.5.1</a> for Windows released: new support for CAB and MSI archives, <code>0store verify</code> and <code>0store audit</code> now offer to automatically remove damaged implementations, new <code>0store purge</code> command removes all implementations from the cache (useful when uninstalling, manual deleting is difficult due to ACLs), new <code>0install central</code> command opens the main GUI (same as <code>ZeroInstall.exe</code>), fixed extraction of TAR archives with long path names. Work has also started on integrating the new OCaml solver with the .NET code.</p>
+              <p>We've been working to make the new OCaml binary more portable by <a href='http://thread.gmane.org/gmane.comp.file-systems.zero-install.devel/7358'>using dlopen to access libssl</a>, <a href='http://thread.gmane.org/gmane.comp.file-systems.zero-install.devel/7362/focus=7365'>disabling GLib integration</a> until the GTK plugin is actually used, and <a href='http://thread.gmane.org/gmane.comp.file-systems.zero-install.devel/7358/focus=7380'>testing ocurl's new Lwt support</a>.</p>
+              <p>The new <a href='https://docs.0install.net/developers/json-api/'>0install JSON API</a> is now documented.</p>
+            </dd>
+            <dt>Mar 2014</dt>
+            <dd><a href='http://thread.gmane.org/gmane.comp.file-systems.zero-install.devel/7322'>0install 2.6.1</a> and <a href='http://thread.gmane.org/gmane.comp.file-systems.zero-install.devel/7345'>2.6.2</a> were released, allowing building byte-code for systems without a native OCaml compiler and fixing a bug on RPM-based systems handling distribution packages with very large version numbers. There are now <a href='https://aur.archlinux.org/packages.php?ID=2676'>Arch</a> and <a href='https://admin.fedoraproject.org/updates/search/0install'>Fedora</a> packages of the new OCaml version, though the Debian package is <a href='http://packages.qa.debian.org/z/zeroinstall-injector.html'>still stuck in NEW</a>.</dd>
+            <dt>Feb 2014</dt>
+            <dd><a href='http://thread.gmane.org/gmane.comp.file-systems.zero-install.devel/7310'>0install 2.6 released</a>, completing the Python to OCaml transition. <a href='http://thread.gmane.org/gmane.comp.file-systems.zero-install.devel/7311'>0repo 0.3</a> released (0repo provides an easy way to manage the software you publish, generating the files needed to upload to your web-server). Brian Shannon has created a <a href='http://thread.gmane.org/gmane.comp.file-systems.zero-install.devel/7318'>Marketplace web-app</a> and is looking for feedback.</dd>
+            <dt>Jan 2014</dt>
+            <dd>
+              <a href='http://thread.gmane.org/gmane.comp.file-systems.zero-install.devel/7259'>0install 2.6-rc1 released</a>. 0install 2.6 completes the transition from Python to OCaml. There is no remaining Python code in 0install and, therefore, no need to have Python installed in order to build or run it. However, there are some problems using the GTK plugin on OS X - see the thread for details. There's also another blog post in my series for people wanting to get up to speed on OCaml:
+              <a href='http://roscidus.com/blog/blog/2013/12/20/polymorphism-for-beginners/'>Polymorphism for Beginners</a>.
+            </dd>
+            <dt>Dec 2013</dt>
+            <dd>
+              <p>Bastian Eicher announced the <a href='http://thread.gmane.org/gmane.comp.file-systems.zero-install.devel/7238'>NEW Zero Install Publishing Tools</a>, which has a feed editor with a split screen with graphical and XML view, plus a wizard for creating new feeds.</p>
+              <p>All the remaining non-GUI code in 0install has now been migrated to OCaml. This means that on headless servers you don't need to have Python installed in order to use (the Git version of) 0install! See the <a href='http://roscidus.com/blog/blog/2013/11/28/asynchronous-python-vs-ocaml/'>Asynchronous Python vs OCaml</a> blog post for the latest technical details of the port. The next step is to migrate the GTK GUI.</p>
+            </dd>
+            <dt>Nov 2013</dt>
+            <dd><a href='http://thread.gmane.org/gmane.comp.file-systems.zero-install.devel/7199'>0install 2.5</a> released, continuing the work of porting the code to OCaml (17,000 lines of code now). The main remaining tasks at this point are the GUI and the native package-manager integration. For these, the OCaml code still falls back to using the old Python code. See the <a href='http://thread.gmane.org/gmane.comp.file-systems.zero-install.devel/7186/focus=7197'>Porting progress</a> thread for details.</dd>
+            <dt>Oct 2013</dt>
+            <dd><a href='http://thread.gmane.org/gmane.comp.file-systems.zero-install.devel/7181'>0install 2.4</a> released. The main new feature is that a large amount of code (more than 10,000 lines) has been converted from Python to OCaml, giving a large (~10x) speedup in many cases. New features include local paths in <code>&lt;file&gt;</code> elements (useful for testing things locally) and tab-complation for 0launch. For people wanting to work on it, see this <a href='http://thread.gmane.org/gmane.comp.file-systems.zero-install.devel/7163'>overview of the new code</a>. The next step is to migrate the download code to OCaml.</dd>
+            <dt>Sep 2013</dt>
+            <dd><a href='http://thread.gmane.org/gmane.comp.file-systems.zero-install.devel/7119'>0install 2.3.3</a> released. This is a minor bug-fix release, while most of the effort goes to making <a href='http://thread.gmane.org/gmane.comp.file-systems.zero-install.devel/7080/focus=7152'>progress on the new OCaml version</a>. The <a href='https://github.com/0install/pom2feed'>Zero Install Maven Integration project</a> is now available on GitHub.</dd>
+            <dt>Aug 2013</dt>
+            <dd><a href='http://thread.gmane.org/gmane.comp.file-systems.zero-install.devel/7020'>0install 2.3</a> was released, with the new OCaml front-end to make launching apps much faster, tab completion for the Fish shell and support for relative archive paths in local feeds (this is useful for testing). <a href='http://thread.gmane.org/gmane.comp.file-systems.zero-install.devel/7095'>0install 2.3 for Windows</a> was released, with a new per-user installer for use without administrator permissions. Since the release, we have been porting more of the code to OCaml: Tab-completion is now converted and therefore much more responsive. Other discussions included the announcement of <a href='http://thread.gmane.org/gmane.comp.file-systems.zero-install.devel/7088'>an updated Firefox plugin</a> and plans for a web-based <a href='http://thread.gmane.org/gmane.comp.file-systems.zero-install.devel/7093'>Zero Install Market</a>.</dd>
+            <dt>Jul 2013</dt>
+            <dd>
+              To improve the speed of 0install, we looked at some candidate languages to replace Python: ATS, C#, Go, Haskell, OCaml, Python and Rust. See <a href='http://roscidus.com/blog/blog/2013/06/09/choosing-a-python-replacement-for-0install/'>Round 1</a> and
+              <a href='http://roscidus.com/blog/blog/2013/06/20/replacing-python-round-2/'>Round 2</a> for the evaluation. As a result of this,
+              there is now an <code>ocaml</code> branch in the 0install Git repository, where a very fast OCaml front-end handles speed-critical tasks, falling back to the Python version for everything else. Please <a href='http://thread.gmane.org/gmane.comp.file-systems.zero-install.devel/7009'>test it</a> and let us know how it works. Partly as a result of this, the <a href='https://docs.0install.net/specifications/selections/'>selections.xml</a> file format is now documented.
+            </dd>
+            <dt>Jun 2013</dt>
+            <dd><a href='http://thread.gmane.org/gmane.comp.file-systems.zero-install.devel/6876'>0install 2.2 released</a> with some bugfixes and performance improvements. <a href='http://thread.gmane.org/gmane.comp.file-systems.zero-install.devel/6878/focus=6885'>0repo 0.1 and 0.2 released</a> - this software is now being used to manage the 0install.net feeds. <a href='http://thread.gmane.org/gmane.comp.file-systems.zero-install.devel/6886'>0release 0.15 released</a>, providing integration with 0repo. <a href='http://thread.gmane.org/gmane.linux.ubuntu.devel/37162/focus=37228'>Canonical discuss using 0install in Ubuntu</a>. We're also looking at implementing 0install in some other language - <a href='http://thread.gmane.org/gmane.comp.file-systems.zero-install.devel/6912/focus=6941'>Thoughts on a faster, smaller zeroinstall-core</a> contains benchmarks of various proposed languages (ATS, Haskell, OCaml, Rust, C# and Python).</dd>
+            <dt>May 2013</dt>
+            <dd>
+              <p><a href='http://thread.gmane.org/gmane.comp.file-systems.zero-install.devel/6827'>0install 2.1 released</a>: new features include the <code>0install search</code> command (to search for programs on the Internet), support for win-bash (which means that using a shell command as the 0compile build command now works on all platforms), a <code>&lt;remove&gt;</code> recipe step, a generic <code>&lt;binding&gt;</code> element (for custom bindings), support for .xz compressed Debian archives, and support for Python 3's Tulip mainloop (as an alternative to GLib). <a href='http://thread.gmane.org/gmane.comp.file-systems.zero-install.devel/6833'>0install 2.1 for Windows</a> was released, including support for <code>&lt;file&gt;</code> (single-file) downloads (the non-Windows 2.1 release's <code>&lt;file&gt;</code> support is buggy; it will be fixed in 2.2).</p>
+              <p>Development has started on <a href='https://github.com/0install/0repo'>0repo</a>, a tool to make publishing and managing a collection of feeds simpler. Feedback from alpha testers welcome!</p>
+              <p>A new <a href='http://thread.gmane.org/gmane.comp.file-systems.zero-install.devel/6867'>Maven integration service</a> is now up and ready for testing - this provides automatically-generated 0install feeds for Maven jars (note: requires working <code>&lt;file&gt;</code> support).</p>
+            </dd>
+            <dt>Apr 2013</dt>
+            <dd>
+              <p>0install 2.0 released! [ <a href='http://linux.slashdot.org/story/13/03/05/1455249/0install-reaches-20'>Slashdot</a> | <a href='http://www.osnews.com/story/26832/0install_2_0_released'>OSNews</a> | <a href='http://www.pro-linux.de/news/1/19532/zero-install-20-veroeffentlicht.html'>Pro-Linux.de</a> | <a href='http://www.linux.org.ru/news/opensource/8928774'>linux.org.ru</a> | <a href='http://lwn.net/Articles/541676/'>lwn.net</a> ]<br>
+              <a href='http://thread.gmane.org/gmane.comp.file-systems.zero-install.devel/6780'>0install 2.0 for Windows</a>.</p>
+              <p>In other news, the new <a href='https://docs.0install.net/tools/0template/'>0template</a> tool provides an easy way to make source and binary feeds for published software. It should be easier to use than 0publish, especially for scripts. <a href='http://thread.gmane.org/gmane.comp.file-systems.zero-install.devel/6777'>0publish 0.24 and 0publish-gui 0.14</a> were released, with some bug-fixes. A proof-of-concept for <a href='http://thread.gmane.org/gmane.comp.file-systems.zero-install.devel/6805'>supporting overlays on Linux</a> was created.</p>
+            </dd>
+          </dl>
+        </div>
+      </section>
     </main>
 
     <footer>

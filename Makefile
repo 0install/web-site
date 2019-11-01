@@ -4,7 +4,6 @@ HTML = 0install-2.0.html \
        get-involved.html \
        install-python.html \
        legal.html \
-       news.html \
        roadmap.html \
        survey.html \
        why-not.html
