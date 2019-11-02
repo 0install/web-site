@@ -18,7 +18,7 @@ cd github-tmp
 make
 for f in $(find -type l);do cp --remove-destination $(realpath $f) $f; git add $f; done;
 git add *.html *.php sitemap.txt
-git rm index.xml	# Make sure we don't use this for the index page
+# git rm index.xml	# Make sure we don't use this for the index page
 git rm deploy-to-github-pages.sh	# Avoid accidents running it from github-tmp
 (cd .. && git push github $branch)
 git commit -m "Deploy to GitHub Pages"
