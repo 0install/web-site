@@ -16,12 +16,12 @@ http://creativecommons.org/licenses/by-sa/2.5/
 				<title>
 					<xsl:value-of select="zi:name"/>
 				</title>
-				<link rel="stylesheet" type="text/css" href='http://0install.net//resources/feed.css'/>
+				<link rel="stylesheet" type="text/css" href='https://0install.net/resources/feed.css'/>
 			</head>
 			<body>
 				<div class="site">
 					<div class="title"> 
-						<a href="http://0install.net/">http://0install.net/</a>
+						<a href="https://0install.net/">https://0install.net/</a>
 					</div>
 					<div class="main">
 						<div class="content">
@@ -36,7 +36,7 @@ http://creativecommons.org/licenses/by-sa/2.5/
 								<h2><xsl:value-of select='zi:summary'/></h2>
 
 								<div class="what-is-this">
-									This page is a <a href="http://0install.net/">zero-install</a> feed.
+									This page is a <a href="https://0install.net/">zero-install</a> feed.
 									If you don't know what that is or how to use it, you're in luck - see the
 									<a href="#what-is-this">instructions at the bottom of this page</a>
 								</div>
@@ -224,7 +224,7 @@ http://creativecommons.org/licenses/by-sa/2.5/
 												<b>Zero Install -&gt; Add New Program</b> from the <b>Applications</b> menu, and drag this
 												feed's URL into the window it opens.
 												If you don't see this menu item, install the <code>zeroinstall-injector</code> package from your
-												distribution's repository, or from <a href="http://0install.net/injector.html">0install.net</a>.
+												distribution's repository, or from <a href="https://0install.net/injector.html">0install.net</a>.
 											</p>
 											<p>Alternatively, to run it from the command-line:<br/>
 											<pre>0launch <xsl:value-of select="/zi:interface/@uri"/></pre>
@@ -232,7 +232,7 @@ http://creativecommons.org/licenses/by-sa/2.5/
 											<p>
 												The <code>0install add</code> command can be used to create a short-cut to run it again later.
 												If you don't have the <code>0launch</code> command, download it from
-												<a href="http://0install.net/injector.html">0install.net</a>, which also contains
+												<a href="https://0install.net/injector.html">0install.net</a>, which also contains
 												documentation about how the Zero Install system works.</p>
 
 										</xsl:when>

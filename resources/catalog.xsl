@@ -13,8 +13,8 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta http-equiv="Content-Language" content="en" />
         <title>Zero Install - Software catalogue</title>
-        <link rel="stylesheet" href="/resources/catalog.css" type="text/css" />
-        <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.1.1/list.min.js"></script>
+        <link rel="stylesheet" href="https://0install.net/resources/catalog.css" type="text/css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/1.1.1/list.min.js"></script>
         <script>
           window.addEventListener("keydown",function (e) {
             if (e.keyCode === 114 || (e.ctrlKey &amp;&amp; e.keyCode === 70)) { 
@@ -40,7 +40,7 @@
                     <img class="icon" src="{$icon}"/>
                   </xsl:if>
                   <xsl:if test="not($icon)">
-                    <img class="icon" src="http://0install.net/tango/applications-system.png"/>
+                    <img class="icon" src="https://0install.net/tango/applications-system.png"/>
                   </xsl:if>
                 </a>
                 <div class="info">

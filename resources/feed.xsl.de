@@ -16,12 +16,12 @@ http://creativecommons.org/licenses/by-sa/2.5/
 				<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 				<meta http-equiv="Content-Language" content="de"/>
 				<title><xsl:value-of select="zi:name"/></title>
-				<link rel="stylesheet" type="text/css" href='http://0install.net//resources/feed.css'/>
+				<link rel="stylesheet" type="text/css" href='https://0install.net/resources/feed.css'/>
 			</head>
 			<body>
 				<div class="site">
 					<div class="title">
-						<a href="http://0install.net/">http://0install.net/</a>
+						<a href="https://0install.net/">https://0install.net/</a>
 					</div>
 					<div class="main">
 						<div class="content">
@@ -252,7 +252,7 @@ http://creativecommons.org/licenses/by-sa/2.5/
 								<xsl:choose>
 									<xsl:when test="//zi:implementation[@main] | //zi:group[@main] | //zi:command[@name='run'] | //zi:package-implementation[@main]">
 										<p>
-											Dies ist ein Zero Install Feed. Wenn Sie <a href="http://0install.net/">Zero Install</a> auf Ihrem System haben,
+											Dies ist ein Zero Install Feed. Wenn Sie <a href="https://0install.net/">Zero Install</a> auf Ihrem System haben,
 											können Sie es verwenden, um <xsl:value-of select="zi:name"/> von der Befehlszeile aus zu starten:
 										</p>
 										<pre>0install run <xsl:value-of select="/zi:interface/@uri"/></pre>
