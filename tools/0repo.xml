@@ -121,20 +121,24 @@
           <executable-in-path name="gpg"/>
           <executable-in-var name="GNUPG_PATH"/>
         </requires>
-        <implementation id="sha1new=61000364299225fe3d9c3a5e53ea655a4f0b8d33" released="2019-09-04" version="0.9">
+        <implementation id="sha1new=61000364299225fe3d9c3a5e53ea655a4f0b8d33" released="2019-09-04" stability="stable" version="0.9">
           <manifest-digest sha256new="JZWXPIFZKJWO5NW2GN6OLRMM6DV3WHK336T4YJX24ZE5POX5YCDQ"/>
           <archive extract="0repo-0.9" href="https://downloads.sourceforge.net/project/zero-install/0repo/0.9/0repo-0.9.tar.bz2" size="59315"/>
+        </implementation>
+        <implementation id="sha1new=264a0f1aaa31f827b49eee3ea67ef6a3859b778a" released="2019-11-09" version="0.9.1">
+          <manifest-digest sha256new="FMEE2SQV3DPM76KYDK7VJVS7HSY2DPEYXDQ76C2NQHBVVJPEI72A"/>
+          <archive extract="0repo-0.9.1" href="https://downloads.sourceforge.net/project/zero-install/0repo/0.9.1/0repo-0.9.1.tar.bz2" size="59337"/>
         </implementation>
       </group>
     </group>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl3GnWEACgkQBxM/lsp02LriYwgApUPW
-W0RJVhKjqnuimC1Emb1vo0FHRT6H7PYXkuwPTWbu2/jca1grRxiwcax9OpZ90y88cvsI6oJf8pgM
-pig2BE9ZygWXpgTv8R6wQS1e+mmamgQRmF6I9dkAdzBjxTWSNEPG0bDYiYUxA0OXr6l6uKvm663/
-LIV3Q4tiShreTC3LvVbCglRSUr7eRTDXihVO9vytyi5mGTJ7LyyF8ULg1V/Rm30e6hBjYI8b/OwH
-oaqlrCy/ujBcwfKyhbf7CJtd7tcrObbCJ6laE+ykw04s3SMK/lyJ7JmWPHVChNEjDQOmOEIoykk+
-tj7MhmR2mJSVKL1nX7u7K8qN3kdUcc+iIQ==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl3GnhkACgkQBxM/lsp02Lq9mwf8DXQI
+2fKZDI0AoWS/y5IbFQjGoMHUgqDx0cDw4c2JL2fsxS2WCKkvaRiMTC8uPnqU/olazq9u5miC+tQE
+D4nLdcFtwFYIoYx1D9hP4rixg8lQV5QeKqsv6KeInnMu74u5ePKIBf8VuZMEp65KnG21hBOdyShM
+VVyDe8JaaLJyZvaEi4X/lXtsjfZKgO+Dblm33YME1CSIfoV6jAr4AfU3WIzanjgVwmsE725sLrBJ
+rQ5Nu20Fs9f786q/ikAf/9i3Th6kxou/UeI6v9zB9BFdeBybkRCKlntJiq1VRl8fzVUlLw0HzJlE
+Zeztn5UchLlJmToN2TUUtLJyNjBdgH/eTA==
 
 -->
