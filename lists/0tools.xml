@@ -49,7 +49,7 @@ accidentally modifiy any files outside of the build directory.
 
 For a full tutorial, see 0compile's homepage.</description>
     <category>Development</category>
-    <homepage>http://0install.net/0compile.html</homepage>
+    <homepage>https://docs.0install.net/tools/0compile/</homepage>
     <needs-terminal />
   </interface>
   <interface uri="http://0install.net/2006/interfaces/0publish" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
@@ -66,7 +66,7 @@ also validate the new version before saving it.
 
 A tutorial on 0publish can be found at http://0install.net/injector-
 packagers.html.</description>
-    <homepage>http://0install.net/0publish.html</homepage>
+    <homepage>https://docs.0install.net/tools/0publish/</homepage>
     <needs-terminal />
   </interface>
   <interface uri="http://0install.net/2007/interfaces/0publish-gui.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
@@ -79,9 +79,9 @@ depend on.
 
 This program provides a simple graphical interface for creating and editing
 these feeds.</description>
-    <icon href="http://0install.net/feed_icons/0publish-gui.png" type="image/png" />
+    <icon href="https://0install.net/feed_icons/0publish-gui.png" type="image/png" />
     <category>Development</category>
-    <homepage>http://0install.net/injector-packagers.html</homepage>
+    <homepage>https://docs.0install.net/packaging/</homepage>
   </interface>
   <interface uri="http://0install.net/2007/interfaces/0release.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
     <name>0release</name>
@@ -90,7 +90,7 @@ these feeds.</description>
 If you have a local feed in the development version of your program, 0release
 can help you to create new releases easily.</description>
     <category>Development</category>
-    <homepage>http://0install.net/0release.xml</homepage>
+    <homepage>https://docs.0install.net/tools/0release/</homepage>
   </interface>
   <interface uri="http://0install.net/2007/interfaces/FeedLint.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
     <name>FeedLint</name>
@@ -102,7 +102,7 @@ still work.
 
 Run this on all your feeds from time-to-time to make sure they still work.</description>
     <category>Development</category>
-    <homepage>http://0install.net/feedlint.html</homepage>
+    <homepage>https://docs.0install.net/tools/feedlint/</homepage>
     <needs-terminal />
   </interface>
   <interface uri="http://0install.net/2007/interfaces/Make-headers.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
@@ -115,7 +115,7 @@ shouldn't be in a -dev package (.so and .la files, etc).
 
 It also edits any pkg-config .pc files to use a relative path for the prefix.</description>
     <category>Development</category>
-    <homepage>http://0install.net/make-headers.html</homepage>
+    <homepage>https://docs.0install.net/tools/make-headers/</homepage>
   </interface>
   <interface uri="http://0install.net/2008/interfaces/0test.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
     <name>0test</name>
@@ -126,7 +126,7 @@ test released versions or developer snapshots. You can give a selection of
 versions to test, and you can test against different versions of dependencies to
 create a matrix of test results.</description>
     <category>Development</category>
-    <homepage>http://0install.net/0test.html</homepage>
+    <homepage>https://docs.0install.net/tools/0test/</homepage>
     <needs-terminal />
   </interface>
   <interface uri="http://0install.net/tools/0export.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
@@ -148,7 +148,7 @@ Unlike the bundles created by the related zero2bundle program, programs
 installed using setup.sh are added to the Zero Install cache and are therefore
 still shared between users, and will get updates over the web where possible.</description>
     <category>Development</category>
-    <homepage>http://0install.net/0export.html</homepage>
+    <homepage>https://docs.0install.net/tools/0export/</homepage>
     <needs-terminal />
   </interface>
   <interface uri="http://0install.net/tools/0install.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
@@ -163,9 +163,9 @@ updates and digital signatures. It is intended to complement, rather than
 replace, the operating system's package management. 0install packages never
 interfere with those provided by the distribution.
 </description>
-    <icon href="http://0install.net/feed_icons/ZeroInstall.png" type="image/png" />
+    <icon href="https://0install.net/feed_icons/ZeroInstall.png" type="image/png" />
     <category>System</category>
-    <homepage>http://0install.net/</homepage>
+    <homepage>https://0install.net/</homepage>
   </interface>
   <interface uri="http://0install.net/tools/0repo.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
     <name>0repo</name>
@@ -176,6 +176,6 @@ interfere with those provided by the distribution.
     a web-server, or as a service which accepts signed updates from a group
     of developers.
   </description>
-    <homepage>http://0install.net/0repo.html</homepage>
+    <homepage>https://docs.0install.net/tools/0repo/</homepage>
   </interface>
 </catalog>
