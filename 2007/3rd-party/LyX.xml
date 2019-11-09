@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://0install.net/2007/3rd-party/LyX.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>LyX</name>
   <summary>WYSIWYM(ean) document processor</summary>
@@ -19,7 +19,7 @@ With LyX, short notes or letters are a snap. LyX really shines, though, when
 composing complex documents like technical documentation, doctoral theses and
 conference proceedings.</description>
   <homepage>http://www.lyx.org</homepage>
-  <icon href="http://0install.net/feed_icons/LyX.png" type="image/png"/>
+  <icon href="https://0install.net/feed_icons/LyX.png" type="image/png"/>
   <category>Office</category>
   <group>
     <implementation arch="Linux-i586" id="sha1new=b20815af73f7d33911339eb6857ea9fd0d02b7a9" license="OSI Approved :: GNU General Public License (GPL)" main="usr/bin/lyx" released="2007-01-13" stability="stable" version="1.4.3">
@@ -37,7 +37,11 @@ conference proceedings.</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iD8DBQBGuL9yBSn9tx+xORARAuUxAJ9HXrt7jOUDBofV6y85v7fbRpj11ACeJofMDZEXS88hcLfH
-e8UUYns0iKQ=
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl3GnVoACgkQBxM/lsp02LpjIQgApZxG
+KbCAA9ABVwlmd0cYJgje/5/KsLQxhn1fqS9kmYqF083udxnOGe81neY3kzygZlJpQaXbgHmhQ6vE
+Q5nsvKygcqqmNq1O8Qsxo1iNte0Hiq+yAw3ie7xwgCKOOFsT9LPIR1vhx0vK/UR3BIvey6b1p/uG
+oB7s+I5EhpavsbSGMFLaZsw4m+vczukC1d2vLeF0NTgdZn5UfJd4mtIzFQibcrnpWk0/Yq9RDOxL
+P8v/KTxUxXs+vEGjQRYWt2fYFHnlPaIR4le5kI9piBp5NPYAAnLr3Z7mUkfQB06KQskucN83ZTAJ
+VV/Ltsk4IhVxiJlpiI8GwEXjdq+Fu/5/3A==
 
 -->

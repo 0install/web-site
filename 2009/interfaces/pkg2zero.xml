@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://0install.net/2009/interfaces/pkg2zero.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>pkg2zero</name>
   <summary>create Zero Install feeds from Debian and RPM packages</summary>
@@ -11,7 +11,7 @@ manually (e.g. using 0publish or 0publish-gui). However, Debian and RPM packages
 contain much of the required information. This program extracts the information
 in an existing package and uses it to generate the feed.</description>
 
-  <homepage>http://0install.net/pkg2zero.html</homepage>
+  <homepage>https://docs.0install.net/tools/pkg2zero/</homepage>
   <category>Development</category>
   <needs-terminal/>
 
@@ -31,7 +31,11 @@ in an existing package and uses it to generate the feed.</description>
 
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk2pkvcACgkQrgeCgFmlPMHbBgCfYToF2lxYFXUIz01lCpBX48pv6fkAnRNb86qX
-BvbnS6YrHVXyFrZjp74m
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl3GnWAACgkQBxM/lsp02LpJswf/ZPbh
+uq2/B7VJtkEdZrhccH5uL9UguLgnE5Aqg0U8o1C5z6GCEsqxZb8q+vE963xl+oJf+gjiLwGWOxjp
+OqXX1HASuh4ndH8j6HGclpk21tFwSN2jlH29R1YmoYd66AHUA05aCrsASH2vUP+bRRGogLF41k/F
+niLd09OgUmE1BmjeQBTX2sXXRywjDmH2oy2svVO9EzChgWfTSPb8cr4w+cInMWT3fWAb7L36uIrn
+yGsNqyA2imq+5bjeHW7KMoRee5cdwodBhO6PemTrbyL3NyHinA75sNxwJWYCYqsxhi0UsgbyJLW2
+bPUpePfXhmR38tIYcYzt+w/zDeJ4UxlqIA==
 
 -->

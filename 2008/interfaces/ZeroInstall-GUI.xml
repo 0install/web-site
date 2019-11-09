@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://0install.net/2008/interfaces/ZeroInstall-GUI.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>ZeroInstall-GUI</name>
   <summary>graphical interface for the Zero Install injector</summary>
@@ -12,12 +12,16 @@ particular versions of libraries as preferred, bugggy, etc.
 This program is run automatically by the '0launch' command. If you want to add
 an installer to your desktop menus, you want something like Zero2Desktop
 instead.</description>
-  <homepage>http://0install.net/injector.html</homepage>
+  <homepage>https://0install.net/</homepage>
 
   <group main="0launch-gui"/>
 </interface>
 <!-- Base64 Signature
-iD8DBQBHikSfrgeCgFmlPMERAkttAKC9k7M1SMznu69DK7aYtBpuB0W0LQCfZNDpPxH4EjpAWEz0
-0q/XfHGncRw=
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl3GnWAACgkQBxM/lsp02LoEGgf/Vi5u
+RY6zthGLaO+N99z/MRpyetf6HrVyj/1ZZJrlqsy/Zc2VsJsUbNdX3/QKmN20MYV3VHMWxcHRnPGW
+efsEDBDeaezSMlE7JRb8q/hiEN8ah7pq2YSyh6wyt1EvyvKraUNCsQrk2Lf+AE1N+6g+dKsez2Qk
+oh6wv+LLp+dMU2ModLgSL2o6tQRtm13Ngbdp0RdxUa0n2riuM7rvltZryKg/s+UOCZdhtdZ/KEf9
+s1USj/6t6ZMFWA7y6vzwpw8ymGYpI5owiPWTYMa6bcI201f453sdGwqXRRZhH24pkJpU3OYaQYxU
+pLGgf57NRyaHqm55DudBgEKKD1Wfy8gdQQ==
 
 -->

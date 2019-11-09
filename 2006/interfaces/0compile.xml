@@ -15,7 +15,7 @@ If plash is installed, it is used to sandbox the build so that it can't
 accidentally modifiy any files outside of the build directory.
 
 For a full tutorial, see 0compile's homepage.</description>
-  <homepage>http://0install.net/0compile.html</homepage>
+  <homepage>https://docs.0install.net/tools/0compile/</homepage>
   <category>Development</category>
 
   <needs-terminal/>
@@ -501,11 +501,11 @@ For a full tutorial, see 0compile's homepage.</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl188TcACgkQBxM/lsp02LolXgf+IrZ0
-yj1hIr2KB5xQRi0uPoG4pqQ/D51jZhevexqjiD2ZMZt68ofDXqpybNx2Eq6dpAJWeiNplWLh9C40
-ygBtPDB9yDGOzKXaMNhwl817slWm3VwkjYmGxE3s+lFxpcrjn5/r/bZxshh6Dt0FsbaVKU54+h8B
-EuI0huNOY165EBu2X2X7oa2znlSToV4TfQX2lDOV+whO98brxBucZrxA5548RKlcOYQX+jpVYm3f
-nO+SXCe7VihpRjLZjE9I484XIe7SfWKtDNzwilIGiCEbCsvsOPb1k55/WKS6oRpZ41vrdUmA297W
-tmTj/C4lY7SMJKsLYqjOaeY51Cj/urM25A==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl3GnWMACgkQBxM/lsp02Lp/CggAhvHe
+xEBpr7WAg7ie+xBxm5RVZq1SCzLJfZEs/ZqbEOu2ctaMlCZDLfMVVP8TweXvitIjzCOJjfKandWi
+zeAhiCQPOMAHMRJkn9spq3Nb+Eh55DtHwOBIwsmI301KYSNEVMXtdidecXaQEP7ghMAgpOkELfzN
+WmhFrgJ5dIRtnYKbGm0Uqh8PbaJ3RYGWwxnaBf24deDCdVR61viNzFMIHKj4O/GhqeVcqdajpPqO
+qM+l1+EPQPBeSlKQJEOuXRdOHMAzE0abPCgvLwVtvlMUGRghejlcP7qgFaxZbY0a4eCRsrvYE8We
+MYv3FHvZziH8r+4UQrZxFCsVLM2LpGa4fg==
 
 -->

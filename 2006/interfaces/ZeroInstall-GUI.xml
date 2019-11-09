@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://0install.net/2006/interfaces/ZeroInstall-GUI.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>ZeroInstall-GUI</name>
   <summary>graphical interface for the Zero Install injector</summary>
@@ -8,7 +8,7 @@ The Zero Install GUI displays a window showing which versions of various
 components will be used when running a program, and allows you to alter various
 policy settings to affect the selection process. You can use this to mark
 particular versions of libraries as preferred, bugggy, etc.</description>
-  <homepage>http://0install.net/injector.html</homepage>
+  <homepage>https://0install.net/</homepage>
 
   <group main="0launch-gui">
     <implementation id="sha1=9cd66d454ff3055002c2106ad74f470b1b2c1996" released="2006-09-16" stability="stable" version="0.22.1">
@@ -32,7 +32,11 @@ particular versions of libraries as preferred, bugggy, etc.</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlEwlFgACgkQrgeCgFmlPMFGBgCg14fldRZb4rAHxcZcTcZyGHDrkfQAoLFidKcG
-PcHAZTBdZrL2XvH05lia
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl3GnWIACgkQBxM/lsp02LriFQf/aUbD
+5JSlU8WFLt9SiDLHTYgpE0jB+1jdH1FSK8MzTjwE5M7ntSpsWK+ci2ufZRnqYzqO3cBA8oj9Ugh0
+GUKQH8arkkWnudB6B/Njcp7d1LeahKxVGLwqjVdMNBlGltN4zPC5xcrCmzOjhUDe2h06FP/ouJ/X
+DnWns0d8nyB9qQbErOkum7nJljeq7tB+puHrjxQsSzAjp6sDXamh6Laz5KumhdnS3stWlsyJ5lkY
+MybVomL/J3l5b0MPpP1OVSFYfYG9+soQoy+K616kQzZCqTErj8lF1jA+i7RlC+IHxKnx4MIutHvA
+ezku8g25J77BL2v+KtsojTTzOv5tb/Ea1A==
 
 -->

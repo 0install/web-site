@@ -19,7 +19,7 @@ mayhem, with highly advanced AI, network game play, and of course all in a 3D
 environment.</description>
 
   <homepage>http://www.armagetronad.net/</homepage>
-  <icon href="http://0install.net/feed_icons/armagetronad.png" type="image/png"/>
+  <icon href="https://0install.net/feed_icons/armagetronad.png" type="image/png"/>
   <category>Game</category>
 
   <group arch="Linux-i686" main="bin/armagetronad">
@@ -35,11 +35,11 @@ environment.</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJRkLPJAAoJEAcTP5bKdNi6mTUIAKnD4bWbO2O/KhKJJoSSd956wsRnCIXq/sXm
-NAhVgEE2YrP4LB0APqy98WvRKDqfgm36zV31bGScBXonWBfI4ZvhFQYWEYkFTJNnlUdcrakrY7kS
-LTmMTN7MmhVVw9rDz8zTeJafqOgm0mZs13DCHcKH/REzpOh1ZEB+dQB1yPimxgRg41pvLilroUPS
-ITLBaGK16E6gdqWBAlZJShfLWYdNO0nUdMrOQ4Wb0zQ+Cc5YgPIE7b+HzkVNaSHrKFNJ/zsQyMSj
-6/5/qyd2L1D6tF3j0+7XVt0tbStg8VIERZm+CnbUesC1UKimB2CfgLJqaH2Fxip9AoX6i0ZGuYAG
-FZc=
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl3GnWIACgkQBxM/lsp02LpN2wf8CeU8
+JbMbZsLeXAdvwygHuNe+rBuDWEQtbPmReG9SYgTMEE2MdEHtGf2h9RH9bkkpiAEtIFY1l1n3vWVh
+4y8hy08h+Kzg8LB4uQrHbbWvSGQHU79fuLAFeLyjJoX4dYCGnsqehzLwKEjxaJRKMxklvpx99QhW
+s42IkuNDfpTiNHQCgbHDJj01GYOYanJINlLjtlKJuM1XnjuvzvElMHlwL2XGuOca0epPhBpgta0a
+wfOxAsiW0zQgX8J8tgs5bax5HJJ+gxyQfUj1wx1jzGUzCrLMVNbhdEVj2znZzP8UtvLDTM1p5I7G
+oLiek0HDU/TMd4soNc5TJ5Y8Mmsyv8Il4Q==
 
 -->

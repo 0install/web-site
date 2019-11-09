@@ -4,7 +4,7 @@
   <name>0install-windows-support</name>
   <summary>support for 0install on Windows</summary>
 
-  <homepage>http://0install.net/</homepage>
+  <homepage>https://0install.net/</homepage>
 
   <group arch="*-src" license="OSI Approved :: GNU Lesser General Public License (LGPL)">
     <restricts interface="http://repo.roscidus.com/ocaml/ocaml-runtime">
@@ -29,11 +29,11 @@
   </implementation>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCgAGBQJS8R6lAAoJEAcTP5bKdNi6Q6AIAKGpb9PNylceHo6brwMOokQtzEXlZgE/lLTl
-LHeWqC39GGTqzq9UsZiEhD8Mz+HtAK0M8KoEyu09C2K9dzBf/eOqn7R1O2YBqRV0O4hONbMmdnfN
-PbP1dJLOwZA3ty31x8Wg2OD69CJS2ZMNpCDKmRweM8BHdqXyURazo+VQKd8o3q91YUeg29GpDuVX
-r1iTEG1uFoFtDEumK3DV8vLLiI4e93toSnJ8tkfA8WqdwDpJ6m2EExMcYd8U1Wm3pyeNuDQHJtpZ
-xWlxMJUUhYiEnFbibMfpqCR6xyJz0vkpYMl1l3hYbLVpKv32fh0Qx7yqindqGa9qaLMqIRlx7W8u
-28g=
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl3GnWAACgkQBxM/lsp02LrLXQf/V1ui
+g6wzxDnKUzQafmOaX4kYN5PyQ2W6Zan3E9Gm+gO6LzKTa44J89NIJ1iF5CHYSqsPOtd/Fefd4vUF
+CRMH3/A+ZbY9kiwaeqpjbL+GtBGNBDLfZGYxymEEVizomN71xAfZJ/2gNSzd4/ttCG2A7cVPJtvl
+5BruCs7Yy3/CZ7a4gMvSUb+ue+28SgCZNid/8kNJrR2/XpysanIvs09Jp8GJkSbb5ZEVTlQC4eoZ
+TDbzZzMOuVNy7M+WwJ2MQF6o9v3C01EvO0gaQmZlWiRRBcUfrTDW5Vr9/at13BAj5hoKAebadA9n
+m0zHRpnciqaT81uxUsEPbAB6EkLY1HtPrw==
 
 -->

@@ -15,7 +15,7 @@ also validate the new version before saving it.
 
 A tutorial on 0publish can be found at http://0install.net/injector-
 packagers.html.</description>
-  <homepage>http://0install.net/0publish.html</homepage>
+  <homepage>https://docs.0install.net/tools/0publish/</homepage>
 
   <needs-terminal/>
 
@@ -147,11 +147,11 @@ packagers.html.</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJWEjaYAAoJEAcTP5bKdNi66r8H/2ODDjMsJLyCtVBNAi/LKbAdoy7cfkRrf9qN
-Ae7vVL0iWojIWf4Sc+VSDpNrdr6bM4GcFyLZHcfL/3Gf5ouSRRCKTJUg3dqiQSXjO31/qykNuMK8
-yfQ1ytrbHIr1x76PE4L14ZLfE/5qANpqGeHH3TE2SPRzefEUFQP1FIJYu/VENwYGedMbvWNeI+/O
-9fIOvE57yhpr1/+bjwBYvhcHrmmJOW7fiSwwsI/rZHvoIKXleo1l3aROYLBHyRY/Ve0cJwz34fDY
-qPrxP8bL8CzEQMhlHi7qzN4EZhpgWsJ9+bBjDgkIPT+guJgevuHb49o2HZgS4Tx3T9gck3s7qwN+
-UDc=
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl3GnWIACgkQBxM/lsp02Lp4bAf/ZW34
+ZVyhUMrLYhqQT+80GNVehvn+7nGZSiZD865XKPorbcOBPM/irEs/AI92pLrmS07pX1q5+XXlVAMN
+ejKOGfeDviDFYzcMaXU4j8qjiSNOR7uL5QaQU6IPbK0bTFbBFgnqLxEl8BatTIxN8NZFEPezfJXb
+HThfywLnQ8Kjf1RlJB8ZWajLvGeuH5grWsjSEE5MjP9qz+zSfbNFQs/22sj+WTAALzzcA+BmkxIk
+TaJivUjGonlSKWa54LVis2dc/cQuyK31NusKTA4o3bM3xj4MxcFQjKbR5wvHFb903X055ttgj2D2
+wAKHhJZPq/hVjySSBqceRQQRD6xHEKwlAw==
 
 -->

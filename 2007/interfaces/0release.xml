@@ -7,7 +7,7 @@
 If you have a local feed in the development version of your program, 0release
 can help you to create new releases easily.</description>
 
-  <homepage>http://0install.net/0release.xml</homepage>
+  <homepage>https://docs.0install.net/tools/0release/</homepage>
   <category>Development</category>
 
   <group license="OSI Approved :: GNU Lesser General Public License (LGPL)" main="0release">
@@ -233,11 +233,11 @@ can help you to create new releases easily.</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl2GcAEACgkQBxM/lsp02Lq2EAgArTU2
-EeaQ/veLdn6aOvP5BZ3EzpY3qZYEDe7GyrOi6J/jAvoYvWyBzBgmYRpH5fwPWh1cIBWEzDGIm6Nx
-/wPDbHMtp8ZYLWLpI8i6aGR+aHTUAtNmj+MiTfmMIiKW0az1nVJ2BRY/JpEJSSlG+3LGwoDOpCr+
-vgkJG1hyjNel+kv+KIHWkZ1WE9mLl4wWThMa0gPiCDVICmsMU9xMOdCKuu2+9nRFA4MtcxO1rhVG
-dhNGx5FXFuAFWBabVMGtH8i4A2Mhvb1Zunrz8zNbzlfd5pXYFK6eTm5KCCIaVtIHRI6HoL1/FlYr
-GXvEdLqIj7o5CQK/bNcn7ciuZWZwqpqW8g==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl3GnV8ACgkQBxM/lsp02Lo76gf/S/zD
+RMUxRr0ryiTkY9xuzZ/gqKgjbJjuVHwkstlj+12ZceFrlf9svrmJN7Z3riUcQQ+gelp7exQj6TTM
+DBA87Uddpd36b83nzF09xp1xUWw1UdokzcLzRBy1uRq3o1hQHHsZvZShmGHsS9S1FE3+AoiUKn4J
+b2lBISSDpt1tFLVY+Hi0vpVDq0eZfa6+zSvNhSmWU+Jss2S6PtrP+5IpAOm3aHxy5swVF8f54abH
+pLwQyxx2HSXKGYE31IYfhDuNVCW+3UdEMyzim+43ua7cOMVu0ucT9+TRg1aEE3mUFaijqkY50EKp
+GOi1qRvzRQpHcYPp2i1Ah0TtjWySUj2j/w==
 
 -->

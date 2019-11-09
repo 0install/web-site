@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://0install.net/2006/interfaces/GTK-2.4.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>GTK-2.4</name>
   <summary>set up a GTK 2.4 build environment</summary>
@@ -15,9 +15,7 @@ later.
 Note: if you build your program using Zero Install then it's easier to just add
 the GTK dependencies to the source interface file.</description>
 
-  <homepage>http://0install.net</homepage>
-
-  <icon href="http://0install.net/2006/icons/gtk-logo.png" type="image/png"/>
+  <icon href="https://0install.net/2006/icons/gtk-logo.png" type="image/png"/>
   <category>Development</category>
 
   <group main="gtk-2.4">
@@ -73,7 +71,11 @@ the GTK dependencies to the source interface file.</description>
 
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlE4aTYACgkQrgeCgFmlPMFMcgCgwmdFHhGvYTs4hW3IXtSq8IdsaSoAoJx151YX
-7l2xCBYFHi3HPOJdj2mJ
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl3GnWIACgkQBxM/lsp02LqANQf+IJ4B
+vJO4ndzltag+PX6VbVJXV7BrdCvsKf3l3bStZ7NBH7kSAf0N0ADLvsPpwbxLmlJlwMdXeIpkmAdC
+xn1IJPayKZwPhqjUqVfbMgy/9CX/oxvDl4nVbZeqzpi+K8JpPNKBxfbQAdEDWnd6MJo85tIRmoBF
+f9Rgc/zGBLB4EWBk78BZGpvh4aDdtMmNqdzO61W1UYlrP8UxawvcCXtzh0A7tKgLhoV/yuuklZnJ
+cgOq/7fBd4xeQAG/8l+uOOnzT19hZa1cuHo5NTVqwMtukDx2RlOy72zg12tfnCjxEHNRPG+bAQk7
+KHPrSBhSM3LaB97JB0/8JGJIEtCLfEUfRg==
 
 -->

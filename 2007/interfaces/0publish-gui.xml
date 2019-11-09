@@ -10,8 +10,8 @@ depend on.
 
 This program provides a simple graphical interface for creating and editing
 these feeds.</description>
-  <homepage>http://0install.net/injector-packagers.html</homepage>
-  <icon href="http://0install.net/feed_icons/0publish-gui.png" type="image/png"/>
+  <homepage>https://docs.0install.net/packaging/</homepage>
+  <icon href="https://0install.net/feed_icons/0publish-gui.png" type="image/png"/>
   <category>Development</category>
   <group license="OSI Approved :: GNU General Public License (GPL)" main="0publish-gui">
     <implementation id="sha1new=1e543d90e9a95951111e54bd17b230536aca6fd1" released="2007-01-13" stability="stable" version="0.1">
@@ -103,11 +103,11 @@ these feeds.</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJRkLPIAAoJEAcTP5bKdNi6cfoIAJwKrGTiaQr6kPtgdIk9CZFDton9b/9q28fe
-RyWjXT+s9JxoJAn4OCeFThTEDC7MdBw22sJpNYpQXq+MhzWBe1ZVpqYWwUD8+AAvYMISJiKXSfNp
-ZroNNHvxIMTn9h7x1MwE+gSv4MoMx8l+g3wmaxZP7wHUs0B1khD4TWrmxIT+e2PMgAhKDVgpMjfV
-hgv5iFOSFJTGXb4QTAJNkMWdLfL/w0ze16sA1InEr7iFfXgaI79ZngpOvOEpGD3B1g7qIuTEi6XM
-aSxUHvig4H+q3wZC4rMFGbmxfu82Wgb3Sb5d+lx7GA36hIofgRqOq4em0QNj6gh0YAlQum2W38ef
-KtM=
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl3GnV8ACgkQBxM/lsp02LqR9Qf/VjeA
+RQF7wGfIzdSHj7x7lmj9iAz8HbiR1KaionPzRdYqt3W1iY0KY4tvK23s2Pab9fsshvW8SXPhymnh
+rOK3XDmpC6MaMkBaLnnqj0DyCi/1eg5+zk0l6Zww9SnwRrBkNaKcUEKf5lIB4CejbwVeClE8xcAW
+OJ3fNZyJM2Wjjm8kkFOzb+oSTlZK1svmWjc3F9xsTuJMhFrwmaHv9KTxTOCXAsBhF86VLRj57WBC
+ZZa/4oRHqfosES79blMnKuzOH7+yJtmXijcKgvgY9vVKeN82RsjnBvUCeba8melzY2HnuQ6hju44
+WrcFWRjo5B7dMgE6DesYtM9bgMryOfWQ1Q==
 
 -->

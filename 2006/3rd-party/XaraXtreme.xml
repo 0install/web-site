@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://0install.net/2006/3rd-party/XaraXtreme.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>Xara Xtreme</name>
   <summary>cross-platform vector artwork and photocomposition package</summary>
@@ -10,7 +10,7 @@ easy-to-use and easy-to-learn approach.</description>
 
   <homepage>http://www.xaralx.org/</homepage>
 
-  <icon href="http://0install.net/feed_icons/XaraXtreme.png" type="image/png"/>
+  <icon href="https://0install.net/feed_icons/XaraXtreme.png" type="image/png"/>
   <category>Graphics</category>
 
   <group main="bin/xaralx">
@@ -21,7 +21,11 @@ easy-to-use and easy-to-learn approach.</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAkl8dQ4ACgkQBSn9tx+xORAsCQCfZe+grAbOdFZRr7zysGpea+6+jEsAn3FzJheq
-jfw7006fB4Tzi6TMbIR0
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl3GnWEACgkQBxM/lsp02Loa9gf8CHPm
+kKEtmnKJMb8OUQZG/qU7VwiFRiET1H+u2ygCAc4FTwb3q4uO5IJO0ZoPvClbSNvJq4A/E7M/8Npx
+cmmLvpBSE8DNNbanc55fliCxhRV2BWU36nAxZgZ7vZR0gIjorb7nHXPS4C6XTz+2fLUrwmUtJonR
+SXdsd4ItUFMdfpOs1bXjQ/c9MtjylfyPXMNqsWM5SIJUHzwJkmGn8cZWcB/1UgHBKcMpyhsLOlGw
+cNgLYDHmntlPGKpa0pyUosMDNnSFK7c9q1VXb60vMX4w4O5bLh+NHqFJjfVpmJORJrPGPbq8x51i
+u5/e/WgPweNbMHYdFbJq533uQk/ejyUOuA==
 
 -->

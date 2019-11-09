@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://0install.net/2007/3rd-party/UserModeLinux.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>UserModeLinux</name>
   <summary>run Linux inside itself</summary>
@@ -18,7 +18,7 @@ can change or damage your real computer, or its software.</description>
   <category>System</category>
   <needs-terminal/>
   <homepage>http://user-mode-linux.sourceforge.net</homepage>
-  <icon href="http://0install.net/feed_icons/UserModeLinux.png" type="image/png"/>
+  <icon href="https://0install.net/feed_icons/UserModeLinux.png" type="image/png"/>
   <group doc-dir="usr/share/doc/user-mode-linux" license="OSI Approved :: GNU General Public License (GPL)" main="usr/bin/linux">
     <implementation id="sha1new=e205285d3543ed205acdaa8b87b8fc06504c0081" released="2007-05-28" stability="stable" version="2.4.17.1">
     <archive href="http://heanet.dl.sourceforge.net/sourceforge/user-mode-linux/user-mode-linux_0.54-2.4.17.1um-1_i386.deb" size="1495200" type="application/x-deb"/>
@@ -29,7 +29,11 @@ can change or damage your real computer, or its software.</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iEUEABECAAYFAkn9oBYACgkQBSn9tx+xORD73QCUCNLn2YhZBH+C3qSGGZft31zBRACcChO3DWh+
-+ZzgY/oj4Z5aV2MO94Y=
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl3GnV4ACgkQBxM/lsp02LoR2Qf8DkDB
+MkG7KeBW5+zSWYd4hHts6CUO9YFyyfbWNFo0hxSu+5tjIAKwNfgDYroG6aSeh36gRbWLqpexesIV
+7eecMRXiCWuZc/j8XeUeLjbGkv6zAdlyALU9w12kV1855BxpiVjwrGAAaLpXEN0zD8HRYX7HoOeT
+BKcz+WfE/MyuGtkmH4KCk7MDQOos0++aybj3KjrDhamVqHPCTAO8KOnR1yhyTs3dr2GtE142Dkj9
+KC4p7TYOv8OOMzsuDbhm2dfziXbV2XyhmfW8cmdcmwJ69p7I15ZBkq3fbXpbjWL/6+Z5dqQNg+hu
+GKvh+W5dYoFhJIGddtnUqqZIjtV5QTtfDA==
 
 -->

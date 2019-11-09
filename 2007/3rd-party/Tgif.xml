@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://0install.net/2007/3rd-party/Tgif.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>Tgif</name>
   <summary>interactive 2-D drawing tool</summary>
@@ -7,7 +7,7 @@
 Tgif is an interactive drawing tool that allows the user to draw and manipulate
 objects in the X Window System.</description>
   <homepage>http://bourbon.usc.edu/tgif/</homepage>
-  <icon href="http://0install.net/feed_icons/Tgif.png" type="image/png"/>
+  <icon href="https://0install.net/feed_icons/Tgif.png" type="image/png"/>
   <category>Graphics</category>
   <group license="OSI Approved :: Q Public License (QPL)" main="usr/X11R6/bin/tgif">
     <implementation id="sha1new=ad2546b6957d8994cb6bc6729ade559c54ee5adc" released="2007-04-28" stability="stable" version="4.1.45" version-modifier="-1">
@@ -16,7 +16,11 @@ objects in the X Window System.</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iD8DBQBGYrXWBSn9tx+xORARAoCpAJsHmX70cbYiq2anhsSrd6LDuyS/hQCgg75gB4RNCsDqx7+Q
-WP/e4cCYBos=
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl3GnV8ACgkQBxM/lsp02LrdFAf9EB1u
+ENSUwyscJ9p32jvO6BNVV7oAflFoI+mnMKkui5IjO53AywjtfwUXDZmyN1ENePbFl5cFl5kzikSV
+y9S0EJpgtS1RCY0swiRtwX9l9JhVGw9Y62NcOPW5s1QqWX+M4DvgDtsQfoLn6E5OU97Uv0oENld1
+RswjJpQWWwzvI/CivNI41pk0z5TxpMcW36Mm32Ij20UobWMgTt+HIGmNlbr5Csi6gX3I/zHlc+aO
+XX2jziuxAIIemkcm7Jy+RBgvNFE4meXuNCCEGXxmgnjagH32ph/4SZPVZGStdfeKV5K60lX3Oulu
+oxMuLFwSuOvvTdXkkNtlVuZuPpj9pnu81A==
 
 -->

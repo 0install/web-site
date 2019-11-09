@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://0install.net/2006/autopackage/Stellarium.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>Stellarium</name>
   <summary>a beautiful night sky simulator</summary>
@@ -10,7 +10,7 @@ telescope.
 
 It is being used in planetarium projectors. Just set your coordinates and go.</description>
   <homepage>http://www.stellarium.org/</homepage>
-  <icon href="http://0install.net/feed_icons/Stellarium.png" type="image/png"/>
+  <icon href="https://0install.net/feed_icons/Stellarium.png" type="image/png"/>
   <category>Education</category>
 
   <group main="bin/stellarium">
@@ -20,7 +20,11 @@ It is being used in planetarium projectors. Just set your coordinates and go.</d
   </group>
 </interface>
 <!-- Base64 Signature
-iD8DBQBIb85RBSn9tx+xORARAr2BAJ0biX7iTE1erTVVAz1Kaz9HA9U+FACeP9+4s5HbVd/MLqL4
-KThtPu73T04=
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl3GnWIACgkQBxM/lsp02LrGtQf/Zsdr
+lorlT3EZirSUYjRxi7pKoWzrlE4cBspiIAUBhcnq1uyarBR6rid/6egVCvfaVprFK1B5AsiJ+cnX
+XPbKdJpyyZGjvbzY8kBJN9EQQqFU1X0A2gBGz5ExV+BQRcOypYyUrXFT924cbmH+mhcu4L7bfq8Y
+CCuTzbfe1JJwasvXeup8sye85LEKMTx2Gqz/hdQweEgEql/8ljo8gGLTJEVWZ4m6RybMOL7N0SOz
+BglvFZhdlF2G0quBgaHbZ8zpnSJcHfpcBzQ5WbT4zvH+L0HxcR3vYyLtMyJwaCLnYRuxBVYv6Hdu
+OTk7z4/V4RYKRzvBhP8fFIsAU3t3OkfYfw==
 
 -->

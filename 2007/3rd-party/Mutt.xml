@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://0install.net/2007/3rd-party/Mutt.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>Mutt</name>
   <summary>text-based mail client</summary>
@@ -8,7 +8,7 @@ Mutt is a sophisticated text-based Mail User Agent.</description>
   <homepage>http://www.mutt.org/</homepage>
   <category>Network</category>
   <needs-terminal/>
-  <icon href="http://0install.net/feed_icons/Mutt.png" type="image/png"/>
+  <icon href="https://0install.net/feed_icons/Mutt.png" type="image/png"/>
   <group doc-dir="usr/share/doc/mutt" license="OSI Approved :: GNU General Public License (GPL)" main="usr/bin/mutt">
     <implementation id="sha1new=25e80c9249550fa8bb77d1becff6a255ffe5cb04" released="2007-11-24" stability="stable" version="1.5.13" version-modifier="-1.1">
       <archive href="http://ftp.uk.debian.org/debian/pool/main/m/mutt/mutt_1.5.13-1.1etch1_i386.deb" size="1809440" type="application/x-deb"/>
@@ -16,7 +16,11 @@ Mutt is a sophisticated text-based Mail User Agent.</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAkn9oBUACgkQBSn9tx+xORAEkwCfQcOCiRlj6gQ7vIF1DwLheHw5JjUAnjM0jy4v
-/3LmXHUG/9McXRwgUNxU
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl3GnV4ACgkQBxM/lsp02LqEzQf9FZqY
+AbW245oDRE8z6qP3pDAfA+07ZAWsemTIskb4yQQsoydxDJBKTxnwsNUfd7uGaSBo1cGlCIZ3cYs0
+KR2GdyKXHLE0anI7THjv68T56YyM47uhfnbELEYkyWsCdKb31qQjXiRIWyqFc7CC4q0Un1OrAvQg
+wZzlpAnCkGNZQJsETF2I6OqkYSyAxPv4b3spZDARPmCqrOnISEXnP7k0tDtyDOzTgvzrS466o2sw
+gzBt0O5YlxCKt3cI2gLVcfIlPMvtf6nTqSBZJ62L6qKypM1RDQlZL97q6Zt1YLdQ1qJtwSVmgDDa
+4ABfKixz5lUievj4y3Bm/Gdl1DSRyCRKKg==
 
 -->

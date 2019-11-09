@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://0install.net/2007/3rd-party/Blender.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>Blender</name>
   <summary>a versatile 3D animation creation suite</summary>
@@ -17,7 +17,7 @@ creation and playback with cross-platform compatibility.</description>
 
   <feed src="http://0install.de/feeds/Blender.xml"/>
 
-  <icon href="http://0install.net/feed_icons/Blender.png" type="image/png"/>
+  <icon href="https://0install.net/feed_icons/Blender.png" type="image/png"/>
   <category>Video</category>
   <group arch="Linux-i386" license="OSI Approved :: GNU General Public License (GPL)" main="blender">
     <implementation id="sha1new=a7ef2e3cb34b5f243bf48cb3ab63bb511556e6d5" released="2007-01-13" stability="stable" version="2.42">
@@ -63,11 +63,11 @@ creation and playback with cross-platform compatibility.</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJRRZE+AAoJEAcTP5bKdNi6ZcsH/j2RkItfq3WqBpKBlhGTaM8gqkcdAw8cpgJx
-GesbO/iNh41tVWcxJV2z3mQWMp6zhSJNTpLIMfOqgPHbQZKJrMQvFb/XoheXRsBJ21aUw7GkYGml
-C2fUCRW9BFFr1Sq5C4q82kL3rlD/hcGfX3bUobCldC7JD7po5IgoupHG0X8aSGbrK4ZM+enYP99i
-hbM1izbJS5eLBfQ+MN0o7z3cLvyftNmaghmWraLdeAFBkmAyVj052H2XTqUdH7FYzLIsVI11nfRL
-G8fEbcL31DnLVsYP7n7QZ2Upoq13Shr/ITGn4rCvzsWyvWpVLHxwHB4iKyy6Tpw/qdcpNBp9nNDo
-FVw=
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl3GnV4ACgkQBxM/lsp02Lp27Qf/aUYS
+jc4GZUF1vmKCeS+72pa2BVyAvj2vD23uc/z5zOnp7BNyGrLsXAT+G1qml6DQRTCStAuVEnvNwavO
+fFet2ERra19O+IZk9jR5r9h9S6KgYiYfuKg414ZUCJ4Nnsg96+19Ph0oTituebPfNaTjLMrO9Kd3
+9eUNnJPbwiBsPbosi/ws5f0XoDEnX1y+mZkClYbPKPKjuRdEpn0+OjiphzTfkYbDKARfTFVoC5j2
+r3k8jW+4Q34/lAWWyFDeHkkphoW/M/cz5YvDuUdRFOb8NiV1zy6XhfVf1+hBGfwzZUEIcHLc1UeG
+ZnhkCiQfTTrnBdXDx+yx98SxuwlozYbSNg==
 
 -->

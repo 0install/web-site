@@ -11,7 +11,7 @@ the program in some way.
 If plash is installed, it is used to sandbox the build so that it can't
 accidentally modifiy any files outside of the build directory.
 
-For a full tutorial, see 0compile's homepage.</description><homepage>http://0install.net/0compile.html</homepage><category>Development</category></interface><interface uri="http://0install.net/tools/0export.xml"><name>0export</name><summary>create self-installing bundles for distribution on CD</summary><description>
+For a full tutorial, see 0compile's homepage.</description><homepage>https://docs.0install.net/tools/0compile/</homepage><category>Development</category></interface><interface uri="http://0install.net/tools/0export.xml"><name>0export</name><summary>create self-installing bundles for distribution on CD</summary><description>
 It is sometimes useful to bundle a program and its libraries together
 on a CD (for example) so that it can be used on machines without a network
 connection, or where the network is very slow. It is also useful for archival
@@ -25,7 +25,7 @@ program.
 
 Unlike the bundles created by the related zero2bundle program, programs
 installed using setup.sh are added to the Zero Install cache and are therefore
-still shared between users, and will get updates over the web where possible.</description><homepage>http://0install.net/0export.html</homepage><category>Development</category></interface><interface uri="http://0install.net/2007/interfaces/ZeroInstall.xml"><name>0install</name><summary>decentralised installation system</summary><description>
+still shared between users, and will get updates over the web where possible.</description><homepage>https://docs.0install.net/tools/0export/</homepage><category>Development</category></interface><interface uri="http://0install.net/2007/interfaces/ZeroInstall.xml"><name>0install</name><summary>decentralised installation system</summary><description>
 Zero Install is a decentralised cross-platform software installation
 system available under the LGPL. It allows software developers to publish
 programs directly from their own web-sites, while supporting features familiar
@@ -33,7 +33,7 @@ from centralised distribution repositories such as shared libraries, automatic
 updates and digital signatures. It is intended to complement, rather than
 replace, the operating system's package management. 0install packages never
 interfere with those provided by the distribution.
-  </description><homepage>http://0install.net/</homepage><icon href="http://0install.net/feed_icons/ZeroInstall.png" type="image/png"/><category>System</category></interface><interface uri="http://0install.net/tools/0install.xml"><name>0install</name><summary>decentralised installation system</summary><description>
+  </description><homepage>https://0install.net/</homepage><icon href="https://0install.net/feed_icons/ZeroInstall.png" type="image/png"/><category>System</category></interface><interface uri="http://0install.net/tools/0install.xml"><name>0install</name><summary>decentralised installation system</summary><description>
 Zero Install is a decentralised cross-platform software installation
 system available under the LGPL. It allows software developers to publish
 programs directly from their own web-sites, while supporting features familiar
@@ -41,10 +41,10 @@ from centralised distribution repositories such as shared libraries, automatic
 updates and digital signatures. It is intended to complement, rather than
 replace, the operating system's package management. 0install packages never
 interfere with those provided by the distribution.
-</description><homepage>http://0install.net/</homepage><icon href="http://0install.net/feed_icons/ZeroInstall.png" type="image/png"/><category>System</category></interface><interface uri="http://0install.net/2012/interfaces/0install-runenv-cli.xml"><name>0install-runenv-cli</name><summary>0install .NET helper for Windows</summary><description>
+</description><homepage>https://0install.net/</homepage><icon href="https://0install.net/feed_icons/ZeroInstall.png" type="image/png"/><category>System</category></interface><interface uri="http://0install.net/2012/interfaces/0install-runenv-cli.xml"><name>0install-runenv-cli</name><summary>0install .NET helper for Windows</summary><description>
     When 0install needs to add a new program to %PATH% on Windows, it uses this
     package to creates a .NET launcher application.
-</description><homepage>http://0install.net/</homepage><category>System</category></interface><interface uri="http://0install.net/2013/interfaces/0install-windows-support.xml"><name>0install-windows-support</name><summary>support for 0install on Windows</summary><homepage>http://0install.net/</homepage></interface><interface uri="http://0install.net/2006/interfaces/0publish"><name>0publish</name><summary>utility to make creating injector interfaces easier</summary><description>
+</description><homepage>https://0install.net/</homepage><category>System</category></interface><interface uri="http://0install.net/2013/interfaces/0install-windows-support.xml"><name>0install-windows-support</name><summary>support for 0install on Windows</summary><homepage>https://0install.net/</homepage></interface><interface uri="http://0install.net/2006/interfaces/0publish"><name>0publish</name><summary>utility to make creating injector interfaces easier</summary><description>
 0publish makes creating and modifying injector interface files easier. It can
 create a new commented template for you or edit an existing one.
 
@@ -54,35 +54,35 @@ loading an interface and creates a new one when writing it back out. It will
 also validate the new version before saving it.
 
 A tutorial on 0publish can be found at http://0install.net/injector-
-packagers.html.</description><homepage>http://0install.net/0publish.html</homepage></interface><interface uri="http://0install.net/2007/interfaces/0publish-gui.xml"><name>0publish-gui</name><summary>GTK editor for Zero Install feeds</summary><description>
+packagers.html.</description><homepage>https://docs.0install.net/tools/0publish/</homepage></interface><interface uri="http://0install.net/2007/interfaces/0publish-gui.xml"><name>0publish-gui</name><summary>GTK editor for Zero Install feeds</summary><description>
 Publishing a program using Zero Install requires you to create an XML file
 listing the available versions, where to get them, and what other software they
 depend on.
 
 This program provides a simple graphical interface for creating and editing
-these feeds.</description><homepage>http://0install.net/injector-packagers.html</homepage><icon href="http://0install.net/feed_icons/0publish-gui.png" type="image/png"/><category>Development</category></interface><interface uri="http://0install.net/2007/interfaces/0release.xml"><name>0release</name><summary>manage new releases with Zero Install</summary><description>
+these feeds.</description><homepage>https://docs.0install.net/packaging/</homepage><icon href="https://0install.net/feed_icons/0publish-gui.png" type="image/png"/><category>Development</category></interface><interface uri="http://0install.net/2007/interfaces/0release.xml"><name>0release</name><summary>manage new releases with Zero Install</summary><description>
 If you have a local feed in the development version of your program, 0release
-can help you to create new releases easily.</description><homepage>http://0install.net/0release.xml</homepage><category>Development</category></interface><interface uri="http://0install.net/tools/0repo.xml"><name>0repo</name><summary>manage a repository of 0install feeds</summary><description>
+can help you to create new releases easily.</description><homepage>https://docs.0install.net/tools/0release/</homepage><category>Development</category></interface><interface uri="http://0install.net/tools/0repo.xml"><name>0repo</name><summary>manage a repository of 0install feeds</summary><description>
     0repo allows a group of developers to publish a set of feeds. It can be
     used by a single developer, generating a set of static files to publish on
     a web-server, or as a service which accepts signed updates from a group
     of developers.
-  </description><homepage>http://0install.net/0repo.html</homepage></interface><interface uri="http://0install.net/2008/interfaces/0share.xml"><name>0share</name><summary>peer-to-peer sharing of Zero Install packages</summary><description>
+  </description><homepage>https://docs.0install.net/tools/0repo/</homepage></interface><interface uri="http://0install.net/2008/interfaces/0share.xml"><name>0share</name><summary>peer-to-peer sharing of Zero Install packages</summary><description>
 Zero Install is a decentralised installation system. Meta-data about each
 package is published in a &quot;feed&quot; file.
 
 Before downloading a package over the internet, 0launch can check to see if any
 nearby machines have a copy, and get it from them instead if so. This will
 normally be much faster. The secure hash from the feed is used to check that the
-software hasn't been modified.</description><homepage>http://0install.net/0share.html</homepage><category>Network</category></interface><interface uri="http://0install.net/tools/0template.xml"><name>0template</name><summary>utility to make creating feeds easier</summary><description>
+software hasn't been modified.</description><homepage>https://docs.0install.net/tools/0share/</homepage><category>Network</category></interface><interface uri="http://0install.net/tools/0template.xml"><name>0template</name><summary>utility to make creating feeds easier</summary><description>
     0template takes a template XML file (e.g. with place-holders for the version),
     fills in the place-holders, and then fills in everything else it can. For example,
     it will download the archive, fill in the size, calculate the digests, etc.
-  </description><homepage>http://0install.net/0template.html</homepage><entry-point binary-name="0template" command="run"/></interface><interface uri="http://0install.net/2008/interfaces/0test.xml"><name>0test</name><summary>test Zero Install programs</summary><description>
+  </description><homepage>https://docs.0install.net/tools/0template/</homepage><entry-point binary-name="0template" command="run"/></interface><interface uri="http://0install.net/2008/interfaces/0test.xml"><name>0test</name><summary>test Zero Install programs</summary><description>
 Use 0test to run the unit tests for a Zero Install program. You can use this to
 test released versions or developer snapshots. You can give a selection of
 versions to test, and you can test against different versions of dependencies to
-create a matrix of test results.</description><homepage>http://0install.net/0test.html</homepage><category>Development</category></interface><interface uri="http://0install.net/2007/3rd-party/APBuild.xml"><name>APBuild</name><summary>a suite of portability tools for developers</summary><description>
+create a matrix of test results.</description><homepage>https://docs.0install.net/tools/0test/</homepage><category>Development</category></interface><interface uri="http://0install.net/2007/3rd-party/APBuild.xml"><name>APBuild</name><summary>a suite of portability tools for developers</summary><description>
 In the process of writing autopackage, we've also produced several standalone
 tools, the apbuild programs, that are designed to help Linux developers write
 better software that runs on a wider variety of distributions. They are
@@ -98,7 +98,7 @@ uv mapping, rigging and constraints, weight painting, particle systems,
 simulation (fluids, physics, and soft body dynamics and an external crowd
 simulator), rendering, node based compositing, and non linear video editing, as
 well as an integrated game engine for real-time interactive 3D, and game
-creation and playback with cross-platform compatibility.</description><homepage>http://www.blender.org</homepage><icon href="http://0install.net/feed_icons/Blender.png" type="image/png"/><category>Video</category></interface><interface uri="http://0install.net/2007/3rd-party/Django.xml"><name>Django</name><summary>the Web framework for perfectionists with deadlines</summary><description>
+creation and playback with cross-platform compatibility.</description><homepage>http://www.blender.org</homepage><icon href="https://0install.net/feed_icons/Blender.png" type="image/png"/><category>Video</category></interface><interface uri="http://0install.net/2007/3rd-party/Django.xml"><name>Django</name><summary>the Web framework for perfectionists with deadlines</summary><description>
 Django is a high-level Python Web framework that encourages rapid development
 and clean, pragmatic design.
 
@@ -110,7 +110,7 @@ FeedLint is a tool for Zero Install feed authors. It checks that your Zero
 Install feed can be downloaded, that it is valid and that all the links in it
 still work.
 
-Run this on all your feeds from time-to-time to make sure they still work.</description><homepage>http://0install.net/feedlint.html</homepage><category>Development</category></interface><interface uri="http://0install.net/2006/3rd-party/Freetype2.xml"><name>Freetype2</name><summary>free, portable library for digital typography</summary><description>
+Run this on all your feeds from time-to-time to make sure they still work.</description><homepage>https://docs.0install.net/tools/feedlint/</homepage><category>Development</category></interface><interface uri="http://0install.net/2006/3rd-party/Freetype2.xml"><name>Freetype2</name><summary>free, portable library for digital typography</summary><description>
 FreeType 2 is a high-quality and portable font engine that is capable of
 supporting several font formats (be they bitmapped or scalable) through a simple
 and uniform interface. Its design is modular and allows independent &quot;font
@@ -145,9 +145,9 @@ new shell. The resulting binary should work on all systems with GTK 2.4 and
 later.
 
 Note: if you build your program using Zero Install then it's easier to just add
-the GTK dependencies to the source interface file.</description><homepage>http://0install.net</homepage><icon href="http://0install.net/2006/icons/gtk-logo.png" type="image/png"/><category>Development</category></interface><interface uri="http://0install.net/2006/interfaces/GTK-dev"><name>GTK-dev</name><summary>headers for compiling GTK applications</summary><description>
+the GTK dependencies to the source interface file.</description><icon href="https://0install.net/2006/icons/gtk-logo.png" type="image/png"/><category>Development</category></interface><interface uri="http://0install.net/2006/interfaces/GTK-dev"><name>GTK-dev</name><summary>headers for compiling GTK applications</summary><description>
 These are the GTK header files. They are required when compiling applications
-that use the GTK+ library.</description><icon href="http://0install.net/2006/icons/gtk-logo.png" type="image/png"/></interface><interface uri="http://0install.net/2006/interfaces/GTKmm-dev.xml"><name>GTKmm-dev</name><summary>headers for compiling C++ GTK applications</summary><description>
+that use the GTK+ library.</description><icon href="https://0install.net/2006/icons/gtk-logo.png" type="image/png"/></interface><interface uri="http://0install.net/2006/interfaces/GTKmm-dev.xml"><name>GTKmm-dev</name><summary>headers for compiling C++ GTK applications</summary><description>
 These are the glibmm header files. They are required when compiling C++
 applications that use the GTK, ATK or Pango libraries..</description></interface><interface uri="http://0install.net/2006/3rd-party/Inkscape.xml"><name>Inkscape</name><summary>an SVG-based vector drawing application</summary><description>
 Inkscape is an Open Source vector graphics editor, with capabilities similar to
@@ -161,7 +161,7 @@ others and exports PNG as well as multiple vector-based formats.
 
 Inkscape's main goal is to create a powerful and convenient drawing tool fully
 compliant with XML, SVG, and CSS standards. We also aim to maintain a thriving
-user and developer community by using open, community-oriented development.</description><homepage>http://inkscape.org/</homepage><icon href="http://0install.net/tests/Inkscape.png" type="image/png"/><category>Graphics</category></interface><interface uri="http://0install.net/2006/autopackage/Lincity.xml"><name>Lincity</name><summary>city simulation game</summary><description>
+user and developer community by using open, community-oriented development.</description><homepage>http://inkscape.org/</homepage><icon href="https://0install.net/tests/Inkscape.png" type="image/png"/><category>Graphics</category></interface><interface uri="http://0install.net/2006/autopackage/Lincity.xml"><name>Lincity</name><summary>city simulation game</summary><description>
 Lincity is a city simulation game. You are required to build and maintain a
 city. You must feed, house, provide jobs and goods for your residents. You can
 build a sustainable economy with the help of renewable energy and recycling, or
@@ -180,13 +180,13 @@ typesetting engine, in the background.
 
 With LyX, short notes or letters are a snap. LyX really shines, though, when
 composing complex documents like technical documentation, doctoral theses and
-conference proceedings.</description><homepage>http://www.lyx.org</homepage><icon href="http://0install.net/feed_icons/LyX.png" type="image/png"/><category>Office</category></interface><interface uri="http://0install.net/2007/interfaces/Make-headers.xml"><name>Make-headers</name><summary>creates -dev packages</summary><description>
+conference proceedings.</description><homepage>http://www.lyx.org</homepage><icon href="https://0install.net/feed_icons/LyX.png" type="image/png"/><category>Office</category></interface><interface uri="http://0install.net/2007/interfaces/Make-headers.xml"><name>Make-headers</name><summary>creates -dev packages</summary><description>
 Given a standard autoconf source package (in $SRCDIR), this script builds it
 (configure --prefix=$DISTDIR &amp;&amp; make install) and then removes files which
 shouldn't be in a -dev package (.so and .la files, etc).
 
-It also edits any pkg-config .pc files to use a relative path for the prefix.</description><homepage>http://0install.net/make-headers.html</homepage><category>Development</category></interface><interface uri="http://0install.net/2007/3rd-party/Mutt.xml"><name>Mutt</name><summary>text-based mail client</summary><description>
-Mutt is a sophisticated text-based Mail User Agent.</description><homepage>http://www.mutt.org/</homepage><category>Network</category><icon href="http://0install.net/feed_icons/Mutt.png" type="image/png"/></interface><interface uri="http://0install.net/2006/autopackage/OpenEuclide.xml"><name>OpenEuclide</name><summary>2D geometry software</summary><description>
+It also edits any pkg-config .pc files to use a relative path for the prefix.</description><homepage>https://docs.0install.net/tools/make-headers/</homepage><category>Development</category></interface><interface uri="http://0install.net/2007/3rd-party/Mutt.xml"><name>Mutt</name><summary>text-based mail client</summary><description>
+Mutt is a sophisticated text-based Mail User Agent.</description><homepage>http://www.mutt.org/</homepage><category>Network</category><icon href="https://0install.net/feed_icons/Mutt.png" type="image/png"/></interface><interface uri="http://0install.net/2006/autopackage/OpenEuclide.xml"><name>OpenEuclide</name><summary>2D geometry software</summary><description>
 OpenEuclide is a 2D geometry software: figures are defined dynamically by
 describing formal geometrical constraints. This project is a basic tool for
 educational or modeling purpose. It is distributed under the GNU GPL licence,
@@ -208,7 +208,7 @@ many more...
 PySol is copyrighted OpenSource software distributed under the terms of the GNU
 General Public License.
 
-PySol is written in 100% pure Python</description><homepage>http://www.pysol.org/</homepage><icon href="http://0install.net/tests/pysol.png" type="image/png"/><category>Game</category></interface><interface uri="http://0install.net/2006/autopackage/SCOURGE.xml"><name>S.C.O.U.R.G.E.</name><summary>rogue-like game in the tradition of NetHack and Moria</summary><description>
+PySol is written in 100% pure Python</description><homepage>http://www.pysol.org/</homepage><icon href="https://0install.net/tests/pysol.png" type="image/png"/><category>Game</category></interface><interface uri="http://0install.net/2006/autopackage/SCOURGE.xml"><name>S.C.O.U.R.G.E.</name><summary>rogue-like game in the tradition of NetHack and Moria</summary><description>
 S.C.O.U.R.G.E. is a rogue-like game in the fine tradition of NetHack and Moria.
 It sports a graphical front-end, similar to glHack or the Falcon's eye. I tried
 to design the 3D UI as a best of both worlds from old to new: It lets you rotate
@@ -223,12 +223,12 @@ It can scan files to detect dependencies automatically and maintain a global
 view of all dependencies in a build tree, and uses MD5 signatures to detect
 changed file contents reliably. Timestamps can be used if you prefer. SCons also
 supports parallel builds and is easily extensible through user-defined builder
-and scanner objects.</description><homepage>http://www.scons.org/</homepage><icon href="http://0install.net/tests/scons-logo.png" type="image/png"/><category>Development</category></interface><interface uri="http://0install.net/2006/autopackage/Stellarium.xml"><name>Stellarium</name><summary>a beautiful night sky simulator</summary><description>
+and scanner objects.</description><homepage>http://www.scons.org/</homepage><icon href="https://0install.net/tests/scons-logo.png" type="image/png"/><category>Development</category></interface><interface uri="http://0install.net/2006/autopackage/Stellarium.xml"><name>Stellarium</name><summary>a beautiful night sky simulator</summary><description>
 Stellarium is a free open source planetarium for your computer. It shows a
 realistic sky in 3D, just like what you see with the naked eye, binoculars or a
 telescope.
 
-It is being used in planetarium projectors. Just set your coordinates and go.</description><homepage>http://www.stellarium.org/</homepage><icon href="http://0install.net/feed_icons/Stellarium.png" type="image/png"/><category>Education</category></interface><interface uri="http://0install.net/2007/3rd-party/Subversion.xml"><name>Subversion</name><summary>advanced version control system</summary><description>
+It is being used in planetarium projectors. Just set your coordinates and go.</description><homepage>http://www.stellarium.org/</homepage><icon href="https://0install.net/feed_icons/Stellarium.png" type="image/png"/><category>Education</category></interface><interface uri="http://0install.net/2007/3rd-party/Subversion.xml"><name>Subversion</name><summary>advanced version control system</summary><description>
 Subversion, also known as svn, is a version control system much like the
 Concurrent Versions System (CVS). Version control systems allow many individuals
 (who may be distributed geographically) to collaborate on a set of files
@@ -245,7 +245,7 @@ joystick and keyboard input, new music and completly redone graphics. Together
 with a little story, we hope to provide a good gaming experince with this first
 Milestone release.</description><homepage>http://supertux.berlios.de/</homepage><category>Game</category></interface><interface uri="http://0install.net/2007/3rd-party/Tgif.xml"><name>Tgif</name><summary>interactive 2-D drawing tool</summary><description>
 Tgif is an interactive drawing tool that allows the user to draw and manipulate
-objects in the X Window System.</description><homepage>http://bourbon.usc.edu/tgif/</homepage><icon href="http://0install.net/feed_icons/Tgif.png" type="image/png"/><category>Graphics</category></interface><interface uri="http://0install.net/2007/3rd-party/UserModeLinux.xml"><name>UserModeLinux</name><summary>run Linux inside itself</summary><description>
+objects in the X Window System.</description><homepage>http://bourbon.usc.edu/tgif/</homepage><icon href="https://0install.net/feed_icons/Tgif.png" type="image/png"/><category>Graphics</category></interface><interface uri="http://0install.net/2007/3rd-party/UserModeLinux.xml"><name>UserModeLinux</name><summary>run Linux inside itself</summary><description>
 User-Mode Linux is a safe, secure way of running Linux versions and Linux
 processes. Run buggy software, experiment with new Linux kernels or
 distributions, and poke around in the internals of Linux, all without risking
@@ -256,10 +256,10 @@ software virtual resources than your actual, physical computer. Disk storage for
 the virtual machine is entirely contained inside a single file on your physical
 machine. You can assign your virtual machine only the hardware access you want
 it to have. With properly limited access, nothing you do on the virtual machine
-can change or damage your real computer, or its software.</description><category>System</category><homepage>http://user-mode-linux.sourceforge.net</homepage><icon href="http://0install.net/feed_icons/UserModeLinux.png" type="image/png"/></interface><interface uri="http://0install.net/2006/3rd-party/XaraXtreme.xml"><name>Xara Xtreme</name><summary>cross-platform vector artwork and photocomposition package</summary><description>
+can change or damage your real computer, or its software.</description><category>System</category><homepage>http://user-mode-linux.sourceforge.net</homepage><icon href="https://0install.net/feed_icons/UserModeLinux.png" type="image/png"/></interface><interface uri="http://0install.net/2006/3rd-party/XaraXtreme.xml"><name>Xara Xtreme</name><summary>cross-platform vector artwork and photocomposition package</summary><description>
 XaraLX is a vector graphics and photocomposition program. It is primarily a
 vector graphics program, but it also handles photos and drawings. It has an
-easy-to-use and easy-to-learn approach.</description><homepage>http://www.xaralx.org/</homepage><icon href="http://0install.net/feed_icons/XaraXtreme.png" type="image/png"/><category>Graphics</category></interface><interface uri="http://0install.net/2007/3rd-party/XdgUtils.xml"><name>XdgUtils</name><summary>cross-desktop integration tools</summary><description>
+easy-to-use and easy-to-learn approach.</description><homepage>http://www.xaralx.org/</homepage><icon href="https://0install.net/feed_icons/XaraXtreme.png" type="image/png"/><category>Graphics</category></interface><interface uri="http://0install.net/2007/3rd-party/XdgUtils.xml"><name>XdgUtils</name><summary>cross-desktop integration tools</summary><description>
 Xdg-utils is a set of command line tools that assist applications with a variety
 of desktop integration tasks. About half of the tools focus on tasks commonly
 required during the installation of a desktop application and the other half
@@ -274,7 +274,7 @@ identify them. To make applications easier to run you'll want to create a short-
 cut in your desktop environment.
 
 This program creates a freedesktop.org &quot;.desktop&quot; file, which causes the program
-to appear in the GNOME or KDE Applications menus.</description><category>Utility</category><icon href="http://0install.net/feed_icons/Zero2Desktop.png" type="image/png"/></interface><interface uri="http://0install.net/2007/interfaces/ZeroInstall-GUI.xml"><name>ZeroInstall-GUI</name><summary>graphical interface for the Zero Install injector</summary><description>
+to appear in the GNOME or KDE Applications menus.</description><category>Utility</category><icon href="https://0install.net/feed_icons/Zero2Desktop.png" type="image/png"/></interface><interface uri="http://0install.net/2007/interfaces/ZeroInstall-GUI.xml"><name>ZeroInstall-GUI</name><summary>graphical interface for the Zero Install injector</summary><description>
 The Zero Install GUI displays a window showing which versions of various
 components will be used when running a program, and allows you to alter various
 policy settings to affect the selection process. You can use this to mark
@@ -282,7 +282,7 @@ particular versions of libraries as preferred, bugggy, etc.
 
 This program is run automatically by the '0launch' command. If you want to add
 an installer to your desktop menus, you want something like Zero2Desktop
-instead.</description><homepage>http://0install.net/injector.html</homepage></interface><interface uri="http://0install.net/2008/interfaces/ZeroInstall-GUI.xml"><name>ZeroInstall-GUI</name><summary>graphical interface for the Zero Install injector</summary><description>
+instead.</description><homepage>https://0install.net/</homepage></interface><interface uri="http://0install.net/2008/interfaces/ZeroInstall-GUI.xml"><name>ZeroInstall-GUI</name><summary>graphical interface for the Zero Install injector</summary><description>
 The Zero Install GUI displays a window showing which versions of various
 components will be used when running a program, and allows you to alter various
 policy settings to affect the selection process. You can use this to mark
@@ -290,12 +290,12 @@ particular versions of libraries as preferred, bugggy, etc.
 
 This program is run automatically by the '0launch' command. If you want to add
 an installer to your desktop menus, you want something like Zero2Desktop
-instead.</description><homepage>http://0install.net/injector.html</homepage></interface><interface uri="http://0install.net/2006/interfaces/ZeroInstall-GUI.xml"><name>ZeroInstall-GUI</name><summary>graphical interface for the Zero Install injector</summary><description>
+instead.</description><homepage>https://0install.net/</homepage></interface><interface uri="http://0install.net/2006/interfaces/ZeroInstall-GUI.xml"><name>ZeroInstall-GUI</name><summary>graphical interface for the Zero Install injector</summary><description>
 The Zero Install GUI displays a window showing which versions of various
 components will be used when running a program, and allows you to alter various
 policy settings to affect the selection process. You can use this to mark
-particular versions of libraries as preferred, bugggy, etc.</description><homepage>http://0install.net/injector.html</homepage></interface><interface uri="http://0install.net/2006/autopackage/Abiword.xml"><name>abiword</name><summary>AbiWord Word Processor</summary><description>
-AbiWord is a lightweight word processing application.</description><category>Office</category><icon href="http://0install.net/feed_icons/abiword.png" type="image/png"/></interface><interface uri="http://0install.net/2006/autopackage/armagetronad.xml"><name>armagetronad</name><summary>a Tron clone in 3D</summary><description>
+particular versions of libraries as preferred, bugggy, etc.</description><homepage>https://0install.net/</homepage></interface><interface uri="http://0install.net/2006/autopackage/Abiword.xml"><name>abiword</name><summary>AbiWord Word Processor</summary><description>
+AbiWord is a lightweight word processing application.</description><category>Office</category><icon href="https://0install.net/feed_icons/abiword.png" type="image/png"/></interface><interface uri="http://0install.net/2006/autopackage/armagetronad.xml"><name>armagetronad</name><summary>a Tron clone in 3D</summary><description>
 &quot;A Tron clone in 3D&quot;.
 
 This has been the tagline of Armagetron, since, well, a very long time, and is
@@ -308,7 +308,7 @@ Cycle' which leaves a wall behind it wherever the cycle it goes, turning only at
 avoiding hitting the AI's own wall themselves. Those were the humble beginnings
 of Armagetron Advanced's game play, which has now blossomed into 16 player
 mayhem, with highly advanced AI, network game play, and of course all in a 3D
-environment.</description><homepage>http://www.armagetronad.net/</homepage><icon href="http://0install.net/feed_icons/armagetronad.png" type="image/png"/><category>Game</category></interface><interface uri="http://0install.net/2009/3rd-party/clutter.xml"><name>clutter</name><summary>creating fast, visually rich and animated graphical user interfaces</summary><description>
+environment.</description><homepage>http://www.armagetronad.net/</homepage><icon href="https://0install.net/feed_icons/armagetronad.png" type="image/png"/><category>Game</category></interface><interface uri="http://0install.net/2009/3rd-party/clutter.xml"><name>clutter</name><summary>creating fast, visually rich and animated graphical user interfaces</summary><description>
 Clutter is an open source software library for creating fast, visually rich and
 animated graphical user interfaces.
 
@@ -330,7 +330,7 @@ package is published in a &quot;feed&quot; file. The Zero Install client reads t
 files and downloads and runs the programs. The feed files can be created
 manually (e.g. using 0publish or 0publish-gui). However, Debian packages already
 contain much of the required information. This program extracts the information
-in an existing Debian package and uses it to generate the feed.</description><homepage>http://0install.net/deb2zero.html</homepage><category>Development</category></interface><interface uri="http://0install.net/tests/ebox.xml"><name>ebox</name><summary>instance manager for E programs</summary><description>
+in an existing Debian package and uses it to generate the feed.</description><homepage>https://0install.net/deb2zero.html</homepage><category>Development</category></interface><interface uri="http://0install.net/tests/ebox.xml"><name>ebox</name><summary>instance manager for E programs</summary><description>
 ebox installs instances of E programs. Each program runs with access, by
 default, only to its own instance directory. The code is separate; managed by
 Zero Install.</description></interface><interface uri="http://0install.net/tests/ebox-chat.xml"><name>ebox-chat</name><summary>sandboxed chat program</summary><description>
@@ -581,16 +581,16 @@ This package includes files needed by all versions of the client library
   famous city simulator from Max*s. So, if you are looking to download a free
   SimCity 4 like, please forget OpenCity. I work on it at my spare time, I
   really meant it &quot;my spare time&quot;!
-  </description><homepage>http://www.opencity.info/</homepage><icon href="http://0install.net/feed_icons/opencity.png" type="image/png"/></interface><interface uri="http://0install.net/2009/interfaces/pkg2zero.xml"><name>pkg2zero</name><summary>create Zero Install feeds from Debian and RPM packages</summary><description>
+  </description><homepage>http://www.opencity.info/</homepage><icon href="https://0install.net/feed_icons/opencity.png" type="image/png"/></interface><interface uri="http://0install.net/2009/interfaces/pkg2zero.xml"><name>pkg2zero</name><summary>create Zero Install feeds from Debian and RPM packages</summary><description>
 Zero Install is a decentralised installation system. Meta-data about each
 package is published in a &quot;feed&quot; file. The Zero Install client reads these feeds
 files and downloads and runs the programs. The feed files can be created
 manually (e.g. using 0publish or 0publish-gui). However, Debian and RPM packages already
 contain much of the required information. This program extracts the information
-in an existing package and uses it to generate the feed.</description><homepage>http://0install.net/pkg2zero.html</homepage><category>Development</category></interface><interface uri="http://0install.net/2009/interfaces/pkg2zero-testdata.xml"><name>pkg2zero-testdata</name><summary>data for unit-tests</summary><description>
+in an existing package and uses it to generate the feed.</description><homepage>https://docs.0install.net/tools/pkg2zero/</homepage><category>Development</category></interface><interface uri="http://0install.net/2009/interfaces/pkg2zero-testdata.xml"><name>pkg2zero-testdata</name><summary>data for unit-tests</summary><description>
     These files are needed to run the unit-tests for pkg2zero. As they are
     quite large, they have their own package.
-  </description><homepage>http://0install.net/pkg2zero.html</homepage><category>Development</category></interface><interface uri="http://0install.net/2009/3rd-party/python2.6-clutter.xml"><name>python-clutter</name><summary>Python bindings for the clutter library</summary><description>
+  </description><homepage>https://docs.0install.net/tools/pkg2zero/</homepage><category>Development</category></interface><interface uri="http://0install.net/2009/3rd-party/python2.6-clutter.xml"><name>python-clutter</name><summary>Python bindings for the clutter library</summary><description>
 Clutter is an open source software library for creating fast, visually rich and
 animated graphical user interfaces.
 
@@ -609,11 +609,11 @@ Sear is a client for MMORPGs using the Worldforge system.</description><category
 VDrift is a realistic racing simulation with drifting in mind</description><category>Game</category></interface><interface uri="http://0install.net/2010/interfaces/xzdec.xml"><name>xzdec</name><summary>XZ Decompressor</summary><description>
 xzdec is a liblzma-based decompression-only tool for .xz files.</description><homepage>http://tukaani.org/xz/</homepage><category>Utility</category></interface></c:catalog>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAlrJ+NUACgkQBxM/lsp02LouCAf5AU5Z
-5nuapLgLQnugKel+TcWUm1OTOPMy0zg7b4f2C73w6RslTt92D9NAhS0zHodp/naC2Q/FAZ307Z+v
-93l1t3iez8ilkiw2ya7DcuxUPikkGj32nlJaRs6WwxHjkQSHCn9LW9uht6ha2DGSK4vc/qHTceVI
-f5T5PaQD8O0nHvZnX3IaeWlUqsZXy1HouLehe2B9bVzlG3ZuIozhweyeRiVL05CvhSGLmu6wWt4s
-8e4UDaNkGVx6/ej7G7av9TLuoGl8RXAh0kzCMPveroR6r5Q5Jc0esRwhp+sHK5CwQM8vimMKSpmJ
-yO/NXyarJoTYmP7FwQtvSGYlM/9rjJtZdw==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl3GnWMACgkQBxM/lsp02LpztQf+No0B
+CV2RDf1WCYce5RzZ41bS06TLAdzpGjsDUQ+o/U8qxDtmlGIX70PAKtl4+MksnzJPWCDPJnX5G7G9
+BuLvE56kVR9YJMQKfgbtYZ5QKIEJNSDPcLXYV1/Ip//opcEkswaXW0u3B5bWGvv8u+9OLJaztg+T
+9SKnIrSG9RHQ74ir2+7Kf7csKiMwt51UZoJ4m9pXtkxTUgQ9SZC7P0VXRgQY8RG0/dlyqB0Ym650
+WLEpLMyAAXEhAyXD5JUxdMjP04lyw40fJOdvN30u+2T0DCAs65T5K3jCmq9lGPT/xlM+xqXw+fnT
+/ZWVXAqA3wa8QYhJgn5EQpYDqFBqraGkOg==
 
 -->

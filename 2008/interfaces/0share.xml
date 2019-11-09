@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://0install.net/2008/interfaces/0share.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>0share</name>
   <summary>peer-to-peer sharing of Zero Install packages</summary>
@@ -11,7 +11,7 @@ Before downloading a package over the internet, 0launch can check to see if any
 nearby machines have a copy, and get it from them instead if so. This will
 normally be much faster. The secure hash from the feed is used to check that the
 software hasn't been modified.</description>
-  <homepage>http://0install.net/0share.html</homepage>
+  <homepage>https://docs.0install.net/tools/0share/</homepage>
 
   <category>Network</category>
   <needs-terminal/>
@@ -24,7 +24,11 @@ software hasn't been modified.</description>
 
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAklX8ksACgkQrgeCgFmlPMHvGACgyCxs5wWU1tVDjBec6MLEPcc1GHEAniqic1tT
-40Ffj468VjVRq2l2bt2v
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl3GnWAACgkQBxM/lsp02Lo7zgf/Y71D
+x6g2hCo8HJLWf0bbP+lOcM4taB3BDwTrox6NmZ+jUhCHo5rT34V2idQYuBio8isqUEep6j0mYBhc
+jqkOW8FaR5M6Ukmpbq2NlhC9+51FRKjOBjjc98gBRSeRXN7ZfACZb7WhQ8YWUheOgrEsbmsfYgTH
+7wXqvpCRQuY85NUhVCasxAPD0IAH1+a1Q6mmb4bUUzzL3NKQXybFJxKRwfWddVuCsxQp62oAFoUh
+9/dBivpHEtRElTtZ3RsYUcnfh2EsFLLIm/OaxsG3sgSpXpVYgrzvBmyoCNxZp0+VCMM37VX+Uyvx
+XtSa0rk9tuynld+Xb2loPEFsnPGLNoDycQ==
 
 -->

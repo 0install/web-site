@@ -1,12 +1,12 @@
 <?xml version="1.0" ?>
-<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://0install.net/2006/interfaces/GTK-dev" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile">
   <name>GTK-dev</name>
   <summary>headers for compiling GTK applications</summary>
   <description>
 These are the GTK header files. They are required when compiling applications
 that use the GTK+ library.</description>
-  <icon href="http://0install.net/2006/icons/gtk-logo.png" type="image/png"/>
+  <icon href="https://0install.net/2006/icons/gtk-logo.png" type="image/png"/>
 
   <group compile:lib-mappings="gtk-x11-2.0:0 gdk-x11-2.0:0 gdk_pixbuf-2.0:0">
     <implementation id="sha1=c56e3783e3b62b329216bde10a4f72e0f530d19b" released="2006-04-01" stability="stable" version="2.4.14">
@@ -58,7 +58,11 @@ that use the GTK+ library.</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlEwlnwACgkQrgeCgFmlPMEc2QCfSZah+Ur+vN5WN/Xhzmup7kiSLwQAn180EOIE
-K+8LuUIveMDAoZWhikjt
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl3GnWIACgkQBxM/lsp02Lp/9QgAiCDW
+5phXm99scHlAX26C+Q59qaOyd8AAeovcNUpbxqdKgRw93hFODavj/UdUeklyH0gydy0yuR9670Tx
+jjZCMZAnGOfLX3EjHyF/Nl5RHjAS7z15HzX2eY9J+QEpUuLDaeX0VwWY6eL4z1iPxLgdSTKTkgKw
+/koKSZ0wF5l0ENwyTTir0XIgeEZIiIMdAMZl9u2nvcMfhLzbVTuzbXtQvbz4qXDRCdJx4shn/bEb
+/RpPpA3q2kaGmnrU1gSh8mgRghYkXhhhG9OQn3uSKaFWlZjgTIsN3U9K94M0MnS876XSwFkPbagV
+2hJSUf5/Gd+Y6r3E/3u0et3Q6otlKmsxUw==
 
 -->

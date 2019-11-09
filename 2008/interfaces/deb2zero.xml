@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://0install.net/2008/interfaces/deb2zero.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>deb2zero</name>
   <summary>create Zero Install feeds from Debian packages</summary>
@@ -11,7 +11,7 @@ manually (e.g. using 0publish or 0publish-gui). However, Debian packages already
 contain much of the required information. This program extracts the information
 in an existing Debian package and uses it to generate the feed.</description>
 
-  <homepage>http://0install.net/deb2zero.html</homepage>
+  <homepage>https://0install.net/deb2zero.html</homepage>
   <category>Development</category>
   <needs-terminal/>
 
@@ -51,7 +51,11 @@ in an existing Debian package and uses it to generate the feed.</description>
 
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlEwk8kACgkQrgeCgFmlPMGtKwCcDe29GhuKODa9qRiDqmPTxESccigAn3XPc8mk
-BdnVeM45PMCJFaQGTpHY
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl3GnWAACgkQBxM/lsp02LqX2ggAq4TV
+of2Dr/KAcxnKTxwQpZakdA7ReLth20Dj6dnCrg+FId7QYhj2JHAngpBPS7UiyZwkSYSgS0Wb3LsP
+lmYkpV5lP+rFwLvfTgMpRjU+pYliHu1vebvYyF8ma+3d983HZAq//PeiZT8akGhwhv22wQFWSr9q
+1xPS/kcZkOvUh6I1yJUJReoui5l0tjEniuFKVzyfmqEJ2F8w9rkupw9HNAzLfC3Kr8a28nZkpsoc
+wCTOsgfklJClhPsgte7Vaa7Xy7JPCtkuhkBOfsQjGp85GrUcuX3Rm19gj/Brpc7L3w1jiFUSdxb0
+wIErbkPuG//g7NLuOD0WAL+SZdO9Vb8mtg==
 
 -->

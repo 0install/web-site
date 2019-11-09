@@ -8,7 +8,7 @@
     package to creates a .NET launcher application.
 </description>
 
-  <homepage>http://0install.net/</homepage>
+  <homepage>https://0install.net/</homepage>
   <category>System</category>
 
   <group license="OSI Approved :: GNU Lesser General Public License (LGPL)">
@@ -37,11 +37,11 @@
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJRkLPJAAoJEAcTP5bKdNi6LGsH/3h0wQeUhNqa14i/4nbolOWCgHWugefVYnum
-fUyW36KsRANgg6z5RbBlis6y+ydwE05WTsOI1H5V9gutyDv7YEXDrw7pvZ1o7hTbhUfNi/DfIX60
-RSwxUIW5RBCCrq0ABc7lPhRNRTK5q0OCo+bTh5rNd1LOeDJ/BYgaxs0jBanCg9cGh+OJM3yOtsqY
-yskYVGwV5KDx+JFl8KpuuMqokWHBXVGSLQlBFDNJ+PCZlKcpXVvBB/eWcyfFA7xq9/It3kXUPdZs
-DOUg/kmWuOsptrZfbGZJT+rlmw2Xo6saZzi1pWrhJOtXb6ySuhjXC8hainUHyWejQqOwq8T92GBs
-Jt4=
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl3GnWAACgkQBxM/lsp02LoSCwf9EDOz
+S+yeuuQJWVgFUGqhYtjrOSs/SRmN8yYLuhMr2dwph119A69XHEX24gFnzaV58NAk89R4wypIr1JE
+ejJmMfBY1eCB70dBtGYNydcmkD3RkNHBluwJtXGFzhzYERbgSJoKHtjPjBt19Zcb5KE0i5zFEgdt
+cG7xrvuxHnF8hbJxBA6y7qFoo+8Giq0WY1FOtUuGqVl2P5drcgXHKtyc3tSfX7Urdm6xR7fdzzLu
+TOYYWZceZ1AZ4DlpLz2vBYDa9gHenY6y01apcILvpwW+9MVWVndorMhoTdHyoe0vTGKm/hZCeT4G
+PKELNsj152XDqg6hadE6ypvRVYCaV3SsqQ==
 
 -->

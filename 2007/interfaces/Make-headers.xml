@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://0install.net/2007/interfaces/Make-headers.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>Make-headers</name>
   <summary>creates -dev packages</summary>
@@ -9,7 +9,7 @@ Given a standard autoconf source package (in $SRCDIR), this script builds it
 shouldn't be in a -dev package (.so and .la files, etc).
 
 It also edits any pkg-config .pc files to use a relative path for the prefix.</description>
-  <homepage>http://0install.net/make-headers.html</homepage>
+  <homepage>https://docs.0install.net/tools/make-headers/</homepage>
   <category>Development</category>
   <group license="OSI Approved :: GNU General Public License (GPL)" main="make-headers.py">
     <implementation id="sha1new=e64b1263a6ea31faa0d52de0b995538d8e548154" released="2007-03-04" stability="stable" version="0.1">
@@ -24,7 +24,11 @@ It also edits any pkg-config .pc files to use a relative path for the prefix.</d
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlEwmqYACgkQrgeCgFmlPMEmAQCfYJvBx5YR1fr7TXP7dqdwgWylNdQAn322lyHD
-Qw4E9eF+lq7jKaNgFxi5
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl3GnV8ACgkQBxM/lsp02LrGgQgAo/Os
+f/zbRql7drjAL2Hhw3+KX5g/wjyVjv6CyT3piGH9/TNMsp0T2clibAjFu0XTNGZhjPfqG7QoC/E4
+5nhkDRkgpDjMOqRmC9DJrp6hOwCq+1aferl+Jo74sax9k3PPr7xCvdfV9J6ggETMEyW9IHgMOvG7
+lz8P165utsbzMivQbRahoNxji/Gt64DH0RppDX5wnxH9f5HmI95UlcdFOc7/SmzAESIbVE0bwXyT
+u0zVgscG1Fmzk1tUleCG3HCrWPTLFFFFe63adElfqB/JY630dG9fubJcC5mAZzZjh+sojrS9xgcc
+O0Z8DzNYdBajeoXyU5HESgihiNhwRzWkGQ==
 
 -->

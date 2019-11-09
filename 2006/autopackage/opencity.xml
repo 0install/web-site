@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://0install.net/2006/autopackage/opencity.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>opencity</name>
   <summary>OpenCity Simulation Game</summary>
@@ -11,7 +11,7 @@
   really meant it &quot;my spare time&quot;!
   </description>
   <homepage>http://www.opencity.info/</homepage>
-  <icon href="http://0install.net/feed_icons/opencity.png" type="image/png"/>
+  <icon href="https://0install.net/feed_icons/opencity.png" type="image/png"/>
 
   <group main="bin/opencity">
     <implementation id="sha1new=e6b90b17e33288d39b221873b18afaf34355b5c3" released="Snapshot" stability="stable" version="0.1">
@@ -20,7 +20,11 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iD8DBQBGYq0lBSn9tx+xORARAmWJAJ9tHJsabYLaPYSBKWMXzoRY5oy4wQCfUUSqwyvrg4jFgD76
-856ao5CJ1sE=
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl3GnWIACgkQBxM/lsp02LqtEAf+JEde
+/kkHOs/ALcPiqxTD1aSFdZRvotORo8vBgV2stEJHfYLmaK/amP4Tm/lY1ag01+pyoVdcP0n3iP6V
+CulktEGD7FiOhALqi83d4RRVuSsUmVaPzi1AQzcIrRZmqH7HSSWASu3CRCJBELw3D9+6AM3Kte5+
+a7VgaUSf3B0KaHWwywwMaBUwM8JeakxVDva0J36IGqDJxWYQwtoKFtmbyZcgG26xea75NKZOmd8E
+L0acOTohbKmfd0IWjuJo3uxNPDOgTpdz2LzI8aK91helJDLvTcLTiCGTOGo/HF4S/U7G0jaSuJWo
+JlkCJgXAMtPKMpAzXAL3LCYYCU8xv9yzLw==
 
 -->

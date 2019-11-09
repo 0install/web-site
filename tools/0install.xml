@@ -13,9 +13,9 @@ replace, the operating system's package management. 0install packages never
 interfere with those provided by the distribution.
 </description>
 
-  <homepage>http://0install.net/</homepage>
+  <homepage>https://0install.net/</homepage>
 
-  <icon href="http://0install.net/feed_icons/ZeroInstall.png" type="image/png"/>
+  <icon href="https://0install.net/feed_icons/ZeroInstall.png" type="image/png"/>
   <category>System</category>
 
   <release:management xmlns:release="http://zero-install.sourceforge.net/2007/namespaces/0release"><!-- Update the copy of the version number -->
@@ -508,11 +508,11 @@ interfere with those provided by the distribution.
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAlzbF3gACgkQBxM/lsp02Lrgcwf/W9WY
-eNws8go5WuTKZPyx56rr8MCySGvMbzkz6ExYYTfuTa1KMg3Qx2DwuZUCwoqh5YSRP7uk/I35orV3
-EfNrLgHpEjlWSSZGZPhFGu65wa5IuhX5FO1G7W2KsOX4BLUWHGUl59ILSgN4/lgve6APPrzSxm60
-rxu0D0RSTMInqH91dy+9SoF5IaQcyYVqLGf4rVjVkNPfg7YL9q1oMz1omwwOFLWWFcW01AnBkIBO
-fUXM3ZJGveUNSLwF8NZz7egcyu5X4V5c2ls5ov0OzHcFu76q7hM4qhchzosj0Sn8PCU+mq5uPpNJ
-ISvFEK0M1DPui3RsoweBqooicgJeY56AvA==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl3GnWEACgkQBxM/lsp02Loyogf/UfLa
+OYLIsGjG5wIgMaYsa0z0G9yRjwKLnJv6KGTQNwKbNnNTX0gQ2gy4fAgVxvwnEQpRpR7mIpRFkJq4
+vS00wrLe7zuCvR7pFukGcVcCKjUtABB1soxN/Q0WSofM1pc58kZfVM5VAMeqzAI24XEsPsXo/Ou9
+0hqL7+eIE5wYJcfbelgA1agV+pZzkD4HjG/jvJZYBgpBUyucBhvjshRI8h02UuilPr/pG5Z7qGaz
+VX1zl3GIAVKfGo8aqsYNwIQb3HFQVb2QNwsKizVegYgpOxGT3HWMLz4/SdlKwTvV29hOvInMpsdi
+uDNEEydRbErt2fsVrot0FjyvjSawajRRPA==
 
 -->

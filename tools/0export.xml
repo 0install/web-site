@@ -18,7 +18,7 @@ program.
 Unlike the bundles created by the related zero2bundle program, programs
 installed using setup.sh are added to the Zero Install cache and are therefore
 still shared between users, and will get updates over the web where possible.</description>
-  <homepage>http://0install.net/0export.html</homepage>
+  <homepage>https://docs.0install.net/tools/0export/</homepage>
 
   <release:management xmlns:release="http://zero-install.sourceforge.net/2007/namespaces/0release">
     <!-- Update the copy of the version number in the main program -->
@@ -100,11 +100,11 @@ still shared between users, and will get updates over the web where possible.</d
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJSNt9nAAoJEAcTP5bKdNi6VqkH/jA1NzXoPmk4pQrLoaQ0UgAXN38xf2Ajw4WB
-P0FYkvb56Lze6E2/IWNouXWxzcFy1tYzeyIHOqyeCCESWMkHHx9aPpV1h5hjecZZUSn//CMXNzYu
-ooGO1SLYg/uxAmuIO6WGsyBxtwRKC5nhWvQdcGtC3D5TCjqoxVCNPHq1QGVW6VeG3ZwbZvQcKWW2
-xk/9fVmM+5eajMWCkP6N4Dyz8qeSb+XCp+L+WvQUzhON6POObo6eYB1yQrFqWJ5POgVpF7eY12do
-RBjrTSBCwP6BdMWpCdAZQdXZKDSFFfsfKwHqvAGnSdFFJfptJJrxWgGNX0Zrh4U5vZnMcY50pWuX
-F8U=
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl3GnWEACgkQBxM/lsp02LrZGQgAjjM7
+VARjz3wzB6w3OUHnHO9Jfs5AbEwGPyvKmRX/zRKt+fnpF7ZbMtG0ymggixeUqVW8sHrcD2ojxNsE
+MW1ORb8zyuFxTlPv476NXf0jlGWBPyF0KvnwHNFs5lFOZkcGayHqiGbt2nkciEJA0KsWrHyRIBrU
+u+awgowsO36kg6SjA3EHYZtcqWlVX6/WjdD/ftO/JXpkkDzfW3AOocuzIKCDX8ftg0UJqKcYwBLj
+QyC5NjGZIZQzA/zCzm6F/gsJf1Ut6VxhgGzdJK5hBiBBxev5CQ3eFQEntgk1/zvjCyedt0WzwKuY
+S16kQdHg3csQYmIC4g2SA7WvibgDlP+jvA==
 
 -->

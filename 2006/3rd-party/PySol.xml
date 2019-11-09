@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://0install.net/2006/3rd-party/PySol.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>PySol</name>
   <summary>a collection of more than 200 solitaire card games</summary>
@@ -21,7 +21,7 @@ General Public License.
 PySol is written in 100% pure Python</description>
 
   <homepage>http://www.pysol.org/</homepage>
-  <icon href="http://0install.net/tests/pysol.png" type="image/png"/>
+  <icon href="https://0install.net/tests/pysol.png" type="image/png"/>
   <category>Game</category>
 
   <group main="usr/share/games/pysol/wrapper">
@@ -31,7 +31,11 @@ PySol is written in 100% pure Python</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAkl7ICkACgkQBSn9tx+xORA+sACfYtleZ0K9j/AAZNBOnjQSAuwALgQAoJpXMvfL
-QSXpmo/jEPnb91TC0Nn5
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl3GnWEACgkQBxM/lsp02Lp+Ngf+MT7a
+GN/CKsx9Ebafdy7GhFqvR/K28M8kTrNCqrEc1EYKHFb3mTZrI0gfPt/BsHTqRFklTNUS4Bs7pcEg
+6hFra/l8TIgtvq/LAWTZQTDEb2wQ4RLT1bwqK0P666BRNjUdWlYKUZORgdYJldjqrd06IeR6hEwr
+HnGiFd3zRQvy/u3k29aTcAGU6m0uu6nmUFrnxp3akNPL54WJlvHGrqpHseY9TLE4d2kr4V+n1AUD
+cJdXLO8ni4iaBcXIuCyHDFN0BFV+m7MEWXAti2wplr3/okl6Jwh9H/C8d/osYZu/vKYvHx8kzKi4
+nLNa8Lr2utQDb8LgCJoP4U04Nd3MJcyXQw==
 
 -->

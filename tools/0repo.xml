@@ -9,7 +9,7 @@
     a web-server, or as a service which accepts signed updates from a group
     of developers.
   </description>
-  <homepage>http://0install.net/0repo.html</homepage>
+  <homepage>https://docs.0install.net/tools/0repo/</homepage>
 
   <release:management xmlns:release="http://zero-install.sourceforge.net/2007/namespaces/0release"><!-- Update the copy of the version number in the code -->
     <release:action phase="commit-release">sed -i &quot;s/^version = '.*'$/version = '$RELEASE_VERSION'/&quot; 0repo.py</release:action>
@@ -130,11 +130,11 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl1vfscACgkQBxM/lsp02Lr9WQf/X9h2
-/DmxRf+i4ipnP5HXCEcnjJZqPX1BTZ4E17YUIx//6ZCyIWReFhaodzarRdf0Cvna7RdShe8tHl4w
-iHkFvBksuN3PyBAjQ6VTBwo9Vd9BU+tZBdZMhrTU5+1uZjX2ekCBjfzgMAaTOCmVawgMtI0R9DUS
-EPvznHK0FRgrNtHKPTkmeba3nuJ/qtlLLMSwcDgwmH0QIJkiHikU/E5C6xl3LzlQKnN5pzko1isZ
-agLwbKLjusvtcG9pq3SyLuJMsDWp9hAeDIwYsWffs7aSg15S9STKMD8YMDvdZ5GGZczdxF9kBU0R
-ECvRvucb8HWvOj8wMA8jiX1JNMPZgubEyQ==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl3GnWEACgkQBxM/lsp02LriYwgApUPW
+W0RJVhKjqnuimC1Emb1vo0FHRT6H7PYXkuwPTWbu2/jca1grRxiwcax9OpZ90y88cvsI6oJf8pgM
+pig2BE9ZygWXpgTv8R6wQS1e+mmamgQRmF6I9dkAdzBjxTWSNEPG0bDYiYUxA0OXr6l6uKvm663/
+LIV3Q4tiShreTC3LvVbCglRSUr7eRTDXihVO9vytyi5mGTJ7LyyF8ULg1V/Rm30e6hBjYI8b/OwH
+oaqlrCy/ujBcwfKyhbf7CJtd7tcrObbCJ6laE+ykw04s3SMK/lyJ7JmWPHVChNEjDQOmOEIoykk+
+tj7MhmR2mJSVKL1nX7u7K8qN3kdUcc+iIQ==
 
 -->

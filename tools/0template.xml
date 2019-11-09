@@ -8,7 +8,7 @@
     fills in the place-holders, and then fills in everything else it can. For example,
     it will download the archive, fill in the size, calculate the digests, etc.
   </description>
-  <homepage>http://0install.net/0template.html</homepage>
+  <homepage>https://docs.0install.net/tools/0template/</homepage>
   <needs-terminal/>
 
   <release:management xmlns:release="http://zero-install.sourceforge.net/2007/namespaces/0release"><!-- Update the copy of the version number in the code -->
@@ -83,11 +83,11 @@
   <entry-point binary-name="0template" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAlzBU2EACgkQBxM/lsp02Lq1LggAoS1F
-hNTELHs2FMZZKbO9PS1UxaR6LDVz6LK202uyvtUSxflJWDrTNA68l0dWetDMTiUr1NL5CP9SbEXy
-HscUMZRx5sYH7GibWON6E5/QhRRnGpiPQv1QQFNYR24RCwf5qcP5q0lF5oTLOy1q3OkWaGLhMDWB
-ua/+sjcfJlV+ge6fdb44gCu0C0+IfrolXnQWMrSvA3gEkTzCuwO0gmVJo2tcvEe089hOhJGfYJfR
-IoevlUIz248Hg1tc86Z3AcoEEaHhLWIeMWU/9ZcSzW+/X6qhfT38mHstGg2YD+ZOIgCFHDZpsbnj
-rwH3RadpxCsaD9696KD5O0UQP11pPxouTQ==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl3GnWEACgkQBxM/lsp02LrQ0Qf/TWm0
+z8hrZak09lM7AB0GumR08+hvWEu9BgACuXIrbAQYJUJDOC1+xBg1VIj1C7DCkbui7tMHg+0tQluM
+buvjYrsNmzs0rQQduA3dyXNLv/p38ayqjzSjr8s0zO7z/7tjmfPRdpb3TjoKtbH/8IRTAe3h3FAw
+ouHV/hcGtvMzVCRZMRLpC/LSB15r4u1q+KbfHvQVDBh/HdpkjGGrTld9uWMaNiwZVXHClhsgMDEU
+tKukse446C0Un7EBZa2m3pgnU7nP0ymMlAQqHRj4yXTS1AbmpROyudVreovLLiNnIBInmOJhUa0R
+6ULTz1+G73g3dtgACr2z51OkaZONKtFcRg==
 
 -->
