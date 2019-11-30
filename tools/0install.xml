@@ -500,14 +500,6 @@ interfere with those provided by the distribution.
       <manifest-digest sha256new="XXKHDU7T6GMYXXSUSEJ5N5PTDA7ZTSMBIQTPITBLEWSPJDYK54RA"/>
       <archive extract="0install-linux-armv7l-2.14.1" href="https://downloads.sourceforge.net/project/zero-install/0install/2.14.1/0install-linux-armv7l-2.14.1.tar.bz2" size="4156509"/>
     </implementation>
-    <implementation arch="Linux-x86_64" id="sha1new=fb0296884fc4b63072bbe8adfb7c46c1d00e5e4b" released="2019-11-30" version="2.14.2">
-      <manifest-digest sha256new="7AU2PMIG3AJ5CKQHFG4ZMAUEZULYFFNFZRLL5DCMZCWKENDVDEBA"/>
-      <archive extract="0install-linux-x86_64-2.14.2" href="https://downloads.sourceforge.net/project/zero-install/0install/2.14.2/0install-linux-x86_64-2.14.2.tar.bz2" size="4236840"/>
-    </implementation>
-    <implementation arch="Linux-armv7l" id="sha1new=a132a3c4e5981dff6c346d5c80133caf5caaf742" released="2019-11-30" version="2.14.2">
-      <manifest-digest sha256new="RSLGP36WI653CCXZCFVTT76FDNCS4KQ2TBRQ34BE6PDJOZHIFWGQ"/>
-      <archive extract="0install-linux-armv7l-2.14.2" href="https://downloads.sourceforge.net/project/zero-install/0install/2.14.2/0install-linux-armv7l-2.14.2.tar.bz2" size="4141866"/>
-    </implementation>
   </group>
   <group>
     <requires interface="http://repo.roscidus.com/security/gnupg">
@@ -520,11 +512,11 @@ interfere with those provided by the distribution.
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl3ieYkACgkQBxM/lsp02LozNQf/Y5Oz
-Ks2lKWP4a/GziKYHJXuRUpsnoivwA6Xz7qGfae9jsAAhshRrWwDmS+da5T68TG6HU4BM5h0H/fGw
-gLfv1LsyElxYw6nCsL/4/MjuphKZ+CaEhk6VwsuKK5MeEGdcjScm+oWS0A5rKTF4YZhbW1evU3Gs
-2BFVXBj0/WPYpgsW2Lo74OpYvOPywcy/adV7z13J3ClmRWLo+zy7IbvnHtN/HdQGiFTSLZdfZZ7x
-2u51FzDs6/UaQskJ6CwESEBDnynfuI9H9YqrLvU2Sr8RbaIMFJ/lf3lc6SZ4aJGpLiIRPhfjlDZn
-M3Se2TPDHuPlXmilktgcLhR/FXOzi7zLxA==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl3igzQACgkQBxM/lsp02Loz3wf+P0Wo
+LA4bXuTT3+eKg3zqwsm7S/eFhG11TxdgkE/rew4b5bJ9wyv129YO+amCcwXD4WuD9oePUkD/4jT1
+uy6L63PBEWf973Ar2yKi6cuEVYwlqQs66YBc86eCLYjoR1VRPwHLOmovsdnYyG5+U6uVnJvRtcNP
+mBSEqkoSTmDQzJFbjrJtiRlCgLn5wMzmKHtZvMX/tkObxcjjO2Lq3BSOQyahrk0rD5rB/yaCZFAh
+76ojUr7iDT1LmX77exTPR3dQhnHpQCWoAPQPPrWAW7JHKDzLcVcgNbOBThWJPC8E2vwXBdT2uaC2
+xJuSTUfXncgym4wBaf3nqthVVn6NC3fRyQ==
 
 -->
