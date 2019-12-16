@@ -194,9 +194,13 @@ interfere with those provided by the distribution.
         <manifest-digest sha256new="6XNUNKEYXVRUGBOL7LY65CY3BEOHT5RTLMLDHXQC6RZAPEYXFJJA"/>
         <archive extract="0install-2.14.1" href="https://downloads.sourceforge.net/project/zero-install/0install/2.14.1/0install-2.14.1.tar.bz2" size="446211"/>
       </implementation>
-      <implementation compile:dup-src="true" id="sha1new=06bf13d4567b46d09b620d5b59aeef1f15a0a3b0" released="2019-11-30" version="2.14.2">
+      <implementation compile:dup-src="true" id="sha1new=06bf13d4567b46d09b620d5b59aeef1f15a0a3b0" released="2019-11-30" stability="stable" version="2.14.2">
         <manifest-digest sha256new="B4LBKKCZOIA4FCQ3K7TOPVMFTAZKEBVA73X5MBLCOP4UZOEODZGA"/>
         <archive extract="0install-2.14.2" href="https://downloads.sourceforge.net/project/zero-install/0install/2.14.2/0install-2.14.2.tar.bz2" size="446092"/>
+      </implementation>
+      <implementation compile:dup-src="true" id="sha1new=271d3924bd59fcc23a20b3f8ebed72066b71cbad" released="2019-12-16" version="2.15">
+        <manifest-digest sha256new="3ZLN2ULHL55HJ24CUZ2EYGKK5HS44YXOGJOZ4ELVUGZ6LN6IY5EQ"/>
+        <archive extract="0install-2.15" href="https://downloads.sourceforge.net/project/zero-install/0install/2.15/0install-2.15.tar.bz2" size="452445"/>
       </implementation>
     </group>
   </group>
@@ -500,6 +504,14 @@ interfere with those provided by the distribution.
       <manifest-digest sha256new="XXKHDU7T6GMYXXSUSEJ5N5PTDA7ZTSMBIQTPITBLEWSPJDYK54RA"/>
       <archive extract="0install-linux-armv7l-2.14.1" href="https://downloads.sourceforge.net/project/zero-install/0install/2.14.1/0install-linux-armv7l-2.14.1.tar.bz2" size="4156509"/>
     </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=b29baf5e72af9b9a4f523102a241a02135aaa8da" released="2019-12-16" version="2.15">
+      <manifest-digest sha256new="HH22R3BLXQUNJN4743NHAMUCMOCRGP2IOGTFDG5MRINZZNAOA4NQ"/>
+      <archive extract="0install-linux-x86_64-2.15" href="https://downloads.sourceforge.net/project/zero-install/0install/2.15/0install-linux-x86_64-2.15.tar.bz2" size="6907109"/>
+    </implementation>
+    <implementation arch="Linux-armv7l" id="sha1new=7f881d8ee475bc61b16cf164ac4a79377c83a0e3" released="2019-12-16" version="2.15">
+      <manifest-digest sha256new="N3UETIFZL5JUAVGIV45U4FGEJBCXYEMXMEKHJUMGQ5T3BPGK4ZDQ"/>
+      <archive extract="0install-linux-armv7l-2.15" href="https://downloads.sourceforge.net/project/zero-install/0install/2.15/0install-linux-armv7l-2.15.tar.bz2" size="7047804"/>
+    </implementation>
   </group>
   <group>
     <requires interface="http://repo.roscidus.com/security/gnupg">
@@ -512,11 +524,11 @@ interfere with those provided by the distribution.
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl3igzQACgkQBxM/lsp02Loz3wf+P0Wo
-LA4bXuTT3+eKg3zqwsm7S/eFhG11TxdgkE/rew4b5bJ9wyv129YO+amCcwXD4WuD9oePUkD/4jT1
-uy6L63PBEWf973Ar2yKi6cuEVYwlqQs66YBc86eCLYjoR1VRPwHLOmovsdnYyG5+U6uVnJvRtcNP
-mBSEqkoSTmDQzJFbjrJtiRlCgLn5wMzmKHtZvMX/tkObxcjjO2Lq3BSOQyahrk0rD5rB/yaCZFAh
-76ojUr7iDT1LmX77exTPR3dQhnHpQCWoAPQPPrWAW7JHKDzLcVcgNbOBThWJPC8E2vwXBdT2uaC2
-xJuSTUfXncgym4wBaf3nqthVVn6NC3fRyQ==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl33q7oACgkQBxM/lsp02LqJ8ggAociT
+NMci4f5WzYKjn/2A4LhN3DHgGtpTDgXqWZ+5QDTY0Q++CxlJCzgqncLwhTUvvWJsXL6U6os50jmb
+HdTAfrf5UYff1VCU4QAM0kLnBEefPfbYT5mnOOUjChY91nmDTx9TcErV73Y0q+cqmJDoV3Mau0Pm
+F8KWvgYl+v5k+JP7/UE/VDP1+w3u0i8c5tGvAaJTv+xIBfrrPR8tQqjFB8mHG+lwAP5K43btVWm0
+ICtAHO64r3D7SC2l0PI9JD2plQHpr3GaR2YMfzTq1Gr0RajDypMGBs3GvMrWV/SOWDvxbV3crJ8C
+0q9rFvKXcNdvJkNF3TX0hh4DpcUzXOKWSg==
 
 -->
