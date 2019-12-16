@@ -37,5 +37,10 @@ function updateTabs() {
     }
 }
 
+function copy(id) {
+    $("#"+ id).select();
+    document.execCommand("copy");
+}
+
 $(window).bind('hashchange', updateTabs);
 $(function() { updateTabs(); });
