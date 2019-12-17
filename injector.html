@@ -61,7 +61,7 @@
               <div class="alert alert-primary">
                 <h5>
                   <i class="fas fa-terminal"></i> Shell
-                  <a class="float-right" title="Copy to clipboard" href="javascript:copy('linux-generic-shell');"><i class="far fa-copy"></i></a>
+                  <button type="button" class="btn btn-link float-right" title="Copy to clipboard" onclick="copy('linux-generic-shell');"><i class="far fa-copy"></i></button>
                 </h5>
                 <code>
                   <textarea readonly style="resize: none;" class="form-control-plaintext" rows="2" id="linux-generic-shell">curl -L https://downloads.sourceforge.net/zero-install/0install-linux-x86_64-2.15.tar.bz2 | tar xj
@@ -77,7 +77,7 @@ sudo 0install-linux-x86_64-2.15/install.sh local</textarea>
               <div class="alert alert-primary">
                 <h5>
                   <i class="fas fa-terminal"></i> Headless/server install
-                  <a class="float-right" title="Copy to clipboard" href="javascript:copy('linux-ubuntu-headless');"><i class="far fa-copy"></i></a>
+                  <button type="button" class="btn btn-link float-right" title="Copy to clipboard" onclick="copy('linux-ubuntu-headless');"><i class="far fa-copy"></i></button>
                 </h5>
                 <code>
                   <input type="text" readonly class="form-control-plaintext" id="linux-ubuntu-headless" value="apt-get install 0install-core --no-install-recommends">
@@ -86,7 +86,7 @@ sudo 0install-linux-x86_64-2.15/install.sh local</textarea>
               <div class="alert alert-primary">
                 <h5>
                   <i class="fas fa-terminal"></i> Older Ubuntu/Debian versions
-                  <a class="float-right" title="Copy to clipboard" href="javascript:copy('linux-ubuntu-legacy');"><i class="far fa-copy"></i></a>
+                  <button type="button" class="btn btn-link float-right" title="Copy to clipboard" onclick="copy('linux-ubuntu-legacy');"><i class="far fa-copy"></i></button>
                 </h5>
                 <code>
                   <input type="text" readonly class="form-control-plaintext" id="linux-ubuntu-legacy" value="apt-get install zeroinstall-injector">
@@ -97,7 +97,7 @@ sudo 0install-linux-x86_64-2.15/install.sh local</textarea>
               <div class="alert alert-primary">
                 <h5>
                   <i class="fas fa-terminal"></i> Shell
-                  <a class="float-right" title="Copy to clipboard" href="javascript:copy('linux-fedora-shell');"><i class="far fa-copy"></i></a>
+                  <button type="button" class="btn btn-link float-right" title="Copy to clipboard" onclick="copy('linux-fedora-shell');"><i class="far fa-copy"></i></button>
                 </h5>
                 <code>
                   <input type="text" readonly class="form-control-plaintext" id="linux-fedora-shell" value="yum install 0install">
@@ -111,7 +111,7 @@ sudo 0install-linux-x86_64-2.15/install.sh local</textarea>
               <div class="alert alert-primary">
                 <h5>
                   <i class="fas fa-terminal"></i> Shell
-                  <a class="float-right" title="Copy to clipboard" href="javascript:copy('linux-redhat-shell');"><i class="far fa-copy"></i></a>
+                  <button type="button" class="btn btn-link float-right" title="Copy to clipboard" onclick="copy('linux-redhat-shell');"><i class="far fa-copy"></i></button>
                 </h5>
                 <code>
                   <input type="text" readonly class="form-control-plaintext" id="linux-redhat-shell" value="yum install zeroinstall-injector">
@@ -125,7 +125,7 @@ sudo 0install-linux-x86_64-2.15/install.sh local</textarea>
               <div class="alert alert-primary">
                 <h5>
                   <i class="fas fa-terminal"></i> Shell
-                  <a class="float-right" title="Copy to clipboard" href="javascript:copy('linux-suse-shell');"><i class="far fa-copy"></i></a>
+                  <button type="button" class="btn btn-link float-right" title="Copy to clipboard" onclick="copy('linux-suse-shell');"><i class="far fa-copy"></i></button>
                 </h5>
                 <code>
                   <input type="text" readonly class="form-control-plaintext" id="linux-suse-shell" value="yast -i zeroinstall-injector">
@@ -139,7 +139,7 @@ sudo 0install-linux-x86_64-2.15/install.sh local</textarea>
               <div class="alert alert-primary">
                 <h5>
                   <i class="fas fa-terminal"></i> Build from source
-                  <a class="float-right" title="Copy to clipboard" href="javascript:copy('linux-arch-shell');"><i class="far fa-copy"></i></a>
+                  <button type="button" class="btn btn-link float-right" title="Copy to clipboard" onclick="copy('linux-arch-shell');"><i class="far fa-copy"></i></button>
                 </h5>
                 <code>
                   <textarea readonly style="resize: none;" class="form-control-plaintext" id="linux-arch-shell" rows="4">pacman -Sy opam make m4 patch unzip gcc sed awk grep diffutils curl pkg-config which
@@ -172,7 +172,7 @@ eval $(opam config env)</textarea>
               <div class="alert alert-primary">
                 <h5>
                   <i class="fas fa-terminal"></i> PowerShell
-                  <a class="float-right" title="Copy to clipboard" href="javascript:copy('windows-legacy-powershell');"><i class="far fa-copy"></i></a>
+                  <button type="button" class="btn btn-link float-right" title="Copy to clipboard" onclick="copy('windows-legacy-powershell');"><i class="far fa-copy"></i></button>
                 </h5>
                 <code>
                   <textarea readonly style="resize: none;" class="form-control-plaintext" id="windows-legacy-powershell">Invoke-WebRequest https://0install.de/files/0install-net20.exe -OutFile 0install.exe
@@ -189,7 +189,7 @@ eval $(opam config env)</textarea>
               <div class="alert alert-primary">
                 <h5>
                   <i class="fas fa-terminal"></i> PowerShell
-                  <a class="float-right" title="Copy to clipboard" href="javascript:copy('windows-current-powershell');"><i class="far fa-copy"></i></a>
+                  <button type="button" class="btn btn-link float-right" title="Copy to clipboard" onclick="copy('windows-current-powershell');"><i class="far fa-copy"></i></button>
                 </h5>
                 <code>
                   <textarea style="resize: none;" readonly class="form-control-plaintext" id="windows-current-powershell">Invoke-WebRequest https://0install.de/files/0install.exe -OutFile 0install.exe
