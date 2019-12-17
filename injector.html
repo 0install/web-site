@@ -59,9 +59,12 @@
                 <a class="btn btn-outline-primary" href="http://0install.net/tools/0install.xml"><i class="fas fa-history"></i> Specific version</a>
               </p>
               <div class="alert alert-primary">
-                <h5><i class="fas fa-terminal"></i> Shell</h5>
+                <h5>
+                  <i class="fas fa-terminal"></i> Shell
+                  <a class="float-right" title="Copy to clipboard" href="javascript:copy('linux-generic-shell');"><i class="far fa-copy"></i></a>
+                </h5>
                 <code>
-                  <textarea readonly style="resize: none;" class="form-control-plaintext" rows="2">curl -L https://downloads.sourceforge.net/zero-install/0install-linux-x86_64-2.15.tar.bz2 | tar xj
+                  <textarea readonly style="resize: none;" class="form-control-plaintext" rows="2" id="linux-generic-shell">curl -L https://downloads.sourceforge.net/zero-install/0install-linux-x86_64-2.15.tar.bz2 | tar xj
 sudo 0install-linux-x86_64-2.15/install.sh local</textarea>
                 </code>
               </div>
@@ -72,24 +75,33 @@ sudo 0install-linux-x86_64-2.15/install.sh local</textarea>
                 <a class="btn btn-primary" href="apt://0install"><i class="fas fa-download"></i> Install</a>
               </p>
               <div class="alert alert-primary">
-                <h5><i class="fas fa-terminal"></i> Headless/server install</h5>
+                <h5>
+                  <i class="fas fa-terminal"></i> Headless/server install
+                  <a class="float-right" title="Copy to clipboard" href="javascript:copy('linux-ubuntu-headless');"><i class="far fa-copy"></i></a>
+                </h5>
                 <code>
-                  <input type="text" readonly class="form-control-plaintext" onclick="this.select();" value="apt-get install 0install-core --no-install-recommends">
+                  <input type="text" readonly class="form-control-plaintext" id="linux-ubuntu-headless" value="apt-get install 0install-core --no-install-recommends">
                 </code>
               </div>
               <div class="alert alert-primary">
-                <h5><i class="fas fa-terminal"></i> Older Ubuntu/Debian versions</h5>
+                <h5>
+                  <i class="fas fa-terminal"></i> Older Ubuntu/Debian versions
+                  <a class="float-right" title="Copy to clipboard" href="javascript:copy('linux-ubuntu-legacy');"><i class="far fa-copy"></i></a>
+                </h5>
                 <code>
-                  <input type="text" readonly class="form-control-plaintext" onclick="this.select();" value="apt-get install zeroinstall-injector">
+                  <input type="text" readonly class="form-control-plaintext" id="linux-ubuntu-legacy" value="apt-get install zeroinstall-injector">
                 </code>
               </div>
             </div>
             <div class="card-body tab-body" id="linux-fedora-tab">
               <div class="alert alert-primary">
-                <h5><i class="fas fa-terminal"></i> Shell</h5>
+                <h5>
+                  <i class="fas fa-terminal"></i> Shell
+                  <a class="float-right" title="Copy to clipboard" href="javascript:copy('linux-fedora-shell');"><i class="far fa-copy"></i></a>
+                </h5>
                 <code>
-                <input type="text" readonly class="form-control-plaintext" onclick="this.select();" value="yum install 0install">
-              </code>
+                  <input type="text" readonly class="form-control-plaintext" id="linux-fedora-shell" value="yum install 0install">
+                </code>
               </div>
             </div>
             <div class="card-body tab-body" id="linux-redhat-tab">
@@ -97,10 +109,13 @@ sudo 0install-linux-x86_64-2.15/install.sh local</textarea>
                 <i class="fas fa-exclamation-triangle"></i> Make sure you have <a href="https://fedoraproject.org/wiki/EPEL">Extra Packages for Enterprise Linux</a> configured.
               </div>
               <div class="alert alert-primary">
-                <h5><i class="fas fa-terminal"></i> Shell</h5>
+                <h5>
+                  <i class="fas fa-terminal"></i> Shell
+                  <a class="float-right" title="Copy to clipboard" href="javascript:copy('linux-redhat-shell');"><i class="far fa-copy"></i></a>
+                </h5>
                 <code>
-                <input type="text" readonly class="form-control-plaintext" onclick="this.select();" value="yum install zeroinstall-injector">
-              </code>
+                  <input type="text" readonly class="form-control-plaintext" id="linux-redhat-shell" value="yum install zeroinstall-injector">
+                </code>
               </div>
             </div>
             <div class="card-body tab-body" id="linux-suse-tab">
@@ -108,10 +123,13 @@ sudo 0install-linux-x86_64-2.15/install.sh local</textarea>
                 <a class="btn btn-primary" href="https://software.opensuse.org/ymp/openSUSE:Factory/standard/zeroinstall-injector.ymp?base=openSUSE%3AFactory&query=zeroinstall-injector"><i class="fas fa-download"></i> Install</a>
               </p>
               <div class="alert alert-primary">
-                <h5><i class="fas fa-terminal"></i> Shell</h5>
+                <h5>
+                  <i class="fas fa-terminal"></i> Shell
+                  <a class="float-right" title="Copy to clipboard" href="javascript:copy('linux-suse-shell');"><i class="far fa-copy"></i></a>
+                </h5>
                 <code>
-                <input type="text" readonly class="form-control-plaintext" onclick="this.select();" value="yast -i zeroinstall-injector">
-              </code>
+                  <input type="text" readonly class="form-control-plaintext" id="linux-suse-shell" value="yast -i zeroinstall-injector">
+                </code>
               </div>
             </div>
             <div class="card-body tab-body" id="linux-arch-tab">
@@ -119,9 +137,12 @@ sudo 0install-linux-x86_64-2.15/install.sh local</textarea>
                 <a class="btn btn-primary" href="https://aur.archlinux.org/packages/zeroinstall-injector/"><i class="fas fa-download"></i> AUR package</a>
               </p>
               <div class="alert alert-primary">
-                <h5><i class="fas fa-terminal"></i> Build from source</h5>
+                <h5>
+                  <i class="fas fa-terminal"></i> Build from source
+                  <a class="float-right" title="Copy to clipboard" href="javascript:copy('linux-arch-shell');"><i class="far fa-copy"></i></a>
+                </h5>
                 <code>
-                  <textarea readonly style="resize: none;" class="form-control-plaintext" onclick="this.select();" rows="4">pacman -Sy opam make m4 patch unzip gcc sed awk grep diffutils curl pkg-config which
+                  <textarea readonly style="resize: none;" class="form-control-plaintext" id="linux-arch-shell" rows="4">pacman -Sy opam make m4 patch unzip gcc sed awk grep diffutils curl pkg-config which
 opam init
 opam install 0install
 eval $(opam config env)</textarea>
@@ -149,11 +170,14 @@ eval $(opam config env)</textarea>
                 <a class="btn btn-outline-primary" href="https://0install.de/files/zero-install.zip"><i class="far fa-file-archive"></i> ZIP version</a>
               </p>
               <div class="alert alert-primary">
-                <h5><i class="fas fa-terminal"></i> PowerShell</h5>
+                <h5>
+                  <i class="fas fa-terminal"></i> PowerShell
+                  <a class="float-right" title="Copy to clipboard" href="javascript:copy('windows-legacy-powershell');"><i class="far fa-copy"></i></a>
+                </h5>
                 <code>
-                <textarea readonly style="resize: none;" class="form-control-plaintext" onclick="this.select();">Invoke-WebRequest https://0install.de/files/0install-net20.exe -OutFile 0install.exe
+                  <textarea readonly style="resize: none;" class="form-control-plaintext" id="windows-legacy-powershell">Invoke-WebRequest https://0install.de/files/0install-net20.exe -OutFile 0install.exe
 .\0install.exe --help</textarea>
-              </code>
+                </code>
               </div>
               <a href="https://docs.0install.net/details/windows/">Learn more...</a>
             </div>
@@ -163,11 +187,14 @@ eval $(opam config env)</textarea>
                 <a class="btn btn-outline-primary" href="https://0install.de/files/zero-install.zip"><i class="far fa-file-archive"></i> ZIP version</a>
               </p>
               <div class="alert alert-primary">
-                <h5><i class="fas fa-terminal"></i> PowerShell</h5>
+                <h5>
+                  <i class="fas fa-terminal"></i> PowerShell
+                  <a class="float-right" title="Copy to clipboard" href="javascript:copy('windows-current-powershell');"><i class="far fa-copy"></i></a>
+                </h5>
                 <code>
-                <textarea style="resize: none;" readonly class="form-control-plaintext" onclick="this.select();">Invoke-WebRequest https://0install.de/files/0install.exe -OutFile 0install.exe
+                  <textarea style="resize: none;" readonly class="form-control-plaintext" id="windows-current-powershell">Invoke-WebRequest https://0install.de/files/0install.exe -OutFile 0install.exe
 .\0install.exe --help</textarea>
-              </code>
+                </code>
               </div>
               <a href="https://docs.0install.net/details/windows/">Learn more...</a>
             </div>
