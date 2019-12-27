@@ -11,7 +11,7 @@ function detect() {
     if (is('Linux')) { return 'linux-generic'; }
     if (is('OS X')) { return 'mac'; }
     if (is('Windows NT 6.1') || is('Windows NT 6.2') || is('Windows NT 10.0')) { return 'windows-current'; }
-    return 'windows-legacy';
+    return null;
 }
 
 function hideTabs() {
@@ -25,21 +25,25 @@ function showTab(name) {
 }
 
 function updateTabs() {
+    hideTabs();
+
     if (window.location.hash) {
         tabName = window.location.hash.slice(1);
-        outerTabName = tabName.split('-')[0];
-
-        hideTabs();
-        showTab(outerTabName);
-        showTab(tabName);
     } else {
-        window.location.hash = '#' + detect();
+        tabName = detect();
+        if (tabName == null) return;
+        history.replaceState({}, '', '#' + tabName);
     }
+
+    outerTabName = tabName.split('-')[0];
+
+    showTab(outerTabName);
+    showTab(tabName);
 }
 
 function copy(id) {
-    $("#"+ id).select();
-    document.execCommand("copy");
+    $('#' + id).select();
+    document.execCommand('copy');
 }
 
 $(window).bind('hashchange', updateTabs);
