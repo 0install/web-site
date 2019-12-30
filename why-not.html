@@ -1,0 +1,167 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="icon" href="logo/favicon.ico" type="image/vnd.microsoft.icon">
+<title>0install: Why not?</title>
+</head>
+<body><table>
+<tr>
+<td class="logo"><a href="/"><img src="logo/zeroinstall-icon.png" width="96" height="95" alt="logo"></a></td>
+<td class="header">
+<form id="searchbox_010445122533180311286:4ee7gv0f1pc" action="https://google.com/cse" style="float: right; padding-right: 1em;"><p><input type="hidden" name="cx" value="010445122533180311286:4ee7gv0f1pc"><input name="q" type="search" size="14"><input type="submit" name="sa" value="Search"><input type="hidden" name="cof" value="FORID:0"></p></form>
+<h1><a href="/">Zero Install</a></h1>
+<p class="tagline">the antidote to app-stores</p>
+</td>
+</tr>
+<tr>
+<td class="sidebar"><ul class="pages">
+<li class="open">
+<a href=".">Overview 
+      </a><ul>
+<li class="open">
+<a href="why.html">About 0install 
+      </a><ul>
+<li class="leaf"><a href="perspectives.html">Perspectives 
+      </a></li>
+<li class="leaf"><a href="comparison.html">Comparison 
+      </a></li>
+<li class="leaf"><a href="why-not.html" class="selected">Why not? 
+      </a></li>
+</ul>
+</li>
+<li class="closed"><a href="features.html">Features 
+      </a></li>
+</ul>
+</li>
+<li class="open">
+<a href="news.html">News 
+      </a><ul>
+<li class="leaf"><a href="0install-2.0.html">0install 2.0 
+      </a></li>
+<li class="leaf"><a href="roadmap.html">Roadmap 
+      </a></li>
+</ul>
+</li>
+<li class="open">
+<a href="injector.html">Download 0install 
+      </a><ul>
+<li class="leaf"><a href="install-linux.html">Linux 
+      </a></li>
+<li class="closed"><a href="install-osx.html">OS X 
+      </a></li>
+<li class="closed"><a href="install-source.html">Source code 
+      </a></li>
+<li class="leaf"><a href="install-unix.html">Unix 
+      </a></li>
+<li class="leaf"><a href="install-windows.html">Windows 
+      </a></li>
+</ul>
+</li>
+<li class="leaf"><a href="injector-feeds.html">Featured apps 
+      </a></li>
+<li class="open">
+<a href="doc.html">Documentation 
+      </a><ul>
+<li class="closed"><a href="users.html">For users 
+      </a></li>
+<li class="closed"><a href="packagers.html">For packagers 
+      </a></li>
+<li class="closed"><a href="dev.html">For developers 
+      </a></li>
+<li class="closed"><a href="tools.html">Tool reference 
+      </a></li>
+<li class="closed"><a href="injector-specs.html">Specifications 
+      </a></li>
+</ul>
+</li>
+<li class="open">
+<a href="support.html">Support 
+      </a><ul>
+<li class="leaf"><a href="support.html#lists">Mailing lists 
+      </a></li>
+<li class="leaf"><a href="support.html#bugs">Bug tracker 
+      </a></li>
+<li class="leaf"><a href="faq.html">FAQ 
+      </a></li>
+<li class="leaf"><a href="injector-trouble.html">Troubleshooting 
+      </a></li>
+<li class="leaf"><a href="support.html#commercial">Commercial 
+      </a></li>
+</ul>
+</li>
+<li class="leaf"><a href="legal.html">Legal issues 
+      </a></li>
+<li class="leaf"><a href="https://github.com/0install">GitHub 
+      </a></li>
+<li class="leaf"><a href="http://sourceforge.net/project/showfiles.php?group_id=76468">SF file releases 
+      </a></li>
+</ul></td>
+<td class="main">
+<div class="main">
+
+<h2 id="idm2">Why some communities are not using 0install</h2>
+
+<p>
+  This page collects feedback from projects that didn't use 0install.
+</p>
+
+<h3 id="idm4">Language-specific package managers</h3>
+
+<p>
+  Most programming languages need a way to share libraries. Relying on native package managers doesn't work for the usual reasons (e.g. Windows doesn't have a package manager, developers like their packages to be up-to-date, developers don't like installing build dependencies as root, it should be possible to use a library without getting it added to every distribution's repository, etc).
+</p>
+<p>
+  Using a generic package manager brings a number of advantages:
+</p>
+
+<ul>
+  <li>You can depend on things written in other languages (e.g, you can depend on the compiler, build tools and documentation formatters, not just on libraries in your own language).</li>
+  <li>You can use the same technology to distribute the resulting programs after building them, if you want.</li>
+  <li>You get access to robust code that already covers many cases you might not have considered (e.g. resolving complex dependency requirements, support for other platforms, checking digital signatures, etc).</li>
+  <li>Users only have to learn one extra package manager, not one per language.</li>
+</ul>
+
+<p>
+  Since 0install is ideal for this kind of thing, we are collecting feedback from projects which have decided to build their own systems instead.
+</p>
+
+<ul>
+  <li><a href="https://docs.google.com/spreadsheet/ccc?key=0AlQ_ban3-1YrdFJfdlJwNkpENUdMVXJRbE04d29LN1E">Spreadsheet of requirements (Google Docs)</a></li>
+</ul>
+
+<p>
+  Some other links:
+</p>
+
+<ul>
+  <li>
+<a href="http://thread.gmane.org/gmane.comp.file-systems.zero-install.devel/4993/focus=5038">Haskell (cabal)</a> - email discussion</li>
+</ul>
+
+<p>
+  If you want to add something, please post to <a href="support.html">the mailing list</a>.
+</p>
+
+
+</div>
+<div class="footer">
+<p>
+	    Web-site © Copyright 2003-2019 Thomas Leonard and others<br></p>
+<p>
+	    Permission is granted to use the site (excluding the software,
+	    which is licensed separately)<br>in accordance with the terms of the
+	    <a href="https://creativecommons.org/licenses/by-sa/2.5/">Creative
+	    Commons Attribution-ShareAlike 2.5 license</a>.
+	  </p>
+<p>
+	    Some of the icons are from (or based on icons from) the
+	    <a href="http://tango.freedesktop.org/Tango_Desktop_Project">Tango Desktop Project</a> and the <a href="http://www.openclipart.org/">Open Clipart Library</a>.
+	  </p>
+<span class="logos"><a href="https://creativecommons.org/licenses/by-sa/2.5/"><img src="https://creativecommons.org/images/public/somerights20.gif" alt="Attribution-ShareAlike" width="88" height="31"></a></span>
+</div>
+</td>
+</tr>
+</table></body>
+</html>
