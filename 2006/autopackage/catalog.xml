@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='../../resources/catalog.xsl'?>
+<c:catalog xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:c="http://0install.de/schema/injector/catalog"><interface uri="http://0install.net/2006/autopackage/Lincity.xml"><name>Lincity</name><summary>city simulation game</summary><description>
+Lincity is a city simulation game. You are required to build and maintain a
+city. You must feed, house, provide jobs and goods for your residents. You can
+build a sustainable economy with the help of renewable energy and recycling, or
+you can go for broke and build rockets to escape from a pollution ridden and
+resource starved planet, it's up to you.</description><homepage>http://lincity.sourceforge.net/</homepage><category>Game</category></interface><interface uri="http://0install.net/2006/autopackage/OpenEuclide.xml"><name>OpenEuclide</name><summary>2D geometry software</summary><description>
+OpenEuclide is a 2D geometry software: figures are defined dynamically by
+describing formal geometrical constraints. This project is a basic tool for
+educational or modeling purpose. It is distributed under the GNU GPL licence,
+free and multi-platform (up to now, GNU and windows).</description><homepage>http://coulon.publi.free.fr/openeuclide</homepage><category>Education</category></interface><interface uri="http://0install.net/2006/autopackage/SCOURGE.xml"><name>S.C.O.U.R.G.E.</name><summary>rogue-like game in the tradition of NetHack and Moria</summary><description>
+S.C.O.U.R.G.E. is a rogue-like game in the fine tradition of NetHack and Moria.
+It sports a graphical front-end, similar to glHack or the Falcon's eye. I tried
+to design the 3D UI as a best of both worlds from old to new: It lets you rotate
+the view, zoom in/out, view special effects, etc. On the other hand I've always
+liked the old-school isometric games like Exult or Woodward</description><homepage>http://scourge.sourceforge.net/</homepage><category>Game</category></interface><interface uri="http://0install.net/2006/autopackage/Stellarium.xml"><name>Stellarium</name><summary>a beautiful night sky simulator</summary><description>
+Stellarium is a free open source planetarium for your computer. It shows a
+realistic sky in 3D, just like what you see with the naked eye, binoculars or a
+telescope.
+
+It is being used in planetarium projectors. Just set your coordinates and go.</description><homepage>http://www.stellarium.org/</homepage><icon href="https://0install.net/feed_icons/Stellarium.png" type="image/png"/><category>Education</category></interface><interface uri="http://0install.net/2006/autopackage/Supertux.xml"><name>Supertux</name><summary>2D jump'n run sidescroller game</summary><description>
+SuperTux is a classic 2D jump'n run sidescroller game in a style similar to the
+original SuperMario games. The Milestone1 release of SuperTux features 9
+enemies, 26 playable levels, software and OpenGL rendering modes, configurable
+joystick and keyboard input, new music and completly redone graphics. Together
+with a little story, we hope to provide a good gaming experince with this first
+Milestone release.</description><homepage>http://supertux.berlios.de/</homepage><category>Game</category></interface><interface uri="http://0install.net/2006/autopackage/Abiword.xml"><name>abiword</name><summary>AbiWord Word Processor</summary><description>
+AbiWord is a lightweight word processing application.</description><category>Office</category><icon href="https://0install.net/feed_icons/abiword.png" type="image/png"/></interface><interface uri="http://0install.net/2006/autopackage/armagetronad.xml"><name>armagetronad</name><summary>a Tron clone in 3D</summary><description>
+&quot;A Tron clone in 3D&quot;.
+
+This has been the tagline of Armagetron, since, well, a very long time, and is
+probably the shortest and most accurate description possible. Tron was an arcade
+game based on the movie of the same name, release by Disney in 1982. The
+original game consisted of 4 sub-games, the only one of concern is the 'Light
+Cycles' one, in which the player uses a left/right joystick to control a 'Light
+Cycle' which leaves a wall behind it wherever the cycle it goes, turning only at
+90 degree angles. The player must then get the AI to crash into their wall while
+avoiding hitting the AI's own wall themselves. Those were the humble beginnings
+of Armagetron Advanced's game play, which has now blossomed into 16 player
+mayhem, with highly advanced AI, network game play, and of course all in a 3D
+environment.</description><homepage>http://www.armagetronad.net/</homepage><icon href="https://0install.net/feed_icons/armagetronad.png" type="image/png"/><category>Game</category></interface><interface uri="http://0install.net/2006/autopackage/gtkdc.xml"><name>gtkdc</name><summary>client for the Direct Connect network</summary><description>
+A client for the Direct Connect peer-to-peer network inspired by DC++.</description><homepage>http://www.gtkdc.org/</homepage><category>Network</category></interface><interface uri="http://0install.net/2006/autopackage/opencity.xml"><name>opencity</name><summary>OpenCity Simulation Game</summary><description>
+  OpenCity is a full 3D city simulator game project. It is written in standard
+  C++ with OpenGL and SDL from scratch. It is not intended to be a clone of any
+  famous city simulator from Max*s. So, if you are looking to download a free
+  SimCity 4 like, please forget OpenCity. I work on it at my spare time, I
+  really meant it &quot;my spare time&quot;!
+  </description><homepage>http://www.opencity.info/</homepage><icon href="https://0install.net/feed_icons/opencity.png" type="image/png"/></interface><interface uri="http://0install.net/2006/autopackage/sear.xml"><name>sear</name><summary>Sear - a client for Worldforge</summary><description>
+Sear is a client for MMORPGs using the Worldforge system.</description><category>Game</category></interface><interface uri="http://0install.net/2006/autopackage/vdrift.xml"><name>vdrift</name><summary>VDrift</summary><description>
+VDrift is a realistic racing simulation with drifting in mind</description><category>Game</category></interface></c:catalog>
+<!-- Base64 Signature
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4R0VAACgkQBxM/lsp02LrLGwgAhTxc
+K2TjmvkLi3xxaRgX0c5ZG1yiFdwS2QDq9eWYGw03yofuw59ERaq1yPFiJY7WRewCuUq9KAmL0WQW
+6k6BiTvqtvfdZI63mGFrIWICFGhY+7vqmfG500vFKD+IiW/7KsE2WiDdQBKVw/q1zJQaA09nDMQ+
+CL97xld/0l2AZm4nhHWLHmhPL16dl1BRC4B6aSeLFvms07fG7pvEW9POsTuwi5ydBNhOdKcEfUmL
+raffJ5k6cxHVobb658D4bh3gBDUlSLlxfEVFOs3dB215GmhX5vzkTCqg7fllRI+cqWRdQm4zcLmf
+o/bTp8iExFNa86sRNxidqnZA7xBf4jciNA==
+
+-->

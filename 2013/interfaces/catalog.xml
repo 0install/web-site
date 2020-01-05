@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='../../resources/catalog.xsl'?>
+<c:catalog xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:c="http://0install.de/schema/injector/catalog"><interface uri="http://0install.net/2013/interfaces/0install-windows-support.xml"><name>0install-windows-support</name><summary>support for 0install on Windows</summary><homepage>https://0install.net/</homepage></interface></c:catalog>
+<!-- Base64 Signature
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4R0VAACgkQBxM/lsp02LpCMQgApWg8
+tFXr3sqBjKJ5P53laR5L+AMqxNGaUQBWuy/gK54+tYANTqtCMct0kp6Mq5FDiwd4/LrYYLSK7ZPN
+6tiHImZdOWW+ldY/DVPDTXanWrRZ1Y1FfHz6o7Vz2KWiJQzaXZvX8zdL6iHZ1IzNnQ8AOK4qpQxN
+8mZEWQ0/kKJd6lbOBdvwF4OZr79bkPNpiyAISE1PIasyvxypA+Xd78fuRm6YSWlMf3xeB3pSRBms
+X2Cv6J2jV65IjDjC553S0yjda3T2ORqD+ydzBmWCbt83gXRfIYPfvKvRbgxQShsm47KgEplP5aAX
+MSMcuMYEXUW006g2YpmLkzYTAunTiOIUDA==
+
+-->

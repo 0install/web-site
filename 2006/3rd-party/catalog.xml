@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='../../resources/catalog.xsl'?>
+<c:catalog xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:c="http://0install.de/schema/injector/catalog"><interface uri="http://0install.net/2006/3rd-party/Freetype2.xml"><name>Freetype2</name><summary>free, portable library for digital typography</summary><description>
+FreeType 2 is a high-quality and portable font engine that is capable of
+supporting several font formats (be they bitmapped or scalable) through a simple
+and uniform interface. Its design is modular and allows independent &quot;font
+driver&quot; modules to be added, even at runtime, to support additional formats. It
+also provides a high-quality anti-aliasing renderer, an innovative auto-hinting
+engine, and support for the following font formats: TrueType Type1, CID-Type 1,
+Multiple Masters Type 1 OpenType/CFF, pure CFF, and CEF Windows FNT/FON.</description><homepage>http://www.freetype.org/</homepage></interface><interface uri="http://0install.net/2006/3rd-party/GDC.xml"><name>GDC</name><summary>D Compiler for GCC</summary><description>
+GDC is a D language front end for the GNU Compiler Collection. It supports a
+number of targets and nearly all features of Digital Mars D.
+
+D is a systems programming language. Its focus is on combining the power and
+high performance of C and C++ with the programmer productivity of modern
+languages like Ruby and Python. Special attention is given to the needs of
+quality assurance, documentation, management, portability and reliability.
+
+D is statically typed, and compiles direct to native code. It's multiparadigm:
+supporting imperative, object oriented, and template metaprogramming styles.
+It's a member of the C syntax family, and its look and feel is very close to
+C++'s. For a quick feature comparison, see this comparison of D with C, C++, C#
+and Java.</description><homepage>http://dgcc.sourceforge.net/</homepage><category>Development</category></interface><interface uri="http://0install.net/2006/3rd-party/Inkscape.xml"><name>Inkscape</name><summary>an SVG-based vector drawing application</summary><description>
+Inkscape is an Open Source vector graphics editor, with capabilities similar to
+Illustrator, Freehand, CorelDraw, or Xara X using the W3C standard Scalable
+Vector Graphics (SVG) file format. Supported SVG features include shapes, paths,
+text, markers, clones, alpha blending, transforms, gradients, patterns, and
+grouping. Inkscape also supports Creative Commons meta-data, node editing,
+layers, complex path operations, bitmap tracing, text-on-path, flowed text,
+direct XML editing, and more. It imports formats such as JPEG, PNG, TIFF, and
+others and exports PNG as well as multiple vector-based formats.
+
+Inkscape's main goal is to create a powerful and convenient drawing tool fully
+compliant with XML, SVG, and CSS standards. We also aim to maintain a thriving
+user and developer community by using open, community-oriented development.</description><homepage>http://inkscape.org/</homepage><icon href="https://0install.net/tests/Inkscape.png" type="image/png"/><category>Graphics</category></interface><interface uri="http://0install.net/2006/3rd-party/PySol.xml"><name>PySol</name><summary>a collection of more than 200 solitaire card games</summary><description>
+PySol is an exciting collection of more than 200 solitaire card games. Its
+features include support for lots of distinct games, very nice look and feel,
+multiple cardsets and table tiles, sound and background music, unlimited undo &amp;
+redo, load &amp; save games, player statistics and log files, hint system, demo
+games, support for user written plug-ins, integrated HTML help browser and lots
+of documentation.
+
+Among the supported games are classics like Aces Up, Baker's Game, Canfield,
+FreeCell, Forty Thieves, Golf, Klondike, Pyramid, Scorpion, Spider, Yukon, and
+many more...
+
+PySol is copyrighted OpenSource software distributed under the terms of the GNU
+General Public License.
+
+PySol is written in 100% pure Python</description><homepage>http://www.pysol.org/</homepage><icon href="https://0install.net/tests/pysol.png" type="image/png"/><category>Game</category></interface><interface uri="http://0install.net/2006/3rd-party/SCons.xml"><name>SCons</name><summary>a software construction tool</summary><description>
+SCons is a software construction tool (build tool substitute for Make)
+implemented in Python. It features a modular build engine that can be embedded
+in other software. SCons configuration files are Python scripts that call the
+build engine API.
+
+It can scan files to detect dependencies automatically and maintain a global
+view of all dependencies in a build tree, and uses MD5 signatures to detect
+changed file contents reliably. Timestamps can be used if you prefer. SCons also
+supports parallel builds and is easily extensible through user-defined builder
+and scanner objects.</description><homepage>http://www.scons.org/</homepage><icon href="https://0install.net/tests/scons-logo.png" type="image/png"/><category>Development</category></interface><interface uri="http://0install.net/2006/3rd-party/XaraXtreme.xml"><name>Xara Xtreme</name><summary>cross-platform vector artwork and photocomposition package</summary><description>
+XaraLX is a vector graphics and photocomposition program. It is primarily a
+vector graphics program, but it also handles photos and drawings. It has an
+easy-to-use and easy-to-learn approach.</description><homepage>http://www.xaralx.org/</homepage><icon href="https://0install.net/feed_icons/XaraXtreme.png" type="image/png"/><category>Graphics</category></interface></c:catalog>
+<!-- Base64 Signature
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4R0VAACgkQBxM/lsp02LpjlAf9H8QT
+W8RCSVp2Jx0acDJlsAi/nSg9U8S81zdWLxcqAvMRiNvnd+iCmtISQcomh38uWKrTFQjR4flSrMT0
+G7gjyVI4bwlF7pP3UUbLM1VoTO4XlihSIJlxt9mJbUYOk0DUb7c6BHkhLEyR8QKG9P7n2Q1ix+9p
+09z+m3ZlFIB8xwW3487FBrolJObwEDmyvxjsxKwVzBzQ3D1sIEEJIyuP/DPchsVy7pF54tuGnd8P
+DnB4bvf8Vm/9gcMLY4Zphgpe7w2Z+IUlVjmFiOeRvFP+TVxvJAvsZCPdxgEwIM5pzsziFec9cjMo
+sToSWeDocvkRPDnFHSszoGa0Eq3v51o5pQ==
+
+-->

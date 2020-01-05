@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='../resources/catalog.xsl'?>
+<c:catalog xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:c="http://0install.de/schema/injector/catalog"><interface uri="http://0install.net/tools/0export.xml"><name>0export</name><summary>create self-installing bundles for distribution on CD</summary><description>
+It is sometimes useful to bundle a program and its libraries together
+on a CD (for example) so that it can be used on machines without a network
+connection, or where the network is very slow. It is also useful for archival
+purposes, in case the original web-sites supplying required libraries become
+unavailable.
+
+0export takes the URI of a program and creates a &quot;setup.sh&quot; file; a self-
+extracting archive containing everything needed to run the program. This file
+can be executed on a machine without a network connection to install or run the
+program.
+
+Unlike the bundles created by the related zero2bundle program, programs
+installed using setup.sh are added to the Zero Install cache and are therefore
+still shared between users, and will get updates over the web where possible.</description><homepage>https://docs.0install.net/tools/0export/</homepage><category>Development</category></interface><interface uri="http://0install.net/tools/0install.xml"><name>0install</name><summary>decentralised installation system</summary><description>
+Zero Install is a decentralised cross-platform software installation
+system available under the LGPL. It allows software developers to publish
+programs directly from their own web-sites, while supporting features familiar
+from centralised distribution repositories such as shared libraries, automatic
+updates and digital signatures. It is intended to complement, rather than
+replace, the operating system's package management. 0install packages never
+interfere with those provided by the distribution.
+</description><homepage>https://0install.net/</homepage><icon href="https://0install.net/feed_icons/ZeroInstall.png" type="image/png"/><category>System</category></interface><interface uri="http://0install.net/tools/0repo.xml"><name>0repo</name><summary>manage a repository of 0install feeds</summary><description>
+    0repo allows a group of developers to publish a set of feeds. It can be
+    used by a single developer, generating a set of static files to publish on
+    a web-server, or as a service which accepts signed updates from a group
+    of developers.
+  </description><homepage>https://docs.0install.net/tools/0repo/</homepage></interface><interface uri="http://0install.net/tools/0template.xml"><name>0template</name><summary>utility to make creating feeds easier</summary><description>
+    0template takes a template XML file (e.g. with place-holders for the version),
+    fills in the place-holders, and then fills in everything else it can. For example,
+    it will download the archive, fill in the size, calculate the digests, etc.
+  </description><homepage>https://docs.0install.net/tools/0template/</homepage><entry-point binary-name="0template" command="run"/></interface></c:catalog>
+<!-- Base64 Signature
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4R0VAACgkQBxM/lsp02LpWHAgAhQas
+rbji08zeRZHQHaoG1gupCXEe2EEQgU6LTChSE87hNs3G8BC8erBFIRpPA0xExkWIB4k6JHOl3IkZ
+AqtuSxavlMyPFUqnUziJab70xq8CgLTvMX7VFmhtttitLT6NWjITTDfJrIOm7+WvLRc3XWIIQkA0
+pfyNBqBtwrRbtu2gOsvPC261TEFu1Qc01V0jXqcSsaOoKBoLvcsNz5PZlw/PsR+cWCqySK1Q7Dby
+2z4HnedFSvaSTN6Mm/2vMd9FWUA1JEKM6YwthBmbUHu/ruLAKLuz2a2CW61Vz74havFk9LAKxJTu
+9zKLb/t8UXNMU/Lsnq3vuvqjdHGrbdzNyg==
+
+-->

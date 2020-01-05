@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='../../resources/catalog.xsl'?>
+<c:catalog xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:c="http://0install.de/schema/injector/catalog"><interface uri="http://0install.net/2009/3rd-party/clutter.xml"><name>clutter</name><summary>creating fast, visually rich and animated graphical user interfaces</summary><description>
+Clutter is an open source software library for creating fast, visually rich and
+animated graphical user interfaces.
+
+Clutter uses OpenGL (and optionally OpenGL ES for use on Mobile and embedded
+platforms) for rendering but with an API which hides the underlying GL
+complexity from the developer. The Clutter API is intended to be easy to use,
+efficient and flexible.</description><homepage>http://www.clutter-project.org/</homepage></interface><interface uri="http://0install.net/2009/3rd-party/clutter-gtk.xml"><name>clutter-gtk</name><summary>embed clutter in GTK</summary><description>
+Clutter is an open source software library for creating fast, visually rich and
+animated graphical user interfaces.
+
+Clutter uses OpenGL (and optionally OpenGL ES for use on Mobile and embedded
+platforms) for rendering but with an API which hides the underlying GL
+complexity from the developer. The Clutter API is intended to be easy to use,
+efficient and flexible.
+
+This package allows embedding a Clutter stage inside a GTK window.</description><homepage>http://www.clutter-project.org/</homepage></interface><interface uri="http://0install.net/2009/3rd-party/python2.6-clutter.xml"><name>python-clutter</name><summary>Python bindings for the clutter library</summary><description>
+Clutter is an open source software library for creating fast, visually rich and
+animated graphical user interfaces.
+
+Clutter uses OpenGL (and optionally OpenGL ES for use on Mobile and embedded
+platforms) for rendering but with an API which hides the underlying GL
+complexity from the developer. The Clutter API is intended to be easy to use,
+efficient and flexible.</description><homepage>http://www.clutter-project.org/</homepage></interface><interface uri="http://0install.net/2009/3rd-party/python2.5-clutter.xml"><name>python-clutter</name><summary>Python bindings for the clutter library</summary><description>
+Clutter is an open source software library for creating fast, visually rich and
+animated graphical user interfaces.
+
+Clutter uses OpenGL (and optionally OpenGL ES for use on Mobile and embedded
+platforms) for rendering but with an API which hides the underlying GL
+complexity from the developer. The Clutter API is intended to be easy to use,
+efficient and flexible.</description><homepage>http://www.clutter-project.org/</homepage></interface></c:catalog>
+<!-- Base64 Signature
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4R0VAACgkQBxM/lsp02LrqJAgAh6a+
+yP4KVEzjilKC4t++pRDun1VzUQzZq3zXHFNjb84edjyqyI6AQRnmRgxL+/23+mrj2LuwUwkLEOVa
+UBlwUxhMXz6ExC+UlUeoZGwQ03nJgNlptRQFVpFi+I5F/Qelinhbx6OErw+gJBYawWtL9g0FPW+a
+ZrXFq7Rgoh6rXmYUUTdZnCPG88GhGTIqqelOv4lLHm/8wuwgloQAXQnQq9UyglMXmgcWmZCINhdY
+AT6Ey/VTBe/MDnCmBAx5jxlCGgGfxN20Tedo5ikt5JujeAmjcc54ixkZBcE2p7JQMiqiAfaR13fr
+F4QKES0kDUD3iiM1ULmDu9kmGMsr8+3iyQ==
+
+-->

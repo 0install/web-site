@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='../../resources/catalog.xsl'?>
+<c:catalog xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:c="http://0install.de/schema/injector/catalog"><interface uri="http://0install.net/2008/linux-ppc/GLib-dev.xml"><name>GLib-dev</name><summary>headers for compiling GLib applications</summary><description>These are the GLib header files. They are required when compiling applications
+that use the GLib library.</description></interface></c:catalog>
+<!-- Base64 Signature
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4R0VAACgkQBxM/lsp02LopGgf+IJjJ
+iifgENe5exuxKSDU0stebmnl2ZcIUS8kS5nEM7FoytaFiqQ5VSvS2huRTSC6rQ5LXftp6ehtvd/i
+XL1gWALRtD7XyQD7rrIvDqTBbFUps8639kl9wwQjHh/DofYaoF1sXPDvEjZEw7QB5B1qQ2cwRwPi
+W0wL29Nzu4+XBvRSyU6JkoEA6W8imPNMDSim6DYsWbd8OVZARkZ5B+XiU+fT0rLDALNbY2HDT6Ha
+m8ZDISFivyHCPLMQUau9kR0mev1RZNnCBNme7ksPeuIk90OV1k4GM/ZxAxXH/EpZY41nv8dWgwTi
+UGxttWYsQMwgStI1kjzH4Lrq4/d+RCgg/g==
+
+-->

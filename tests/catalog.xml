@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='../resources/catalog.xsl'?>
+<c:catalog xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:c="http://0install.de/schema/injector/catalog"><interface uri="http://0install.net/tests/ebox.xml"><name>ebox</name><summary>instance manager for E programs</summary><description>
+ebox installs instances of E programs. Each program runs with access, by
+default, only to its own instance directory. The code is separate; managed by
+Zero Install.</description></interface><interface uri="http://0install.net/tests/ebox-chat.xml"><name>ebox-chat</name><summary>sandboxed chat program</summary><description>
+    EBox-Chat is a demonstration chat client. It allows secure two-way text-based communication with another instance of itself.
+    It is designed to be installed using the ebox demonstration sandboxing system.
+  </description></interface><interface uri="http://0install.net/tests/ebox-help.xml"><name>ebox-help</name><summary>EBox help viewer</summary><description>
+    This library can be used by programs to display simple help text. It is part of the EBox sandbox proof-of-concept examples.
+  </description></interface><interface uri="http://0install.net/tests/ebox-edit.xml"><name>edit</name><summary>E text editor</summary><description>
+    This is a very simple proof-of-concept text editor that can be confined using the EBox sandbox system.
+  </description></interface></c:catalog>
+<!-- Base64 Signature
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4R0VAACgkQBxM/lsp02Lr8NQgAgNPp
+dOY8mjfxUUpkZ2ywtdf+fOSqBnqhg6gAJpRkqMAlcs8bZByWe6wuGbaKvx0O7b1bbK+bLTIfssQJ
+8h6rmSieussPntM5o28L0s6S8PfY91YaJB7tZZnKNKfG/69gdBpzJWmi6Y4gmLomTosvVz+CxuND
+DM+831T7J3EGe0nhq5xvoJh9hywxn+NO8doysivxae6J4Xijhps2Umf7A4x8oUjoqE1t6RZ93Wpv
+nzGZSPcU1eoRBgeEjUdzDAljOiDVx/do6apbjEpawj1mFqkGRMXE+YIX159M41xzH3+WzgIR+skV
+cfP/VoPJMVge04yPqJ49aIaIZR4FMSJgVA==
+
+-->

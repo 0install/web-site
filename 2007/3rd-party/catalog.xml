@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='../../resources/catalog.xsl'?>
+<c:catalog xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:c="http://0install.de/schema/injector/catalog"><interface uri="http://0install.net/2007/3rd-party/APBuild.xml"><name>APBuild</name><summary>a suite of portability tools for developers</summary><description>
+In the process of writing autopackage, we've also produced several standalone
+tools, the apbuild programs, that are designed to help Linux developers write
+better software that runs on a wider variety of distributions. They are
+independent of autopackage itself: you can use them even if you don't provide
+your software using the rest of our software.</description><homepage>http://autopackage.org/aptools.html</homepage><category>Development</category><icon href="http://autopackage.org/gnome-devel.png" type="image/png"/></interface><interface uri="http://0install.net/2007/3rd-party/Blender.xml"><name>Blender</name><summary>a versatile 3D animation creation suite</summary><description>
+Blender is a fully integrated 3D animation suite for use in animation, still
+graphics, scientific and engineering visualization, and game content creation.
+
+It includes tools for modeling, texturing (node based materials or uv mapped),
+uv mapping, rigging and constraints, weight painting, particle systems,
+simulation (fluids, physics, and soft body dynamics and an external crowd
+simulator), rendering, node based compositing, and non linear video editing, as
+well as an integrated game engine for real-time interactive 3D, and game
+creation and playback with cross-platform compatibility.</description><homepage>http://www.blender.org</homepage><icon href="https://0install.net/feed_icons/Blender.png" type="image/png"/><category>Video</category></interface><interface uri="http://0install.net/2007/3rd-party/Django.xml"><name>Django</name><summary>the Web framework for perfectionists with deadlines</summary><description>
+Django is a high-level Python Web framework that encourages rapid development
+and clean, pragmatic design.
+
+Developed and used over two years by a fast-moving online-news operation, Django
+was designed to handle two challenges: the intensive deadlines of a newsroom and
+the stringent requirements of the experienced Web developers who wrote it. It
+lets you build high-performing, elegant Web applications quickly.</description><homepage>http://www.djangoproject.com/</homepage></interface><interface uri="http://0install.net/2007/3rd-party/LyX.xml"><name>LyX</name><summary>WYSIWYM(ean) document processor</summary><description>
+LyX is an advanced open source document processor running on many Unix and some
+non-Unix platforms. It is called a &quot;document processor&quot;, because unlike standard
+word processors, LyX encourages an approach to writing based on the structure of
+your documents, not their appearance. LyX lets you concentrate on writing,
+leaving details of visual layout to the software.
+
+LyX automates formatting according to predefined rule sets, yielding consistency
+throughout even the most complex documents. LyX produces high quality,
+professional output -- using LaTeX, an open source, industrial strength
+typesetting engine, in the background.
+
+With LyX, short notes or letters are a snap. LyX really shines, though, when
+composing complex documents like technical documentation, doctoral theses and
+conference proceedings.</description><homepage>http://www.lyx.org</homepage><icon href="https://0install.net/feed_icons/LyX.png" type="image/png"/><category>Office</category></interface><interface uri="http://0install.net/2007/3rd-party/Mutt.xml"><name>Mutt</name><summary>text-based mail client</summary><description>
+Mutt is a sophisticated text-based Mail User Agent.</description><homepage>http://www.mutt.org/</homepage><category>Network</category><icon href="https://0install.net/feed_icons/Mutt.png" type="image/png"/></interface><interface uri="http://0install.net/2007/3rd-party/Subversion.xml"><name>Subversion</name><summary>advanced version control system</summary><description>
+Subversion, also known as svn, is a version control system much like the
+Concurrent Versions System (CVS). Version control systems allow many individuals
+(who may be distributed geographically) to collaborate on a set of files
+(typically source code). Subversion has all the major features of CVS, plus
+certain new features that CVS users often wish they had.
+
+This package includes the Subversion client (svn), tools to create a Subversion
+repository (svnadmin) and to make a repository available over a network
+(svnserve).</description><homepage>http://subversion.tigris.org</homepage><category>Development</category></interface><interface uri="http://0install.net/2007/3rd-party/Tgif.xml"><name>Tgif</name><summary>interactive 2-D drawing tool</summary><description>
+Tgif is an interactive drawing tool that allows the user to draw and manipulate
+objects in the X Window System.</description><homepage>http://bourbon.usc.edu/tgif/</homepage><icon href="https://0install.net/feed_icons/Tgif.png" type="image/png"/><category>Graphics</category></interface><interface uri="http://0install.net/2007/3rd-party/UserModeLinux.xml"><name>UserModeLinux</name><summary>run Linux inside itself</summary><description>
+User-Mode Linux is a safe, secure way of running Linux versions and Linux
+processes. Run buggy software, experiment with new Linux kernels or
+distributions, and poke around in the internals of Linux, all without risking
+your main Linux setup.
+
+User-Mode Linux gives you a virtual machine that may have more hardware and
+software virtual resources than your actual, physical computer. Disk storage for
+the virtual machine is entirely contained inside a single file on your physical
+machine. You can assign your virtual machine only the hardware access you want
+it to have. With properly limited access, nothing you do on the virtual machine
+can change or damage your real computer, or its software.</description><category>System</category><homepage>http://user-mode-linux.sourceforge.net</homepage><icon href="https://0install.net/feed_icons/UserModeLinux.png" type="image/png"/></interface><interface uri="http://0install.net/2007/3rd-party/XdgUtils.xml"><name>XdgUtils</name><summary>cross-desktop integration tools</summary><description>
+Xdg-utils is a set of command line tools that assist applications with a variety
+of desktop integration tasks. About half of the tools focus on tasks commonly
+required during the installation of a desktop application and the other half
+focuses on integration with the desktop environment while the application is
+running. Even if the desktop components of your application are limited to an
+installer, configuration or management tool, Xdg-utils provides you with an easy
+way to enhance the usage experience of your customers by improving the
+integration of these components in the user's environment. Best of all, Xdg-
+utils is provided as open source and free of charge.</description><homepage>http://portland.freedesktop.org</homepage></interface><interface uri="http://0install.net/2007/3rd-party/libapr1.xml"><name>libapr1</name><summary>the Apache Portable Runtime Library</summary><description>
+APR is Apache's Portable Runtime Library, designed to be a support library that
+provides a predictable and consistent interface to underlying platform-specific
+implementations.</description></interface><interface uri="http://0install.net/2007/3rd-party/libaprutil1.xml"><name>libaprutil1</name><summary>the Apache Portable Runtime Utility Library</summary><description>
+APR is Apache's Portable Runtime Library, designed to be a support library that
+provides a predictable and consistent interface to underlying platform-specific
+implementations.
+
+APR Util is a utilities library implemented on top of apr, providing database
+access, xml parsing, and other useful functionality.</description></interface><interface uri="http://0install.net/2007/3rd-party/libaudio2.xml"><name>libaudio2</name><summary>the Network Audio System (NAS)</summary><description>
+The Network Audio System was developed by NCD for playing, recording, and
+manipulating audio data over a network. Like the X Window System, it uses the
+client/server model to separate applications from the specific drivers that
+control audio input and output devices.
+
+This package contains the nas library (libaudio), needed for both remote and
+local output.</description><homepage>http://radscan.com/nas.html</homepage></interface><interface uri="http://0install.net/2007/3rd-party/libcomerr2.xml"><name>libcomerr2</name><summary>common error description library</summary><description>libcomerr is an attempt to present a common error-handling mechanism to
+manipulate the most common form of error code in a fashion that does not
+have the problems identified with mechanisms commonly in use.</description></interface><interface uri="http://0install.net/2007/3rd-party/libdb4.4.xml"><name>libdb4.4</name><summary>Berkeley v4.4 Database Libraries</summary><description>
+This is the runtime package for programs that use the v4.4 Berkeley database
+library.</description></interface><interface uri="http://0install.net/2007/3rd-party/libdb4.6.xml"><name>libdb4.6</name><summary>Berkeley v4.6 Database Libraries [runtime]</summary><description>This is the runtime package for programs that use the v4.6 Berkeley
+database library.</description></interface><interface uri="http://0install.net/2007/3rd-party/libenchant1.xml"><name>libenchant1</name><summary>a wrapper library for various spell checker engines</summary><description>
+Enchant is a generic spell checking library which uses existing spell checker
+engines such as ispell, aspell and myspell as its backends.
+
+Enchant steps in to provide uniformity and conformity on top of these libraries,
+and implement certain features that may be lacking in any individual provider
+library.</description><homepage>http://www.abisource.com/projects/enchant/</homepage></interface><interface uri="http://0install.net/2007/3rd-party/libexpat1.xml"><name>libexpat1</name><summary>XML parsing C library</summary><description>
+This package contains the runtime, shared library of expat, the C library for
+parsing XML.</description><homepage>http://expat.sourceforge.net</homepage></interface><interface uri="http://0install.net/2007/3rd-party/libgcrypt11.xml"><name>libgcrypt11</name><summary>LGPL Crypto library - runtime library</summary><description>libgcrypt contains cryptographic functions. Many important free
+ciphers, hash algorithms and public key signing algorithms have been
+implemented:
+arcfour, blowfish, cast5, DSA, DSA2, des, 3DES, elgamal, MD5, rijndael,
+RMD160, RSA, SEED, SHA1, SHA-384, SHA-512, twofish, tiger.</description></interface><interface uri="http://0install.net/2007/3rd-party/libgnutls13.xml"><name>libgnutls13</name><summary>the GNU TLS library</summary><description>
+gnutls is a portable library which implements the Transport Layer Security (TLS)
+1.0 and Secure Sockets Layer (SSL) 3.0 protocols.
+
+Currently gnutls implements:
+
+- the TLS 1.0 and SSL 3.0 protocols, without any US-export controlled algorithms
+
+- X509 Public Key Infrastructure (with several limitations).
+
+- SRP for TLS authentication.
+
+- TLS Extension mechanism
+
+This package contains the runtime libraries.</description><homepage>http://www.gnu.org/software/gnutls/</homepage></interface><interface uri="http://0install.net/2007/3rd-party/libgnutls26.xml"><name>libgnutls26</name><summary>the GNU TLS library - runtime library</summary><description>gnutls is a portable library which implements the Transport Layer
+Security (TLS) 1.0 and Secure Sockets Layer (SSL) 3.0 protocols.
+
+Currently gnutls implements:
+ - the TLS 1.0 and SSL 3.0 protocols, without any US-export
+   controlled algorithms
+ - X509 Public Key Infrastructure (with several limitations).
+ - SRP for TLS authentication.
+ - TLS Extension mechanism
+
+This package contains the runtime libraries.</description></interface><interface uri="http://0install.net/2007/3rd-party/libgpg-error0.xml"><name>libgpg-error0</name><summary>library for common error values and messages in GnuPG components</summary><description>Library that defines common error values for all GnuPG
+components. Among these are GPG, GPGSM, GPGME, GPG-Agent, libgcrypt,
+pinentry, SmartCard Daemon and possibly more in the future.</description></interface><interface uri="http://0install.net/2007/3rd-party/libgucharmap4.xml"><name>libgucharmap4</name><summary>unicode browser widget library</summary><description>
+The libgucharmap library contains a Unicode browser widget; it is most
+prominently used by the &quot;gucharmap&quot; program.
+
+This package contains the shared library.</description><homepage>http://gucharmap.sourceforge.net/</homepage></interface><interface uri="http://0install.net/2007/3rd-party/libkeyutils1.xml"><name>libkeyutils1</name><summary>Linux Key Management Utilities (library)</summary><description>Keyutils is a set of utilities for managing the key retention facility in the
+kernel, which can be used by filesystems, block devices and more to gain and
+retain the authorization and encryption keys required to perform secure
+operations.
+
+This package provides a wrapper library for the key management facility system
+calls.</description></interface><interface uri="http://0install.net/2007/3rd-party/libkrb53.xml"><name>libkrb53</name><summary>MIT Kerberos runtime libraries</summary><description>
+Kerberos is a system for authenticating users and services on a network.
+Kerberos is a trusted third-party service. That means that there is a third
+party (the kerberos server) that is trusted by all the entities on the network
+(users and services, usually called &quot;principals&quot;).
+
+This is the MIT reference implementation of Kerberos5.
+
+This package contains the runtime libraries used by applications and Kerberos
+clients.</description></interface><interface uri="http://0install.net/2007/3rd-party/libldap-2.4-2.xml"><name>libldap-2.4-2</name><summary>OpenLDAP libraries</summary><description>These are the run-time libraries for the OpenLDAP (Lightweight Directory
+Access Protocol) servers and clients.</description></interface><interface uri="http://0install.net/2007/3rd-party/libldap2.xml"><name>libldap2</name><summary>run-time libraries for the OpenLDAP servers and clients</summary><description>
+These are the run-time libraries for the OpenLDAP (Lightweight Directory Access
+Protocol) servers and clients.</description><homepage>http://www.openldap.org/</homepage></interface><interface uri="http://0install.net/2007/3rd-party/libmysqlclient15off.xml"><name>libmysqlclient15off</name><summary>MySQL database client library</summary><description>MySQL is a fast, stable and true multi-user, multi-threaded SQL database
+server. SQL (Structured Query Language) is the most popular database query
+language in the world. The main goals of MySQL are speed, robustness and
+ease of use.
+
+This package includes the client library.</description></interface><interface uri="http://0install.net/2007/3rd-party/libneon26.xml"><name>libneon26</name><summary>an HTTP and WebDAV client library</summary><description>
+Neon is an HTTP and WebDAV client library, with a C language API.
+
+WARNING: THE NEON API IS NOT YET STABLE.
+
+Provides lower-level interfaces to directly implement new HTTP methods, and
+higher-level interfaces so that you don't have to worry about the lower-level
+stuff.</description></interface><interface uri="http://0install.net/2007/3rd-party/libneon27-gnutls.xml"><name>libneon27-gnutls</name><summary>An HTTP and WebDAV client library (GnuTLS enabled)</summary><description>neon is an HTTP and WebDAV client library, with a C language API.
+
+WARNING: THE NEON API IS NOT YET STABLE.
+
+Provides lower-level interfaces to directly implement new HTTP
+methods, and higher-level interfaces so that you don't have to
+worry about the lower-level stuff.
+
+Current features:
+  * High-level interface to HTTP and WebDAV methods (PUT, GET, HEAD, etc.)
+  * Low-level interface to HTTP request handling, to allow implementing
+    new methods easily.
+  * persistent connections
+  * RFC2617 basic and digest authentication (including auth-int, md5-sess)
+  * Proxy support (including basic/digest authentication)
+  * SSL/TLS support using GnuTLS (including client certificate and thread
+    safety support)
+  * Generic WebDAV 207 XML response handling mechanism
+  * XML parsing using the expat or libxml parsers
+  * Easy generation of error messages from 207 error responses
+  * WebDAV resource manipulation: MOVE, COPY, DELETE, MKCOL.
+  * WebDAV metadata support: set and remove properties, query any set ofi
+    properties (PROPPATCH/PROPFIND).
+  * autoconf macros supplied for easily embedding neon directly inside an
+    application source tree.</description></interface><interface uri="http://0install.net/2007/3rd-party/libpq4.xml"><name>libpq4</name><summary>PostgreSQL C client library</summary><description>
+libpq is a C library that enables user programs to communicate with the
+PostgreSQL database server. The server can be on another machine and accessed
+through TCP/IP. This version of libpq is compatible with servers from PostgreSQL
+7.3 to 8.1.
+
+This package contains the run-time library, needed by packages using libpq.
+
+PostgreSQL is an object-relational SQL database management system.</description></interface><interface uri="http://0install.net/2007/3rd-party/libpq5.xml"><name>libpq5</name><summary>PostgreSQL C client library</summary><description>libpq is a C library that enables user programs to communicate with
+the PostgreSQL database server. The server can be on another machine
+and accessed through TCP/IP. This version of libpq is compatible
+with servers from PostgreSQL 8.2 or later.
+
+This package contains the run-time library, needed by packages using
+libpq.
+
+PostgreSQL is an object-relational SQL database management system.</description></interface><interface uri="http://0install.net/2007/3rd-party/libqt-mt3.xml"><name>libqt-mt3</name><summary>Qt GUI Library (threaded runtime version)</summary><description>
+This is the Trolltech Qt library, version 3. It's necessary for applications
+that link against the libqt-mt.so.3, e.g. all KDE3 applications.</description><homepage>http://www.trolltech.com</homepage></interface><interface uri="http://0install.net/2007/3rd-party/libsasl2-2.xml"><name>libsasl2-2</name><summary>Cyrus SASL - authentication abstraction library</summary><description>This is the Cyrus SASL API implementation, version 2.1.
+
+SASL is the Simple Authentication and Security Layer, a method for
+adding authentication support to connection-based protocols. To use
+SASL, a protocol includes a command for identifying and
+authenticating a user to a server and for optionally negotiating
+protection of subsequent protocol interactions. If its use is
+negotiated, a security layer is inserted between the protocol and the
+connection. See RFC 2222 for more information.
+
+Any of: ANONYMOUS, CRAM-MD5, DIGEST-MD5, GSSAPI (MIT or Heimdal
+Kerberos 5), NTLM, OTP, PLAIN, or LOGIN can be used. If you intend to
+use this package on a server that provides SASL authentication, then
+you must install some of the libsasl2-modules* packages.</description></interface><interface uri="http://0install.net/2007/3rd-party/libserf-0-0.xml"><name>libserf-0-0</name><summary>high-performance asynchronous HTTP client library</summary><description>serf library is a C-based HTTP client library built upon the Apache
+Portable Runtime (APR) library. It multiplexes connections, running the
+read/write communication asynchronously. Memory copies and
+transformations are kept to a minimum to provide high performance
+operation.</description></interface><interface uri="http://0install.net/2007/3rd-party/libsqlite3-0.xml"><name>libsqlite3-0</name><summary>SQLite 3 shared library</summary><description>SQLite is a C library that implements an SQL database engine.
+Programs that link with the SQLite library can have SQL database
+access without running a separate RDBMS process.</description></interface><interface uri="http://0install.net/2007/3rd-party/libssl0.9.8.xml"><name>libssl0.9.8</name><summary>SSL shared libraries</summary><description>
+libssl and libcrypto shared libraries needed by programs like apache-ssl,
+telnet-ssl and openssh.
+
+It is part of the OpenSSL implementation of SSL.</description></interface><interface uri="http://0install.net/2007/3rd-party/libsvn1.xml"><name>libsvn1</name><summary>shared libraries used by Subversion</summary><description>
+This package includes shared libraries to manipulate Subversion (svn)
+repositories and working copies.</description></interface><interface uri="http://0install.net/2007/3rd-party/libuuid1.xml"><name>libuuid1</name><summary>universally unique id library</summary><description>libuuid generates and parses 128-bit universally unique id's (UUID's).
+See RFC 4122 for more information.</description></interface><interface uri="http://0install.net/2007/3rd-party/libxml2.xml"><name>libxml2</name><summary>GNOME XML library</summary><description>XML is a metalanguage to let you design your own markup language.
+A regular markup language defines a way to describe information in
+a certain class of documents (eg HTML). XML lets you define your
+own customized markup languages for many classes of document. It
+can do this because it's written in SGML, the international standard
+metalanguage for markup languages.
+
+This package provides a library providing an extensive API to handle
+such XML data files.
+
+This feed is deprecated; use http://repo.roscidus.com/lib/xml2 instead.
+</description></interface><interface uri="http://0install.net/2007/3rd-party/mysql-common.xml"><name>mysql-common</name><summary>MySQL database common files</summary><description>MySQL is a fast, stable and true multi-user, multi-threaded SQL database
+server. SQL (Structured Query Language) is the most popular database query
+language in the world. The main goals of MySQL are speed, robustness and
+ease of use.
+
+This package includes files needed by all versions of the client library
+(e.g. /etc/mysql/my.cnf).</description></interface></c:catalog>
+<!-- Base64 Signature
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4R0VAACgkQBxM/lsp02Lr2zggAjHb7
+qLNvx+TWb6uJcVS4JmqSrK6qiwqxKJBCqZmEnYsy6WkRy3sYhijNDAu2Cy4DHMOXWkB5B0z5wl/3
+y6roWcyanqUUILNQca/AM3JipDnqGlVJfe1/r/r09viygP/PIOG4vRs8gfZuC9Mf2C5SxzCR4V0g
+V2W5jQQJVFiX7T0l5+C1YeO/+cUheKFVDHNrWRVSBqHxooDlOl6j2uTEZilknrcNhDQSSsAzskq+
+xjXNje7n3QdiffLm83mczb7FAy/oK3Pn4rOBwDlgRaJHygVaCmokVhTjzod1jm3z7Ko1wsF817x8
+6jimcrqsZ4vGF2s9UBEZJe7e9g4wV3meyg==
+
+-->

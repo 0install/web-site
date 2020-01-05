@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='../../resources/catalog.xsl'?>
+<c:catalog xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:c="http://0install.de/schema/injector/catalog"><interface uri="http://0install.net/2007/interfaces/ZeroInstall.xml"><name>0install</name><summary>decentralised installation system</summary><description>
+Zero Install is a decentralised cross-platform software installation
+system available under the LGPL. It allows software developers to publish
+programs directly from their own web-sites, while supporting features familiar
+from centralised distribution repositories such as shared libraries, automatic
+updates and digital signatures. It is intended to complement, rather than
+replace, the operating system's package management. 0install packages never
+interfere with those provided by the distribution.
+  </description><homepage>https://0install.net/</homepage><icon href="https://0install.net/feed_icons/ZeroInstall.png" type="image/png"/><category>System</category></interface><interface uri="http://0install.net/2007/interfaces/0publish-gui.xml"><name>0publish-gui</name><summary>GTK editor for Zero Install feeds</summary><description>
+Publishing a program using Zero Install requires you to create an XML file
+listing the available versions, where to get them, and what other software they
+depend on.
+
+This program provides a simple graphical interface for creating and editing
+these feeds.</description><homepage>https://docs.0install.net/packaging/</homepage><icon href="https://0install.net/feed_icons/0publish-gui.png" type="image/png"/><category>Development</category></interface><interface uri="http://0install.net/2007/interfaces/0release.xml"><name>0release</name><summary>manage new releases with Zero Install</summary><description>
+If you have a local feed in the development version of your program, 0release
+can help you to create new releases easily.</description><homepage>https://docs.0install.net/tools/0release/</homepage><category>Development</category></interface><interface uri="http://0install.net/2007/interfaces/FeedLint.xml"><name>FeedLint</name><summary>check your Zero Install feeds</summary><description>
+FeedLint is a tool for Zero Install feed authors. It checks that your Zero
+Install feed can be downloaded, that it is valid and that all the links in it
+still work.
+
+Run this on all your feeds from time-to-time to make sure they still work.</description><homepage>https://docs.0install.net/tools/feedlint/</homepage><category>Development</category></interface><interface uri="http://0install.net/2007/interfaces/Make-headers.xml"><name>Make-headers</name><summary>creates -dev packages</summary><description>
+Given a standard autoconf source package (in $SRCDIR), this script builds it
+(configure --prefix=$DISTDIR &amp;&amp; make install) and then removes files which
+shouldn't be in a -dev package (.so and .la files, etc).
+
+It also edits any pkg-config .pc files to use a relative path for the prefix.</description><homepage>https://docs.0install.net/tools/make-headers/</homepage><category>Development</category></interface><interface uri="http://0install.net/2007/interfaces/Zero2Desktop.xml"><name>Zero2Desktop</name><summary>add Zero Install programs to your Applications menu</summary><description>
+Zero Install provides a way to download and run applications using a full URI to
+identify them. To make applications easier to run you'll want to create a short-
+cut in your desktop environment.
+
+This program creates a freedesktop.org &quot;.desktop&quot; file, which causes the program
+to appear in the GNOME or KDE Applications menus.</description><category>Utility</category><icon href="https://0install.net/feed_icons/Zero2Desktop.png" type="image/png"/></interface><interface uri="http://0install.net/2007/interfaces/ZeroInstall-GUI.xml"><name>ZeroInstall-GUI</name><summary>graphical interface for the Zero Install injector</summary><description>
+The Zero Install GUI displays a window showing which versions of various
+components will be used when running a program, and allows you to alter various
+policy settings to affect the selection process. You can use this to mark
+particular versions of libraries as preferred, bugggy, etc.
+
+This program is run automatically by the '0launch' command. If you want to add
+an installer to your desktop menus, you want something like Zero2Desktop
+instead.</description><homepage>https://0install.net/</homepage></interface></c:catalog>
+<!-- Base64 Signature
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4R0VAACgkQBxM/lsp02LrTVAf8CHi4
+MVp28mAJjxSuVdqlqVYAxD+9oWATdcWTLxlpRRrGdw/nK9D5I2p1VWZgU5kn3yDd9HAD2ssyUPC9
+velYAsGZGs0EiGwc5hGXUnzkBt7hnF3IPr1FFoNuPH/xk4NIGT5Zdy3rEVoe9duoj3cuWXaOUq7n
+jGf3fu6PGF3Hw/oNfz+t1Bv5on3JNCCwz2SPJZ9+ODqaBRwvBZMprHuq4Vow9jOlUVq9oeITJ2kx
+rEdKnMLP954bMxzfYoWDydG6LPZru7u7Mj+98f0c/IOXL7oNgc2gyMzVIX5wHQzCYHD6MrJ3TWqF
+BR8Y40ZVUuq8DT/LjFk+VeYuw8ap1/JGbA==
+
+-->

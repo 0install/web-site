@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='../../resources/catalog.xsl'?>
+<c:catalog xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:c="http://0install.de/schema/injector/catalog"><interface uri="http://0install.net/2012/interfaces/0install-runenv-cli.xml"><name>0install-runenv-cli</name><summary>0install .NET helper for Windows</summary><description>
+    When 0install needs to add a new program to %PATH% on Windows, it uses this
+    package to creates a .NET launcher application.
+</description><homepage>https://0install.net/</homepage><category>System</category></interface></c:catalog>
+<!-- Base64 Signature
+iQEyBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4R0VAACgkQBxM/lsp02LrUOAf3amlz
+JW0WdLi6agH5xPrxKLoDfpgRftZe7rpQe4TFuLBXvvTYGIgaF33yHovHwZAcrQUfgfM8L5mp3HKa
+164nfkegg8MnI2A0QKYHIf+nCS82n5IJ6d4+3ybL8IqH4WZMtOfiCDeOe/GkZxBNyfpcGJpaabGB
+PKQeeWjmbpnOovlFKt6hy7G/ipdezWxwFDBgAuBM/MfOzD5M5v8hsymmHPbX5l83V7kotP+iQtdG
+QoJS9ECEwcdpqwVApEcSHqYdj+S3NzoR9wxLiGqLbkZoArgA+oCKS0zgL5lBavlTHUkfDVy8ROeQ
+Moux3ZMku/eQDRotmhgjf++rs15SVVi5
+
+-->

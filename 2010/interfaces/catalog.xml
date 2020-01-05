@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='../../resources/catalog.xsl'?>
+<c:catalog xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:c="http://0install.de/schema/injector/catalog"><interface uri="http://0install.net/2010/interfaces/xzdec.xml"><name>xzdec</name><summary>XZ Decompressor</summary><description>
+xzdec is a liblzma-based decompression-only tool for .xz files.</description><homepage>http://tukaani.org/xz/</homepage><category>Utility</category></interface></c:catalog>
+<!-- Base64 Signature
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4R0VAACgkQBxM/lsp02Lo7rwgAkZ8B
+PF9Z+Yx7zr0glrrGEuIbIsDKQGskhsAZZm7i/NXyhYunJ6tlpfl4em9ZS2RC2hQcTSmpcvOi1YLa
+YVBzS7c0RANN83H2RqWMAMXiXLwIiREcap/pIuqW1ijzlNED9DN5Qf7oqkyIdZCCxwqAxpF515ex
+rUCvcWSaSjfKspJfQf3qmhGrgOuAzR5AqmQ7pxm3D84ZD3HY12GqtnRcxsvJKZ9/I8CQ/WXvctRV
+LNEVlsU7+UjfXy4cGPoLxiLFPszhTJRSlNIw8QgA6Hwj5yuEIORle1QR8xIkRRmWwcTZ00NHjMj0
+to3PEKk/ZhuZMbLmJEzA4vWuNcnyNCffnA==
+
+-->

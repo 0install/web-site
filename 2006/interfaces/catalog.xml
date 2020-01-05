@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='../../resources/catalog.xsl'?>
+<c:catalog xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:c="http://0install.de/schema/injector/catalog"><interface uri="http://0install.net/2006/interfaces/0compile.xml"><name>0compile</name><summary>create a binary release from source code</summary><description>
+0compile creates a binary from source code, either for your own use or ready for
+publishing on the web through Zero Install. It can use Zero Install to download
+any build dependencies (compilers, header files, build tools, etc).
+
+This is useful if there is no binary for your platform, or if you wish to modify
+the program in some way.
+
+If plash is installed, it is used to sandbox the build so that it can't
+accidentally modifiy any files outside of the build directory.
+
+For a full tutorial, see 0compile's homepage.</description><homepage>https://docs.0install.net/tools/0compile/</homepage><category>Development</category></interface><interface uri="http://0install.net/2006/interfaces/0publish"><name>0publish</name><summary>utility to make creating injector interfaces easier</summary><description>
+0publish makes creating and modifying injector interface files easier. It can
+create a new commented template for you or edit an existing one.
+
+Various editing operations are available, the most basic being to let you edit
+it in your preferred text editor. It automatically removes the signature when
+loading an interface and creates a new one when writing it back out. It will
+also validate the new version before saving it.
+
+A tutorial on 0publish can be found at http://0install.net/injector-
+packagers.html.</description><homepage>https://docs.0install.net/tools/0publish/</homepage></interface><interface uri="http://0install.net/2006/interfaces/ATK-dev"><name>ATK-dev</name><summary>headers for compiling ATK applications</summary><description>
+These are the ATK header files. They are required when compiling applications
+that use the ATK library. ATK is an Accessibility Toolkit.</description></interface><interface uri="http://0install.net/2006/interfaces/GLib-dev"><name>GLib-dev</name><summary>headers for compiling GLib applications</summary><description>
+These are the GLib header files. They are required when compiling applications
+that use the GLib library.</description></interface><interface uri="http://0install.net/2006/interfaces/GLibmm-dev.xml"><name>GLibmm-dev</name><summary>headers for compiling C++ GLib applications</summary><description>
+These are the glibmm header files. They are required when compiling C++
+applications that use the GLib library.</description></interface><interface uri="http://0install.net/2006/interfaces/GTK-2.4.xml"><name>GTK-2.4</name><summary>set up a GTK 2.4 build environment</summary><description>
+This program runs a command in an environment with PKG_CONFIG_PATH set to
+include the location of the GTK 2.4 and related library headers. By default, it
+runs /bin/sh to give you a shell.
+
+Typical usage is to run this and then configure and build your program from the
+new shell. The resulting binary should work on all systems with GTK 2.4 and
+later.
+
+Note: if you build your program using Zero Install then it's easier to just add
+the GTK dependencies to the source interface file.</description><icon href="https://0install.net/2006/icons/gtk-logo.png" type="image/png"/><category>Development</category></interface><interface uri="http://0install.net/2006/interfaces/GTK-dev"><name>GTK-dev</name><summary>headers for compiling GTK applications</summary><description>
+These are the GTK header files. They are required when compiling applications
+that use the GTK+ library.</description><icon href="https://0install.net/2006/icons/gtk-logo.png" type="image/png"/></interface><interface uri="http://0install.net/2006/interfaces/GTKmm-dev.xml"><name>GTKmm-dev</name><summary>headers for compiling C++ GTK applications</summary><description>
+These are the glibmm header files. They are required when compiling C++
+applications that use the GTK, ATK or Pango libraries..</description></interface><interface uri="http://0install.net/2006/interfaces/Pango-dev"><name>Pango-dev</name><summary>headers for compiling Pango applications</summary><description>
+These are the Pango header files. They are required when compiling applications
+that use the Pango library. Pango is a library for laying out and rendering of
+text, with an emphasis on internationalization.</description></interface><interface uri="http://0install.net/2006/interfaces/ZeroInstall-GUI.xml"><name>ZeroInstall-GUI</name><summary>graphical interface for the Zero Install injector</summary><description>
+The Zero Install GUI displays a window showing which versions of various
+components will be used when running a program, and allows you to alter various
+policy settings to affect the selection process. You can use this to mark
+particular versions of libraries as preferred, bugggy, etc.</description><homepage>https://0install.net/</homepage></interface></c:catalog>
+<!-- Base64 Signature
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4R0VAACgkQBxM/lsp02LpQCAf+LsSX
+RMGv9iYJIHeyKhzzDXnFxF82mN5YemPDBnhdKZfgJ11v7jR3v6h7u6nQjqp8wedoz7i3QKp3KJth
+86UsLJvmgiVwRjsVEbbFfSSJg7b8ReqIOLOKLAAw+OZ065TDTqTu+QEAO2bRPLld6arcl6gEyFg5
+V34az2ffEXAtycsAKWUYTzbkzSoh5YkY5r5k7N8bE/2CVcBW809wYyASVDedKNl+ucnAI8Ee3C9k
+yZq7c8efRNtxLA67ixgbCMfb5Gw6Dcpga5noryevaT2749GN1uKqjHKYYMASat6FMP94/2vd2pHv
+TVURjZqQkFukQ9gTsX2XTsnoFF6R9WfYQg==
+
+-->

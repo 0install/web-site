@@ -125,20 +125,24 @@
           <manifest-digest sha256new="JZWXPIFZKJWO5NW2GN6OLRMM6DV3WHK336T4YJX24ZE5POX5YCDQ"/>
           <archive extract="0repo-0.9" href="https://downloads.sourceforge.net/project/zero-install/0repo/0.9/0repo-0.9.tar.bz2" size="59315"/>
         </implementation>
-        <implementation id="sha1new=264a0f1aaa31f827b49eee3ea67ef6a3859b778a" released="2019-11-09" version="0.9.1">
+        <implementation id="sha1new=264a0f1aaa31f827b49eee3ea67ef6a3859b778a" released="2019-11-09" stability="stable" version="0.9.1">
           <manifest-digest sha256new="FMEE2SQV3DPM76KYDK7VJVS7HSY2DPEYXDQ76C2NQHBVVJPEI72A"/>
           <archive extract="0repo-0.9.1" href="https://downloads.sourceforge.net/project/zero-install/0repo/0.9.1/0repo-0.9.1.tar.bz2" size="59337"/>
+        </implementation>
+        <implementation id="sha1new=63a566c625f6572e988279039d15bb8ede5637e2" released="2020-01-05" version="0.10">
+          <manifest-digest sha256new="HLRXJNHXYBHV2ZEIJN7N7NI3HITKRSQFX5IGJY5PCRVHLFEI2GVA"/>
+          <archive extract="0repo-0.10" href="https://downloads.sourceforge.net/project/zero-install/0repo/0.10/0repo-0.10.tar.bz2" size="59665"/>
         </implementation>
       </group>
     </group>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl3GnhkACgkQBxM/lsp02Lq9mwf8DXQI
-2fKZDI0AoWS/y5IbFQjGoMHUgqDx0cDw4c2JL2fsxS2WCKkvaRiMTC8uPnqU/olazq9u5miC+tQE
-D4nLdcFtwFYIoYx1D9hP4rixg8lQV5QeKqsv6KeInnMu74u5ePKIBf8VuZMEp65KnG21hBOdyShM
-VVyDe8JaaLJyZvaEi4X/lXtsjfZKgO+Dblm33YME1CSIfoV6jAr4AfU3WIzanjgVwmsE725sLrBJ
-rQ5Nu20Fs9f786q/ikAf/9i3Th6kxou/UeI6v9zB9BFdeBybkRCKlntJiq1VRl8fzVUlLw0HzJlE
-Zeztn5UchLlJmToN2TUUtLJyNjBdgH/eTA==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4R0U8ACgkQBxM/lsp02Lr7Fgf+I2WP
++YH9aEtDI4apK1XZKO/KFh/W0hZwNQjrIda58E8kKXlXHTeH+TB2VPAhTDpnu8SWNCLJXBlzpU5v
+3ec3dNmCsT/5kQEHMmFpSLj2a1AwHUC/BPaSfFrTA7tzc18FqrFRZ+iTdhUzKYY/IKOWyVOqYT6N
+M+iPg9e1Ur3ue6h1NIgz1Jd+asfmYk1JzJOw9lvqqfbgfuJtgpuDyGBl4032QOAZIWl+C3kLl0uk
+hFUdDFkcwe1c3180GM4aBWvO1qVW+0px75jeW+GmwNrbCJX+MGwSZEB2gNagTWMmeBtlVmnsJxx1
+ku4Rtu96EUFnzhMrwcNavECWcanzqgpz6w==
 
 -->

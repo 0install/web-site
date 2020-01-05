@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='../../resources/catalog.xsl'?>
+<c:catalog xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:c="http://0install.de/schema/injector/catalog"><interface uri="http://0install.net/2008/3rd-party/gnome-inform7.xml"><name>gnome-inform7</name><summary>GNOME port of the Inform 7 IDE</summary><description>
+GNOME Inform 7 is a GNOME port of the Inform 7 integrated development
+environment for Inform 7. Inform 7 is a &quot;natural&quot; programming language for
+writing interactive fiction (also known as text adventures.)</description><category>Development</category><homepage>http://sourceforge.net/projects/gnome-inform7</homepage></interface><interface uri="http://0install.net/2008/3rd-party/groundhog.xml"><name>groundhog</name><summary>A simple logic game</summary><description>The purpose of this game is to put balls in pockets of the same color
+by manipulating a maze of tubes.
+
+Homepage: http://home-2.consunet.nl/~cb007736/groundhog.html</description><category>Game</category></interface><interface uri="http://0install.net/2008/3rd-party/libcurl3-gnutls.xml"><name>libcurl3-gnutls</name><summary>Multi-protocol file transfer library</summary><description>libcurl is designed to be a solid, usable, reliable and portable
+multi-protocol file transfer library.
+
+SSL support is provided by GnuTLS.
+To enable LDAP support package libldap2-dev is required.
+
+This is the shared version of libcurl.
+
+ Homepage: http://curl.haxx.se</description></interface><interface uri="http://0install.net/2008/3rd-party/libmng1.xml"><name>libmng1</name><summary>Multiple-image Network Graphics library</summary><description>The libmng library supports decoding, displaying, encoding, and various
+other manipulations of the Multiple-image Network Graphics (MNG) format
+image files. It uses the zlib compression library, and optionally the
+JPEG library by the Independent JPEG Group (IJG) and/or
+lcms (little cms), a color-management library by Marti Maria Saguar.</description></interface><interface uri="http://0install.net/2008/3rd-party/libsdl-image1.2.xml"><name>libsdl-image1.2</name><summary>image loading library for Simple DirectMedia Layer 1.2</summary><description>This is a simple library to load images of various formats as SDL surfaces.
+This library currently supports BMP, PPM, PCX, GIF, JPEG, PNG, TIFF, and XPM
+formats.</description></interface><interface uri="http://0install.net/2008/3rd-party/libsdl-mixer1.2.xml"><name>libsdl-mixer1.2</name><summary>mixer library for Simple DirectMedia Layer 1.2</summary><description>SDL Mixer is a sample multi-channel audio mixer library. It supports 4
+channels of 16 bit stereo audio, plus a single channel of music, mixed by
+the popular MikMod MOD, Timidity MIDI, and SMPEG MP3 libraries.
+
+URL: http://www.libsdl.org/projects/SDL_mixer/</description></interface><interface uri="http://0install.net/2008/3rd-party/libtasn1-3.xml"><name>libtasn1-3</name><summary>Manage ASN.1 structures (runtime)</summary><description>Manage ASN1 (Abstract Syntax Notation One) structures.
+The main features of this library are:
+  * on-line ASN1 structure management that doesn't require any C code
+    file generation.
+  * off-line ASN1 structure management with C code file generation
+    containing an array.
+  * DER (Distinguish Encoding Rules) encoding
+  * no limits for INTEGER and ENUMERATED values
+
+This package contains runtime libraries.</description></interface><interface uri="http://0install.net/2008/3rd-party/libvorbis0a.xml"><name>libvorbis0a</name><summary>The Vorbis General Audio Compression Codec</summary><description>Ogg Vorbis is a fully open, non-proprietary, patent-and-royalty-free,
+general-purpose compressed audio format for audio and music at fixed
+and variable bitrates from 16 to 128 kbps/channel.
+
+The Vorbis library is the primary Ogg Vorbis library.</description></interface><interface uri="http://0install.net/2008/3rd-party/libvorbisfile3.xml"><name>libvorbisfile3</name><summary>The Vorbis General Audio Compression Codec</summary><description>Ogg Vorbis is a fully open, non-proprietary, patent-and-royalty-free,
+general-purpose compressed audio format for audio and music at fixed
+and variable bitrates from 16 to 128 kbps/channel.
+
+The Vorbisfile library provides a convenient high-level API for decoding
+and basic manipulation of all Vorbis I audio streams.</description></interface></c:catalog>
+<!-- Base64 Signature
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4R0VAACgkQBxM/lsp02LpJtQf8CzDE
+mImnyp347dfg7RAIIl75HY7a5cIkLJ+siy6Ic6R31dAYn+HWOZ+jxZRxREB1/w9d/IbI7D9Z0zfS
+59UjJ4G9UaIaO30s5gqF8j+hqQgRUB8neexrvrXcTMsBUxvkl0aprxEeqhCY8F8SEBwmCmVsCLNc
+RA/WS3VEmkABNY13Yqe4E0l1pKPw9uc2zOLF/XZ9klUv8DVJjLX+zvpFNxl1BGk4mOiRG+b3L5Rc
+1tygqf+i8CkUNeq2untRRKNe09LW9FUBF79atl4QjmgyHK2hI+gm5DTvHcnnRxbiWMfa7p6Ma2Hy
+Z94AvFCIoNwk0ctiJdFtbNNEWipoHoAfng==
+
+-->
