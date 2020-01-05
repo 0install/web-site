@@ -26,7 +26,7 @@ interfere with those provided by the distribution.
 
   <group license="OSI Approved :: GNU Lesser General Public License (LGPL)" main="0launch" self-test="tests/allpython.sh">
     <requires interface="https://apps.0install.net/python/python.xml" version="..!3"/>
-    <requires interface="https://apps.0install.net/python/python.xml-gobject"/>
+    <requires interface="https://apps.0install.net/python/pygobject.xml"/>
     <implementation id="sha1new=e1ee85471047f0b800fef438c6b532914ff310ae" released="2007-11-18" stability="stable" version="0.31">
       <archive extract="zeroinstall-injector-0.31" href="http://downloads.sourceforge.net/project/zero-install/injector/0.31/zeroinstall-injector-0.31.tar.bz2" size="121422"/>
     </implementation>
@@ -127,7 +127,7 @@ interfere with those provided by the distribution.
     </implementation>
   </group>
   <group license="OSI Approved :: GNU Lesser General Public License (LGPL)" main="0launch">
-    <requires interface="https://apps.0install.net/python/python.xml-gobject"/>
+    <requires interface="https://apps.0install.net/python/pygobject.xml"/>
     <command name="test" path="tests/testall.py">
       <runner interface="https://apps.0install.net/python/python.xml">
         <version before="3"/>
@@ -213,7 +213,7 @@ interfere with those provided by the distribution.
   </group>
 
   <group license="OSI Approved :: GNU Lesser General Public License (LGPL)" main="0launch">
-    <requires interface="https://apps.0install.net/python/python.xml-gobject"/>
+    <requires interface="https://apps.0install.net/python/pygobject.xml"/>
     <restricts interface="https://apps.0install.net/python/python.xml" version="2.6..!3 | 3.2.2..!3.7"/>
 
     <requires interface="https://apps.0install.net/utils/gnupg.xml">
@@ -249,7 +249,7 @@ interfere with those provided by the distribution.
     </implementation>
 
     <group>
-      <requires interface="https://apps.0install.net/python/python.xml-gobject"/>
+      <requires interface="https://apps.0install.net/python/pygobject.xml"/>
       <requires interface="http://0install.net/2012/interfaces/0install-runenv-cli.xml" os="Windows">
         <environment insert="runenv.cli.template" mode="replace" name="ZEROINSTALL_CLI_TEMPLATE"/>
         <version before="1.12.1"/>
@@ -260,7 +260,7 @@ interfere with those provided by the distribution.
       </implementation>
     </group>
     <group>
-      <requires interface="https://apps.0install.net/python/python.xml-gobject"/>
+      <requires interface="https://apps.0install.net/python/pygobject.xml"/>
       <requires interface="http://0install.net/2012/interfaces/0install-runenv-cli.xml" os="Windows">
         <environment insert="runenv.cli.template" mode="replace" name="ZEROINSTALL_CLI_TEMPLATE"/>
         <version not-before="1.12.1"/>
@@ -274,7 +274,7 @@ interfere with those provided by the distribution.
         <archive extract="0install-1.14" href="http://downloads.sourceforge.net/project/zero-install/0install/1.14/0install-1.14.tar.bz2" size="412052"/>
       </implementation>
       <group>
-        <requires interface="https://apps.0install.net/python/python.xml-gobject"/>
+        <requires interface="https://apps.0install.net/python/pygobject.xml"/>
         <implementation id="sha1new=ab6ca6165cd57a1bb95ddf5af9c51cdf325e1db8" released="2013-02-12" stability="stable" version="1.15">
           <manifest-digest sha256new="KRDFWRRP6QEMI2F2QGUFXWZD7AZSMZWZDAHE4LYQWGJ5I2GUYRVQ"/>
           <archive extract="0install-1.15" href="http://downloads.sourceforge.net/project/zero-install/0install/1.15/0install-1.15.tar.bz2" size="413822"/>
@@ -290,7 +290,7 @@ interfere with those provided by the distribution.
       </group>
     </group>
     <group>
-      <requires interface="https://apps.0install.net/python/python.xml-gobject"/>
+      <requires interface="https://apps.0install.net/python/pygobject.xml"/>
       <requires interface="http://0install.net/2012/interfaces/0install-runenv-cli.xml" os="Windows">
         <environment insert="runenv.cli.template" mode="replace" name="ZEROINSTALL_CLI_TEMPLATE"/>
         <version not-before="2.0.2"/>
@@ -336,11 +336,11 @@ interfere with those provided by the distribution.
 
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4R8kwACgkQBxM/lsp02LrdOwf/WTWu
-szXCwhBJTGW46NR+kAvUbOYXVLrxtAo/uWIwU9f3ahs8Dzj/kRockQerCLfjUUdcqdDYNpvB51ax
-rVKg7ySQ5u50FSN4kPRTntCyQ/YTPMn1RwtQhomXqZ14OhDPnlZo4nAMlnhGmZdaBiU9YdnVXuz0
-f3Q5K6dhn0enFh34+JKJoaQ4D79XHdajXSyKzY/YZC82Nl6roR17ulOAaQTcpiFN1uwWs8xxqbvN
-U1al8GBbiWA/wz6PFxKMiP5tD5ijl2iPIsqBgFzH92uengrlerV7joX5ihht4qmsmc1962tm9nmH
-UWWKhegSNN1gnqCMv6ZNSAVtYc5FG2TSYQ==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4R84AACgkQBxM/lsp02LowIgf/cPM/
+vXZcYwZV0L3R9UHOsopAF4ubH5LYKymuvPV/erjdpJqeywJPgP5UdMZMDGi5IJR93SueZLrqJ/2M
+5c1pU2KIfVIZ1AWJXQYTUXsEF/l7JKrmLkph3mKNsnCxojZ52SuaEliFUqaUC405il2IN0AJmXGA
+DZqKR7mkjxEi/DPJ9S80eJ7QlTzAGsKRf1jYkeM6GeMLILnCxfO0Yo7T0sktYdhAF4EuoMN+4EX4
+YnQ0sIsynfCQffF2CeTLSdHT0mvWkwNi4qcWI6Kkz/JBUFZTpGVdR02RMaGQsS/yFcy+mn96FXtI
+4hm9IknMNEav+dX5O7gkVAfg3G5qb4BRDw==
 
 -->

@@ -46,7 +46,7 @@ interfere with those provided by the distribution.
           <executable-in-var name="ZEROINSTALL_PYTHON"/>
         </requires>
 
-        <requires interface="https://apps.0install.net/python/python.xml-gobject" os="POSIX"/>
+        <requires interface="https://apps.0install.net/python/pygobject.xml" os="POSIX"/>
       </compile:implementation>
     </command><!-- Need to add support to 0test for testing source code.
     <command name="test" path="tests/testall.py">
@@ -213,7 +213,7 @@ interfere with those provided by the distribution.
     <requires interface="https://apps.0install.net/python/python.xml" version="2.6..!3 | 3.2.2..">
       <executable-in-var name="ZEROINSTALL_PYTHON"/>
     </requires>
-    <requires interface="https://apps.0install.net/python/python.xml-gobject" os="POSIX"/>
+    <requires interface="https://apps.0install.net/python/pygobject.xml" os="POSIX"/>
     <implementation arch="Linux-x86_64" id="sha1new=034b781e3772109efc894a1ef7d3475b5fcc9d44" released="2013-09-17" version="2.4-rc1">
       <manifest-digest sha256new="MXT7VBBYGWINYW744QKH63HTE6TGPVDY2EPRO75MHFT32CDYOWFA"/>
       <archive extract="0install-linux-x86_64-2.4-rc1" href="https://downloads.sourceforge.net/project/zero-install/0install/2.4-rc1/0install-linux-x86_64-2.4-rc1.tar.bz2" size="1107894"/>
@@ -524,11 +524,11 @@ interfere with those provided by the distribution.
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4R8kwACgkQBxM/lsp02LoVagf/QKO5
-G4rcz6NetyixvrOdRhuvPma/z/bScfo3uT5qQys9pBaBZLZn61NejN2M8pTLvmWWLGZZ9DExUJgi
-fR/kXGdHL4QFXgYDwijjnQ7y+tkL/e7JLWAK1E1xr54zHh97q2TPioQiqipC+NE0s02+1XGzo1uY
-VJawJTCdCocZmZcsICXLaQxyLj3glDW98R6D7LDZlPqay56lDEBo3k0pVT4cUY1ogV+ZTrFlnfTx
-eWsSxUNo6Eauw+5VdlNBoK56K3Mgfu6zfo6E8YqoaRltqdbubMU5KN5oXUh5PA92wlUHX+AI46Ys
-KBNEeyeGj5h8jPbK17hA34y0m0yJVTqjEA==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4R84QACgkQBxM/lsp02LpSsAf/bkoR
+sbubk9ZnzxmjKxD5ph/IcDLPbLNeDxjHyd1mOwEMRQS1yFAP46AORs62KRQ/3TI7/Pocys0V+yTW
+wlXpvYxbUYVOGAs4foz6DCPpO7R9MnHc3FlqricMWoOU+CrYFjDcd0VEjWpyB/TiHeP9MUDuMiCI
+EJRIvjWbTRdbr7SCTA1I+JRQTjW/1gs2eWW17Dffc2IM/W6BpOnBAFhieYGai2TikqKMMEIccFGj
+pppo6kdAsVfTCCjW5Ep6jffUN3hIzqBxdKFp3Fxc6Nm6n3UWGzWifKE0Tcx1J3NewM6hkz7VQVvd
+wyGPlZe5a3oeI77yFjNCO3zbqgkhrniOIw==
 
 -->

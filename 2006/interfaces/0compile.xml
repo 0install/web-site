@@ -21,7 +21,7 @@ For a full tutorial, see 0compile's homepage.</description>
   <needs-terminal/>
 
   <group main="0compile">
-    <requires interface="https://apps.0install.net/python/python.xml-gobject"/>
+    <requires interface="https://apps.0install.net/python/pygobject.xml"/>
 
     <implementation id="sha1=dce1eddc01d7102bef639d9c77f57e5490468acf" released="2006-09-27" stability="stable" version="0.1">
       <archive extract="0compile-0.1" href="http://freefr.dl.sourceforge.net/sourceforge/zero-install/0compile/0.1/0compile-0.1.tar.bz2" size="15393"/>
@@ -501,11 +501,11 @@ For a full tutorial, see 0compile's homepage.</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4R8k0ACgkQBxM/lsp02LqQOAf/UsR8
-G7HFojerHh2u+axmQ2hisP9A/DZBXij2Gf0AOvxkSxMVyj7cUjlL8/wZlYCZtrIOTpQy4LH6iGwG
-UsO5OwwD9u6k0EmDmMHOB/NTsmv13epijJuFV4O3w8YcfkZpy+AVWiuhh3JftIMJ1slNOyC6TCyc
-qau0DHHJaH5c5HvwxQQmmFHhbEOuMTwvH+YDu+P5pxr3aw2VcekcUxzkXIYqyI0KYFVlpl66nXkW
-ro/CYz6VxssOsd10sAME53S/+CiXZ48KySZ3rlycAY+CMMHwwBCwvSLB3zwk2p5m8lZXjgxUk5EU
-XMwKdkK2uK8uLdwM8lm+BW/iXL8rS0S1gA==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4R84QACgkQBxM/lsp02LqPQQf8C5yI
+oliz0m1HKRUJUI8myKkbiFJov+BOemSPs/8L3B4uDVhPIkuGJ8/rx+78dir1r0lc+eWb8AYBGmVn
+BBPlHiWkOFEad633TnjlAxtsapmHqz1R35BpPfc4ZnyIINeza2s/MhP7h7xnO7rAapnE2lGdG5R5
+3L9qyCNRwaJIHu6CultRh5p22Z8kmwj0vtYcO+7LlHCxIMTtW4a9qETgYNrIfNlomuLPjuH52a8D
+8ot5X3eoydExlaoSEPSKT9pWeFYGM2S25Wgyg5hBdbPvvWwgELKTixvxYf7KaOktMRJYMuNj9WWq
+/jLKx+77Hx2l7IGtYiTgKdhxIr+mIE5XNg==
 
 -->
