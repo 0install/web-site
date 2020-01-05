@@ -7,12 +7,12 @@
   <homepage>https://0install.net/</homepage>
 
   <group arch="*-src" license="OSI Approved :: GNU Lesser General Public License (LGPL)">
-    <restricts interface="http://repo.roscidus.com/ocaml/ocaml-runtime">
+    <restricts interface="https://apps.0install.net/ocaml/ocaml-runtime.xml">
       <version before="4.1" not-before="4.0"/>
     </restricts>
 
     <command name="compile">
-      <runner interface="http://repo.roscidus.com/devel/make">
+      <runner interface="https://apps.0install.net/devel/make.xml">
         <arg>-f</arg>
         <arg>${SRCDIR}/Makefile</arg>
       </runner>
@@ -29,11 +29,11 @@
   </implementation>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl3GnWAACgkQBxM/lsp02LrLXQf/V1ui
-g6wzxDnKUzQafmOaX4kYN5PyQ2W6Zan3E9Gm+gO6LzKTa44J89NIJ1iF5CHYSqsPOtd/Fefd4vUF
-CRMH3/A+ZbY9kiwaeqpjbL+GtBGNBDLfZGYxymEEVizomN71xAfZJ/2gNSzd4/ttCG2A7cVPJtvl
-5BruCs7Yy3/CZ7a4gMvSUb+ue+28SgCZNid/8kNJrR2/XpysanIvs09Jp8GJkSbb5ZEVTlQC4eoZ
-TDbzZzMOuVNy7M+WwJ2MQF6o9v3C01EvO0gaQmZlWiRRBcUfrTDW5Vr9/at13BAj5hoKAebadA9n
-m0zHRpnciqaT81uxUsEPbAB6EkLY1HtPrw==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4R8kwACgkQBxM/lsp02Lp2Sgf/Qnz4
+9dm2UsJn4novePw7t7Yc5oTsMUNBMwWhVRNbkJJBh9trVjNOkngQyRVxOKv2QqwDOF3iLYef+xt8
+oIEgmT67OFIARfbQooCsR04ZQyqaaD6BoyXKCGinGKuk5g3sGwaJbVQvG5U4eolOfNy9G/Nd/xAY
+ddRZApREFH/WGUvuHZ04Gtn8dUKWXIOk1Y9n+wTsvCvzxbiZubrbDRpDzgqk6gcZMu8QaUPd0a4R
+ZG6hJjmQf55do6uhc0KbcUM3C/WjS04lIiIFOlR+cRD99i6THVnVt1LnsbmfdGpuU/uLBaA2CtwG
+bJbkpq4giSGdKROYFkCU0/LrAVsu5v9x9g==
 
 -->

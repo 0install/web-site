@@ -63,12 +63,12 @@ still shared between users, and will get updates over the web where possible.</d
       <environment insert="" mode="replace" name="0EXPORT_ZEROINSTALL"/>
     </requires>
     <command name="test" path="test.py">
-      <runner interface="http://repo.roscidus.com/python/python">
+      <runner interface="https://apps.0install.net/python/python.xml">
 	<version before="3"/>
       </runner>
     </command>
     <command name="run" path="0export">
-      <runner interface="http://repo.roscidus.com/python/python">
+      <runner interface="https://apps.0install.net/python/python.xml">
 	<version before="3"/>
       </runner>
     </command>
@@ -83,12 +83,12 @@ still shared between users, and will get updates over the web where possible.</d
       <environment insert="" mode="replace" name="0EXPORT_ZEROINSTALL"/>
     </requires>
     <command name="test" path="test.py">
-      <runner interface="http://repo.roscidus.com/python/python">
+      <runner interface="https://apps.0install.net/python/python.xml">
 	<version before="3"/>
       </runner>
     </command>
     <command name="run" path="0export">
-      <runner interface="http://repo.roscidus.com/python/python">
+      <runner interface="https://apps.0install.net/python/python.xml">
 	<version before="3"/>
       </runner>
     </command>
@@ -100,11 +100,11 @@ still shared between users, and will get updates over the web where possible.</d
 
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl3GnWEACgkQBxM/lsp02LrZGQgAjjM7
-VARjz3wzB6w3OUHnHO9Jfs5AbEwGPyvKmRX/zRKt+fnpF7ZbMtG0ymggixeUqVW8sHrcD2ojxNsE
-MW1ORb8zyuFxTlPv476NXf0jlGWBPyF0KvnwHNFs5lFOZkcGayHqiGbt2nkciEJA0KsWrHyRIBrU
-u+awgowsO36kg6SjA3EHYZtcqWlVX6/WjdD/ftO/JXpkkDzfW3AOocuzIKCDX8ftg0UJqKcYwBLj
-QyC5NjGZIZQzA/zCzm6F/gsJf1Ut6VxhgGzdJK5hBiBBxev5CQ3eFQEntgk1/zvjCyedt0WzwKuY
-S16kQdHg3csQYmIC4g2SA7WvibgDlP+jvA==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4R8k0ACgkQBxM/lsp02Lpuwgf9GohH
+v/is86YkqTbb2nRN0m++WrA+ohtcyB3Z5uNZgHmh9/xhdYSlgl/uRNOc4crGCya2dXFXr1zA3vH+
+GxQCBqSStVMGboCVfKRYdQkH33fOHhbG686F4O8/dpmTwBDMKrHQZm7OqhoGsz/i47gBF+hXZgqB
+4kicFf5qRyoLLF452iK38gy3+MAwZgVsh52G/h/TSflpkRh7lGgvTWB7Eaaemmjm9hD033KP2WJi
+xbHsfTh25WZQhDHhhEb/h/QwAMbQ4J/LFVN7jiO42BlsmPX8Lwah4V0amUNWHuGv13XPomGZVmHW
+ZRzAKzL71oTFxjwfizecqCBJm+j5yE+y3w==
 
 -->

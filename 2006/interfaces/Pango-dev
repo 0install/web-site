@@ -46,7 +46,7 @@ text, with an emphasis on internationalization.</description>
     </implementation>
 
     <group>
-      <requires interface="http://repo.roscidus.com/lib/cairo-dev">
+      <requires interface="https://apps.0install.net/lib/cairo-dev.xml">
 	<environment insert="lib/pkgconfig" mode="prepend" name="PKG_CONFIG_PATH"/>
       </requires>
       <implementation id="sha1new=8d4f953df046d6a94ae0700e51faee559d428880" released="2008-03-02" stability="stable" version="1.10.4">
@@ -60,11 +60,11 @@ text, with an emphasis on internationalization.</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJRkLPJAAoJEAcTP5bKdNi6tsIH/RYRuXAxQA5yNW9v1g2tbKjx1NyVpmWul6Nv
-A/WkB8KfwVbpVFYX11fOwrBvtoGTGNqcBSYT5AMkaqUy0SrReXouMYUhKNlkmHvfMDI7tg3d/tJl
-W+0iru3OpdM1v0GzILGUPJxEc99OMRofWwNSctVgwV96eHPenn6ABWNJz5+/rWiKb+RGX3gEiSsl
-EB69hDKgNVWtPv1zjenNn60mMbVwo2mDWwQFhbTCz9UJufZ3f7icYVFleEa9QUq2Dl2EX9qNqi2e
-UucVPVn9q/+S0dyq6/CU13PVJDX1wBla7cyTWiCn/m090Q7bkRvSR79nNMq6ZXeuI56oR7/wR7Z7
-KPY=
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4R8k0ACgkQBxM/lsp02LpNcQf/b6V2
+ATTtv2xBb4gISyWG/AvxPvq9qJZT6KWOzrqf3JfMkSThtA+8Zdn06v461ARax76xw1U9ICMVlS/k
+WD5+9eAToC38Yb73VLF4hLWopOhY8S8C8012vJclPwkXBJH8gC415JscTHBqnLC/Mmykh742k2dP
+rBSnmpHGwbPFXSVtuytP3CfZGTata8hvsrUCXjjNH0kQYmLa0i6pblTKysH7HEAhRJ4uhUIw4e82
+oS+V9J6OXdLwdGsdA05nq9VKDZr45Lw3rA3kqcCAtRpSkPNIBB/4Wg0ZjiXrs0qBMpW961/DvySw
+iIpej+bh2sQulSeR2xP3hualgm4HnX6Z1g==
 
 -->

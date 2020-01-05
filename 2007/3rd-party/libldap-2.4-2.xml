@@ -7,7 +7,7 @@
 Access Protocol) servers and clients.</description>
   <package-implementation package="libldap-2.4-2"/>
   <group arch="Linux-i386">
-    <requires interface="http://repo.roscidus.com/lib/gnutls26">
+    <requires interface="https://apps.0install.net/lib/gnutls26.xml">
       <environment insert="lib" name="LD_LIBRARY_PATH"/>
     </requires>
     <requires interface="http://0install.net/2007/3rd-party/libsasl2-2.xml">
@@ -23,11 +23,11 @@ Access Protocol) servers and clients.</description>
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJRkLPIAAoJEAcTP5bKdNi6UtYH/iuX6VRKHDMvrouMFtwnLYJRIdg5fX/e6WPj
-ri0RyyWGytRKJJPIMMGpH4JSPLe+T6Aw2SJshJVH462bNAU5cMgllZqtGYKcAUA7wDnEYljPeVR3
-UhLExLa4d/K5B9Nphphe+q+I0IDclxkiL8DcJstjtxgmXtjJTw2R7AHKtzrECv46W+EloYXIiWr5
-gdSqBQnb4U5ZqH0EiGmmFuTF3F4MujXF66T4JXW/1o3pEnVUmNAjrOGTzytJn33dHr9Zn16RNOER
-GO9b+zoTCp+6m71MNLE136SFfYkrzdBDiegh5rdP3jb6Ks1u0tkAVr0jveG+k1nbNOx/Z8/qrX6T
-o9Q=
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4R8kgACgkQBxM/lsp02LpSUAf8CPoC
+Sy7qzbEKw16s21KQ6skxp9xmbxGAt57wcDzeG/s0CZJRgPevvlVhg3Z53kPEsbnvemIVjEDWHMc8
+ERRQsbvEi7zHWlFt5TXNrtO2vlCcb5OfIog16TuNUKrbse3YL5M8VKW4WyEMgAt/EDtDpZTgDVM6
+b/7sTS7r/YkCjKPQYuWY8qDzKctyE47AOnblkRFeQ/kP88G0wXhJK6xwGfuwYOdML3Sd2jzlLrq2
+am26nDcyBCKStY0f/n1HtC4hCX+nAkCMmKe3CBckfIOR4iTzbWoldyboqbyhhSatJwVDC65qZ5I/
+Tf+wqw/AW2ym0bvZjsZFS4caE4eBaYB8UA==
 
 -->

@@ -61,12 +61,12 @@ create a matrix of test results.</description>
       </implementation>
       <group main="0test">
 	<command name="test" path="test0test.py">
-	  <runner interface="http://repo.roscidus.com/python/python">
+	  <runner interface="https://apps.0install.net/python/python.xml">
 	    <version before="3"/>
 	  </runner>
 	</command>
 	<command name="run" path="0test">
-	  <runner interface="http://repo.roscidus.com/python/python">
+	  <runner interface="https://apps.0install.net/python/python.xml">
 	    <version before="3"/>
 	  </runner>
 	</command>
@@ -86,7 +86,7 @@ create a matrix of test results.</description>
 	<environment insert="" mode="replace" name="0TEST_ZEROINSTALL"/>
       </requires>
       <command name="test" path="test0test.py">
-	<runner interface="http://repo.roscidus.com/python/python">
+	<runner interface="https://apps.0install.net/python/python.xml">
 	  <version before="3" not-before="2.7"/>
 	</runner>
 	<requires interface="http://0install.net/2006/interfaces/0publish">
@@ -95,7 +95,7 @@ create a matrix of test results.</description>
 	</requires>
       </command>
       <command name="run" path="0test">
-	<runner interface="http://repo.roscidus.com/python/python">
+	<runner interface="https://apps.0install.net/python/python.xml">
 	  <version before="3"/>
 	</runner>
       </command>
@@ -110,7 +110,7 @@ create a matrix of test results.</description>
 	<environment insert="" mode="replace" name="0TEST_ZEROINSTALL"/>
       </requires>
       <command name="test" path="test0test.py">
-	<runner interface="http://repo.roscidus.com/python/python">
+	<runner interface="https://apps.0install.net/python/python.xml">
 	  <version before="3"/>
 	</runner>
 	<requires interface="http://0install.net/2006/interfaces/0publish">
@@ -120,7 +120,7 @@ create a matrix of test results.</description>
 	</requires>
       </command>
       <command name="run" path="0test">
-	<runner interface="http://repo.roscidus.com/python/python">
+	<runner interface="https://apps.0install.net/python/python.xml">
 	  <version before="3"/>
 	</runner>
       </command>
@@ -132,11 +132,11 @@ create a matrix of test results.</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl3GnWAACgkQBxM/lsp02LoNyAf/erdv
-eKAYdmT8y9JCSbj18JgyrmE/J1fJVqguWoTC2ZmVY42rIOIaB07OZElZ/YnDtYpTi9mFkZUDpUXX
-Cc+S17feY1B+bXbHzyE38aK9kemHFvVc3q3hQegqDw1Pzms01/hY5wEyk8W7JVHiAH+SP0n0F26g
-P4OrFT36t1FAFloYeOuaYilMfvJLaBZWp1Jq2kPSuZH2x5icwulN6AsRd883gtCuozsr+ITWCAyb
-KJ7K9SkM9TxFYX8HC/R2ptHjDDPVQqBUKnb5qqDOcKLbKqmy8WeFGeupELXO1/82Y9YprM478UXY
-YG7LM+MujA23XXxfO7hiBmHYp25mNcLyWA==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4R8kwACgkQBxM/lsp02LpaXQf9EOve
+qBrJNA61OSwxZeAIpdRgquPKnK2MBAAWeVYlF5bbEzUixoCpefhR6dqo+6iCf663AG/BW45eiIAS
+7nd8jYG+RX2/ngesE9ZYV+C+qTf8/ZtJJ5iLR24RfJhygL0wx4G8dvkFJNmwpSS7Tk5vY7gHbf79
+ET17PqM8dhjHhSq+dmNOtYqEt1EZUTR+hs+lPT8jVlkDwxftqgGeQOdqDitvo5Z4RXdOzZSFohtC
+1xbNB9IqTNoIbFRU7q3WqBqIVVKvdp163Q4c8tXDW8B4APUDyH48fYy4Q/4NOe6ISfQnZqqrjdix
+CAXzq9qcR8mqeje77C5Q4qUDUqVE64TsnQ==
 
 -->

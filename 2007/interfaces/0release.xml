@@ -83,12 +83,12 @@ can help you to create new releases easily.</description>
         <environment insert="0test" mode="replace" name="0TEST"/>
       </requires>
       <command name="test" path="tests/testall.py">
-        <runner interface="http://repo.roscidus.com/python/python">
+        <runner interface="https://apps.0install.net/python/python.xml">
           <version before="3"/>
         </runner>
       </command>
       <command name="run" path="0release">
-        <runner interface="http://repo.roscidus.com/python/python">
+        <runner interface="https://apps.0install.net/python/python.xml">
           <version before="3"/>
         </runner>
       </command>
@@ -112,13 +112,13 @@ can help you to create new releases easily.</description>
       <environment insert="0test" mode="replace" name="0TEST"/>
     </requires>
     <command name="test" path="tests/testall.py">
-      <runner interface="http://repo.roscidus.com/python/python">
+      <runner interface="https://apps.0install.net/python/python.xml">
         <version before="3"/>
       </runner>
       <executable-in-path name="0release"/>
     </command>
     <command name="run" path="0release">
-      <runner interface="http://repo.roscidus.com/python/python">
+      <runner interface="https://apps.0install.net/python/python.xml">
         <version before="3"/>
       </runner>
     </command>
@@ -147,13 +147,13 @@ can help you to create new releases easily.</description>
       <executable-in-var name="0TEST"/>
     </requires>
     <command name="test" path="tests/testall.py">
-      <runner interface="http://repo.roscidus.com/python/python">
+      <runner interface="https://apps.0install.net/python/python.xml">
         <version before="3"/>
       </runner>
       <executable-in-path name="0release"/>
     </command>
     <command name="run" path="0release">
-      <runner interface="http://repo.roscidus.com/python/python">
+      <runner interface="https://apps.0install.net/python/python.xml">
         <version before="3"/>
       </runner>
     </command>
@@ -162,7 +162,7 @@ can help you to create new releases easily.</description>
       <archive extract="0release-0.14.2" href="http://downloads.sourceforge.net/project/zero-install/0release/0.14.2/0release-0.14.2.tar.bz2" size="55318"/>
     </implementation>
     <group main="0release">
-      <requires interface="http://repo.roscidus.com/python/python">
+      <requires interface="https://apps.0install.net/python/python.xml">
         <version before="3"/>
       </requires>
       <requires interface="http://0install.net/tools/0repo.xml">
@@ -174,14 +174,14 @@ can help you to create new releases easily.</description>
         <executable-in-var name="0COMPILE"/>
       </requires>
       <command name="test" path="tests/testall.py">
-        <runner interface="http://repo.roscidus.com/python/python"/>
+        <runner interface="https://apps.0install.net/python/python.xml"/>
         <executable-in-path name="0release"/>
-        <requires interface="http://repo.roscidus.com/devel/make">
+        <requires interface="https://apps.0install.net/devel/make.xml">
           <executable-in-path name="make"/>
         </requires>
       </command>
       <command name="run" path="0release">
-        <runner interface="http://repo.roscidus.com/python/python"/>
+        <runner interface="https://apps.0install.net/python/python.xml"/>
       </command>
       <implementation id="sha1new=fe5d960622a39bd4be2f78c9f4bc64fd90cc9492" license="OSI Approved :: GNU Lesser General Public License (LGPL)" released="2013-05-06" stability="stable" version="0.15">
         <manifest-digest sha256new="ONLXPNQXHTD2W5ZEO52PGO5VM4V4BNQ4CWEUJ3N2IOEI644LZWMQ"/>
@@ -191,7 +191,7 @@ can help you to create new releases easily.</description>
   </group>
 
   <group main="0release">
-    <requires interface="http://repo.roscidus.com/python/python">
+    <requires interface="https://apps.0install.net/python/python.xml">
       <version before="3"/>
     </requires>
     <requires interface="http://0install.net/tools/0repo.xml">
@@ -217,14 +217,14 @@ can help you to create new releases easily.</description>
       <executable-in-var name="ZI_COMPILE"/>
     </requires>
     <command name="test" path="tests/testall.py">
-      <runner interface="http://repo.roscidus.com/python/python"/>
+      <runner interface="https://apps.0install.net/python/python.xml"/>
       <executable-in-path name="0release"/>
-      <requires interface="http://repo.roscidus.com/devel/make">
+      <requires interface="https://apps.0install.net/devel/make.xml">
         <executable-in-path name="make"/>
       </requires>
     </command>
     <command name="run" path="0release">
-      <runner interface="http://repo.roscidus.com/python/python"/>
+      <runner interface="https://apps.0install.net/python/python.xml"/>
     </command>
     <implementation id="sha1new=06a42d6e1fe8fd324bfb3148d3d97aaa356bf18b" license="OSI Approved :: GNU Lesser General Public License (LGPL)" released="2019-09-14" stability="stable" version="0.16">
       <manifest-digest sha256new="WEJ5XRLDJO7UX3CY7PPPC7I7VAL2G5ZMESTJ7VGX2WPH3M56EVPQ"/>
@@ -233,11 +233,11 @@ can help you to create new releases easily.</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl3GnV8ACgkQBxM/lsp02Lo76gf/S/zD
-RMUxRr0ryiTkY9xuzZ/gqKgjbJjuVHwkstlj+12ZceFrlf9svrmJN7Z3riUcQQ+gelp7exQj6TTM
-DBA87Uddpd36b83nzF09xp1xUWw1UdokzcLzRBy1uRq3o1hQHHsZvZShmGHsS9S1FE3+AoiUKn4J
-b2lBISSDpt1tFLVY+Hi0vpVDq0eZfa6+zSvNhSmWU+Jss2S6PtrP+5IpAOm3aHxy5swVF8f54abH
-pLwQyxx2HSXKGYE31IYfhDuNVCW+3UdEMyzim+43ua7cOMVu0ucT9+TRg1aEE3mUFaijqkY50EKp
-GOi1qRvzRQpHcYPp2i1Ah0TtjWySUj2j/w==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4R8kwACgkQBxM/lsp02Lqu9gf/TrcU
+nOhLNsVzOuXxCSqzy6OHueiiT6GOHOLKfKpWnSGcciTZuudTbmPXIBLp1SMnoOQ+I2aEf7Gjimqj
+HRJIr+8XKuqYt0pXX0j2Prygem2PtESbihPPNGkfaiQq6BG4LzbnyfEpD0aINI2qi/dgEOmI5H21
+Eg/Ht9aBVlV+BdrWEC2zPgCClCURDqsWJp2bx8d4tiYSwHJF2O1IPktgV6kS2R9gna7p9hAuQdwX
+fNPQuGt9JJqO+7dZF3TBooRcphFPNE3PxHEfGFyg1UTqaTsMvnblbC7DjleP3OmNgPSh0/frXkR/
+OC2poIVWiZ7eA2jbwiYVyHaVQDN0n9G0Pg==
 
 -->

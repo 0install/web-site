@@ -23,7 +23,7 @@ and scanner objects.</description>
 
   <group license="OSI Approved :: MIT/X Consortium License" main="scons.py">
     <command name="run" path="scons.py">
-      <runner interface="http://repo.roscidus.com/python/python">
+      <runner interface="https://apps.0install.net/python/python.xml">
 	<version before="3" not-before="2.4"/>
       </runner>
     </command>
@@ -43,11 +43,11 @@ and scanner objects.</description>
 
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl3GnWEACgkQBxM/lsp02LoYJQf+Jw/e
-RZM0elz/1w34aOPfT75fRawrqfKx5A4aK5mc/JY/Bblyzb7VmG+aLD0frpEmJ9Q7lG4Ura4eRN0x
-55eRIyIm4zFFuAlsvaKAAk78mefTlEC/ifI6hYgAqGCHc8mk2sWEYYVgI3zvxlCLH8BPtAvkMfxS
-NNRMXOry4p+9nXtyo7OkiM4SAA0Cdi6NBrTO1+m5sgqUw1hDX1ol5Dxm+FV6PAhOsHK5uJflyfym
-qtGEHhm6BckAC+/2OOK/V1QvPFytWhbd0Ny34dwdWBM9onX04pjfhW36nxuJk30YA7TSS96Bba3O
-+cqqE3C+ZpP9wdnG1s88KrKMTTWu4rdOwg==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4R8k0ACgkQBxM/lsp02LrTmwf/ctCT
+Y0nnv40goaOgOj7nGBqVbmFp1GAgLdtbQs5WU+YgtC9dsLl6/meweSk9g3jhy4BDKqg6YOzfnOMf
+9OQKTfFJVoh27436wbNrGFK0aXSyORREZdglBfVHVgU+aWrcTtLz1cBsTtv75PP0OvFiggJ9n77c
+2I3XAFL8I5leF+Ol1uT/xXYsg8fX321DTtXvHUAH/e6BWkZ/lbVIsJK8FHDa3kzU+IptsiOqen2l
+JDMV955Jr7O0GnjsU8BoVwCgwUqxu1Py7dQawD0eMtp0RQRWM8EU+AtDNR3XNfPvMInd+XzjLNlM
+pyoaesIEeiihhGmuQeU2iUnjSU5NHqXmtQ==
 
 -->

@@ -36,10 +36,10 @@ user and developer community by using open, community-oriented development.</des
   </group>
 
   <group main="bin/inkscape">
-    <requires interface="http://repo.roscidus.com/lib/gtkmm">
+    <requires interface="https://apps.0install.net/lib/gtkmm.xml">
       <environment insert="lib" name="LD_LIBRARY_PATH"/>
     </requires>
-    <requires interface="http://repo.roscidus.com/lib/gc">
+    <requires interface="https://apps.0install.net/lib/gc.xml">
       <environment insert="lib" name="LD_LIBRARY_PATH"/>
     </requires>
     <group arch="Linux-i386">
@@ -77,11 +77,11 @@ user and developer community by using open, community-oriented development.</des
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl3GnWEACgkQBxM/lsp02LoNAwgAgP0c
-FMxW9o+tsbkaWvw4C04oEporbxczCoXTgw7jXtnueLmv0Nraawjlx3O4Ev4SRXIA2mNmgmtSQpf8
-gJ1RvVJKIWs9PGbfKo1DgoF0fp/IzV0qe+0TIyA264SngR6fTnkDDz8XnaY/C9i5ZdDUIlqIPGRh
-ZmHauVgKvnG4X9Dbhijf7TJ+ZE/VzFRMvIsLhCEi/yhg+2xwSYnKkXDYaYx2SWYxkcAqmYfPmTio
-Hp3Kg4N60JgGpe2pPj7lkM9PK5FfNARFaK9FD+rxeSgzyVY/1KA7Elx9g6343rlCaK/eSakPDmii
-r1ZZec6DrzEaeoNjPSGNoBgdRwhOV96oaA==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4R8k0ACgkQBxM/lsp02LqiKQf9Ejwt
+a3q15+67oAD5YzMcFkoYiOFdEKYxlg1Qt/JnnSAT+3U/PBrO01TYhn14JCMbKcurstCovKrtpmRK
+JurJZL5NYqqgxITSmduNP9UmF4udLS2evD0X5YiqxbbYZwxZP0TwGbrSWZE+BSdnTdHrXbvrO5Ml
+I5muD51Q8AuxEWivzE5LZSW5c8v6M9FNTsYYitaMWutypf4EMQqJhh6RhwY9tGqm9881BDG54NdV
+s4NWgIuhFV3vs/+HgFQp5gd+sM7pFxwRDqGXUcU9cK8IWNbkfK8i7t9vfyrybLXnEKf4DXKq6r0h
+FjZ0UK+MphtYemj6tajFLzDQI4x+9ylZcg==
 
 -->

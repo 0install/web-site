@@ -89,12 +89,12 @@ packagers.html.</description>
       </implementation>
       <group>
         <command name="test" path="tests/testall.py">
-          <runner interface="http://repo.roscidus.com/python/python">
+          <runner interface="https://apps.0install.net/python/python.xml">
             <version before="3"/>
           </runner>
         </command>
         <command name="run" path="0publish">
-          <runner interface="http://repo.roscidus.com/python/python">
+          <runner interface="https://apps.0install.net/python/python.xml">
             <version before="3"/>
           </runner>
         </command>
@@ -113,12 +113,12 @@ packagers.html.</description>
         <environment insert="" mode="prepend" name="PYTHONPATH"/>
       </requires>
       <command name="test" path="tests/testall.py">
-        <runner interface="http://repo.roscidus.com/python/python">
+        <runner interface="https://apps.0install.net/python/python.xml">
           <version before="3"/>
         </runner>
       </command>
       <command name="run" path="0publish">
-        <runner interface="http://repo.roscidus.com/python/python">
+        <runner interface="https://apps.0install.net/python/python.xml">
           <version before="3"/>
         </runner>
       </command>
@@ -135,7 +135,7 @@ packagers.html.</description>
         <archive extract="0publish-0.24" href="http://downloads.sourceforge.net/project/zero-install/0publish/0.24/0publish-0.24.tar.bz2" size="26530"/>
       </implementation>
       <group>
-        <requires interface="http://repo.roscidus.com/security/gnupg">
+        <requires interface="https://apps.0install.net/utils/gnupg.xml">
           <environment insert="." name="PATH"/>
         </requires>
         <implementation id="sha1new=bc06f0a2023fba486929e28dfbbfe42d2a43d4b1" released="2015-07-01" stability="stable" version="0.25">
@@ -147,11 +147,11 @@ packagers.html.</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl3GnWIACgkQBxM/lsp02Lp4bAf/ZW34
-ZVyhUMrLYhqQT+80GNVehvn+7nGZSiZD865XKPorbcOBPM/irEs/AI92pLrmS07pX1q5+XXlVAMN
-ejKOGfeDviDFYzcMaXU4j8qjiSNOR7uL5QaQU6IPbK0bTFbBFgnqLxEl8BatTIxN8NZFEPezfJXb
-HThfywLnQ8Kjf1RlJB8ZWajLvGeuH5grWsjSEE5MjP9qz+zSfbNFQs/22sj+WTAALzzcA+BmkxIk
-TaJivUjGonlSKWa54LVis2dc/cQuyK31NusKTA4o3bM3xj4MxcFQjKbR5wvHFb903X055ttgj2D2
-wAKHhJZPq/hVjySSBqceRQQRD6xHEKwlAw==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4R8k0ACgkQBxM/lsp02Lpz+Qf9HwKP
+T86cmkpUQu/z0+GEoJYanmhT9j7bXOIpd4dXQmpaiWI3iSgniuIOrslw+tNX84aDrZKTh1N3XeQJ
+18R7fe47PjAkb+1DqoGJ0trH2fYaWmgDqSpDFpqZIIChrOu4zxxO0FzQB7Z97eDICJgd+EiCF/Yx
+1uLY+UAd2HDSSpmAZ7akJ2DTp7OBMRgzFeJF09Ij3BowDX85v1LCf1bubS0+6cZGsCX7oIwj2fdM
+kdZng/MeDpHOdcB8PonqVZcAz84R2DGVsp2kd2Y4tyGZ77F85HmFeiJZyeJZrxGQFZyqfHCQKSng
+gX9nm9J2yY8209xNjct14xPvwAsDddQxmg==
 
 -->

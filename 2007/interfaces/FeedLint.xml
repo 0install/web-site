@@ -35,7 +35,7 @@ Run this on all your feeds from time-to-time to make sure they still work.</desc
         <environment insert="" mode="prepend" name="PYTHONPATH"/>
       </requires>
       <command name="run" path="feedlint">
-        <runner interface="http://repo.roscidus.com/python/python">
+        <runner interface="https://apps.0install.net/python/python.xml">
           <version before="3"/>
         </runner>
       </command>
@@ -49,7 +49,7 @@ Run this on all your feeds from time-to-time to make sure they still work.</desc
       </implementation>
       <group>
         <command name="test" path="feedlint">
-          <runner interface="http://repo.roscidus.com/python/python">
+          <runner interface="https://apps.0install.net/python/python.xml">
             <version before="3"/>
           </runner>
           <arg>FeedLint.xml</arg>
@@ -66,13 +66,13 @@ Run this on all your feeds from time-to-time to make sure they still work.</desc
         <environment insert="" mode="prepend" name="PYTHONPATH"/>
       </requires>
       <command name="test" path="feedlint">
-        <runner interface="http://repo.roscidus.com/python/python">
+        <runner interface="https://apps.0install.net/python/python.xml">
           <version before="3"/>
         </runner>
         <arg>FeedLint.xml</arg>
       </command>
       <command name="run" path="feedlint">
-        <runner interface="http://repo.roscidus.com/python/python">
+        <runner interface="https://apps.0install.net/python/python.xml">
           <version before="3"/>
         </runner>
       </command>
@@ -85,11 +85,11 @@ Run this on all your feeds from time-to-time to make sure they still work.</desc
 
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl3GnV8ACgkQBxM/lsp02Lqu6Af+Joqj
-nAqK6HGQKgSq8H2/5UQiF7fF4GkQor/1+ISpEvVMLCe1W0DvUUZlQorgjiSNWkn2teZMRrmM4orL
-RXjhdytfCIGzQmlfrf0dNpD8rvthk4X+491+HZc1xkJXlogoHK4xJ6/b14Bm6+dMl1Cik7a4FVuP
-5IarXADC9XeCn1YMaWCRLYQQxMHjwzbOjzr6d5BulXYPNnfyPoFWXsTjIbM8LUQlkvSILyIcEtLA
-EYBB5D+ef2P+SD6J5vQbnsB9M2C17nkZtMlhb7RnWVRumdMcDqSMJqpLO6lsmFqv4oDQD5StJUa6
-ohuEmAiswMriT2krK9m1pKNR9ucHy22ZtQ==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4R8kwACgkQBxM/lsp02LpWOgf9H1md
+lZkpBs0WrKXBRCUR6jDYFz34xh0g/nAM6plopvntCqP7BgkxxiOu3ItsFk4cMuiJSXKmB+VpsC3U
+ariXn5TwLS9OEV1GZm3ulNyX3LrxhR2Te9UEFey/nWBobmqWht7syam+QVJJAw+T6B0cf+ozHEVJ
+/ritXGwE3JuFzxrAZ32r8SIi11eopMQX/Eyto690AZdyxrRn8dE535cs49jjbscK7mn8oW22MMNX
+zDkYGT16mxrr4Qt4HUShtDgCi4cvO23+Vw9ma+8rs01H4i/ivAGZh56Ib5/yQHpivsyXrvTjsvi+
+llP0hs0P6ujf9cKzqC06D83X76MWfWji7A==
 
 -->

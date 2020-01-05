@@ -17,8 +17,8 @@ Additional functionality, e.g. a graphical user interface and revision
 tree visualizer, tools for interoperating with other VCS's, or a web
 interface, is provided as separate git* packages.</description>
   <category>Development</category>
-  <replaced-by interface="http://repo.roscidus.com/git/core"/>
-  <feed src="http://repo.roscidus.com/git/core"/>
+  <replaced-by interface="https://apps.0install.net/devel/git.xml"/>
+  <feed src="https://apps.0install.net/devel/git.xml"/>
   <group arch="Linux-i386" main="usr/bin/git">
     <requires interface="http://0install.net/2008/3rd-party/libcurl3-gnutls.xml">
       <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
@@ -30,11 +30,11 @@ interface, is provided as separate git* packages.</description>
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJRkLPIAAoJEAcTP5bKdNi6fLQIAIkSXk+n2Rhc0BzCfHmLgZpdEupZuP9KTtuW
-9idRu4cAEKda9vYIEvYn9rfU2J24Xczx9mf1LP3M8WNMBFDQhrKhnTDV3962layWASGVA1eDVEpT
-wGd3MWqCx6KXxHtqH/7gJS8YneupmkIc8GE/IkLIbhtNFlRbDnqcdWm85qSdnkS/OA6YB93KBFJe
-odj7U28P+qFYWJQy56q73rARN3ctOVbqkLwLMu1pVKWCZv37gx/AJg0MAUcvyCaPzzs8t2X5WjDh
-qifUGNDhOXseEYy4TmReanxKy+8+jo075h+nxzqFxASOTaQPz8CX/Yp+ea1kY8nbVgdMES4PL6jL
-Fxk=
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4R8kwACgkQBxM/lsp02LodEQf/c9YW
+giONL+OeGMqAMG1d7CL8KhpSi50dovGig/b53VutKCLe9qCCJcMiggp7aSsMl0JBoHwk5ZX1WtTS
+QUnLkntQcHL2fTvu5g/LQailNT2a4+I4pALVxT0tVbxO509kcOI8xwgRib6QV7RZJGh7upxswIrk
+VY+A3Jq7aUyzys7xls8Ra7gCcQaQrWFzZt0uT0twbjgkJF4UEbigeJ6wBJSkWC0mW7CQKLu1BKa0
+650ncOLGdm6LFRiVsWYVvPw4jWm9KXqGMmOhWgFz5YUEOFrY6+QIHLOQGPPnarCk2u6Mm2lbSCGI
+vJ8kLsyYR+O4PfFsztJTGHpD26dHY6qNTw==
 
 -->

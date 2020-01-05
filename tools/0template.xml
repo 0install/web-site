@@ -17,15 +17,15 @@
 
   <group license="OSI Approved :: GNU Lesser General Public License (LGPL)">
     <command name="run" path="0template.py">
-      <runner interface="http://repo.roscidus.com/python/python"/>
+      <runner interface="https://apps.0install.net/python/python.xml"/>
     </command>
 
     <command name="test" path="tests/test0template.py">
-      <runner interface="http://repo.roscidus.com/python/python"/>
+      <runner interface="https://apps.0install.net/python/python.xml"/>
       <executable-in-path name="0template"/>
     </command>
 
-    <requires interface="http://repo.roscidus.com/python/python">
+    <requires interface="https://apps.0install.net/python/python.xml">
       <version not-before="2.7"/>
     </requires>
 
@@ -41,7 +41,7 @@
   </group>
 
   <group>
-    <requires interface="http://repo.roscidus.com/python/python">
+    <requires interface="https://apps.0install.net/python/python.xml">
       <version not-before="2.7"/>
     </requires>
     <requires interface="http://0install.net/2007/interfaces/ZeroInstall.xml">
@@ -52,11 +52,11 @@
       <executable-in-var command="0publish" name="0TEMPLATE_EXTERNAL_TOOL"/>
     </requires>
     <command name="test" path="tests/test0template.py">
-      <runner interface="http://repo.roscidus.com/python/python"/>
+      <runner interface="https://apps.0install.net/python/python.xml"/>
       <executable-in-path name="0template"/>
     </command>
     <command name="run" path="0template.py">
-      <runner interface="http://repo.roscidus.com/python/python"/>
+      <runner interface="https://apps.0install.net/python/python.xml"/>
     </command>
     <implementation id="sha1new=f88e42082640316608fc28be303521fc0692573e" license="OSI Approved :: GNU Lesser General Public License (LGPL)" released="2014-09-02" stability="stable" version="0.2">
       <manifest-digest sha256new="ERLRSPYBXSOGULSDGW56DUSFZ2DELXOG7JSTAZP6W2UX3NYRQOXQ"/>
@@ -83,11 +83,11 @@
   <entry-point binary-name="0template" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl3GnWEACgkQBxM/lsp02LrQ0Qf/TWm0
-z8hrZak09lM7AB0GumR08+hvWEu9BgACuXIrbAQYJUJDOC1+xBg1VIj1C7DCkbui7tMHg+0tQluM
-buvjYrsNmzs0rQQduA3dyXNLv/p38ayqjzSjr8s0zO7z/7tjmfPRdpb3TjoKtbH/8IRTAe3h3FAw
-ouHV/hcGtvMzVCRZMRLpC/LSB15r4u1q+KbfHvQVDBh/HdpkjGGrTld9uWMaNiwZVXHClhsgMDEU
-tKukse446C0Un7EBZa2m3pgnU7nP0ymMlAQqHRj4yXTS1AbmpROyudVreovLLiNnIBInmOJhUa0R
-6ULTz1+G73g3dtgACr2z51OkaZONKtFcRg==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4R8k0ACgkQBxM/lsp02LqxCQf+L+hO
+NN5CbGi6490mTok+oUZtjvdNPDgcBSWhn/0NB2FyKymbgPLuEkDRbI/RoXz9QmcgA7xf0q6pCrSF
+yDXlSqBrZ74sdSKC4XfAY2Gqb0Vukne6Iq6fv/rsfjpEs3NtH5TXMmxpNk0JJIE06qA8BqdxODSB
+g0Np4gueSRCxP2rMyNNU7+nsaUG60rXV/3N1itNdF0bLX0rNIgITi9gUyEXIoYWa5gEs2D9TaQ0t
+PFb1pKigA3HXeps8ugYyXsI/utvkji+P+2OWisABnf2K9gI7dTUMni+Qt/NpeswzbY5GAOUU4Eyl
+3ptph2bIAQKZIwwDjNlWmQm0B0J6nxETmA==
 
 -->

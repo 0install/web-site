@@ -50,12 +50,12 @@ these feeds.</description>
     </implementation>
     <group>
       <command name="test" path="tests/testall.py">
-      <runner interface="http://repo.roscidus.com/python/python">
+      <runner interface="https://apps.0install.net/python/python.xml">
 	<version before="3"/>
       </runner>
     </command>
       <command name="run" path="0publish-gui">
-      <runner interface="http://repo.roscidus.com/python/python">
+      <runner interface="https://apps.0install.net/python/python.xml">
 	<version before="3"/>
       </runner>
     </command>
@@ -83,12 +83,12 @@ these feeds.</description>
       <environment insert="ROX-Lib2/python" name="PYTHONPATH"/>
     </requires>
     <command name="test" path="tests/testall.py">
-      <runner interface="http://repo.roscidus.com/python/python">
+      <runner interface="https://apps.0install.net/python/python.xml">
 	<version before="3"/>
       </runner>
     </command>
     <command name="run" path="0publish-gui">
-      <runner interface="http://repo.roscidus.com/python/python">
+      <runner interface="https://apps.0install.net/python/python.xml">
 	<version before="3"/>
       </runner>
     </command>
@@ -103,11 +103,11 @@ these feeds.</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl3GnV8ACgkQBxM/lsp02LqR9Qf/VjeA
-RQF7wGfIzdSHj7x7lmj9iAz8HbiR1KaionPzRdYqt3W1iY0KY4tvK23s2Pab9fsshvW8SXPhymnh
-rOK3XDmpC6MaMkBaLnnqj0DyCi/1eg5+zk0l6Zww9SnwRrBkNaKcUEKf5lIB4CejbwVeClE8xcAW
-OJ3fNZyJM2Wjjm8kkFOzb+oSTlZK1svmWjc3F9xsTuJMhFrwmaHv9KTxTOCXAsBhF86VLRj57WBC
-ZZa/4oRHqfosES79blMnKuzOH7+yJtmXijcKgvgY9vVKeN82RsjnBvUCeba8melzY2HnuQ6hju44
-WrcFWRjo5B7dMgE6DesYtM9bgMryOfWQ1Q==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4R8kwACgkQBxM/lsp02LrhNgf+IZnv
+gBlKdsLfw1CjthbNu912nk9NespyPABz6PVp/bXsxaQCDDAVrQZmS+U90/c8e0xymTesVJ8ESkaZ
+08VJmbxmUkX9h0l6tIsYGFvvM10PPyL1/CiIQs/9O+kFYYavaHalj9EAWBo5aEYfyZ7Cvi14tn83
+CSRk4lhACrO6A08lfAvcAz3MxOLM74NiZSddiEgmMvgKf/nBp1X7XzqVJX6n25yOeUAto/s+QMVq
+8SJrRqleaRjBNcTNOC4rwAHu3mUZkUi5/c+OV9D2XnMekacG2kO9IbLoPIslWUsC4Jwt5B6CTwEr
+z1M2/FS8eW/LgkRYgotg/uXkrL5x0BOgxA==
 
 -->

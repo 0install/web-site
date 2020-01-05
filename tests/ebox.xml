@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
 <interface uri="http://0install.net/tests/ebox.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>ebox</name>
   <summary>instance manager for E programs</summary>
@@ -40,7 +40,7 @@ Zero Install.</description>
   </implementation>
   <implementation id="sha1new=56d616bceb324eea3b436f76ecb3fe8239a94969" license="OSI Approved :: GNU Lesser General Public License (LGPL)" main="ebox.py" released="2013-02-26" stability="stable" version="0.4">
     <command name="run" path="ebox.py">
-      <runner interface="http://repo.roscidus.com/python/python">
+      <runner interface="https://apps.0install.net/python/python.xml">
 	<version before="3"/>
       </runner>
     </command>
@@ -57,7 +57,11 @@ Zero Install.</description>
 
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlEs9GYACgkQrgeCgFmlPMGtPgCcCGn91A4lw+G5UkBHo/lz8p1yUAIAoIgiQ2Kf
-GM+AYZVxMY6zD6tPWnnN
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4R8kwACgkQBxM/lsp02LphBgf/U5y+
+2pwY3JNB7hKzBnt29NfPL8cHjnY1sV1az/yp6IOQyGU0UJGHNadQ3IFjuEgTBVUE6AgKnlbPYg60
+PROSaGCPVufptRJCU9zoKufW/ZtuGtZTmCVB36Hc/PI56vDDeroKPHeuDeL61JBr3yimA7GrPBzg
+TG/1iaOHHMNA+YZbtFQp4FLaiSVa8wN6F/mOFIPjFrO8INO6qirfWAOusVYYBCSF5K4ys6GgYn/4
+yTJRnQuWcbvww9vbGQPlXuYKnemnKSBbx6cHsPRnAdSQnqf3JkLekQdOnc7W8ToUr1B4VMGv6/3a
+1DMG4YI8YllOIvzuHTK0W0DfeLbVkLelDA==
 
 -->

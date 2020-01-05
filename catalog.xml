@@ -546,18 +546,7 @@ general-purpose compressed audio format for audio and music at fixed
 and variable bitrates from 16 to 128 kbps/channel.
 
 The Vorbisfile library provides a convenient high-level API for decoding
-and basic manipulation of all Vorbis I audio streams.</description></interface><interface uri="http://0install.net/2007/3rd-party/libxml2.xml"><name>libxml2</name><summary>GNOME XML library</summary><description>XML is a metalanguage to let you design your own markup language.
-A regular markup language defines a way to describe information in
-a certain class of documents (eg HTML). XML lets you define your
-own customized markup languages for many classes of document. It
-can do this because it's written in SGML, the international standard
-metalanguage for markup languages.
-
-This package provides a library providing an extensive API to handle
-such XML data files.
-
-This feed is deprecated; use http://repo.roscidus.com/lib/xml2 instead.
-</description></interface><interface uri="http://0install.net/2008/interfaces/libxml2-dev.xml"><name>libxml2-dev</name><summary>headers for libxml2</summary><description>
+and basic manipulation of all Vorbis I audio streams.</description></interface><interface uri="http://0install.net/2008/interfaces/libxml2-dev.xml"><name>libxml2-dev</name><summary>headers for libxml2</summary><description>
 Libxml2 is the XML C parser and toolkit developed for the Gnome project (but
 usable outside of the Gnome platform), it is free software available under the
 MIT License. XML itself is a metalanguage to design markup languages, i.e. text
@@ -609,11 +598,11 @@ Sear is a client for MMORPGs using the Worldforge system.</description><category
 VDrift is a realistic racing simulation with drifting in mind</description><category>Game</category></interface><interface uri="http://0install.net/2010/interfaces/xzdec.xml"><name>xzdec</name><summary>XZ Decompressor</summary><description>
 xzdec is a liblzma-based decompression-only tool for .xz files.</description><homepage>http://tukaani.org/xz/</homepage><category>Utility</category></interface></c:catalog>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl3GnWMACgkQBxM/lsp02LpztQf+No0B
-CV2RDf1WCYce5RzZ41bS06TLAdzpGjsDUQ+o/U8qxDtmlGIX70PAKtl4+MksnzJPWCDPJnX5G7G9
-BuLvE56kVR9YJMQKfgbtYZ5QKIEJNSDPcLXYV1/Ip//opcEkswaXW0u3B5bWGvv8u+9OLJaztg+T
-9SKnIrSG9RHQ74ir2+7Kf7csKiMwt51UZoJ4m9pXtkxTUgQ9SZC7P0VXRgQY8RG0/dlyqB0Ym650
-WLEpLMyAAXEhAyXD5JUxdMjP04lyw40fJOdvN30u+2T0DCAs65T5K3jCmq9lGPT/xlM+xqXw+fnT
-/ZWVXAqA3wa8QYhJgn5EQpYDqFBqraGkOg==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4R8k0ACgkQBxM/lsp02LpjLgf9HGOW
+8t5TVgPYC15WdNr6XQO4YRx4sDk/AoEI/qk5joyU5B1t/eiy6UYpR0qSafbiXMxQ/DhxY30VqdBZ
+KIh9fNgU7ka+PYWOeKqkAvyc1ePbvzTWn7S02XRaE3HDdfxkMEo9UigqiQVk7Si8M7Y/m3VHjxEc
+xFiUhr8iERWj6jqkWbD6WOJxQm7N2TzgbKXbOajW4oR5Inp6/psPrD63poSuRp3TtNe9EiH/DGMA
+1KAh5XG/3K+HFLl9XhJ2aTTR++jB1mkTqUNIxARyvBSDuB0hQa50aY/sO27ULZl39S1XJD9xkLJb
+WGHO75Wq+7oOdMMEzRZiGkWtGilz5aFxog==
 
 -->

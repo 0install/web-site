@@ -17,16 +17,16 @@
 
   <group license="OSI Approved :: GNU Lesser General Public License (LGPL)">
     <command name="run" path="0repo.py">
-      <runner interface="http://repo.roscidus.com/python/python"/>
+      <runner interface="https://apps.0install.net/python/python.xml"/>
     </command>
 
-    <requires interface="http://repo.roscidus.com/python/python">
+    <requires interface="https://apps.0install.net/python/python.xml">
       <version before="3" not-before="2.7"/>
     </requires>
 
     <group>
       <command name="test" path="tests/test0repo.py">
-        <runner interface="http://repo.roscidus.com/python/python"/>
+        <runner interface="https://apps.0install.net/python/python.xml"/>
         <executable-in-path name="0repo"/>
       </command>
 
@@ -51,7 +51,7 @@
         <version before="2.2-post" not-before="2.2"/>
       </requires>
       <command name="test" path="tests/runall.py">
-        <runner interface="http://repo.roscidus.com/python/python"/>
+        <runner interface="https://apps.0install.net/python/python.xml"/>
         <executable-in-path name="0repo"/>
       </command>
       <implementation id="sha1new=dd216a0f13d28e3559040673748375eeb3892274" released="2013-05-05" stability="stable" version="0.2">
@@ -65,7 +65,7 @@
         <version not-before="2.2-post"/>
       </requires>
       <command name="test" path="tests/runall.py">
-        <runner interface="http://repo.roscidus.com/python/python"/>
+        <runner interface="https://apps.0install.net/python/python.xml"/>
         <executable-in-path name="0repo"/>
       </command>
       <implementation id="sha1new=3b8029c925e7e9d1543ec252065ee6f337e7987d" released="2014-01-20" stability="stable" version="0.3">
@@ -73,7 +73,7 @@
         <archive extract="0repo-0.3" href="https://downloads.sourceforge.net/project/zero-install/0repo/0.3/0repo-0.3.tar.bz2" size="54945"/>
       </implementation>
       <group>
-        <requires interface="http://repo.roscidus.com/git/core">
+        <requires interface="https://apps.0install.net/devel/git.xml">
           <environment insert="." name="PATH"/>
         </requires>
         <implementation id="sha1new=a1f0d2f4759ff228559568ea124427c4c75574eb" released="2015-07-11" stability="stable" version="0.4">
@@ -82,10 +82,10 @@
         </implementation>
       </group>
       <group>
-        <requires interface="http://repo.roscidus.com/git/core">
+        <requires interface="https://apps.0install.net/devel/git.xml">
           <executable-in-path name="git"/>
         </requires>
-        <requires interface="http://repo.roscidus.com/security/gnupg">
+        <requires interface="https://apps.0install.net/utils/gnupg.xml">
           <executable-in-path name="gpg"/>
         </requires>
         <implementation id="sha1new=b576684699a8e727bfbe45ae449661cc29306dfa" released="2017-08-14" version="0.5">
@@ -114,10 +114,10 @@
         </implementation>
       </group>
       <group>
-        <requires interface="http://repo.roscidus.com/git/core">
+        <requires interface="https://apps.0install.net/devel/git.xml">
           <executable-in-path name="git"/>
         </requires>
-        <requires interface="http://repo.roscidus.com/security/gnupg">
+        <requires interface="https://apps.0install.net/utils/gnupg.xml">
           <executable-in-path name="gpg"/>
           <executable-in-var name="GNUPG_PATH"/>
         </requires>
@@ -138,11 +138,11 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4R0U8ACgkQBxM/lsp02Lr7Fgf+I2WP
-+YH9aEtDI4apK1XZKO/KFh/W0hZwNQjrIda58E8kKXlXHTeH+TB2VPAhTDpnu8SWNCLJXBlzpU5v
-3ec3dNmCsT/5kQEHMmFpSLj2a1AwHUC/BPaSfFrTA7tzc18FqrFRZ+iTdhUzKYY/IKOWyVOqYT6N
-M+iPg9e1Ur3ue6h1NIgz1Jd+asfmYk1JzJOw9lvqqfbgfuJtgpuDyGBl4032QOAZIWl+C3kLl0uk
-hFUdDFkcwe1c3180GM4aBWvO1qVW+0px75jeW+GmwNrbCJX+MGwSZEB2gNagTWMmeBtlVmnsJxx1
-ku4Rtu96EUFnzhMrwcNavECWcanzqgpz6w==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4R8kwACgkQBxM/lsp02LpsnAf+Oo/Z
+Mj1/5zhLT7DcI6aW7s6DU6YIDMOEJB6lgj7+kYjUETXpNjHV67w235pXMTxzmqrxadwKVMfjiULX
+qHxbsbYvFDiBzMbFNVwHiWHujFh61VxrE39oRFl2tykX/WbK5lg7lav40QSRuntq0tI/ZW032u3p
+KQ6QSJSYlE2tLVusV/xA2wKtFFUUEH5brS9uTO8ifPwpBm75BU8OUnUKFe/n5dx3rsJEf4O0YvRM
+QOhdD9+9cdNbXz42JW0a5CFBMzCr0VsWTmsKJniwRj8u4uId05DnIvOAgscIdasyAIjAkkrCk5kt
+X3KFzFGleUQ5fECYAfwtnYN2rn6kIMnOVQ==
 
 -->

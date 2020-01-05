@@ -20,7 +20,7 @@ the GTK dependencies to the source interface file.</description>
 
   <group main="gtk-2.4">
     <command name="run" path="gtk-2.4">
-      <runner interface="http://repo.roscidus.com/python/python">
+      <runner interface="https://apps.0install.net/python/python.xml">
 	<version before="3"/>
       </runner>
     </command>
@@ -71,11 +71,11 @@ the GTK dependencies to the source interface file.</description>
 
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl3GnWIACgkQBxM/lsp02LqANQf+IJ4B
-vJO4ndzltag+PX6VbVJXV7BrdCvsKf3l3bStZ7NBH7kSAf0N0ADLvsPpwbxLmlJlwMdXeIpkmAdC
-xn1IJPayKZwPhqjUqVfbMgy/9CX/oxvDl4nVbZeqzpi+K8JpPNKBxfbQAdEDWnd6MJo85tIRmoBF
-f9Rgc/zGBLB4EWBk78BZGpvh4aDdtMmNqdzO61W1UYlrP8UxawvcCXtzh0A7tKgLhoV/yuuklZnJ
-cgOq/7fBd4xeQAG/8l+uOOnzT19hZa1cuHo5NTVqwMtukDx2RlOy72zg12tfnCjxEHNRPG+bAQk7
-KHPrSBhSM3LaB97JB0/8JGJIEtCLfEUfRg==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4R8k0ACgkQBxM/lsp02LqwcQf/QLdJ
+1dkQTGyEWFT6aiHTEJIha7m+tFQAw5q6F5nVAjEFiJQHFHqq1Dd4hWHwBunlExXKJ5wjl3UCaZv5
+30c0jy7w1k6GF1qXow9tQVdkSitsW897/dMqABvzEZOOWyWayKI+IEZEM3gyClZU6101ibJjpeta
+5rffY7LK0uDUqWmec8j7CVYLfbv/n6Y1iwp1jIh0NSOzMU9QZ7r0dBGzxYyWyXyhyZzjmsiLjysC
+3N2yyQdcIvcdCnH1VgaU2rlEDgbtf01DzYif7Bh8EZloIK2heo8popDcQRtCZbLbkW+dDNIc8rKh
+VCSqrCaccdw73DL/CE++3MHDjdVd3GQAiA==
 
 -->
