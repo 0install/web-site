@@ -214,7 +214,7 @@ interfere with those provided by the distribution.
 
   <group license="OSI Approved :: GNU Lesser General Public License (LGPL)" main="0launch">
     <requires interface="https://apps.0install.net/python/pygobject.xml"/>
-    <restricts interface="https://apps.0install.net/python/python.xml" version="2.6..!3 | 3.2.2..!3.7"/>
+    <requires interface="https://apps.0install.net/python/python.xml" version="2.6..!3 | 3.2.2..!3.7"/>
 
     <requires interface="https://apps.0install.net/utils/gnupg.xml">
       <executable-in-var name="ZEROINSTALL_GPG"/>
@@ -336,11 +336,11 @@ interfere with those provided by the distribution.
 
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4R84AACgkQBxM/lsp02LowIgf/cPM/
-vXZcYwZV0L3R9UHOsopAF4ubH5LYKymuvPV/erjdpJqeywJPgP5UdMZMDGi5IJR93SueZLrqJ/2M
-5c1pU2KIfVIZ1AWJXQYTUXsEF/l7JKrmLkph3mKNsnCxojZ52SuaEliFUqaUC405il2IN0AJmXGA
-DZqKR7mkjxEi/DPJ9S80eJ7QlTzAGsKRf1jYkeM6GeMLILnCxfO0Yo7T0sktYdhAF4EuoMN+4EX4
-YnQ0sIsynfCQffF2CeTLSdHT0mvWkwNi4qcWI6Kkz/JBUFZTpGVdR02RMaGQsS/yFcy+mn96FXtI
-4hm9IknMNEav+dX5O7gkVAfg3G5qb4BRDw==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4XPNoACgkQBxM/lsp02LqNdwf8Dz4l
+VwCRpIEJE1vAY5rDMSI9a4q1OHF1MONMWVjNpLR3D49a9mE3wTv9B3jtSh+iHu/AaNIlGd+iAwEK
+CXCfREzBj8XFajO2q7UgkS1n6TZrBaTJmPbMipnjPd/G06gZz1EEOe+m8JGcZoaalq8H3X2bV0Vq
+7W5+uhBmeqlcKyyxGfMzm54BBvAcgyL9mSOuFk2XSisTDeE/6q3sAv32davRUQdQ05TsJoBZNBXS
+/Glcvx3hAWyjdEyRsvP/70i7703ax2AZWIvKloAC0Iy+LDrIY/BCpNWSRR7eCkoLMkwVRNa6wvI6
+qAabkpR+RmkAPOghxVCPn4YCIMMgEop6AQ==
 
 -->
