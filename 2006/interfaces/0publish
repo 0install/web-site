@@ -142,16 +142,32 @@ packagers.html.</description>
           <manifest-digest sha256new="AK4BBYGWE3AIITVH3POX2BMQLK4BLDE2ZUOAFAGC5NBRHSZ2MKMA"/>
           <archive extract="0publish-0.25" href="https://downloads.sourceforge.net/project/zero-install/0publish/0.25/0publish-0.25.tar.bz2" size="26799"/>
         </implementation>
+        <group>
+          <command name="test" path="tests/testall.py">
+            <runner interface="https://apps.0install.net/python/python.xml">
+              <version not-before="3"/>
+            </runner>
+          </command>
+          <command name="run" path="0publish">
+            <runner interface="https://apps.0install.net/python/python.xml">
+              <version not-before="3"/>
+            </runner>
+          </command>
+          <implementation id="sha1new=526ae0429d5cf95eefcd7e891b11e150b7e806ac" released="2020-01-14" version="0.26">
+            <manifest-digest sha256new="7LKYTUQ3Y24PQV2BX3B3CNYLTH4SSEKRP7F7YIJSQSA3A7EKDU3Q"/>
+            <archive extract="0publish-0.26" href="https://downloads.sourceforge.net/project/zero-install/0publish/0.26/0publish-0.26.tar.bz2" size="25994"/>
+          </implementation>
+        </group>
       </group>
     </group>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4R8k0ACgkQBxM/lsp02Lpz+Qf9HwKP
-T86cmkpUQu/z0+GEoJYanmhT9j7bXOIpd4dXQmpaiWI3iSgniuIOrslw+tNX84aDrZKTh1N3XeQJ
-18R7fe47PjAkb+1DqoGJ0trH2fYaWmgDqSpDFpqZIIChrOu4zxxO0FzQB7Z97eDICJgd+EiCF/Yx
-1uLY+UAd2HDSSpmAZ7akJ2DTp7OBMRgzFeJF09Ij3BowDX85v1LCf1bubS0+6cZGsCX7oIwj2fdM
-kdZng/MeDpHOdcB8PonqVZcAz84R2DGVsp2kd2Y4tyGZ77F85HmFeiJZyeJZrxGQFZyqfHCQKSng
-gX9nm9J2yY8209xNjct14xPvwAsDddQxmg==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4drAcACgkQBxM/lsp02Lo50gf9ExtK
+Op15vVG8Zpd6B1Fp/69kgcGgBAXM74fuRRi2UqqwBTCGxMEQV0uMJ/EeUakBbWxG7FCUcZN7CLyH
+/uED0hzVzGsnbN/DNRJAIyRSmeJL3/ewy27CwEeU4FA0LNxW17GRi4b9uASGHvrpBoScvgi9G1M8
+Bw2AQd0wGnDX2h8RTVd75c73UKQAKN90EML7WmBArMzcyLJ/3DwfH8H0DL8mjhbYeuo7INLTAMtA
+HeEJQ8EB5rfRqETBCONp9djISHmCcWpDJu7FtoP12KqqXWpib8EsN3RSTpPCAuzGpT8FV4lmZ3wq
+ofTOCp5M/Po0fkPELVa4q1vH0uPYHKp7vg==
 
 -->
