@@ -384,13 +384,38 @@ interfere with those provided by the distribution.
       <archive extract="0install-2.3.8" href="https://downloads.sourceforge.net/project/zero-install/0install/2.3.8/0install-2.3.8.tar.bz2" size="454069"/>
     </implementation>
   </group>
+  <group main="0launch">
+    <requires interface="https://apps.0install.net/utils/gnupg.xml">
+      <executable-in-var name="ZEROINSTALL_GPG"/>
+    </requires>
+    <requires interface="https://apps.0install.net/python/python.xml" version="3.4.."/>
+    <requires interface="http://0install.net/2012/interfaces/0install-runenv-cli.xml" os="Windows">
+      <environment insert="runenv.cli.template" mode="replace" name="ZEROINSTALL_CLI_TEMPLATE"/>
+      <version not-before="2.0.2"/>
+    </requires>
+    <command name="0install" path="0install">
+      <runner interface="https://apps.0install.net/python/python.xml"/>
+    </command>
+    <command name="test" path="tests/testall.py">
+      <runner interface="https://apps.0install.net/python/python.xml">
+        <arg>-tt</arg>
+      </runner>
+    </command>
+    <command name="run" path="0launch">
+      <runner interface="https://apps.0install.net/python/python.xml"/>
+    </command>
+    <implementation id="sha1new=efcc544e8051c517ed790dddafd358a4f4bbe915" license="OSI Approved :: GNU Lesser General Public License (LGPL)" released="2020-01-14" version="2.3.9">
+      <manifest-digest sha256new="ACHOCUN4DPOK5NRJP4354E3HUKAMPXWH6A5BBEKO3URACQ7BHEGQ"/>
+      <archive extract="0install-2.3.9" href="https://downloads.sourceforge.net/project/zero-install/0install/2.3.9/0install-2.3.9.tar.bz2" size="453933"/>
+    </implementation>
+  </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4ds6kACgkQBxM/lsp02LosXgf/Voi2
-nLtlb8CEl0aocs2xOJEg9SvvWI580gM14v6LI3rhwivH1a5hxYyn7P00Wa/h6YHk9xBLzeMDo/cU
-14ur1aSifYyMVTVI6raQQovV99u+imcjFP5Vw69/23OHtdOiAPdF/YKY7310C6lijNN7dlWrmt+e
-e+NhM1OQ4fTi7q1fYHgmArXA7+O59lTIPp+hVL1Lzj/IKdH8PicCrC228sIC5zDrKqAF9uyxPO+d
-IC2+EQ1S5kM1+IlvyBqAqtzxgLeylDxv4IgrU46p1MfZmt4pv3L3BbzX8ba+z7R5BHGXNOyS3kyx
-VOditejXcXJWbLJCcynLDZP8XVjU/TH0hQ==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4duHQACgkQBxM/lsp02LpVmgf/cOxA
+ZtWUi4vXkWsRcUzoL1xKCt/lj9Oh35wdh1WVSek6DmeSwuaWFIhcU+yI3S2pSlj1ZEohVblYMeyr
+W9v5ddjArpYug1kIZonSmX/4jYC/jC8kjl2GAhQ3spuK46Z+MMFbyspkiKevz3lSo1qynVMdnef2
+iXl8TI/omMCsVeEFgt53uiDX163fjUgiJBLwLhWaaBwfcX3ssaLmPvoz0HpdY5XrWJjfn9UH7w4N
+dCnK8iJwuA+NmOILlMnTPYn75ihcl5KGLGtD188EMuwMPPnTuU7jZlFKol6ps7HejesIvjOH0jrM
+3L20ccwrDodGczx338iAEf079utxoVsX4A==
 
 -->
