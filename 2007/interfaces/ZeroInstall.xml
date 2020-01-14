@@ -359,13 +359,38 @@ interfere with those provided by the distribution.
     </group>
   </group>
 
+  <group main="0launch">
+    <requires interface="https://apps.0install.net/utils/gnupg.xml">
+      <executable-in-var name="ZEROINSTALL_GPG"/>
+    </requires>
+    <requires interface="https://apps.0install.net/python/python.xml" version="3.4.."/>
+    <requires interface="http://0install.net/2012/interfaces/0install-runenv-cli.xml" os="Windows">
+      <environment insert="runenv.cli.template" mode="replace" name="ZEROINSTALL_CLI_TEMPLATE"/>
+      <version not-before="2.0.2"/>
+    </requires>
+    <command name="0install" path="0install">
+      <runner interface="https://apps.0install.net/python/python.xml"/>
+    </command>
+    <command name="test" path="tests/testall.py">
+      <runner interface="https://apps.0install.net/python/python.xml">
+        <arg>-tt</arg>
+      </runner>
+    </command>
+    <command name="run" path="0launch">
+      <runner interface="https://apps.0install.net/python/python.xml"/>
+    </command>
+    <implementation id="sha1new=bcce0c4e89d223856953c4e72988902eaa409d6a" license="OSI Approved :: GNU Lesser General Public License (LGPL)" released="2020-01-14" version="2.3.8">
+      <manifest-digest sha256new="HPIBFR2B3QK5OJOZ2VWN4LBIAK2XJK3MTIC355DUCP5DJ72SA3XQ"/>
+      <archive extract="0install-2.3.8" href="https://downloads.sourceforge.net/project/zero-install/0install/2.3.8/0install-2.3.8.tar.bz2" size="454069"/>
+    </implementation>
+  </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4ciQEACgkQBxM/lsp02LqscAf/ViTB
-r0ORJWiVNq9msORHRIxMeJL31y6hdLa8VdjBaAr2KDuQA1ob86FQii+I8NXwQIp02+zknXP5Zs5h
-mnzCV5qWYoK0Kzo8EFmiGKW2hP4Nlf/tslepC8eydS3N9AL4SqP2knbPYd3Sog88u+E45cmdwm7j
-AVhDzBNTW7hjgJtPtKb9znaixgqOj6gGvg7CNQLgXe48YHGkTevUzbXYXv1VK88hh7g3aohdPae5
-3gV6zCHReYI8kv43WjJpKlenv0zR4cw4y9uW6R13gvJdgyjXiSVghUEgF6a0t8Y0zGwP9G6dN8mq
-dbRzP8mW2ag4OMoaaBauzdeLvkmljwpOIw==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4dkCYACgkQBxM/lsp02LpUcgf/QKj8
+rrULY4QqWFhGeTJzCa5A4ftcUTEMRJzDwhAarwiUqsaEu8yxaP0J9/zBGE1UQRC20bGxy2Vj56nY
+ek0VqFe03qNXC4sjvxAdIqJVE8IWQPeNhGxQKjXcUVlv/ExviYIC4gZleJOMP+zTJi/hsrE3iIxx
+sZtPlYBB+xegTRMPUOc+Bg4VD5HrGES0Xzp2ZIBVEJdwG/KbLiGHdpyqzrrUQOAsWjX3zuH7XekE
+cE+k4upzelaedyzGj68OsLa71fsJ7uQZoAru6u9OTeAf5e5v+JhlvXRx4NSbHXfq/tjNgDDgrMbn
+gntVfpgCmj/Owv+ZOcRgh46FgEK46Wp+Sw==
 
 -->
