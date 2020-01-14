@@ -214,7 +214,7 @@ interfere with those provided by the distribution.
       <requires interface="https://apps.0install.net/utils/gnupg.xml">
         <executable-in-var name="ZEROINSTALL_GPG"/>
       </requires>
-      <requires interface="https://apps.0install.net/python/python.xml" version="2.6..!3 | 3.2.2.."/>
+      <requires interface="https://apps.0install.net/python/python.xml" version="2.6..!3 | 3.2.2..!3.5 | 3.7.."/>
       <requires interface="http://0install.net/2012/interfaces/0install-runenv-cli.xml" os="Windows">
         <environment insert="runenv.cli.template" mode="replace" name="ZEROINSTALL_CLI_TEMPLATE"/>
         <version not-before="2.0.2"/>
@@ -363,7 +363,7 @@ interfere with those provided by the distribution.
     <requires interface="https://apps.0install.net/utils/gnupg.xml">
       <executable-in-var name="ZEROINSTALL_GPG"/>
     </requires>
-    <requires interface="https://apps.0install.net/python/python.xml" version="3.4.."/>
+    <requires interface="https://apps.0install.net/python/python.xml" version="3.4..!3.5|3.7.."/>
     <requires interface="http://0install.net/2012/interfaces/0install-runenv-cli.xml" os="Windows">
       <environment insert="runenv.cli.template" mode="replace" name="ZEROINSTALL_CLI_TEMPLATE"/>
       <version not-before="2.0.2"/>
@@ -386,11 +386,11 @@ interfere with those provided by the distribution.
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4dkCYACgkQBxM/lsp02LpUcgf/QKj8
-rrULY4QqWFhGeTJzCa5A4ftcUTEMRJzDwhAarwiUqsaEu8yxaP0J9/zBGE1UQRC20bGxy2Vj56nY
-ek0VqFe03qNXC4sjvxAdIqJVE8IWQPeNhGxQKjXcUVlv/ExviYIC4gZleJOMP+zTJi/hsrE3iIxx
-sZtPlYBB+xegTRMPUOc+Bg4VD5HrGES0Xzp2ZIBVEJdwG/KbLiGHdpyqzrrUQOAsWjX3zuH7XekE
-cE+k4upzelaedyzGj68OsLa71fsJ7uQZoAru6u9OTeAf5e5v+JhlvXRx4NSbHXfq/tjNgDDgrMbn
-gntVfpgCmj/Owv+ZOcRgh46FgEK46Wp+Sw==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4ds6kACgkQBxM/lsp02LosXgf/Voi2
+nLtlb8CEl0aocs2xOJEg9SvvWI580gM14v6LI3rhwivH1a5hxYyn7P00Wa/h6YHk9xBLzeMDo/cU
+14ur1aSifYyMVTVI6raQQovV99u+imcjFP5Vw69/23OHtdOiAPdF/YKY7310C6lijNN7dlWrmt+e
+e+NhM1OQ4fTi7q1fYHgmArXA7+O59lTIPp+hVL1Lzj/IKdH8PicCrC228sIC5zDrKqAF9uyxPO+d
+IC2+EQ1S5kM1+IlvyBqAqtzxgLeylDxv4IgrU46p1MfZmt4pv3L3BbzX8ba+z7R5BHGXNOyS3kyx
+VOditejXcXJWbLJCcynLDZP8XVjU/TH0hQ==
 
 -->
