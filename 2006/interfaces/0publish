@@ -143,15 +143,12 @@ packagers.html.</description>
           <archive extract="0publish-0.25" href="https://downloads.sourceforge.net/project/zero-install/0publish/0.25/0publish-0.25.tar.bz2" size="26799"/>
         </implementation>
         <group>
+	  <requires interface="https://apps.0install.net/python/python.xml" version="3.."/>
           <command name="test" path="tests/testall.py">
-            <runner interface="https://apps.0install.net/python/python.xml">
-              <version not-before="3"/>
-            </runner>
+	    <runner interface="https://apps.0install.net/python/python.xml"/>
           </command>
           <command name="run" path="0publish">
-            <runner interface="https://apps.0install.net/python/python.xml">
-              <version not-before="3"/>
-            </runner>
+	    <runner interface="https://apps.0install.net/python/python.xml"/>
           </command>
           <implementation id="sha1new=526ae0429d5cf95eefcd7e891b11e150b7e806ac" released="2020-01-14" version="0.26">
             <manifest-digest sha256new="7LKYTUQ3Y24PQV2BX3B3CNYLTH4SSEKRP7F7YIJSQSA3A7EKDU3Q"/>
@@ -163,11 +160,11 @@ packagers.html.</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4drAcACgkQBxM/lsp02Lo50gf9ExtK
-Op15vVG8Zpd6B1Fp/69kgcGgBAXM74fuRRi2UqqwBTCGxMEQV0uMJ/EeUakBbWxG7FCUcZN7CLyH
-/uED0hzVzGsnbN/DNRJAIyRSmeJL3/ewy27CwEeU4FA0LNxW17GRi4b9uASGHvrpBoScvgi9G1M8
-Bw2AQd0wGnDX2h8RTVd75c73UKQAKN90EML7WmBArMzcyLJ/3DwfH8H0DL8mjhbYeuo7INLTAMtA
-HeEJQ8EB5rfRqETBCONp9djISHmCcWpDJu7FtoP12KqqXWpib8EsN3RSTpPCAuzGpT8FV4lmZ3wq
-ofTOCp5M/Po0fkPELVa4q1vH0uPYHKp7vg==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4d3sAACgkQBxM/lsp02LoYegf/R0HZ
+aN8ZcMjUBeCKyn5K7lbMO6o+b4VsGwhDif7ibK9MTKa+Rln5+8jW+MxHG3k/NdaZ8AdPGKDWkY4o
+NFsDAvCwXSgrjGB4iCAiW9IiTXB+VYknV/3C4AxJiakpOr1ODuLaX4+uVonRcQD8wxOu/yXnZGKx
+ZAkCW8enbE7nNfqUvSEhMHk743MhceaIjpb7gI/+XCvQl3+oKp6HtXrWi0GUMSdXCIkf9n+vz7ma
+P5+ZOFkoAwEWcm8bzMZAOuchEK+qKo0qpjINeBn60bT2yOtaWl/rPnirsDfQQcDlqlBxzJ8ANduw
+O3vFxeiWzWnIxL/NQDGGvg/xG6eidyh1XQ==
 
 -->
