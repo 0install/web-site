@@ -409,14 +409,18 @@ interfere with those provided by the distribution.
       <manifest-digest sha256new="ACHOCUN4DPOK5NRJP4354E3HUKAMPXWH6A5BBEKO3URACQ7BHEGQ"/>
       <archive extract="0install-2.3.9" href="https://downloads.sourceforge.net/project/zero-install/0install/2.3.9/0install-2.3.9.tar.bz2" size="453933"/>
     </implementation>
+    <implementation id="sha1new=31091e7ac1dde3fbfaeecae391db0ba7dbadd507" license="OSI Approved :: GNU Lesser General Public License (LGPL)" released="2020-01-15" version="2.3.10">
+      <manifest-digest sha256new="5UEHT6NYXFXRDGHVMMSOWGJF35EDILQE7ZMS4LHLY2ZQCK72YANA"/>
+      <archive extract="0install-2.3.10" href="https://downloads.sourceforge.net/project/zero-install/0install/2.3.10/0install-2.3.10.tar.bz2" size="454157"/>
+    </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4d3QUACgkQBxM/lsp02LofEgf+OLl1
-Js2Y6VNl1jO27Ao1TFiBvLC6iflM6fGLiQYQKMrJEW+20D1gill2VmD2Zem9ihuWZY3+wCL9LXSB
-eOCzsPkuGEyLX33sLrNoq4afv62JEXwj26BVAo33eChz5dbGihjVTcevyAgypLeFzrahTUw1PcUP
-n9qLX4n9xf7dRu38xWKQtOSJ5H4L06MreBsd8YPtyyvUydV4Rfl4KH43spUSHvCSpz5pkU3Asx4v
-uMXB4PH9uURW+T/4lgYkUGEVmTV0d6XaSkr6x1DGtzIDWZR2JyhDqBPzJ6a6TLvC1eHhPKL9rot2
-QBTgv+D/rZCzO/yEUkBz4nwJlF/cEbJwqQ==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4fLyoACgkQBxM/lsp02Lp76Qf9E/Xb
+Hta1LLpfhvht9NgBBTidEZo/Ly945qzOncl6IGNZZmHp5BC+dM088SwdAU01zQJ/W1zDtelpJjnW
+ueGwC8f8n9If4k1Rw+VMUDS7XxMPRGE7c2iTOJ/ssilh8GK+ViNSvDiGJKS4mPgYg4bdNq7U1sYJ
+ojYX6o+YL/hwdeQQadgBkJ1VXgVFRcYVQp9Cx8LEYRlwhw1iFl/1t7gUH109L2hGeBlNeOt9r6qJ
+zpttjvv5RM1cNuUF/cf5KT4HMvN1gA7AAF5aACDz3C8AVYz4hH1zphAE4/r0fb2Q55kvr0Wt+ZgO
++mYXnrbo9jN3jKAYnDmGbidK85JLH/dRsg==
 
 -->
