@@ -16,13 +16,16 @@ create a matrix of test results.</description>
   <needs-terminal/>
   <group license="OSI Approved :: GNU General Public License v2" main="multi-tester">
     <implementation id="sha1new=e74e52960c6c6e6ee602807a92636bc06dfb0ea0" main="multi-tester" released="2008-11-06" stability="stable" version="0.1">
+      <requires interface="https://apps.0install.net/python/python.xml" version="2..!3"/>
       <archive extract="0test-0.1" href="https://downloads.sourceforge.net/sourceforge/zero-install/0test-0.1.tar.bz2" size="8971"/>
     </implementation>
     <implementation id="sha1new=157a798c62fe1e6d7d62b8353bfa64b07e5fe83f" main="0test" released="2009-11-15" stability="stable" version="0.2">
+      <requires interface="https://apps.0install.net/python/python.xml" version="2..!3"/>
       <manifest-digest sha256="858e9b09a3749c18ff07049e6a050a14aabd54c4ab8404f58703ddb4ca005fa9"/>
       <archive extract="0test-0.2" href="https://downloads.sourceforge.net/sourceforge/zero-install/0test-0.2.tar.bz2" size="9134"/>
     </implementation>
     <group>
+      <requires interface="https://apps.0install.net/python/python.xml" version="2..!3"/>
       <requires interface="http://0install.net/2007/interfaces/ZeroInstall.xml">
         <version before="0.53" not-before="0.46"/>
         <environment insert="" mode="replace" name="0TEST_ZEROINSTALL"/>
@@ -38,6 +41,7 @@ create a matrix of test results.</description>
     </group>
 
     <group>
+      <requires interface="https://apps.0install.net/python/python.xml" version="2..!3"/>
       <requires interface="http://0install.net/2007/interfaces/ZeroInstall.xml">
         <version before="0.53" not-before="0.51"/>
         <environment insert="" mode="replace" name="0TEST_ZEROINSTALL"/>
@@ -55,6 +59,7 @@ create a matrix of test results.</description>
       </requires>
       <command name="test" path="test0test.py"/>
       <implementation id="sha1new=00127c13229be2d757fe482d3ccbbb34229dfa4f" main="0test" released="2011-03-15" stability="stable" version="0.5">
+	<requires interface="https://apps.0install.net/python/python.xml" version="2..!3"/>
         <manifest-digest sha256="ba586eb43abdb01bf92c0a7e58d5af54828b2bdc03faf873786a0a1c7ecab809"/>
         <archive extract="0test-0.5" href="https://downloads.sourceforge.net/project/zero-install/0test/0.5/0test-0.5.tar.bz2" size="12340"/>
       </implementation>
@@ -149,11 +154,11 @@ create a matrix of test results.</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4e87wACgkQBxM/lsp02Lr0ygf9FrZn
-XsLjUz1za/IzS5CkNiuBHv98aWDaYCo9VDu+TXmHQpQf/glOgMHU8fWC/MmZDqi0PtKH2YlXerOi
-XO5uiXrrKXCI54+lpoQKcQ9XAxRLWjLapKfu5xUYw38wjKp3wK5NyIdXmtUrUKw9pP47KkMb4dCR
-5acrRaqAWVl2GCOhwZcNmo1rBIRvVpTPFLOhPU7yZZJ+x6dgULX4Ee7C++Z2gF868fJO7BZUAkxX
-DmVwiZVfvJsQen4HI0Z8e9F4F2dxMdN/WB535dBETlB8WMWDqbFDNTaLIfr+brQ4jkvhezAFdGVD
-fk3B9mbWJNhUCDGkHKQy7Alu3v5VxVMS0w==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4fFXQACgkQBxM/lsp02LqrSwgAmmzY
+8JqbgT2Efc/BqMtgiDIwy7z7GNYdVWSh51odv+085KHPEqTWgm2sP2NRnaTmWia2y+XnXN/ESUYj
+b+csfNCDg0K1iVLUfeFEED8Oyyt/HBdPgacZGkeasw8PJXgyLFPj2Ek07krCi3JhR/AaEq2ElerQ
+I8VSKB+Pp7Rmi2YM610HJ8lp1mpjPXxnbirwj/LK8Mb0SkxrfAA7+CYr/76rDJCAQAtV+rMZqGfn
+RsgtQ2dhma8OA3wN1Ld5LDzndtDF2i39LXdnjtzmGPl7Th7qj3G/x6x8hNuN84ZIQv1AOSIZQZAi
+uX1p5X18Xa+dLrZFGy8zZXe31lC0dr1wqw==
 
 -->
