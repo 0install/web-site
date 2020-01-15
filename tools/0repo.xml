@@ -129,20 +129,44 @@
           <manifest-digest sha256new="FMEE2SQV3DPM76KYDK7VJVS7HSY2DPEYXDQ76C2NQHBVVJPEI72A"/>
           <archive extract="0repo-0.9.1" href="https://downloads.sourceforge.net/project/zero-install/0repo/0.9.1/0repo-0.9.1.tar.bz2" size="59337"/>
         </implementation>
-        <implementation id="sha1new=63a566c625f6572e988279039d15bb8ede5637e2" released="2020-01-05" version="0.10">
+        <implementation id="sha1new=63a566c625f6572e988279039d15bb8ede5637e2" released="2020-01-05" stability="stable" version="0.10">
           <manifest-digest sha256new="HLRXJNHXYBHV2ZEIJN7N7NI3HITKRSQFX5IGJY5PCRVHLFEI2GVA"/>
           <archive extract="0repo-0.10" href="https://downloads.sourceforge.net/project/zero-install/0repo/0.10/0repo-0.10.tar.bz2" size="59665"/>
         </implementation>
       </group>
     </group>
   </group>
+  <group>
+    <requires interface="https://apps.0install.net/python/python.xml" version="3.6.."/>
+    <requires interface="http://0install.net/2007/interfaces/ZeroInstall.xml" version="2.3.8..">
+      <environment insert="" mode="prepend" name="PYTHONPATH"/>
+    </requires>
+    <requires interface="https://apps.0install.net/devel/git.xml">
+      <executable-in-path name="git"/>
+    </requires>
+    <requires interface="https://apps.0install.net/utils/gnupg.xml">
+      <executable-in-path name="gpg"/>
+      <executable-in-var name="GNUPG_PATH"/>
+    </requires>
+    <command name="run" path="0repo.py">
+      <runner interface="https://apps.0install.net/python/python.xml"/>
+    </command>
+    <command name="test" path="tests/runall.py">
+      <runner interface="https://apps.0install.net/python/python.xml"/>
+      <executable-in-path name="0repo"/>
+    </command>
+    <implementation id="sha1new=a6cddf09966e1a58fe3956f868c1eb31f725d30a" license="OSI Approved :: GNU Lesser General Public License (LGPL)" released="2020-01-15" version="0.11">
+      <manifest-digest sha256new="ZIVRKJSQLU3WN6XS32DEOS6MST7PNM5QP6XS6WGIL7H37C4WXCPA"/>
+      <archive extract="0repo-0.11" href="https://downloads.sourceforge.net/project/zero-install/0repo/0.11/0repo-0.11.tar.bz2" size="60513"/>
+    </implementation>
+  </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4R8kwACgkQBxM/lsp02LpsnAf+Oo/Z
-Mj1/5zhLT7DcI6aW7s6DU6YIDMOEJB6lgj7+kYjUETXpNjHV67w235pXMTxzmqrxadwKVMfjiULX
-qHxbsbYvFDiBzMbFNVwHiWHujFh61VxrE39oRFl2tykX/WbK5lg7lav40QSRuntq0tI/ZW032u3p
-KQ6QSJSYlE2tLVusV/xA2wKtFFUUEH5brS9uTO8ifPwpBm75BU8OUnUKFe/n5dx3rsJEf4O0YvRM
-QOhdD9+9cdNbXz42JW0a5CFBMzCr0VsWTmsKJniwRj8u4uId05DnIvOAgscIdasyAIjAkkrCk5kt
-X3KFzFGleUQ5fECYAfwtnYN2rn6kIMnOVQ==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4fS/UACgkQBxM/lsp02LqDBAf/TodT
+gDMQHO4/NIJhAUZxZYYEFHCXOyzPd0vmakH0zFWyx73fUD7ULWTzaGVruvX0Wd/0dsUXPMZiAq2b
+rjXVmpL7AkcMn/ad67gcMThyWbwNCYWQU0lWI/OPKjeT+uYmil/CiEq1iwe6VVwN2fBj+ai6IuWk
+rATvdLC0pwFd8ZDAQvm4nTcanRXlxawsohzxayF9mDlPCf0LLYyJpU01u4RwcAS2KHwpQtB0PF/9
+eVH0nvU5iJpj53Y0qeiZ/GJgQEYf2vTWdhUUP4byqFdxprAocCy3QoHtEDaS/RlH3Wxkr6ItmqFZ
+HDA4EiEtBcsJrABlvH99Gg16rT2VjZkEBg==
 
 -->
