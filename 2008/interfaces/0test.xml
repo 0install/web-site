@@ -103,7 +103,7 @@ create a matrix of test results.</description>
           <version before="3"/>
         </runner>
       </command>
-      <implementation id="sha1new=2835ad831082adeb7ae0b2ce29f8bfbff9e8deb8" main="0test" released="2012-09-08" stability="stable" version="0.8">
+      <implementation id="sha1new=2835ad831082adeb7ae0b2ce29f8bfbff9e8deb8" released="2012-09-08" stability="stable" version="0.8">
         <manifest-digest sha256="9e1042f41e1bce2f6afded906501647d92c1672500e4c3ab644e7b158e4fd9de"/>
         <archive extract="0test-0.8" href="https://downloads.sourceforge.net/project/zero-install/0test/0.8/0test-0.8.tar.bz2" size="12790"/>
       </implementation>
@@ -154,11 +154,11 @@ create a matrix of test results.</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4fFXQACgkQBxM/lsp02LqrSwgAmmzY
-8JqbgT2Efc/BqMtgiDIwy7z7GNYdVWSh51odv+085KHPEqTWgm2sP2NRnaTmWia2y+XnXN/ESUYj
-b+csfNCDg0K1iVLUfeFEED8Oyyt/HBdPgacZGkeasw8PJXgyLFPj2Ek07krCi3JhR/AaEq2ElerQ
-I8VSKB+Pp7Rmi2YM610HJ8lp1mpjPXxnbirwj/LK8Mb0SkxrfAA7+CYr/76rDJCAQAtV+rMZqGfn
-RsgtQ2dhma8OA3wN1Ld5LDzndtDF2i39LXdnjtzmGPl7Th7qj3G/x6x8hNuN84ZIQv1AOSIZQZAi
-uX1p5X18Xa+dLrZFGy8zZXe31lC0dr1wqw==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4fIJIACgkQBxM/lsp02Lr3ygf9H+zV
+BUgKtQWxKcX+EKbeIRRz5Kj7Gl4ot1byyatoLTYZA4SchtQG4NGa3i/YZvzadsPOmRQcZAch8xb7
+rIYmnQoPV9pvZXvX8nbLSTWOG7VsvYfU4Pq80BpsAMlIHqyewCnZYXdb4kfPPrQUPqmrrHRLVJn2
+75tFnrDBr1SP2ivo0cKP7PWHTfZfJb7gvGL3WkAjNMJ9YKMHVVfTvI6IwEHo/ZoPtcn7yREHh7Hg
+5JV7Ylm6WxsVxvXudQfzESRzcAuRkyXhO9mnf700WTDnUYHezlQQBxlK4wuNK+6mY4TZmMcNXUec
+poBVvONRBdxfrzbU/T08dAJI3df/i+IvIQ==
 
 -->
