@@ -92,7 +92,7 @@ can help you to create new releases easily.</description>
           <version before="3"/>
         </runner>
       </command>
-      <implementation id="sha1new=56e8a61871441490dc2eeaecf4b2c7038f9aebda" license="OSI Approved :: GNU Lesser General Public License (LGPL)" main="0release" released="2011-04-18" stability="stable" version="0.13">
+      <implementation id="sha1new=56e8a61871441490dc2eeaecf4b2c7038f9aebda" license="OSI Approved :: GNU Lesser General Public License (LGPL)" released="2011-04-18" stability="stable" version="0.13">
         <manifest-digest sha256="f4e6b896f72c026675b1e7f5d1cf31e5870b69feafbdd5bbdc9c47e9b2adb9cc"/>
         <archive extract="0release-0.13" href="http://downloads.sourceforge.net/project/zero-install/0release/0.13/0release-0.13.tar.bz2" size="54887"/>
       </implementation>
@@ -122,11 +122,11 @@ can help you to create new releases easily.</description>
         <version before="3"/>
       </runner>
     </command>
-    <implementation id="sha1new=4ec87241cc6e72c0bc7f68f6a3f9409727473a64" license="OSI Approved :: GNU Lesser General Public License (LGPL)" main="0release" released="2012-09-15" version="0.14">
+    <implementation id="sha1new=4ec87241cc6e72c0bc7f68f6a3f9409727473a64" license="OSI Approved :: GNU Lesser General Public License (LGPL)" released="2012-09-15" version="0.14">
       <manifest-digest sha256="f2d351c651fa4c7f9031f7675ea2c42faa3a4265791ea417980fb36e4551ec9d"/>
       <archive extract="0release-0.14" href="http://downloads.sourceforge.net/project/zero-install/0release/0.14/0release-0.14.tar.bz2" size="55026"/>
     </implementation>
-    <implementation id="sha1new=0c782acf661cfde11ea1174baf70a143f237bea1" license="OSI Approved :: GNU Lesser General Public License (LGPL)" main="0release" released="2012-09-24" stability="stable" version="0.14.1">
+    <implementation id="sha1new=0c782acf661cfde11ea1174baf70a143f237bea1" license="OSI Approved :: GNU Lesser General Public License (LGPL)" released="2012-09-24" stability="stable" version="0.14.1">
       <manifest-digest sha256="2bb1cc0c4b40ef4a5bdda0a89d3a63c24e40572f87528b67280b6d2cefdc33c2"/>
       <archive extract="0release-0.14.1" href="http://downloads.sourceforge.net/project/zero-install/0release/0.14.1/0release-0.14.1.tar.bz2" size="55257"/>
     </implementation>
@@ -157,7 +157,7 @@ can help you to create new releases easily.</description>
         <version before="3"/>
       </runner>
     </command>
-    <implementation id="sha1new=a795fbb8216165ef5af7287291895fa52aed8f22" license="OSI Approved :: GNU Lesser General Public License (LGPL)" main="0release" released="2013-02-15" version="0.14.2">
+    <implementation id="sha1new=a795fbb8216165ef5af7287291895fa52aed8f22" license="OSI Approved :: GNU Lesser General Public License (LGPL)" released="2013-02-15" version="0.14.2">
       <manifest-digest sha256new="ZZFWCM36NM4YR3MKLGQVCLSNYKITZYBNIBYWUJEXJ3PXETDBP6FA"/>
       <archive extract="0release-0.14.2" href="http://downloads.sourceforge.net/project/zero-install/0release/0.14.2/0release-0.14.2.tar.bz2" size="55318"/>
     </implementation>
@@ -233,11 +233,11 @@ can help you to create new releases easily.</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4R8kwACgkQBxM/lsp02Lqu9gf/TrcU
-nOhLNsVzOuXxCSqzy6OHueiiT6GOHOLKfKpWnSGcciTZuudTbmPXIBLp1SMnoOQ+I2aEf7Gjimqj
-HRJIr+8XKuqYt0pXX0j2Prygem2PtESbihPPNGkfaiQq6BG4LzbnyfEpD0aINI2qi/dgEOmI5H21
-Eg/Ht9aBVlV+BdrWEC2zPgCClCURDqsWJp2bx8d4tiYSwHJF2O1IPktgV6kS2R9gna7p9hAuQdwX
-fNPQuGt9JJqO+7dZF3TBooRcphFPNE3PxHEfGFyg1UTqaTsMvnblbC7DjleP3OmNgPSh0/frXkR/
-OC2poIVWiZ7eA2jbwiYVyHaVQDN0n9G0Pg==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4gXQEACgkQBxM/lsp02Lq3jggAo5xY
+O3pl60rujgcq7ougXBL8ztrEB6rPTEjQvlz3QHVbCy4IQLuXcvJk5Q5yS1e5RDDQ6ShruEAaFytX
+YsdPfsVmRiH0yIKwx5sjLA5USnq/VH87yIo0e+qgU5Nrp7KbWy/yrI5gIoqEZEqFy6q36QugT/La
+1LPTDUWKSfcDvZ5TesjRmFM/xAWql0Pw1RgvRD5s5mpbcrZ0CFvsEUqLmj5ipcYWclEQKv/0ikRh
+SfIiuDSMtxwlgzTp7gIlwegq1a4/baaZMY50USw1e1zh/9GKiwOyPJJWQaCVpRLU1hZX0+U7WXbg
+a64+Th7Yb2fRMjoufa/1ZEVAVaLoT36cbA==
 
 -->
