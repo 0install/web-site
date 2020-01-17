@@ -499,13 +499,43 @@ For a full tutorial, see 0compile's homepage.</description>
       <archive extract="0compile-1.6" href="https://downloads.sourceforge.net/project/zero-install/0compile/1.6/0compile-1.6.tar.bz2" size="38000"/>
     </implementation>
   </group>
+  <group main="0compile">
+    <requires interface="http://0install.net/2006/interfaces/0publish">
+      <environment insert="0publish" mode="replace" name="ZI_COMPILE_0PUBLISH"/>
+    </requires>
+    <requires interface="http://0install.net/2007/interfaces/ZeroInstall.xml" version="2.3.7..">
+      <executable-in-var command="0install" name="ZI_COMPILE_0INSTALL"/>
+      <environment insert="" mode="replace" name="ZI_COMPILE_ZEROINSTALL"/>
+    </requires>
+    <requires interface="https://apps.0install.net/utils/bash.xml" os="Windows">
+      <executable-in-var name="ZI_COMPILE_BASH"/>
+    </requires>
+    <command name="run" path="0compile">
+      <runner interface="https://apps.0install.net/python/python.xml">
+        <version not-before="3"/>
+      </runner>
+    </command>
+    <command name="test" path="tests/testcompile.py">
+      <runner interface="https://apps.0install.net/python/python.xml">
+        <version not-before="3"/>
+      </runner>
+      <requires interface="https://apps.0install.net/devel/make.xml">
+        <executable-in-path name="make"/>
+      </requires>
+      <requires interface="http://rox.sourceforge.net/2005/interfaces/ROX-Lib"/>
+    </command>
+    <implementation id="sha1new=091f01b62fc034d0741ca2daaadb1e951800f197" license="OSI Approved :: GNU Lesser General Public License (LGPL)" released="2020-01-17" version="1.7">
+      <manifest-digest sha256new="JVOJOX7AWISFZ6BGP46FTMBHTTRA2HP433NUG3VWEXGI3DC7INDA"/>
+      <archive extract="0compile-1.7" href="https://downloads.sourceforge.net/project/zero-install/0compile/1.7/0compile-1.7.tar.bz2" size="38261"/>
+    </implementation>
+  </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4R84QACgkQBxM/lsp02LqPQQf8C5yI
-oliz0m1HKRUJUI8myKkbiFJov+BOemSPs/8L3B4uDVhPIkuGJ8/rx+78dir1r0lc+eWb8AYBGmVn
-BBPlHiWkOFEad633TnjlAxtsapmHqz1R35BpPfc4ZnyIINeza2s/MhP7h7xnO7rAapnE2lGdG5R5
-3L9qyCNRwaJIHu6CultRh5p22Z8kmwj0vtYcO+7LlHCxIMTtW4a9qETgYNrIfNlomuLPjuH52a8D
-8ot5X3eoydExlaoSEPSKT9pWeFYGM2S25Wgyg5hBdbPvvWwgELKTixvxYf7KaOktMRJYMuNj9WWq
-/jLKx+77Hx2l7IGtYiTgKdhxIr+mIE5XNg==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4hzOYACgkQBxM/lsp02LrPjQf/Yrg7
+84WVWaBcHyrxSBlg2FDDjMRluzS+IwrMVcHvH5CJsnc9twpOxZ7hTeBsU6TwL9y4S42C//BW5Ebj
+AvpG4HPKWzPILdbrALajA0v3HhtS/nZHi9N9lp6F7a9CEGPTH4vr9+Cm34bQ1sVvQvGzu2dNPeJ5
+es7rIrWoMt8kVae8zuMTG+Cz9YZ5rH85Q1DwQAL6bJMjke0f9+AEbzfTKAQpuVCAvWRP8z0CWJ+c
+IOAcNhf5pvin+r5p6kYmzk1E37Ty9dCYtafS6JxCxXp0Av4tWLGRhSYKUbkoH0xEU9TsL83/9tkA
+0pPhs353N9MQoAZaIwwb0mvA4rMiB7gUxA==
 
 -->
