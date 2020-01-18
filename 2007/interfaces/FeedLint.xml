@@ -81,15 +81,32 @@ Run this on all your feeds from time-to-time to make sure they still work.</desc
         <archive extract="feedlint-0.9" href="https://downloads.sourceforge.net/project/zero-install/FeedLint/0.9/feedlint-0.9.tar.bz2" size="11770"/>
       </implementation>
     </group>
+    <group>
+      <requires interface="https://apps.0install.net/python/python.xml" version="3.."/>
+      <requires interface="http://0install.net/2007/interfaces/ZeroInstall.xml" version="2.3.8..">
+        <environment insert="" mode="prepend" name="PYTHONPATH"/>
+      </requires>
+      <command name="run" path="feedlint">
+        <runner interface="https://apps.0install.net/python/python.xml"/>
+      </command>
+      <command name="test" path="feedlint">
+        <runner interface="https://apps.0install.net/python/python.xml"/>
+        <arg>FeedLint.xml</arg>
+      </command>
+      <implementation id="sha1new=6383420787a5585eccb08bdf5dd431503695af37" released="2020-01-18" version="0.10">
+        <manifest-digest sha256new="N5GGEFDYS6ZU6VJDJ2R7EZ5RHCHGCBSCPPIPWGYMZ3E335A4WYAQ"/>
+        <archive extract="feedlint-0.10" href="https://downloads.sourceforge.net/project/zero-install/FeedLint/0.10/feedlint-0.10.tar.bz2" size="11920"/>
+      </implementation>
+    </group>
   </group>
 
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4R8kwACgkQBxM/lsp02LpWOgf9H1md
-lZkpBs0WrKXBRCUR6jDYFz34xh0g/nAM6plopvntCqP7BgkxxiOu3ItsFk4cMuiJSXKmB+VpsC3U
-ariXn5TwLS9OEV1GZm3ulNyX3LrxhR2Te9UEFey/nWBobmqWht7syam+QVJJAw+T6B0cf+ozHEVJ
-/ritXGwE3JuFzxrAZ32r8SIi11eopMQX/Eyto690AZdyxrRn8dE535cs49jjbscK7mn8oW22MMNX
-zDkYGT16mxrr4Qt4HUShtDgCi4cvO23+Vw9ma+8rs01H4i/ivAGZh56Ib5/yQHpivsyXrvTjsvi+
-llP0hs0P6ujf9cKzqC06D83X76MWfWji7A==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4i+PMACgkQBxM/lsp02Lob0Qf/de31
+Y9tPLvXlKG3TQjCbW34zJb+q7PFkONjkEXBZhheomEGE6s7FHa+mhhAouoTr5LOrY/hH3NaouJJu
+IC9IQeC/5FFm1PWwWvwALLoPbzRiLucca/4V1Vl3Rth9NsR273em5gjMBhupo0eUZjOYn/gaxY3g
+J9CAVphd8NyLheq3dLzLo5MXxysGeVBK99GUEx/qiPLGckJXaYkiKKMwpDtKoqRqxZ6Y+arTBA0/
+YOCpF12bZ7DxrtHMYsf9CfjfrqmvfauorBuAxXRVBJkq+YficRVF8TWA3DLJq1jyZcDeKEJtTvqr
+HS/VkyTJ7s6uQuJfIwJron/K/v543dsOLg==
 
 -->
