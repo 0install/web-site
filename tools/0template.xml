@@ -48,7 +48,7 @@
       <environment insert="" mode="prepend" name="PYTHONPATH"/>
       <version not-before="2.2-post"/>
     </requires>
-    <requires interface="http://0install.de/feeds/ZeroInstall_Tools.xml" os="Windows">
+    <requires interface="https://apps.0install.net/0install/0publish-win.xml" os="Windows">
       <executable-in-var command="0publish" name="0TEMPLATE_EXTERNAL_TOOL"/>
     </requires>
     <command name="test" path="tests/test0template.py">
@@ -83,11 +83,11 @@
   <entry-point binary-name="0template" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4R8k0ACgkQBxM/lsp02LqxCQf+L+hO
-NN5CbGi6490mTok+oUZtjvdNPDgcBSWhn/0NB2FyKymbgPLuEkDRbI/RoXz9QmcgA7xf0q6pCrSF
-yDXlSqBrZ74sdSKC4XfAY2Gqb0Vukne6Iq6fv/rsfjpEs3NtH5TXMmxpNk0JJIE06qA8BqdxODSB
-g0Np4gueSRCxP2rMyNNU7+nsaUG60rXV/3N1itNdF0bLX0rNIgITi9gUyEXIoYWa5gEs2D9TaQ0t
-PFb1pKigA3HXeps8ugYyXsI/utvkji+P+2OWisABnf2K9gI7dTUMni+Qt/NpeswzbY5GAOUU4Eyl
-3ptph2bIAQKZIwwDjNlWmQm0B0J6nxETmA==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl5IIDEACgkQBxM/lsp02Lrd5Qf/ezFo
+ycS0M7Ky35qyGF3T6b6KZefhnlFwc3IB61PYKb4kscFT1nDps1UHYCKNaCMXuOfJjkIBs4d/1UOe
+KeMwNcPeNeS1IjfxfjYSAOYZqN/txYZmFWbAi9nahr5rYzIGZ1BdfgVoqF8q35hR4x2LMhGNOeCu
+vEGnBIoQmO1x1p5T/o9x+ybIWfw/hrnWDMPaSXdtRr3Oy5hrHXpO0GAdy+67ZtqZFwtO56GZY9gh
+/es0FlIjkIi7mxsnej2Z+Q+4ScUxbcBaNK6Ar1UQf0MfisZGiF6edun68glNSpvyrYZb79hGntFO
+u2ZzHi00DjqFLRoBeVu7/5KEJN5kzQrt6w==
 
 -->

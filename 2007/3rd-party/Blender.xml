@@ -15,7 +15,7 @@ well as an integrated game engine for real-time interactive 3D, and game
 creation and playback with cross-platform compatibility.</description>
   <homepage>http://www.blender.org</homepage>
 
-  <feed src="http://0install.de/feeds/Blender.xml"/>
+  <feed src="https://apps.0install.net/gui/blender.xml"/>
 
   <icon href="https://0install.net/feed_icons/Blender.png" type="image/png"/>
   <category>Video</category>
@@ -63,11 +63,11 @@ creation and playback with cross-platform compatibility.</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl3GnV4ACgkQBxM/lsp02Lp27Qf/aUYS
-jc4GZUF1vmKCeS+72pa2BVyAvj2vD23uc/z5zOnp7BNyGrLsXAT+G1qml6DQRTCStAuVEnvNwavO
-fFet2ERra19O+IZk9jR5r9h9S6KgYiYfuKg414ZUCJ4Nnsg96+19Ph0oTituebPfNaTjLMrO9Kd3
-9eUNnJPbwiBsPbosi/ws5f0XoDEnX1y+mZkClYbPKPKjuRdEpn0+OjiphzTfkYbDKARfTFVoC5j2
-r3k8jW+4Q34/lAWWyFDeHkkphoW/M/cz5YvDuUdRFOb8NiV1zy6XhfVf1+hBGfwzZUEIcHLc1UeG
-ZnhkCiQfTTrnBdXDx+yx98SxuwlozYbSNg==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl5IIDEACgkQBxM/lsp02Loc+Qf9GZEo
+QoE1Wi5MM/KsXLyHMybV8bgvP1+teym3/qAcolBtH5OLtPR4TZPR/C752J5Qc4hyM7FjSVXUzyLb
+EvrbjgJVUT63l6tBMRq60oLQ0/Jb/qx3VqtZbLTqCGAJVJ6KQdO3UY8Q/OIZysVWWXg91xpB1aIs
+oOIs5WPUyHSOVxLcPAp0rbDdrpZ7JyuJeavbxs53e+Pj3IfiDyz8mp/UAuQmUjcyslsEFv3iFVg9
+zImgtZ5VMSO8QGlaK4twlqxJpxiNQpOUG+OLOuFZdYSl8AALM/PZzIlKD9bzL+zzcDzfvdz6J9up
+/Pdw6Wp3ur51Tw1x+TWiTwfXu5GVpuAdug==
 
 -->
