@@ -155,18 +155,18 @@
       <runner interface="https://apps.0install.net/python/python.xml"/>
       <executable-in-path name="0repo"/>
     </command>
-    <implementation id="sha1new=a6cddf09966e1a58fe3956f868c1eb31f725d30a" license="OSI Approved :: GNU Lesser General Public License (LGPL)" released="2020-01-15" version="0.11">
+    <implementation id="sha1new=a6cddf09966e1a58fe3956f868c1eb31f725d30a" license="OSI Approved :: GNU Lesser General Public License (LGPL)" released="2020-01-15" stability="stable" version="0.11">
       <manifest-digest sha256new="ZIVRKJSQLU3WN6XS32DEOS6MST7PNM5QP6XS6WGIL7H37C4WXCPA"/>
       <archive extract="0repo-0.11" href="https://downloads.sourceforge.net/project/zero-install/0repo/0.11/0repo-0.11.tar.bz2" size="60513"/>
     </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4fS/UACgkQBxM/lsp02LqDBAf/TodT
-gDMQHO4/NIJhAUZxZYYEFHCXOyzPd0vmakH0zFWyx73fUD7ULWTzaGVruvX0Wd/0dsUXPMZiAq2b
-rjXVmpL7AkcMn/ad67gcMThyWbwNCYWQU0lWI/OPKjeT+uYmil/CiEq1iwe6VVwN2fBj+ai6IuWk
-rATvdLC0pwFd8ZDAQvm4nTcanRXlxawsohzxayF9mDlPCf0LLYyJpU01u4RwcAS2KHwpQtB0PF/9
-eVH0nvU5iJpj53Y0qeiZ/GJgQEYf2vTWdhUUP4byqFdxprAocCy3QoHtEDaS/RlH3Wxkr6ItmqFZ
-HDA4EiEtBcsJrABlvH99Gg16rT2VjZkEBg==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl5SopAACgkQBxM/lsp02Lp9sAgAk62n
+6m0//PVN8AmNK0VXN54dkha1V5yyEsq/7tJ21mhwxRuWhA2XFC0Syy2Be3BknNCpB0OG2wYxZp1s
+WXy2v7EkYWxQkb+M82titjz4loE0kxUQzhHIt9RHONPkRTv/8O3E3/UrtQR0wU2STvwiiECAnzNt
+RNkuSlpF/UpVqzB5IokV0CZmqwa0i/fhmHrqYRrnPkg1r8YFb0nFbQrMPTW6cMRfp47oU0sv0xDF
+G1+8s1mCc4TO0QDTvXgqwUJhVulDzfk+HO4wCfAznwb9NqGwZR/+sZf5i0kqjujQw1H8MLtME/hj
+ySsj2JWQzmqpmtVtVLwgdPrvdfdQZIjTEA==
 
 -->

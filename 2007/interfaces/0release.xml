@@ -264,18 +264,18 @@ can help you to create new releases easily.</description>
         <executable-in-path name="make"/>
       </requires>
     </command>
-    <implementation id="sha1new=cb5ed3155aca6b73173cc767c74e7221213aec90" license="OSI Approved :: GNU Lesser General Public License (LGPL)" released="2020-01-17" version="0.17">
+    <implementation id="sha1new=cb5ed3155aca6b73173cc767c74e7221213aec90" license="OSI Approved :: GNU Lesser General Public License (LGPL)" released="2020-01-17" stability="stable" version="0.17">
       <manifest-digest sha256new="VX4GQZTM3MPMEAICR7OC5ZUKKJY4E4I7H5LSIKFN7E6NB2DLRW6Q"/>
       <archive extract="0release-0.17" href="https://downloads.sourceforge.net/project/zero-install/0release/0.17/0release-0.17.tar.bz2" size="48081"/>
     </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4h4LgACgkQBxM/lsp02Lqp3gf8DOnn
-OQiiO8QyIp9iXfcilDj5SCx6zf5x/4mVs4/NKS3pNvLy87LM4Jn5xvdVXOreYjkWd0CAwPjZzIxv
-Iq1s4vwKyBX39t24SMiuvZvX1R6Ds96f+9VxHSVoJfyBfpkFDjxxirujkivePJ0NiZSJycwP+XKd
-zMEdaivGyxhJ2B9Itpg8QZSppTpRQy+qN9p46WQpLl99tp+cgoMYGUjcgVYTr4xixixV3fmrS3z8
-Kn7P/MblGsP+tLnBo8b8CCmbaklUMyRw/1e7s1Hzrhd0N+fdcs8gCv0rmqaTn1dJht3q5OQ+UMub
-4O+9vqlH2HrI2da3fwN/N+PtSROehG4IqA==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl5SookACgkQBxM/lsp02LpFcAf/UTGg
+l2717meRRPrgXuLB3DvaZKbzLCBiw4CLpFLzy4HrWTKa0k5MsDpKArW8m9hrQMi6CT75568DApSj
++Sxrv8LTqBshQjTRNvFUeK1I2QF+vbwsoxHfz+aMAxXjVVT/kqwTQptssvg+DY9N7TjwlEdnhf9a
+3yCL8RzY8fdVnEjnbHGrXqbvfCF5I1kLRqUvuU7Tbnu2vqxYEZ7lb+u0RYNvNHL/uqBdUx+WuwTd
+hGfOGdX3fT8s+z7ZBa4weLuwnpSKj8HXvbjER7/nFa2EWGKYYvhj3FBADqVb0ZTTP96foaju4y3v
+SiBPSo450SJMgqvUMJVXG0Ov+odeMf1qlg==
 
 -->

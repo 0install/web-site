@@ -524,18 +524,18 @@ For a full tutorial, see 0compile's homepage.</description>
       </requires>
       <requires interface="http://rox.sourceforge.net/2005/interfaces/ROX-Lib"/>
     </command>
-    <implementation id="sha1new=091f01b62fc034d0741ca2daaadb1e951800f197" license="OSI Approved :: GNU Lesser General Public License (LGPL)" released="2020-01-17" version="1.7">
+    <implementation id="sha1new=091f01b62fc034d0741ca2daaadb1e951800f197" license="OSI Approved :: GNU Lesser General Public License (LGPL)" released="2020-01-17" stability="stable" version="1.7">
       <manifest-digest sha256new="JVOJOX7AWISFZ6BGP46FTMBHTTRA2HP433NUG3VWEXGI3DC7INDA"/>
       <archive extract="0compile-1.7" href="https://downloads.sourceforge.net/project/zero-install/0compile/1.7/0compile-1.7.tar.bz2" size="38261"/>
     </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4hzOYACgkQBxM/lsp02LrPjQf/Yrg7
-84WVWaBcHyrxSBlg2FDDjMRluzS+IwrMVcHvH5CJsnc9twpOxZ7hTeBsU6TwL9y4S42C//BW5Ebj
-AvpG4HPKWzPILdbrALajA0v3HhtS/nZHi9N9lp6F7a9CEGPTH4vr9+Cm34bQ1sVvQvGzu2dNPeJ5
-es7rIrWoMt8kVae8zuMTG+Cz9YZ5rH85Q1DwQAL6bJMjke0f9+AEbzfTKAQpuVCAvWRP8z0CWJ+c
-IOAcNhf5pvin+r5p6kYmzk1E37Ty9dCYtafS6JxCxXp0Av4tWLGRhSYKUbkoH0xEU9TsL83/9tkA
-0pPhs353N9MQoAZaIwwb0mvA4rMiB7gUxA==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl5SopAACgkQBxM/lsp02LoDBQf/XTiM
+FPTRIAakcuP0UVuA+bYj7xDWsfNM6rGpJV4Fpf32vzf/9kP2xSVwLpTvz0G7Ab6hdFIgHDgq8GH+
+TQ7b3ff5wMMsnZnXatnzP2jsP6O/1m9WTDqBWZIKGgw/JCJUQz2SUyv5pw3YTck2tlIJH62I82sF
+FiogS0P8xbmXTlRMI8Z7VLtS2vAQupXw2Ti8N2vtzkaiFlJxwUhRPzC5AbjUDd1W5t99Ihj6tbZU
+HnmkOqwEU8M3pPUPf7s/z6+xcm1BXkvHGpH1x7S8bDhzO6KJCJvziWJFKA/KuKgyn7NqLk44AsTR
+TgqFBsrsm090d9ImD3/b2+NMmPxpYR3+Sg==
 
 -->

@@ -146,7 +146,7 @@ create a matrix of test results.</description>
       <command name="run" path="0test">
         <runner interface="https://apps.0install.net/python/python.xml" version="3.."/>
       </command>
-      <implementation id="sha1new=b6a836df77627fb192bfdb8486af94b1cc6befb8" released="2020-01-15" version="0.10">
+      <implementation id="sha1new=b6a836df77627fb192bfdb8486af94b1cc6befb8" released="2020-01-15" stability="stable" version="0.10">
         <manifest-digest sha256new="52PPAJWLPWUDW4D4CNWCRURWHVCBNOBEVXIDHU4PTIV4ZXKF5INA"/>
         <archive extract="0test-0.10" href="https://downloads.sourceforge.net/project/zero-install/0test/0.10/0test-0.10.tar.bz2" size="13612"/>
       </implementation>
@@ -154,11 +154,11 @@ create a matrix of test results.</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4fIJIACgkQBxM/lsp02Lr3ygf9H+zV
-BUgKtQWxKcX+EKbeIRRz5Kj7Gl4ot1byyatoLTYZA4SchtQG4NGa3i/YZvzadsPOmRQcZAch8xb7
-rIYmnQoPV9pvZXvX8nbLSTWOG7VsvYfU4Pq80BpsAMlIHqyewCnZYXdb4kfPPrQUPqmrrHRLVJn2
-75tFnrDBr1SP2ivo0cKP7PWHTfZfJb7gvGL3WkAjNMJ9YKMHVVfTvI6IwEHo/ZoPtcn7yREHh7Hg
-5JV7Ylm6WxsVxvXudQfzESRzcAuRkyXhO9mnf700WTDnUYHezlQQBxlK4wuNK+6mY4TZmMcNXUec
-poBVvONRBdxfrzbU/T08dAJI3df/i+IvIQ==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl5SopAACgkQBxM/lsp02LrzkAf/Ruy0
+UYnE9BTVtk+4pGdfJTdx8cS4d+E4ITu9ajxUEgyZ18VSlc6br8Xh29ZFKVO93HDL8Z6ULCBD4yxn
+Njije5QP2EO5IYsQxVvL4hZY6zko8Q+ocH2QP6IUPbYRIBEWVFzpRCGuhdmm3lk+Dn5I6rSwA3o2
+CtxOXb8F7oSlHIW95UJjTMFu+ZLEaJ6izcc6Q7LSA7NZuo9yQBdnG+8DMphqBW+c4BdBnZgeltA/
+MJ3/aqyntUHDx7SEpJTAo5LXJayL6V3t/17DLrTzgtY5o0e7N+Rckbv7StM0FMCLhjwsktbrozwj
+f3zLeRa7Ejqr7DEs462eOdVLl9Rb44LsVw==
 
 -->

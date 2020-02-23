@@ -158,7 +158,7 @@ packagers.html.</description>
           <command name="run" path="0publish">
 	    <runner interface="https://apps.0install.net/python/python.xml"/>
           </command>
-          <implementation id="sha1new=526ae0429d5cf95eefcd7e891b11e150b7e806ac" released="2020-01-14" version="0.26">
+          <implementation id="sha1new=526ae0429d5cf95eefcd7e891b11e150b7e806ac" released="2020-01-14" stability="stable" version="0.26">
             <manifest-digest sha256new="7LKYTUQ3Y24PQV2BX3B3CNYLTH4SSEKRP7F7YIJSQSA3A7EKDU3Q"/>
             <archive extract="0publish-0.26" href="https://downloads.sourceforge.net/project/zero-install/0publish/0.26/0publish-0.26.tar.bz2" size="25994"/>
           </implementation>
@@ -168,11 +168,11 @@ packagers.html.</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4kJkcACgkQBxM/lsp02Lp6AQf9Gzur
-DaPZVuy/HmoxPuOXawRwoJclKK4ymYdoyXfQq30H43K9RNq49j/G/QdU9K7wcr3Fo9OcY6iyksEj
-4Ih83QX3cESssCF8681x4yjxb7BZSLdZtvzF+jDVX8pp/dDcac1Iwx6yGkREGnuum3QaHAsDuG8O
-0fL1FjPty8kaCYhf2nQJwMkh6MXfRsgh/9TEifGBWj+X5jxHae/FIGlnHBK4o7m4JJwGoTeo8fYX
-fR6SRvv7W7uJFj+1w5jjavt/HI/jKa/DrDUXsXx1ZmnUUBJOLGF7DNwRsZQ7X+Oc6CZDvcfxhC9b
-2xaW2dRgCY8pT8VHO+5VEn2yr3miSPF3Gw==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl5SopAACgkQBxM/lsp02LrF6Qf/cZae
+ue70Dlcc5oBw4GYkh3Pme4SZUWSeK4XsnKrg9887yVMK5CpgEtnHOReHFPqBqfNuK265MjJUJqd7
+6WhU0IjMSOzWYjAVJW3IhfV+96hV34BGrrqnLdTlzzbDHIbJh8+dQe+66V9MSKILCClaRupGNn6d
+GWlNH7FeYhFZcpt9tmuIVBxr4h1wz1EGzPETxcAvUUg6uHJUfajLdhn2u/Ix7j+itMBjZMBNI1oI
+lLOQjiWQmKxH6k8RNaP4cUAaH/xwfcPIcPF+daI1XqakXFlbtajvqJR9lFIe32b203vVp1BzPG35
+s9uEHewt9HpMdpHV9b6wbBUUhDSq4aF2zQ==
 
 -->
