@@ -528,6 +528,10 @@ interfere with those provided by the distribution.
       <manifest-digest sha256new="7CE5DAYVHUHNEQWT4CGLKWG2HGGFJBWLQGPBW3XJJ3L2V6MILGCQ"/>
       <archive extract="0install-linux-x86_64-2.15.2" href="https://downloads.sourceforge.net/project/zero-install/0install/2.15.2/0install-linux-x86_64-2.15.2.tar.bz2" size="6968793"/>
     </implementation>
+    <implementation arch="Linux-armv7l" id="sha1new=20388402b84771337a12ccff6037d080fc866fea" released="2020-03-29" version="2.15.2">
+      <manifest-digest sha256new="MDDTDT4FZSHKQZ7WU3DAIGVQCPD5BFVL4MLBFXKNLKKXVQ6ELMHA"/>
+      <archive extract="0install-linux-armv7l-2.15.2" href="https://downloads.sourceforge.net/project/zero-install/0install/2.15.2/0install-linux-armv7l-2.15.2.tar.bz2" size="7062062"/>
+    </implementation>
   </group>
   <group>
     <requires interface="https://apps.0install.net/utils/gnupg.xml">
@@ -540,11 +544,11 @@ interfere with those provided by the distribution.
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl6AkJQACgkQBxM/lsp02LpxxQf+OgcH
-knayI5u/2rxevKP5YsMbPWurKt0YfcJ81c0aQ47IwuRW82oyDAJiSJ0deJ+XKDWx8imvfd+YTbAz
-YWoU40WMNNAc48fj5VbDEBxUD6v+3WZSb07MxSngdYR+KCvxe+N93dx4MT3E/xURezwjoSGwEXub
-U2oudtJIiJAG2fZFNuIj/niU+WAjSLpt1DcmQQEToqUJeY/J9L+cCd8hYc83O672PHdxeNI1z+tA
-mqGnkGH6IR2HYYbUnhY8rzL2p+lUPDMa2fCpK10vDxGffAs2tzJc/gp+uXSNjrq8u6Zoi9hkICOr
-zzbzhRj4x1M/ZHqH2ZjH7zPB67ZdnX4tGw==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl6AlOkACgkQBxM/lsp02LrzqAf+M44d
+Vk5gghtat9/Gi4iA6QfmevGaS4ySpsckPDl0cUaOmsKICUHtmwWKRf7AqaewXwnMGkLccCaV/Jmj
+P1y/xUE4W0wuLm/y1VMd5b/pa9eZ9ZwzR7Gz+xwN1+h1rnMAm+nknYDcjyNaK47f1qYrd8wAfx3p
+Tc/0vTX6V1kSQpcVzadP7au0C0F1OOR+bKSQXjxzjo+aRUzXHplAXcdvXjM5axMbqGy8p3NpMHJK
+Te49yO3YUq5w9tdv26LG8+ohQMSuEa+hZDXdyBD9fJpRGdlcwIPXRZw6Oyy4T5K6ggVqCJfOcCXN
+t1L3xJwUyE7qU7csl35HYJUzuXnRHzGG/Q==
 
 -->
