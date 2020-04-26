@@ -206,7 +206,7 @@ interfere with those provided by the distribution.
         <manifest-digest sha256new="P2CUBB67BXFW2XKD57RAYJT5STHWEB5ZHGZP6L6OG7TAGBPJGMQQ"/>
         <archive extract="0install-2.15.1" href="https://downloads.sourceforge.net/project/zero-install/0install/2.15.1/0install-2.15.1.tar.bz2" size="452954"/>
       </implementation>
-      <implementation compile:dup-src="true" id="sha1new=4d5c7848e23238f396ca834e9efffdeb023c1798" released="2020-03-29" version="2.15.2">
+      <implementation compile:dup-src="true" id="sha1new=4d5c7848e23238f396ca834e9efffdeb023c1798" released="2020-03-29" stability="stable" version="2.15.2">
         <manifest-digest sha256new="BTNQQNR3WKI5FY2PZNFJHIA6XALY44TREBNNN7YTIPPCLRZQREOA"/>
         <archive extract="0install-v2.15.2" href="https://downloads.sourceforge.net/project/zero-install/0install/2.15.2/0install-v2.15.2.tbz" size="445876"/>
       </implementation>
@@ -540,6 +540,14 @@ interfere with those provided by the distribution.
       <manifest-digest sha256new="MDDTDT4FZSHKQZ7WU3DAIGVQCPD5BFVL4MLBFXKNLKKXVQ6ELMHA"/>
       <archive extract="0install-linux-armv7l-2.15.2" href="https://downloads.sourceforge.net/project/zero-install/0install/2.15.2/0install-linux-armv7l-2.15.2.tar.bz2" size="7062062"/>
     </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=e07fc7b56588bffde0e9186e623038b9c62dedc8" released="2020-04-26" version="2.16">
+      <manifest-digest sha256new="AQ53XY3HFWTFNP2KYJD2P552VHIUODP5TEPKQNPEJAVLZBM2TDVQ"/>
+      <archive extract="0install-linux-x86_64-2.16" href="https://downloads.sourceforge.net/project/zero-install/0install/2.16/0install-linux-x86_64-2.16.tar.bz2" size="8133398"/>
+    </implementation>
+    <implementation arch="Linux-armv7l" id="sha1new=06b8afb691f401560533170c6afbf4c0de6e3aa1" released="2020-04-26" version="2.16">
+      <manifest-digest sha256new="HPXDW6UXQT6RKEVTUNZ5VC6DZLVQ4GNCWYIF7EG66POAB3Y5UWWQ"/>
+      <archive extract="0install-linux-armv7l-2.16" href="https://downloads.sourceforge.net/project/zero-install/0install/2.16/0install-linux-armv7l-2.16.tar.bz2" size="7954112"/>
+    </implementation>
   </group>
   <group>
     <requires interface="https://apps.0install.net/utils/gnupg.xml">
@@ -552,11 +560,11 @@ interfere with those provided by the distribution.
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl6Jw3EACgkQBxM/lsp02LrdvQf+M5h5
-Ky8DDZT64JJfvX79Xtg/DUcaI+pGPyDyo0voM6Elds0wfBZ69iBYSu1c5wkiZQy43lrJCmgBGTZq
-eb/t3hXmJnsovZG/0hReW9yIxQSnPgYZ+nbOGF/LtxB9W9RO3XCgh6UUOnIoUtI7WLeen9/OqvHw
-WNZvOQVUhMEaRld7h0DxZKZG3Lya9TUc1ne7iPXqopjBshd/NCRO8LKi6jtVZl+FlLQZqnaeNfmR
-5EmmJlsQeTZlLpGuFIN8gWSfi7VPYd/6Lqc/e7RQg/gf/gQMQ0Pywdea8HKfB65vQY2Th3+0dKqj
-2lMC4RrnW0AkyKrQCuqek906yMHSoZYQbQ==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl6lzG0ACgkQBxM/lsp02LqXsgf+I0hU
+a0v7pDmN20aiuqP1A8FUWeytHbySQDb4a/eJHsKW6Z/Q5VZQRa4M8yHTmyWGej4xRxEXFdkJDzJ+
+N9ydD8Eez6tmSOlYXKwDPxHzBghH+af0aVJRMhuH8306i4K2OQZQ1sKFDLhtETH4X+0G+3ZFrDnH
+dc17TtXkwTyZCJAmiEQZwx9//kbb0Y1nNZNkTUHnrFk1tqgVRqbFPzadRFaneKf4cCPDczyAtbL4
+stc72Sq9vl/irc9LfvSEPjyZTYDrduZ744ephiLE03spzpMaOoEnsN0wbHjXZjih/4Na3B7ozpL6
+F37A4aCeAVslfTjZUQbwkTUFux43lE/EVA==
 
 -->
