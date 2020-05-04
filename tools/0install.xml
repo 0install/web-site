@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
-<interface uri="http://0install.net/tools/0install.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile">
+<interface uri="http://0install.net/tools/0install.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:ns="http://zero-install.sourceforge.net/2006/namespaces/0compile">
   <name>0install</name>
   <summary>decentralised installation system</summary>
   <description>
@@ -210,9 +210,13 @@ interfere with those provided by the distribution.
         <manifest-digest sha256new="BTNQQNR3WKI5FY2PZNFJHIA6XALY44TREBNNN7YTIPPCLRZQREOA"/>
         <archive extract="0install-v2.15.2" href="https://downloads.sourceforge.net/project/zero-install/0install/2.15.2/0install-v2.15.2.tbz" size="445876"/>
       </implementation>
-      <implementation compile:dup-src="true" id="sha1new=ec23cc19b69f000aa937c7b8fbe7b6fb50ec5035" released="2020-04-02" version="2.16">
+      <implementation compile:dup-src="true" id="sha1new=ec23cc19b69f000aa937c7b8fbe7b6fb50ec5035" released="2020-04-02" stability="stable" version="2.16">
         <manifest-digest sha256new="SNX4SZM655QXXR6MXM6X6J4I23SJT6LXRLEMPAOPQJLKMCCPWUWA"/>
         <archive extract="0install-v2.16" href="https://downloads.sourceforge.net/project/zero-install/0install/2.16/0install-v2.16.tbz" size="445883"/>
+      </implementation>
+      <implementation id="sha1new=77ce044c5e6338718a81979d60971611590f9a2a" ns:dup-src="true" released="2020-05-04" version="2.17">
+        <manifest-digest sha256new="V3QWOTUKIKYPEJ4UQDVU7BOFZBQXEKSYFDS5Z2TYZPNSG63RWWXQ"/>
+        <archive extract="0install-v2.17" href="https://downloads.sourceforge.net/project/zero-install/0install/2.17/0install-v2.17.tbz" size="448935"/>
       </implementation>
     </group>
   </group>
@@ -540,11 +544,11 @@ interfere with those provided by the distribution.
       <manifest-digest sha256new="MDDTDT4FZSHKQZ7WU3DAIGVQCPD5BFVL4MLBFXKNLKKXVQ6ELMHA"/>
       <archive extract="0install-linux-armv7l-2.15.2" href="https://downloads.sourceforge.net/project/zero-install/0install/2.15.2/0install-linux-armv7l-2.15.2.tar.bz2" size="7062062"/>
     </implementation>
-    <implementation arch="Linux-x86_64" id="sha1new=e07fc7b56588bffde0e9186e623038b9c62dedc8" released="2020-04-26" version="2.16">
+    <implementation arch="Linux-x86_64" id="sha1new=e07fc7b56588bffde0e9186e623038b9c62dedc8" released="2020-04-26" stability="stable" version="2.16">
       <manifest-digest sha256new="AQ53XY3HFWTFNP2KYJD2P552VHIUODP5TEPKQNPEJAVLZBM2TDVQ"/>
       <archive extract="0install-linux-x86_64-2.16" href="https://downloads.sourceforge.net/project/zero-install/0install/2.16/0install-linux-x86_64-2.16.tar.bz2" size="8133398"/>
     </implementation>
-    <implementation arch="Linux-armv7l" id="sha1new=06b8afb691f401560533170c6afbf4c0de6e3aa1" released="2020-04-26" version="2.16">
+    <implementation arch="Linux-armv7l" id="sha1new=06b8afb691f401560533170c6afbf4c0de6e3aa1" released="2020-04-26" stability="stable" version="2.16">
       <manifest-digest sha256new="HPXDW6UXQT6RKEVTUNZ5VC6DZLVQ4GNCWYIF7EG66POAB3Y5UWWQ"/>
       <archive extract="0install-linux-armv7l-2.16" href="https://downloads.sourceforge.net/project/zero-install/0install/2.16/0install-linux-armv7l-2.16.tar.bz2" size="7954112"/>
     </implementation>
@@ -560,11 +564,11 @@ interfere with those provided by the distribution.
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl6lzG0ACgkQBxM/lsp02LqXsgf+I0hU
-a0v7pDmN20aiuqP1A8FUWeytHbySQDb4a/eJHsKW6Z/Q5VZQRa4M8yHTmyWGej4xRxEXFdkJDzJ+
-N9ydD8Eez6tmSOlYXKwDPxHzBghH+af0aVJRMhuH8306i4K2OQZQ1sKFDLhtETH4X+0G+3ZFrDnH
-dc17TtXkwTyZCJAmiEQZwx9//kbb0Y1nNZNkTUHnrFk1tqgVRqbFPzadRFaneKf4cCPDczyAtbL4
-stc72Sq9vl/irc9LfvSEPjyZTYDrduZ744ephiLE03spzpMaOoEnsN0wbHjXZjih/4Na3B7ozpL6
-F37A4aCeAVslfTjZUQbwkTUFux43lE/EVA==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl6wKLgACgkQBxM/lsp02LoNogf/RtXf
+XMPnn8vJltwIdsGf5yjT2i1vdRDLG61Urg2kSqbVhLWPyArjFiqrTfEGfX1pNol5/3JI5RrApCxQ
+yiVXbHqcFdSksTfnrgCG93pyyGH8zjFfQYU8qVnqYRi9sRKfRzy/foA/94wEfeSGr5Lv+8s2xnfj
+nUgfErUUeNSXEsHbYFXAgWhTXIEKTwjDchX/JU1F2gY6nMbS8ucdUkC9l+YTMJcQixjF04venODy
++Ui/N3EViIWPuNKnieaJh9T4ZSkTCMNayveQyIxlQICjuBtZy2yiSDrkTvWltys6gWdN9TTYygfV
+m1elf1VndGpwYD0Mb9czdFWvL7eu00Owwg==
 
 -->
