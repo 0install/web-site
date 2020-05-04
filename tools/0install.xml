@@ -552,6 +552,14 @@ interfere with those provided by the distribution.
       <manifest-digest sha256new="HPXDW6UXQT6RKEVTUNZ5VC6DZLVQ4GNCWYIF7EG66POAB3Y5UWWQ"/>
       <archive extract="0install-linux-armv7l-2.16" href="https://downloads.sourceforge.net/project/zero-install/0install/2.16/0install-linux-armv7l-2.16.tar.bz2" size="7954112"/>
     </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=6a82c5e3dd2a20b3cdfd6cf1473941391edbd01b" released="2020-05-04" version="2.17">
+      <manifest-digest sha256new="ZHPWRE2HF4SH7CH34PVS7HUDPVHCR4ONEOBUJYD3ADWSQ4L5KHAA"/>
+      <archive extract="0install-linux-x86_64-2.17" href="https://downloads.sourceforge.net/project/zero-install/0install/2.17/0install-linux-x86_64-2.17.tar.bz2" size="8134563"/>
+    </implementation>
+    <implementation arch="Linux-armv7l" id="sha1new=7f70b96ec6c70ffb22a9d9241d21047d09713891" released="2020-05-04" version="2.17">
+      <manifest-digest sha256new="5MZOB4OMFZU4GEKCYVGEMCCE3U2SN2V3OYPNCYFUMIPF7IO6DDFQ"/>
+      <archive extract="0install-linux-armv7l-2.17" href="https://downloads.sourceforge.net/project/zero-install/0install/2.17/0install-linux-armv7l-2.17.tar.bz2" size="7952768"/>
+    </implementation>
   </group>
   <group>
     <requires interface="https://apps.0install.net/utils/gnupg.xml">
@@ -564,11 +572,11 @@ interfere with those provided by the distribution.
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl6wKLgACgkQBxM/lsp02LoNogf/RtXf
-XMPnn8vJltwIdsGf5yjT2i1vdRDLG61Urg2kSqbVhLWPyArjFiqrTfEGfX1pNol5/3JI5RrApCxQ
-yiVXbHqcFdSksTfnrgCG93pyyGH8zjFfQYU8qVnqYRi9sRKfRzy/foA/94wEfeSGr5Lv+8s2xnfj
-nUgfErUUeNSXEsHbYFXAgWhTXIEKTwjDchX/JU1F2gY6nMbS8ucdUkC9l+YTMJcQixjF04venODy
-+Ui/N3EViIWPuNKnieaJh9T4ZSkTCMNayveQyIxlQICjuBtZy2yiSDrkTvWltys6gWdN9TTYygfV
-m1elf1VndGpwYD0Mb9czdFWvL7eu00Owwg==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl6wLosACgkQBxM/lsp02LpDXggAlC5R
+Z7xUXw3vzquvdqTaiD5N6Ks0O9CjZgdDfaOUNLEGqqxUe2XHj/CbDQK1xFVvmhIoX6c1ve24Gxak
+3+wdEte39OymO1kzVslMfdP2uHTIX7HDvmTdx9G/eIcqEw9LOIj2hZ5cDG7e6ATEEuvspIg6nYPc
+AaE8zVNHljLa2SvMd6qX1G0BGVnypjxF3SgJlbUVcMppvHUe0+Pj9yFdWPYKP1N/qXKRudjIn8L9
+7fUtHWmx9kXMm6r90SaV4UgftfArQKTlv1HtpaSLj0S93mCzolfgtE7CvhHBmDJ0di8SZcrFq4lv
+8TFAav7747C0myQ3ow33jz4qo8OvdYE6vg==
 
 -->
