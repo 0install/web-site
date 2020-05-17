@@ -157,29 +157,9 @@ eval $(opam config env)</textarea>
           <div class="card">
             <div class="card-header bg-white">
               <div class="nav nav-tabs card-header-tabs">
-                <a class="nav-item nav-link" href="#windows-legacy">Windows Vista/7</a>
                 <a class="nav-item nav-link" href="#windows-current">Windows 8/10</a>
+                <a class="nav-item nav-link" href="#windows-legacy">Windows Vista/7</a>
               </div>
-            </div>
-            <div class="card-body tab-body" id="windows-legacy-tab">
-              <div class="alert alert-warning">
-                <i class="fas fa-exclamation-triangle"></i> Make sure you have the latest Windows updates installed for TLS 1.2 support.
-              </div>
-              <p>
-                <a class="btn btn-primary" href="https://0install.de/files/zero-install-net20.exe"><i class="fas fa-download"></i> Download</a>
-                <a class="btn btn-outline-primary" href="https://0install.de/files/zero-install.zip"><i class="far fa-file-archive"></i> ZIP version</a>
-              </p>
-              <div class="alert alert-primary">
-                <h5>
-                  <i class="fas fa-terminal"></i> PowerShell
-                  <button type="button" class="btn btn-link float-right" title="Copy to clipboard" onclick="copy('windows-legacy-powershell');"><i class="far fa-copy"></i></button>
-                </h5>
-                <code>
-                  <textarea readonly style="resize: none;" class="form-control-plaintext" id="windows-legacy-powershell">Invoke-WebRequest https://0install.de/files/0install-net20.exe -OutFile 0install.exe
-.\0install.exe --help</textarea>
-                </code>
-              </div>
-              <a href="https://docs.0install.net/details/windows/">Learn more...</a>
             </div>
             <div class="card-body tab-body" id="windows-current-tab">
               <p>
@@ -193,6 +173,26 @@ eval $(opam config env)</textarea>
                 </h5>
                 <code>
                   <textarea style="resize: none;" readonly class="form-control-plaintext" id="windows-current-powershell">Invoke-WebRequest https://0install.de/files/0install.exe -OutFile 0install.exe
+.\0install.exe --help</textarea>
+                </code>
+              </div>
+              <a href="https://docs.0install.net/details/windows/">Learn more...</a>
+            </div>
+            <div class="card-body tab-body" id="windows-legacy-tab">
+              <div class="alert alert-warning">
+                <i class="fas fa-exclamation-triangle"></i> Make sure you have the latest Windows updates installed. Zero Install needs .NET Framework 4.0 or later and TLS 1.2 support.
+              </div>
+              <p>
+                <a class="btn btn-primary" href="https://0install.de/files/zero-install.exe"><i class="fas fa-download"></i> Download</a>
+                <a class="btn btn-outline-primary" href="https://0install.de/files/zero-install.zip"><i class="far fa-file-archive"></i> ZIP version</a>
+              </p>
+              <div class="alert alert-primary">
+                <h5>
+                  <i class="fas fa-terminal"></i> PowerShell
+                  <button type="button" class="btn btn-link float-right" title="Copy to clipboard" onclick="copy('windows-legacy-powershell');"><i class="far fa-copy"></i></button>
+                </h5>
+                <code>
+                  <textarea readonly style="resize: none;" class="form-control-plaintext" id="windows-legacy-powershell">Invoke-WebRequest https://0install.de/files/0install.exe -OutFile 0install.exe
 .\0install.exe --help</textarea>
                 </code>
               </div>

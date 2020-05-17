@@ -29,15 +29,15 @@ function updateTabs() {
 
     if (window.location.hash) {
         tabName = window.location.hash.slice(1);
+        if (tabName == 'windows') { tabName = 'windows-current'; }
+        if (tabName == 'linux') { tabName = 'linux-generic'; }
     } else {
         tabName = detect();
         if (tabName == null) return;
-        history.replaceState({}, '', '#' + tabName);
     }
+    history.replaceState({}, '', '#' + tabName);
 
-    outerTabName = tabName.split('-')[0];
-
-    showTab(outerTabName);
+    showTab(tabName.split('-')[0]);
     showTab(tabName);
 }
 
