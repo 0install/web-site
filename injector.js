@@ -10,7 +10,8 @@ function detect() {
     if (is('Arch')) { return 'linux-arch'; }
     if (is('Linux')) { return 'linux-generic'; }
     if (is('OS X')) { return 'mac'; }
-    if (is('Windows NT 6.1') || is('Windows NT 6.2') || is('Windows NT 10.0')) { return 'windows-current'; }
+    if (is('Windows NT 6.2') || is('Windows NT 6.3') || is('Windows NT 10.0')) { return 'windows-current'; }
+    if (is('Windows NT 6.1')) { return 'windows-legacy'; }
     return null;
 }
 
