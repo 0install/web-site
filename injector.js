@@ -1,17 +1,16 @@
-function detect() {
-    function is(os) {
-        return navigator.userAgent.search(os) >= 0;
-    }
+function is(os) {
+    return navigator.userAgent.search(os) >= 0;
+}
 
+function detectOS() {
     if (is('Debian') || is('Ubuntu')) { return 'linux-debian'; }
     if (is('Fedora')) { return 'linux-fedora'; }
     if (is('Red Hat')) { return 'linux-redhat'; }
     if (is('SUSE')) { return 'linux-suse'; }
     if (is('Arch')) { return 'linux-arch'; }
     if (is('Linux')) { return 'linux-generic'; }
-    if (is('OS X')) { return 'mac'; }
-    if (is('Windows NT 6.2') || is('Windows NT 6.3') || is('Windows NT 10.0')) { return 'windows-current'; }
-    if (is('Windows NT 6.1')) { return 'windows-legacy'; }
+    if (is('OS X')) { return 'mac'; }    
+    if (is('Windows')) { return 'windows'; }
     return null;
 }
 
@@ -30,10 +29,9 @@ function updateTabs() {
 
     if (window.location.hash) {
         tabName = window.location.hash.slice(1);
-        if (tabName == 'windows') { tabName = 'windows-current'; }
         if (tabName == 'linux') { tabName = 'linux-generic'; }
     } else {
-        tabName = detect();
+        tabName = detectOS();
         if (tabName == null) return;
     }
     history.replaceState({}, '', '#' + tabName);
@@ -48,4 +46,9 @@ function copy(id) {
 }
 
 $(window).bind('hashchange', updateTabs);
-$(function() { updateTabs(); });
+$(function() {
+    updateTabs();
+    if (is('Windows NT 6.2') || is('Windows NT 6.3') || is('Windows NT 10.0')) {
+        $('#windows-legacy').hide();
+    }
+});

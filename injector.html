@@ -58,6 +58,7 @@
                 <a class="btn btn-primary" href="https://downloads.sourceforge.net/zero-install/0install-linux-x86_64-2.17.tar.bz2"><i class="fas fa-download"></i> Download</a>
                 <a class="btn btn-outline-primary" href="http://0install.net/tools/0install.xml"><i class="fas fa-history"></i> Specific version</a>
               </p>
+              <p>For scripting:</p>
               <div class="alert alert-primary">
                 <h5>
                   <i class="fas fa-terminal"></i> Shell
@@ -154,51 +155,25 @@ eval $(opam config env)</textarea>
         </div>
 
         <div class="card-body tab-body" id="windows-tab">
-          <div class="card">
-            <div class="card-header bg-white">
-              <div class="nav nav-tabs card-header-tabs">
-                <a class="nav-item nav-link" href="#windows-current">Windows 8/10</a>
-                <a class="nav-item nav-link" href="#windows-legacy">Windows 7</a>
-              </div>
-            </div>
-            <div class="card-body tab-body" id="windows-current-tab">
-              <p>
-                <a class="btn btn-primary" href="https://0install.de/files/zero-install.exe"><i class="fas fa-download"></i> Download</a>
-                <a class="btn btn-outline-primary" href="https://0install.de/files/zero-install.zip"><i class="far fa-file-archive"></i> ZIP version</a>
-              </p>
-              <div class="alert alert-primary">
-                <h5>
-                  <i class="fas fa-terminal"></i> PowerShell
-                  <button type="button" class="btn btn-link float-right" title="Copy to clipboard" onclick="copy('windows-current-powershell');"><i class="far fa-copy"></i></button>
-                </h5>
-                <code>
-                  <textarea style="resize: none;" readonly class="form-control-plaintext" id="windows-current-powershell">Invoke-WebRequest https://0install.de/files/0install.exe -OutFile 0install.exe
-.\0install.exe self deploy</textarea>
-                </code>
-              </div>
-              <a href="https://docs.0install.net/details/windows/">Learn more...</a>
-            </div>
-            <div class="card-body tab-body" id="windows-legacy-tab">
-              <div class="alert alert-warning">
-                <i class="fas fa-exclamation-triangle"></i> Make sure you have <a href="https://dotnet.microsoft.com/download/dotnet-framework">.NET Framework 4.5 or newer</a> and <a href="https://support.microsoft.com/en-us/help/3140245/">TLS 1.2 support</a> installed.
-              </div>
-              <p>
-                <a class="btn btn-primary" href="https://0install.de/files/zero-install.exe"><i class="fas fa-download"></i> Download</a>
-                <a class="btn btn-outline-primary" href="https://0install.de/files/zero-install.zip"><i class="far fa-file-archive"></i> ZIP version</a>
-              </p>
-              <div class="alert alert-primary">
-                <h5>
-                  <i class="fas fa-terminal"></i> PowerShell
-                  <button type="button" class="btn btn-link float-right" title="Copy to clipboard" onclick="copy('windows-legacy-powershell');"><i class="far fa-copy"></i></button>
-                </h5>
-                <code>
-                  <textarea readonly style="resize: none;" class="form-control-plaintext" id="windows-legacy-powershell">Invoke-WebRequest https://0install.de/files/0install.exe -OutFile 0install.exe
-.\0install.exe self deploy</textarea>
-                </code>
-              </div>
-              <a href="https://docs.0install.net/details/windows/">Learn more...</a>
-            </div>
+          <div class="alert alert-warning" id="windows-legacy">
+            <i class="fas fa-exclamation-triangle"></i> Make sure you have <a href="https://dotnet.microsoft.com/download/dotnet-framework">.NET Framework 4.5 or newer</a> and <a href="https://support.microsoft.com/en-us/help/3140245/">TLS 1.2 support</a> installed.
           </div>
+          <p>
+            <a class="btn btn-primary" href="https://0install.de/files/zero-install.exe"><i class="fas fa-download"></i> Download</a>
+            <a class="btn btn-outline-primary" href="https://0install.de/files/zero-install.zip"><i class="far fa-file-archive"></i> ZIP version</a>
+          </p>
+          <p>For scripting:</p>
+          <div class="alert alert-primary">
+            <h5>
+              <i class="fas fa-terminal"></i> PowerShell
+              <button type="button" class="btn btn-link float-right" title="Copy to clipboard" onclick="copy('windows-legacy-powershell');"><i class="far fa-copy"></i></button>
+            </h5>
+            <code>
+              <textarea readonly style="resize: none;" class="form-control-plaintext" id="windows-legacy-powershell">Invoke-WebRequest https://0install.de/files/0install.exe -OutFile 0install.exe
+.\0install.exe self deploy</textarea>
+            </code>
+          </div>
+          <a href="https://docs.0install.net/details/windows/">Learn more...</a>
         </div>
 
         <div class="card-body tab-body" id="mac-tab">
