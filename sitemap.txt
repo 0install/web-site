@@ -1,4 +1,5 @@
 https://0install.net/index.html
-https://0install.net/injector.html
-https://0install.net/support.html
+https://get.0install.net/
 https://apps.0install.net/
+https://0install.net/support.html
+https://docs.0install.net/
