@@ -11,7 +11,7 @@ the program in some way.
 If plash is installed, it is used to sandbox the build so that it can't
 accidentally modifiy any files outside of the build directory.
 
-For a full tutorial, see 0compile's homepage.</description><homepage>https://docs.0install.net/tools/0compile/</homepage><category>Development</category></interface><interface uri="http://0install.net/tools/0export.xml"><name>0export</name><summary>create self-installing bundles for distribution on CD</summary><description>
+For a full tutorial, see 0compile's homepage.</description><homepage>https://docs.0install.net/tools/0compile/</homepage><category>Development</category><needs-terminal/></interface><interface uri="http://0install.net/tools/0export.xml"><name>0export</name><summary>create self-installing bundles for distribution on CD</summary><description>
 It is sometimes useful to bundle a program and its libraries together
 on a CD (for example) so that it can be used on machines without a network
 connection, or where the network is very slow. It is also useful for archival
@@ -25,7 +25,7 @@ program.
 
 Unlike the bundles created by the related zero2bundle program, programs
 installed using setup.sh are added to the Zero Install cache and are therefore
-still shared between users, and will get updates over the web where possible.</description><homepage>https://docs.0install.net/tools/0export/</homepage><category>Development</category></interface><interface uri="http://0install.net/2007/interfaces/ZeroInstall.xml"><name>0install</name><summary>decentralised installation system</summary><description>
+still shared between users, and will get updates over the web where possible.</description><homepage>https://docs.0install.net/tools/0export/</homepage><category>Development</category><needs-terminal/></interface><interface uri="http://0install.net/2007/interfaces/ZeroInstall.xml"><name>0install</name><summary>decentralised installation system</summary><description>
 Zero Install is a decentralised cross-platform software installation
 system available under the LGPL. It allows software developers to publish
 programs directly from their own web-sites, while supporting features familiar
@@ -54,7 +54,7 @@ loading an interface and creates a new one when writing it back out. It will
 also validate the new version before saving it.
 
 A tutorial on 0publish can be found at http://0install.net/injector-
-packagers.html.</description><homepage>https://docs.0install.net/tools/0publish/</homepage></interface><interface uri="http://0install.net/2007/interfaces/0publish-gui.xml"><name>0publish-gui</name><summary>GTK editor for Zero Install feeds</summary><description>
+packagers.html.</description><homepage>https://docs.0install.net/tools/0publish/</homepage><needs-terminal/></interface><interface uri="http://0install.net/2007/interfaces/0publish-gui.xml"><name>0publish-gui</name><summary>GTK editor for Zero Install feeds</summary><description>
 Publishing a program using Zero Install requires you to create an XML file
 listing the available versions, where to get them, and what other software they
 depend on.
@@ -74,15 +74,15 @@ package is published in a &quot;feed&quot; file.
 Before downloading a package over the internet, 0launch can check to see if any
 nearby machines have a copy, and get it from them instead if so. This will
 normally be much faster. The secure hash from the feed is used to check that the
-software hasn't been modified.</description><homepage>https://docs.0install.net/tools/0share/</homepage><category>Network</category></interface><interface uri="http://0install.net/tools/0template.xml"><name>0template</name><summary>utility to make creating feeds easier</summary><description>
+software hasn't been modified.</description><homepage>https://docs.0install.net/tools/0share/</homepage><category>Network</category><needs-terminal/></interface><interface uri="http://0install.net/tools/0template.xml"><name>0template</name><summary>utility to make creating feeds easier</summary><description>
     0template takes a template XML file (e.g. with place-holders for the version),
     fills in the place-holders, and then fills in everything else it can. For example,
     it will download the archive, fill in the size, calculate the digests, etc.
-  </description><homepage>https://docs.0install.net/tools/0template/</homepage><entry-point binary-name="0template" command="run"/></interface><interface uri="http://0install.net/2008/interfaces/0test.xml"><name>0test</name><summary>test Zero Install programs</summary><description>
+  </description><homepage>https://docs.0install.net/tools/0template/</homepage><needs-terminal/><entry-point binary-name="0template" command="run"/></interface><interface uri="http://0install.net/2008/interfaces/0test.xml"><name>0test</name><summary>test Zero Install programs</summary><description>
 Use 0test to run the unit tests for a Zero Install program. You can use this to
 test released versions or developer snapshots. You can give a selection of
 versions to test, and you can test against different versions of dependencies to
-create a matrix of test results.</description><homepage>https://docs.0install.net/tools/0test/</homepage><category>Development</category></interface><interface uri="http://0install.net/2007/3rd-party/APBuild.xml"><name>APBuild</name><summary>a suite of portability tools for developers</summary><description>
+create a matrix of test results.</description><homepage>https://docs.0install.net/tools/0test/</homepage><category>Development</category><needs-terminal/></interface><interface uri="http://0install.net/2007/3rd-party/APBuild.xml"><name>APBuild</name><summary>a suite of portability tools for developers</summary><description>
 In the process of writing autopackage, we've also produced several standalone
 tools, the apbuild programs, that are designed to help Linux developers write
 better software that runs on a wider variety of distributions. They are
@@ -110,7 +110,7 @@ FeedLint is a tool for Zero Install feed authors. It checks that your Zero
 Install feed can be downloaded, that it is valid and that all the links in it
 still work.
 
-Run this on all your feeds from time-to-time to make sure they still work.</description><homepage>https://docs.0install.net/tools/feedlint/</homepage><category>Development</category></interface><interface uri="http://0install.net/2006/3rd-party/Freetype2.xml"><name>Freetype2</name><summary>free, portable library for digital typography</summary><description>
+Run this on all your feeds from time-to-time to make sure they still work.</description><homepage>https://docs.0install.net/tools/feedlint/</homepage><category>Development</category><needs-terminal/></interface><interface uri="http://0install.net/2006/3rd-party/Freetype2.xml"><name>Freetype2</name><summary>free, portable library for digital typography</summary><description>
 FreeType 2 is a high-quality and portable font engine that is capable of
 supporting several font formats (be they bitmapped or scalable) through a simple
 and uniform interface. Its design is modular and allows independent &quot;font
@@ -186,7 +186,7 @@ Given a standard autoconf source package (in $SRCDIR), this script builds it
 shouldn't be in a -dev package (.so and .la files, etc).
 
 It also edits any pkg-config .pc files to use a relative path for the prefix.</description><homepage>https://docs.0install.net/tools/make-headers/</homepage><category>Development</category></interface><interface uri="http://0install.net/2007/3rd-party/Mutt.xml"><name>Mutt</name><summary>text-based mail client</summary><description>
-Mutt is a sophisticated text-based Mail User Agent.</description><homepage>http://www.mutt.org/</homepage><category>Network</category><icon href="https://0install.net/feed_icons/Mutt.png" type="image/png"/></interface><interface uri="http://0install.net/2006/autopackage/OpenEuclide.xml"><name>OpenEuclide</name><summary>2D geometry software</summary><description>
+Mutt is a sophisticated text-based Mail User Agent.</description><homepage>http://www.mutt.org/</homepage><category>Network</category><needs-terminal/><icon href="https://0install.net/feed_icons/Mutt.png" type="image/png"/></interface><interface uri="http://0install.net/2006/autopackage/OpenEuclide.xml"><name>OpenEuclide</name><summary>2D geometry software</summary><description>
 OpenEuclide is a 2D geometry software: figures are defined dynamically by
 describing formal geometrical constraints. This project is a basic tool for
 educational or modeling purpose. It is distributed under the GNU GPL licence,
@@ -223,7 +223,7 @@ It can scan files to detect dependencies automatically and maintain a global
 view of all dependencies in a build tree, and uses MD5 signatures to detect
 changed file contents reliably. Timestamps can be used if you prefer. SCons also
 supports parallel builds and is easily extensible through user-defined builder
-and scanner objects.</description><homepage>http://www.scons.org/</homepage><icon href="https://0install.net/tests/scons-logo.png" type="image/png"/><category>Development</category></interface><interface uri="http://0install.net/2006/autopackage/Stellarium.xml"><name>Stellarium</name><summary>a beautiful night sky simulator</summary><description>
+and scanner objects.</description><homepage>http://www.scons.org/</homepage><icon href="https://0install.net/tests/scons-logo.png" type="image/png"/><category>Development</category><needs-terminal/></interface><interface uri="http://0install.net/2006/autopackage/Stellarium.xml"><name>Stellarium</name><summary>a beautiful night sky simulator</summary><description>
 Stellarium is a free open source planetarium for your computer. It shows a
 realistic sky in 3D, just like what you see with the naked eye, binoculars or a
 telescope.
@@ -237,7 +237,7 @@ certain new features that CVS users often wish they had.
 
 This package includes the Subversion client (svn), tools to create a Subversion
 repository (svnadmin) and to make a repository available over a network
-(svnserve).</description><homepage>http://subversion.tigris.org</homepage><category>Development</category></interface><interface uri="http://0install.net/2006/autopackage/Supertux.xml"><name>Supertux</name><summary>2D jump'n run sidescroller game</summary><description>
+(svnserve).</description><homepage>http://subversion.tigris.org</homepage><category>Development</category><needs-terminal/></interface><interface uri="http://0install.net/2006/autopackage/Supertux.xml"><name>Supertux</name><summary>2D jump'n run sidescroller game</summary><description>
 SuperTux is a classic 2D jump'n run sidescroller game in a style similar to the
 original SuperMario games. The Milestone1 release of SuperTux features 9
 enemies, 26 playable levels, software and OpenGL rendering modes, configurable
@@ -256,7 +256,7 @@ software virtual resources than your actual, physical computer. Disk storage for
 the virtual machine is entirely contained inside a single file on your physical
 machine. You can assign your virtual machine only the hardware access you want
 it to have. With properly limited access, nothing you do on the virtual machine
-can change or damage your real computer, or its software.</description><category>System</category><homepage>http://user-mode-linux.sourceforge.net</homepage><icon href="https://0install.net/feed_icons/UserModeLinux.png" type="image/png"/></interface><interface uri="http://0install.net/2006/3rd-party/XaraXtreme.xml"><name>Xara Xtreme</name><summary>cross-platform vector artwork and photocomposition package</summary><description>
+can change or damage your real computer, or its software.</description><category>System</category><needs-terminal/><homepage>http://user-mode-linux.sourceforge.net</homepage><icon href="https://0install.net/feed_icons/UserModeLinux.png" type="image/png"/></interface><interface uri="http://0install.net/2006/3rd-party/XaraXtreme.xml"><name>Xara Xtreme</name><summary>cross-platform vector artwork and photocomposition package</summary><description>
 XaraLX is a vector graphics and photocomposition program. It is primarily a
 vector graphics program, but it also handles photos and drawings. It has an
 easy-to-use and easy-to-learn approach.</description><homepage>http://www.xaralx.org/</homepage><icon href="https://0install.net/feed_icons/XaraXtreme.png" type="image/png"/><category>Graphics</category></interface><interface uri="http://0install.net/2007/3rd-party/XdgUtils.xml"><name>XdgUtils</name><summary>cross-desktop integration tools</summary><description>
@@ -274,7 +274,7 @@ identify them. To make applications easier to run you'll want to create a short-
 cut in your desktop environment.
 
 This program creates a freedesktop.org &quot;.desktop&quot; file, which causes the program
-to appear in the GNOME or KDE Applications menus.</description><category>Utility</category><icon href="https://0install.net/feed_icons/Zero2Desktop.png" type="image/png"/></interface><interface uri="http://0install.net/2007/interfaces/ZeroInstall-GUI.xml"><name>ZeroInstall-GUI</name><summary>graphical interface for the Zero Install injector</summary><description>
+to appear in the GNOME or KDE Applications menus.</description><category>Utility</category><icon href="https://0install.net/feed_icons/Zero2Desktop.png" type="image/png"/></interface><interface uri="http://0install.net/2008/interfaces/ZeroInstall-GUI.xml"><name>ZeroInstall-GUI</name><summary>graphical interface for the Zero Install injector</summary><description>
 The Zero Install GUI displays a window showing which versions of various
 components will be used when running a program, and allows you to alter various
 policy settings to affect the selection process. You can use this to mark
@@ -282,7 +282,7 @@ particular versions of libraries as preferred, bugggy, etc.
 
 This program is run automatically by the '0launch' command. If you want to add
 an installer to your desktop menus, you want something like Zero2Desktop
-instead.</description><homepage>https://0install.net/</homepage></interface><interface uri="http://0install.net/2008/interfaces/ZeroInstall-GUI.xml"><name>ZeroInstall-GUI</name><summary>graphical interface for the Zero Install injector</summary><description>
+instead.</description><homepage>https://0install.net/</homepage></interface><interface uri="http://0install.net/2007/interfaces/ZeroInstall-GUI.xml"><name>ZeroInstall-GUI</name><summary>graphical interface for the Zero Install injector</summary><description>
 The Zero Install GUI displays a window showing which versions of various
 components will be used when running a program, and allows you to alter various
 policy settings to affect the selection process. You can use this to mark
@@ -330,7 +330,7 @@ package is published in a &quot;feed&quot; file. The Zero Install client reads t
 files and downloads and runs the programs. The feed files can be created
 manually (e.g. using 0publish or 0publish-gui). However, Debian packages already
 contain much of the required information. This program extracts the information
-in an existing Debian package and uses it to generate the feed.</description><homepage>https://0install.net/deb2zero.html</homepage><category>Development</category></interface><interface uri="http://0install.net/tests/ebox.xml"><name>ebox</name><summary>instance manager for E programs</summary><description>
+in an existing Debian package and uses it to generate the feed.</description><homepage>https://0install.net/deb2zero.html</homepage><category>Development</category><needs-terminal/></interface><interface uri="http://0install.net/tests/ebox.xml"><name>ebox</name><summary>instance manager for E programs</summary><description>
 ebox installs instances of E programs. Each program runs with access, by
 default, only to its own instance directory. The code is separate; managed by
 Zero Install.</description></interface><interface uri="http://0install.net/tests/ebox-chat.xml"><name>ebox-chat</name><summary>sandboxed chat program</summary><description>
@@ -576,7 +576,7 @@ package is published in a &quot;feed&quot; file. The Zero Install client reads t
 files and downloads and runs the programs. The feed files can be created
 manually (e.g. using 0publish or 0publish-gui). However, Debian and RPM packages already
 contain much of the required information. This program extracts the information
-in an existing package and uses it to generate the feed.</description><homepage>https://docs.0install.net/tools/pkg2zero/</homepage><category>Development</category></interface><interface uri="http://0install.net/2009/interfaces/pkg2zero-testdata.xml"><name>pkg2zero-testdata</name><summary>data for unit-tests</summary><description>
+in an existing package and uses it to generate the feed.</description><homepage>https://docs.0install.net/tools/pkg2zero/</homepage><category>Development</category><needs-terminal/></interface><interface uri="http://0install.net/2009/interfaces/pkg2zero-testdata.xml"><name>pkg2zero-testdata</name><summary>data for unit-tests</summary><description>
     These files are needed to run the unit-tests for pkg2zero. As they are
     quite large, they have their own package.
   </description><homepage>https://docs.0install.net/tools/pkg2zero/</homepage><category>Development</category></interface><interface uri="http://0install.net/2009/3rd-party/python2.6-clutter.xml"><name>python-clutter</name><summary>Python bindings for the clutter library</summary><description>
@@ -598,11 +598,11 @@ Sear is a client for MMORPGs using the Worldforge system.</description><category
 VDrift is a realistic racing simulation with drifting in mind</description><category>Game</category></interface><interface uri="http://0install.net/2010/interfaces/xzdec.xml"><name>xzdec</name><summary>XZ Decompressor</summary><description>
 xzdec is a liblzma-based decompression-only tool for .xz files.</description><homepage>http://tukaani.org/xz/</homepage><category>Utility</category></interface></c:catalog>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4R8k0ACgkQBxM/lsp02LpjLgf9HGOW
-8t5TVgPYC15WdNr6XQO4YRx4sDk/AoEI/qk5joyU5B1t/eiy6UYpR0qSafbiXMxQ/DhxY30VqdBZ
-KIh9fNgU7ka+PYWOeKqkAvyc1ePbvzTWn7S02XRaE3HDdfxkMEo9UigqiQVk7Si8M7Y/m3VHjxEc
-xFiUhr8iERWj6jqkWbD6WOJxQm7N2TzgbKXbOajW4oR5Inp6/psPrD63poSuRp3TtNe9EiH/DGMA
-1KAh5XG/3K+HFLl9XhJ2aTTR++jB1mkTqUNIxARyvBSDuB0hQa50aY/sO27ULZl39S1XJD9xkLJb
-WGHO75Wq+7oOdMMEzRZiGkWtGilz5aFxog==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl/4VM8ACgkQBxM/lsp02LqE/Af9GdBT
+hiOlVPR/axi7bwBCaJ+K4Epj/krAr8Kt4n5E0UPgT1Xr3+w5JMmxCGOD5KuiQDKZbCt7F1GEdgo0
+k2Wj2ndU0bD6WCCp8XvMgYV3rUbWBvFQZIOIMlwJpj0PyiPOyButCTLFvaYx3FAQqmud6ALraDNo
+DzH30DMH05P5Yb3mGwEmd20a9oZBQTGrooLCcDWZi3De7hlYn7tXnd/9C19bkYdUUUkSWLYSwiGg
+QuAu51KFZGulVDR2vZVvRITPX7as1Q/uFHJhWvPMbW6Y/aOinXrEBKZaDG2ekcpBV/ioaRZYPS3q
+pg50nAly63aiSKOuuwznCYPNeoCtG2Oufw==
 
 -->

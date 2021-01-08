@@ -36,7 +36,7 @@ typesetting engine, in the background.
 With LyX, short notes or letters are a snap. LyX really shines, though, when
 composing complex documents like technical documentation, doctoral theses and
 conference proceedings.</description><homepage>http://www.lyx.org</homepage><icon href="https://0install.net/feed_icons/LyX.png" type="image/png"/><category>Office</category></interface><interface uri="http://0install.net/2007/3rd-party/Mutt.xml"><name>Mutt</name><summary>text-based mail client</summary><description>
-Mutt is a sophisticated text-based Mail User Agent.</description><homepage>http://www.mutt.org/</homepage><category>Network</category><icon href="https://0install.net/feed_icons/Mutt.png" type="image/png"/></interface><interface uri="http://0install.net/2007/3rd-party/Subversion.xml"><name>Subversion</name><summary>advanced version control system</summary><description>
+Mutt is a sophisticated text-based Mail User Agent.</description><homepage>http://www.mutt.org/</homepage><category>Network</category><needs-terminal/><icon href="https://0install.net/feed_icons/Mutt.png" type="image/png"/></interface><interface uri="http://0install.net/2007/3rd-party/Subversion.xml"><name>Subversion</name><summary>advanced version control system</summary><description>
 Subversion, also known as svn, is a version control system much like the
 Concurrent Versions System (CVS). Version control systems allow many individuals
 (who may be distributed geographically) to collaborate on a set of files
@@ -45,7 +45,7 @@ certain new features that CVS users often wish they had.
 
 This package includes the Subversion client (svn), tools to create a Subversion
 repository (svnadmin) and to make a repository available over a network
-(svnserve).</description><homepage>http://subversion.tigris.org</homepage><category>Development</category></interface><interface uri="http://0install.net/2007/3rd-party/Tgif.xml"><name>Tgif</name><summary>interactive 2-D drawing tool</summary><description>
+(svnserve).</description><homepage>http://subversion.tigris.org</homepage><category>Development</category><needs-terminal/></interface><interface uri="http://0install.net/2007/3rd-party/Tgif.xml"><name>Tgif</name><summary>interactive 2-D drawing tool</summary><description>
 Tgif is an interactive drawing tool that allows the user to draw and manipulate
 objects in the X Window System.</description><homepage>http://bourbon.usc.edu/tgif/</homepage><icon href="https://0install.net/feed_icons/Tgif.png" type="image/png"/><category>Graphics</category></interface><interface uri="http://0install.net/2007/3rd-party/UserModeLinux.xml"><name>UserModeLinux</name><summary>run Linux inside itself</summary><description>
 User-Mode Linux is a safe, secure way of running Linux versions and Linux
@@ -58,7 +58,7 @@ software virtual resources than your actual, physical computer. Disk storage for
 the virtual machine is entirely contained inside a single file on your physical
 machine. You can assign your virtual machine only the hardware access you want
 it to have. With properly limited access, nothing you do on the virtual machine
-can change or damage your real computer, or its software.</description><category>System</category><homepage>http://user-mode-linux.sourceforge.net</homepage><icon href="https://0install.net/feed_icons/UserModeLinux.png" type="image/png"/></interface><interface uri="http://0install.net/2007/3rd-party/XdgUtils.xml"><name>XdgUtils</name><summary>cross-desktop integration tools</summary><description>
+can change or damage your real computer, or its software.</description><category>System</category><needs-terminal/><homepage>http://user-mode-linux.sourceforge.net</homepage><icon href="https://0install.net/feed_icons/UserModeLinux.png" type="image/png"/></interface><interface uri="http://0install.net/2007/3rd-party/XdgUtils.xml"><name>XdgUtils</name><summary>cross-desktop integration tools</summary><description>
 Xdg-utils is a set of command line tools that assist applications with a variety
 of desktop integration tasks. About half of the tools focus on tasks commonly
 required during the installation of a desktop application and the other half
@@ -236,11 +236,11 @@ ease of use.
 This package includes files needed by all versions of the client library
 (e.g. /etc/mysql/my.cnf).</description></interface></c:catalog>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4R8k0ACgkQBxM/lsp02LqA6Qf/blzZ
-Wn5P1fkX3k1lPGGx+rgY4iMKEwE/UFis3bvCjYj7ITsaGwBdkKHBxToIU4LZmAS/ak16v1NF0MBc
-wt+YoWMwV4mAoP6MFwHzKtYgjs/k2Lm8ripwibaNuF4mLYQB2n3BJ4U9pz0JiSw6SMskn5EVmsqB
-4HkaEZSiXXEo9ChBNP2C+jtDI840anoqDIZhP4hHQfffe0ochu0Lz7B8uJwXdS9VtpYRAftpopmq
-31Is8AOVduMjJsTGixSWdGwCwYRPYxhGcsp34uehCuppI97o0/nMu/xmrGn2StR6kzV0SqYQm3V7
-0hf7MUDrIEol66x2pzbZwOe4nMg19lyoug==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl/4VM8ACgkQBxM/lsp02LpydwgArU/p
+xa7HYzMuuzXD6IyMcMj8n9oqdYa+MwvH3ygr+nzizm5vY4kmlX1FbxVWC25UPnOHr02GqJJciEPl
+mKHLW1K0hFoHVQYK4HK8RILYsCdUmqjxRwsBhmH7Gs040Abwv5X3QAOneloGspk+k8xJ25ChxnWS
+78DC8p8utYAdKuFnj3f6anygd02IdduZxBMjMWOc749xt+ctAX1IOdlfbGD2K4fYjPZzzCEb0d5S
+UksqWjghuDNZOR6PHIDD2FDJz10fuioQYo0Iq5eSm3UnTh/KrleRlOFzYPCaHz5+XTtandkD36Dd
+PyJfRh2IZaapfnFQ7Piuzo4qNW2qr99Pug==
 
 -->

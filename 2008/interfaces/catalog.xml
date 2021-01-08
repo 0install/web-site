@@ -7,11 +7,11 @@ package is published in a &quot;feed&quot; file.
 Before downloading a package over the internet, 0launch can check to see if any
 nearby machines have a copy, and get it from them instead if so. This will
 normally be much faster. The secure hash from the feed is used to check that the
-software hasn't been modified.</description><homepage>https://docs.0install.net/tools/0share/</homepage><category>Network</category></interface><interface uri="http://0install.net/2008/interfaces/0test.xml"><name>0test</name><summary>test Zero Install programs</summary><description>
+software hasn't been modified.</description><homepage>https://docs.0install.net/tools/0share/</homepage><category>Network</category><needs-terminal/></interface><interface uri="http://0install.net/2008/interfaces/0test.xml"><name>0test</name><summary>test Zero Install programs</summary><description>
 Use 0test to run the unit tests for a Zero Install program. You can use this to
 test released versions or developer snapshots. You can give a selection of
 versions to test, and you can test against different versions of dependencies to
-create a matrix of test results.</description><homepage>https://docs.0install.net/tools/0test/</homepage><category>Development</category></interface><interface uri="http://0install.net/2008/interfaces/ZeroInstall-GUI.xml"><name>ZeroInstall-GUI</name><summary>graphical interface for the Zero Install injector</summary><description>
+create a matrix of test results.</description><homepage>https://docs.0install.net/tools/0test/</homepage><category>Development</category><needs-terminal/></interface><interface uri="http://0install.net/2008/interfaces/ZeroInstall-GUI.xml"><name>ZeroInstall-GUI</name><summary>graphical interface for the Zero Install injector</summary><description>
 The Zero Install GUI displays a window showing which versions of various
 components will be used when running a program, and allows you to alter various
 policy settings to affect the selection process. You can use this to mark
@@ -25,7 +25,7 @@ package is published in a &quot;feed&quot; file. The Zero Install client reads t
 files and downloads and runs the programs. The feed files can be created
 manually (e.g. using 0publish or 0publish-gui). However, Debian packages already
 contain much of the required information. This program extracts the information
-in an existing Debian package and uses it to generate the feed.</description><homepage>https://0install.net/deb2zero.html</homepage><category>Development</category></interface><interface uri="http://0install.net/2008/interfaces/libglade-dev.xml"><name>libglade-dev</name><summary>headers for compiling Glade applications</summary><description>
+in an existing Debian package and uses it to generate the feed.</description><homepage>https://0install.net/deb2zero.html</homepage><category>Development</category><needs-terminal/></interface><interface uri="http://0install.net/2008/interfaces/libglade-dev.xml"><name>libglade-dev</name><summary>headers for compiling Glade applications</summary><description>
 These are the Glade header files. They are required when compiling applications
 that use the Glade library.</description><homepage>http://glade.gnome.org</homepage><category>Development</category></interface><interface uri="http://0install.net/2008/interfaces/libxml2-dev.xml"><name>libxml2-dev</name><summary>headers for libxml2</summary><description>
 Libxml2 is the XML C parser and toolkit developed for the Gnome project (but
@@ -41,11 +41,11 @@ is limited, only decoder is needed and the data can be decompressed from the
 standard input to the standard output. This has been achieved by simply ignoring
 all command line arguments except --help.</description><homepage>http://tukaani.org/lzma/</homepage><category>Utility</category></interface></c:catalog>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4R0VAACgkQBxM/lsp02LodEAf/c8f3
-QtG0FiZZjsiX5kBnhmyD42npyr35DgISEohM4euo5grnDQgNXbULv7WQT/M4S7XZ5q8udAUYkO++
-oOuPBPtvCpx3JpPg6R/WOD4vEth+y3YdBQ4+t7zAQ8bBgcP9CNnSAQAG0uJG2PveMN/6U5Xd5Uiv
-JER/ujGd8hEhBh96gezuVUxyjJPElxQQpK+cnrVbiULRzuhP0KfLH1OCf6Tqh6t8jL+PuNDgZwuE
-6V4ZyzNnIBP0isxJi4MOByMS6GzgtKdKGVPHpx+LkIJ1bId07ryE3TldbD/S74CFlJ/wON9DconY
-FRE32VRlXbLxite0VgDRRk73EB1VLKwiLQ==
+iQEyBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl/4VM8ACgkQBxM/lsp02LpH9Af41DAn
+0eD0KsmQAYhp6Uo9EDf/TKceKRNSREbj6mM6PDgnia6iqM4w5plshSsNXhKsiYgYfIDyBjACgLyS
+rCP0UXdFga2LCurnoNA+8k+oafMKVfsQ4KR4UbONVvUXI9FrqKVLbtVjjLBV1Jv8RvqpaP7/JSeq
+lgpRiGUf2kdoWADeHKpQfsYwKGL3sdv+Q8sGPxZbgG3qE+kszFGEy3PySWdeed405lewkFIJfPED
+34hdtvf7UaE+SXLRR+oywp5ZwLwskxEOlP8eMqy8036WXT401xcwQmEOAFKqYTqtZ9UJbOmRlDke
+q/0GoV7aB5bPcuLcEGRLJtGoW/e+P1Xo
 
 -->

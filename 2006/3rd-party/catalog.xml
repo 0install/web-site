@@ -57,16 +57,16 @@ It can scan files to detect dependencies automatically and maintain a global
 view of all dependencies in a build tree, and uses MD5 signatures to detect
 changed file contents reliably. Timestamps can be used if you prefer. SCons also
 supports parallel builds and is easily extensible through user-defined builder
-and scanner objects.</description><homepage>http://www.scons.org/</homepage><icon href="https://0install.net/tests/scons-logo.png" type="image/png"/><category>Development</category></interface><interface uri="http://0install.net/2006/3rd-party/XaraXtreme.xml"><name>Xara Xtreme</name><summary>cross-platform vector artwork and photocomposition package</summary><description>
+and scanner objects.</description><homepage>http://www.scons.org/</homepage><icon href="https://0install.net/tests/scons-logo.png" type="image/png"/><category>Development</category><needs-terminal/></interface><interface uri="http://0install.net/2006/3rd-party/XaraXtreme.xml"><name>Xara Xtreme</name><summary>cross-platform vector artwork and photocomposition package</summary><description>
 XaraLX is a vector graphics and photocomposition program. It is primarily a
 vector graphics program, but it also handles photos and drawings. It has an
 easy-to-use and easy-to-learn approach.</description><homepage>http://www.xaralx.org/</homepage><icon href="https://0install.net/feed_icons/XaraXtreme.png" type="image/png"/><category>Graphics</category></interface></c:catalog>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4R0VAACgkQBxM/lsp02LpjlAf9H8QT
-W8RCSVp2Jx0acDJlsAi/nSg9U8S81zdWLxcqAvMRiNvnd+iCmtISQcomh38uWKrTFQjR4flSrMT0
-G7gjyVI4bwlF7pP3UUbLM1VoTO4XlihSIJlxt9mJbUYOk0DUb7c6BHkhLEyR8QKG9P7n2Q1ix+9p
-09z+m3ZlFIB8xwW3487FBrolJObwEDmyvxjsxKwVzBzQ3D1sIEEJIyuP/DPchsVy7pF54tuGnd8P
-DnB4bvf8Vm/9gcMLY4Zphgpe7w2Z+IUlVjmFiOeRvFP+TVxvJAvsZCPdxgEwIM5pzsziFec9cjMo
-sToSWeDocvkRPDnFHSszoGa0Eq3v51o5pQ==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl/4VM8ACgkQBxM/lsp02Lq1yAf9FOYe
+r/m3vE7ub6zQW5BhiDY/y7JCeiBSiQxFqG6vZUO87oAjsoA1jZXXfPg24Ho589iSIrZvfhbaA78a
+yNIePfK3rZVNWS+GdsO2oSp9WEL8+fb5/MOJbo+Cka96a8IIQeEm9ZGkHxoal7nq26t6egijGx6v
+JZDDS/nzXAIryVzjdx9F+DipYqpjdhwp6sBO9Uuds+JYANibjUCnJPaprn3Ldqu0Td/7sGgIPVPX
+p+f90aQ0kbF10wpmalR9jvD3hb4xUCXfLd6s7etHv18aKuKxZLQxdELmhi8w3T83Z+ujff/Rn0r4
+lZqIHpVE5SZjj5+KoSSVMU2WUaqdEa/xzw==
 
 -->

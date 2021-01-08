@@ -11,7 +11,7 @@ the program in some way.
 If plash is installed, it is used to sandbox the build so that it can't
 accidentally modifiy any files outside of the build directory.
 
-For a full tutorial, see 0compile's homepage.</description><homepage>https://docs.0install.net/tools/0compile/</homepage><category>Development</category></interface><interface uri="http://0install.net/2006/interfaces/0publish"><name>0publish</name><summary>utility to make creating injector interfaces easier</summary><description>
+For a full tutorial, see 0compile's homepage.</description><homepage>https://docs.0install.net/tools/0compile/</homepage><category>Development</category><needs-terminal/></interface><interface uri="http://0install.net/2006/interfaces/0publish"><name>0publish</name><summary>utility to make creating injector interfaces easier</summary><description>
 0publish makes creating and modifying injector interface files easier. It can
 create a new commented template for you or edit an existing one.
 
@@ -21,7 +21,7 @@ loading an interface and creates a new one when writing it back out. It will
 also validate the new version before saving it.
 
 A tutorial on 0publish can be found at http://0install.net/injector-
-packagers.html.</description><homepage>https://docs.0install.net/tools/0publish/</homepage></interface><interface uri="http://0install.net/2006/interfaces/ATK-dev"><name>ATK-dev</name><summary>headers for compiling ATK applications</summary><description>
+packagers.html.</description><homepage>https://docs.0install.net/tools/0publish/</homepage><needs-terminal/></interface><interface uri="http://0install.net/2006/interfaces/ATK-dev"><name>ATK-dev</name><summary>headers for compiling ATK applications</summary><description>
 These are the ATK header files. They are required when compiling applications
 that use the ATK library. ATK is an Accessibility Toolkit.</description></interface><interface uri="http://0install.net/2006/interfaces/GLib-dev"><name>GLib-dev</name><summary>headers for compiling GLib applications</summary><description>
 These are the GLib header files. They are required when compiling applications
@@ -50,11 +50,11 @@ components will be used when running a program, and allows you to alter various
 policy settings to affect the selection process. You can use this to mark
 particular versions of libraries as preferred, bugggy, etc.</description><homepage>https://0install.net/</homepage></interface></c:catalog>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4R0VAACgkQBxM/lsp02LpQCAf+LsSX
-RMGv9iYJIHeyKhzzDXnFxF82mN5YemPDBnhdKZfgJ11v7jR3v6h7u6nQjqp8wedoz7i3QKp3KJth
-86UsLJvmgiVwRjsVEbbFfSSJg7b8ReqIOLOKLAAw+OZ065TDTqTu+QEAO2bRPLld6arcl6gEyFg5
-V34az2ffEXAtycsAKWUYTzbkzSoh5YkY5r5k7N8bE/2CVcBW809wYyASVDedKNl+ucnAI8Ee3C9k
-yZq7c8efRNtxLA67ixgbCMfb5Gw6Dcpga5noryevaT2749GN1uKqjHKYYMASat6FMP94/2vd2pHv
-TVURjZqQkFukQ9gTsX2XTsnoFF6R9WfYQg==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl/4VM8ACgkQBxM/lsp02LopLQf+Ns+9
+TwMj+nUz4Ld+IrA91Lzr+11pnjiLWr28ORC6zKCcGHg7ciS3XP3cf8xN2Nk1H/16rB+Kma3ScJYM
+QBvTLVmUNvJDGrYc/SI5g1vLLD9ka8nMUbVpWZRmyjfXPHk50p6lbxDKv235Ld1JsUrCasFBWEHc
+fE4b9HUeT1DLvnwu9LfuaZVLZQDHyw1wtFFGlji1tPKBypR8E81NyC/GdUehF2i8QZcv5A81kTdd
+Dh2zCdhQXdkJKkngtg/b+7ulp4iE4YjzgIWzKYbel8/r8ccf4ywuSAFHOh0TyYmi6oZIyhKW7sSn
+LKzCS86bgmtIIPeXqKuKlwd5UC/Tg6TkmA==
 
 -->

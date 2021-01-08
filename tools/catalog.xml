@@ -14,7 +14,7 @@ program.
 
 Unlike the bundles created by the related zero2bundle program, programs
 installed using setup.sh are added to the Zero Install cache and are therefore
-still shared between users, and will get updates over the web where possible.</description><homepage>https://docs.0install.net/tools/0export/</homepage><category>Development</category></interface><interface uri="http://0install.net/tools/0install.xml"><name>0install</name><summary>decentralised installation system</summary><description>
+still shared between users, and will get updates over the web where possible.</description><homepage>https://docs.0install.net/tools/0export/</homepage><category>Development</category><needs-terminal/></interface><interface uri="http://0install.net/tools/0install.xml"><name>0install</name><summary>decentralised installation system</summary><description>
 Zero Install is a decentralised cross-platform software installation
 system available under the LGPL. It allows software developers to publish
 programs directly from their own web-sites, while supporting features familiar
@@ -31,13 +31,13 @@ interfere with those provided by the distribution.
     0template takes a template XML file (e.g. with place-holders for the version),
     fills in the place-holders, and then fills in everything else it can. For example,
     it will download the archive, fill in the size, calculate the digests, etc.
-  </description><homepage>https://docs.0install.net/tools/0template/</homepage><entry-point binary-name="0template" command="run"/></interface></c:catalog>
+  </description><homepage>https://docs.0install.net/tools/0template/</homepage><needs-terminal/><entry-point binary-name="0template" command="run"/></interface></c:catalog>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4R0VAACgkQBxM/lsp02LpWHAgAhQas
-rbji08zeRZHQHaoG1gupCXEe2EEQgU6LTChSE87hNs3G8BC8erBFIRpPA0xExkWIB4k6JHOl3IkZ
-AqtuSxavlMyPFUqnUziJab70xq8CgLTvMX7VFmhtttitLT6NWjITTDfJrIOm7+WvLRc3XWIIQkA0
-pfyNBqBtwrRbtu2gOsvPC261TEFu1Qc01V0jXqcSsaOoKBoLvcsNz5PZlw/PsR+cWCqySK1Q7Dby
-2z4HnedFSvaSTN6Mm/2vMd9FWUA1JEKM6YwthBmbUHu/ruLAKLuz2a2CW61Vz74havFk9LAKxJTu
-9zKLb/t8UXNMU/Lsnq3vuvqjdHGrbdzNyg==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl/4VM8ACgkQBxM/lsp02Lqavgf/eVSM
+Mb1g9qd57qTni8h5qbCzYlc41UpNRGAE+CMINnr9kfT0b0O/C/3OXbmojB8eUal9J6+wAYcEVKW4
+QbGc+gGNzJuWBfFqjUEeBFb7l2skNNT8OWTgyD9GK4bRtTaSSc5J2tzG945sZuPjBe27+6e8+vZw
+v21Zgp5Jb1vxcrG+NQO1qBHZSlsxfajhG7Lg/Feejs7se0HFVRGCwxo38g77zg3+LxDEh0ARi+wj
+1cVECbwq2E2DhPJ7el41FhC6OISXjIuFHvR9RTTkCQzuTr/q/xsWdkE6lUY5PJDT+Quvj1ED4y44
++Som8qunbMr9haeJ79OO60T4biwrlkRmNQ==
 
 -->
