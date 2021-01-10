@@ -9,6 +9,7 @@ can help you to create new releases easily.</description>
 
   <homepage>https://docs.0install.net/tools/0release/</homepage>
   <category>Development</category>
+  <needs-terminal/>
 
   <group license="OSI Approved :: GNU Lesser General Public License (LGPL)" main="0release">
     <requires interface="http://0install.net/2006/interfaces/0publish">
@@ -271,11 +272,11 @@ can help you to create new releases easily.</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl5SookACgkQBxM/lsp02LpFcAf/UTGg
-l2717meRRPrgXuLB3DvaZKbzLCBiw4CLpFLzy4HrWTKa0k5MsDpKArW8m9hrQMi6CT75568DApSj
-+Sxrv8LTqBshQjTRNvFUeK1I2QF+vbwsoxHfz+aMAxXjVVT/kqwTQptssvg+DY9N7TjwlEdnhf9a
-3yCL8RzY8fdVnEjnbHGrXqbvfCF5I1kLRqUvuU7Tbnu2vqxYEZ7lb+u0RYNvNHL/uqBdUx+WuwTd
-hGfOGdX3fT8s+z7ZBa4weLuwnpSKj8HXvbjER7/nFa2EWGKYYvhj3FBADqVb0ZTTP96foaju4y3v
-SiBPSo450SJMgqvUMJVXG0Ov+odeMf1qlg==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl/68hgACgkQBxM/lsp02Lrcqwf/dNdy
+yx4asvF/Au4RjtpW1pU+rbYqMmAOZMi66I9N/SS7iP0BAVnDYZNmlHIawjCZb26NPnq3fXpmCsZt
+NjS3REv9vDf3ZL6s4ddetb0Px7mIGDuL2tOl0ix4gTPMyDvF9VxEo3PWbmK+xG9tIBaUfhzGXLsy
+02maVEuBIuou0fJwcR6N9GOrch/PTh6zzG4ccY1cK7x3PBVWZCdjXITmpSpUaHnvlmAYghINgBfV
+GfxqpFyt95QX6s+/gdxpQrvMtygwCuFDdIlXvpxSATHVx5iWp22YVB8AxhaIxHMW9lF4mYLONijf
+UFN+xbJ1KJ7aVcR+VAizYm6Ebkdmmr6dfA==
 
 -->

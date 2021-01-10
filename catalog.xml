@@ -62,12 +62,12 @@ depend on.
 This program provides a simple graphical interface for creating and editing
 these feeds.</description><homepage>https://docs.0install.net/packaging/</homepage><icon href="https://0install.net/feed_icons/0publish-gui.png" type="image/png"/><category>Development</category></interface><interface uri="http://0install.net/2007/interfaces/0release.xml"><name>0release</name><summary>manage new releases with Zero Install</summary><description>
 If you have a local feed in the development version of your program, 0release
-can help you to create new releases easily.</description><homepage>https://docs.0install.net/tools/0release/</homepage><category>Development</category></interface><interface uri="http://0install.net/tools/0repo.xml"><name>0repo</name><summary>manage a repository of 0install feeds</summary><description>
+can help you to create new releases easily.</description><homepage>https://docs.0install.net/tools/0release/</homepage><category>Development</category><needs-terminal/></interface><interface uri="http://0install.net/tools/0repo.xml"><name>0repo</name><summary>manage a repository of 0install feeds</summary><description>
     0repo allows a group of developers to publish a set of feeds. It can be
     used by a single developer, generating a set of static files to publish on
     a web-server, or as a service which accepts signed updates from a group
     of developers.
-  </description><homepage>https://docs.0install.net/tools/0repo/</homepage></interface><interface uri="http://0install.net/2008/interfaces/0share.xml"><name>0share</name><summary>peer-to-peer sharing of Zero Install packages</summary><description>
+  </description><homepage>https://docs.0install.net/tools/0repo/</homepage><needs-terminal/></interface><interface uri="http://0install.net/2008/interfaces/0share.xml"><name>0share</name><summary>peer-to-peer sharing of Zero Install packages</summary><description>
 Zero Install is a decentralised installation system. Meta-data about each
 package is published in a &quot;feed&quot; file.
 
@@ -598,11 +598,11 @@ Sear is a client for MMORPGs using the Worldforge system.</description><category
 VDrift is a realistic racing simulation with drifting in mind</description><category>Game</category></interface><interface uri="http://0install.net/2010/interfaces/xzdec.xml"><name>xzdec</name><summary>XZ Decompressor</summary><description>
 xzdec is a liblzma-based decompression-only tool for .xz files.</description><homepage>http://tukaani.org/xz/</homepage><category>Utility</category></interface></c:catalog>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl/4VM8ACgkQBxM/lsp02LqE/Af9GdBT
-hiOlVPR/axi7bwBCaJ+K4Epj/krAr8Kt4n5E0UPgT1Xr3+w5JMmxCGOD5KuiQDKZbCt7F1GEdgo0
-k2Wj2ndU0bD6WCCp8XvMgYV3rUbWBvFQZIOIMlwJpj0PyiPOyButCTLFvaYx3FAQqmud6ALraDNo
-DzH30DMH05P5Yb3mGwEmd20a9oZBQTGrooLCcDWZi3De7hlYn7tXnd/9C19bkYdUUUkSWLYSwiGg
-QuAu51KFZGulVDR2vZVvRITPX7as1Q/uFHJhWvPMbW6Y/aOinXrEBKZaDG2ekcpBV/ioaRZYPS3q
-pg50nAly63aiSKOuuwznCYPNeoCtG2Oufw==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl/68h0ACgkQBxM/lsp02LrO9gf+IY3+
+ii9WhPXZMDIGUgML0z0rF/VgNX2rEF2CntwuA3Va2CiJvAGP4GqKITEma4gqmJvTHfKlsbag2dIn
+YBdncTcR5WzJ7AePde3ZaalYZLw/1DEam3QFBPgVw7sGcDXIBg/3OVUPF2LuREngF+MXrH3xqmZI
+HjZ3yAifosTWMMZZ9RQ5pQw/H27Qk6huj5nNwJcxxVKYsyY1fhamj+NMdxIHymTo+QH9vvaqaR7U
+1a4HmquCyCMEfXRsqZLEofk2bdLNpX4HGKuRjH/3IJ6mz9GJPpZlgTCJztJ8apKJB/dGjjGKA6ip
+1ZooFbtb59iY+KOQYFHTkfRQA+4UNCixsg==
 
 -->

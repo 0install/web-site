@@ -27,17 +27,17 @@ interfere with those provided by the distribution.
     used by a single developer, generating a set of static files to publish on
     a web-server, or as a service which accepts signed updates from a group
     of developers.
-  </description><homepage>https://docs.0install.net/tools/0repo/</homepage></interface><interface uri="http://0install.net/tools/0template.xml"><name>0template</name><summary>utility to make creating feeds easier</summary><description>
+  </description><homepage>https://docs.0install.net/tools/0repo/</homepage><needs-terminal/></interface><interface uri="http://0install.net/tools/0template.xml"><name>0template</name><summary>utility to make creating feeds easier</summary><description>
     0template takes a template XML file (e.g. with place-holders for the version),
     fills in the place-holders, and then fills in everything else it can. For example,
     it will download the archive, fill in the size, calculate the digests, etc.
   </description><homepage>https://docs.0install.net/tools/0template/</homepage><needs-terminal/><entry-point binary-name="0template" command="run"/></interface></c:catalog>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl/4VM8ACgkQBxM/lsp02Lqavgf/eVSM
-Mb1g9qd57qTni8h5qbCzYlc41UpNRGAE+CMINnr9kfT0b0O/C/3OXbmojB8eUal9J6+wAYcEVKW4
-QbGc+gGNzJuWBfFqjUEeBFb7l2skNNT8OWTgyD9GK4bRtTaSSc5J2tzG945sZuPjBe27+6e8+vZw
-v21Zgp5Jb1vxcrG+NQO1qBHZSlsxfajhG7Lg/Feejs7se0HFVRGCwxo38g77zg3+LxDEh0ARi+wj
-1cVECbwq2E2DhPJ7el41FhC6OISXjIuFHvR9RTTkCQzuTr/q/xsWdkE6lUY5PJDT+Quvj1ED4y44
-+Som8qunbMr9haeJ79OO60T4biwrlkRmNQ==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl/68h0ACgkQBxM/lsp02LptTwf7BjZD
+Hs1BShNNDzAOgUG0c+4kpMAhabzvcpp87+m7dX+80ce5wpP1aPceh5fY0VTxjwtZ2mhOnZdsSdtg
+WBL9BeE5wlyj/554YTOa9xFw4kV5QnEbd2kIVDlmacRUaGk0/U4PVbQ0YiH88AH+oDeXJbT21p3S
+gByUA1PiMwkI+msR3l4k5/Zw6ZKfa05xlq4a/vckpeZixGgHCDvt65YkDuo1s7WggA1kxFAXyfxS
+KTEnA594g/t+L7gQCp6iz4jAysfMj5tXMjaoQFByLdn9lHIlNPUCUOBItXKAyOZUJpG9N8BC/co+
+loru/M7Lp6EyRwNsGuyzAwA6QOQUgMoUUA==
 
 -->

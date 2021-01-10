@@ -10,6 +10,7 @@
     of developers.
   </description>
   <homepage>https://docs.0install.net/tools/0repo/</homepage>
+  <needs-terminal/>
 
   <release:management xmlns:release="http://zero-install.sourceforge.net/2007/namespaces/0release"><!-- Update the copy of the version number in the code -->
     <release:action phase="commit-release">sed -i &quot;s/^version = '.*'$/version = '$RELEASE_VERSION'/&quot; 0repo.py</release:action>
@@ -166,11 +167,11 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl/4VM8ACgkQBxM/lsp02LqJ1wf7BKfy
-00aDNpTYUzvYqTSGyE/hLu2rDtaGF9yqqPUSt0KU9gk+xLBq+ENJJZyEzLLPVxucuz56nMvec3h1
-r0iTEYAvSef4APZ9OCh4Dng4m5HG/X7S5WHQB8X1wid/XeL4Fs1s/E5kc1vNTY1had1HpGdW86FV
-C5IWZZW3GODTImLbGKiEAShL4zcgm8ZWeHSv4jJ2YzV87G7LTjJt9Buqv7mJ/l5loZEWEooZOmUw
-WCXhPHp/f+cOQUDUfH3+x2baLsZJq044qV3pXnO8vZ7p0+G9aEYT5oFSF+W8/+lmkVBbdcOa6YGB
-P5+3wwR//yVs4MfFzpvYrjw+JWiI/9Gp+g==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl/68h0ACgkQBxM/lsp02LpN6gf/dFpo
+IGltiMd/8ZEhpWitkHqSgRoUFzdi+A0TPFreVXbk9qUaYJ/UWOt05rLtjLSH+C8Rj8Zi9BGHZcMf
+e40XlRvHLA4dWdzPLDfZkKQwo5iUVnyoDmUnl/Gp42ZvowIjVJy2CUPv6Nm7eD1Ec0L2OAbNCO7q
+XJHHRDFxmaPU7zR82T9HEVPbqPtjP48fy2LdB6HfhZdNuVz21JnCFIS9oNM5F0TTDR/9TR5CqWTI
+0RZ5A14tEOg6yFGPoWlP+aAE3AjDRgAQhuvh1+hYLyJGiZhjCo9Oj+nnxQElfDNLCqNc3DvxVTet
+01tiXwYx+SE4kAM+uIyAmF1LjpcE77ZF/A==
 
 -->

@@ -16,7 +16,7 @@ depend on.
 This program provides a simple graphical interface for creating and editing
 these feeds.</description><homepage>https://docs.0install.net/packaging/</homepage><icon href="https://0install.net/feed_icons/0publish-gui.png" type="image/png"/><category>Development</category></interface><interface uri="http://0install.net/2007/interfaces/0release.xml"><name>0release</name><summary>manage new releases with Zero Install</summary><description>
 If you have a local feed in the development version of your program, 0release
-can help you to create new releases easily.</description><homepage>https://docs.0install.net/tools/0release/</homepage><category>Development</category></interface><interface uri="http://0install.net/2007/interfaces/FeedLint.xml"><name>FeedLint</name><summary>check your Zero Install feeds</summary><description>
+can help you to create new releases easily.</description><homepage>https://docs.0install.net/tools/0release/</homepage><category>Development</category><needs-terminal/></interface><interface uri="http://0install.net/2007/interfaces/FeedLint.xml"><name>FeedLint</name><summary>check your Zero Install feeds</summary><description>
 FeedLint is a tool for Zero Install feed authors. It checks that your Zero
 Install feed can be downloaded, that it is valid and that all the links in it
 still work.
@@ -42,11 +42,11 @@ This program is run automatically by the '0launch' command. If you want to add
 an installer to your desktop menus, you want something like Zero2Desktop
 instead.</description><homepage>https://0install.net/</homepage></interface></c:catalog>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl/4VM8ACgkQBxM/lsp02LqT7wgAgS1f
-ojRzQv1Llth9UFQes3BPJp8Ez7TSQ4G6Zit+Te5i9jt9tk/WgkjeFZ3EiyukIUFXSxnn1ZwgUiix
-GK1B5/Th0Yz0qAlaR5zPsKibErAioNaMpGiJ2U6h9r3/ndd3q5mRb4s1ECG9VGVd7ttieuyoLa/r
-1C8ZP17vYZaukGVOqDnWcfEQEAjqc13lHgFDjnG0njhe8p0Cn2gIiEc106mDGE78aOi00/WtXdW1
-RIC95FMa0Cp4syxTK7E6CvZaf5VmeAbmZCB/ezKFLGSh+JDiKynVFSNu9GECCQRDIezdhcdCAdBM
-MU7BU+XPTXBVyebWlcER7voinN95AkOUCg==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl/68h0ACgkQBxM/lsp02Lp+CQf/ZOkE
+/flWZlHIoa33rDH1gzcW6CbJStg00RzNeOEIq2b13R0Id+gYTVAk9PdF8XfY4a7bvRSqriqHKoBr
+47YwxjmD5fTswVHvA18ZAEbfqT7Z+QbgY3RuFxA6HTWLN0ZP2ntGz37wxO5rrk/o+2+F5WnhyFj9
+hkuWAZvL3FurozROoBbxaNJEFSwPuPrRWKlc3oqalYDFw8fKQtaUIRogbciBRUMthIoV8qUa0v73
+TVy93vRj5qT6nL3Punq7ASar8Jvtufk94qFzEjRZ/x525dh6th7mjq0xnnnqa4FQP8DzFk4UgakV
+nQ7B8JivrClfaLwJD9VpGr6ndgRIG/7NUQ==
 
 -->
