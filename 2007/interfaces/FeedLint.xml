@@ -97,16 +97,20 @@ Run this on all your feeds from time-to-time to make sure they still work.</desc
         <manifest-digest sha256new="N5GGEFDYS6ZU6VJDJ2R7EZ5RHCHGCBSCPPIPWGYMZ3E335A4WYAQ"/>
         <archive extract="feedlint-0.10" href="https://downloads.sourceforge.net/project/zero-install/FeedLint/0.10/feedlint-0.10.tar.bz2" size="11920"/>
       </implementation>
+      <implementation id="sha1new=6e6074b7824df0a3740c04710dd18c780e5cd208" released="2021-02-01" version="0.11">
+        <manifest-digest sha256new="V24RHMH2SQLIPIEFWWA4SY5IN2EBASFZ2CIOL6OQNADG6GWYW5DA"/>
+        <archive extract="feedlint-0.11" href="https://downloads.sourceforge.net/project/zero-install/FeedLint/0.11/feedlint-0.11.tar.bz2" size="11929"/>
+      </implementation>
     </group>
   </group>
 
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl5SopAACgkQBxM/lsp02LpvwQf/f2SJ
-dycsKq7ll1f9NccBiwv1VrV8CDGe2Y0hdzJ9EfrNFTZ6+J40jaTGZ1X3eyliTaeNi4UjdZx8mTqu
-snsYwlS31Xxl7DbTqW+euAVEu4T55c/syqUeqV1t0jHPF+B0zBgPStzre2j5cZAFxUuI01V82tLP
-m82+82D5Q/u0FuUNMfOIpXk+QSiUITPUjkZ+vUcEet49Y15vI8JIGUF8l7Z2C4MOM9OlS1EDH1+z
-oy2w4aiv/LS3OwQL/zXRyAIDaYrJEfcad6aZ22F/xjTLNCC6eWss/mr9IL8ggVqqwm54NKzTi0/k
-pvBADI8e5PC5PyXHwYNy8bil4bjU2FgtOg==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAmAYE7QACgkQBxM/lsp02LqSBgf8CMrO
+MdsQjj7U6x0CZfaDmhamhwQPMi97zlIy2SLAZrj8xQG+8cZuck8K3J/ixl3IKXXwxhTqctk0Qt1F
+LWe4tuEi1RrU5bO/dOprA6Gik6HImXiCBlO8OLMUdY4ycjpPpBCHQtXCr6DzsNTqu30fGTKQmFKG
+lHrvaNEkK9LZowpEAna+aq5aoNEm0/bZEMi34YgMk32k2tHIIWHb32d5VFRBof1KCZ16MUbAeAI/
+pz7bxuBSoqUytXCFzCSPWhfEXBCy/DLeJZnq/EZo2cRY6NzP1oHqqrbs/reLEUg5VkTrxx93a3S9
+Hi9aiXJYYH8vFPo/ViAlljQQj8RXINkUBQ==
 
 -->
