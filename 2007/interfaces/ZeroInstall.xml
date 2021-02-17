@@ -421,18 +421,22 @@ interfere with those provided by the distribution.
       <manifest-digest sha256new="UUKHJE54V5UDDL2EIMWO5PLH7R6OG7IHEWRPQMJVNPDN5CKRN4OA"/>
       <archive extract="0install-2.3.12" href="https://downloads.sourceforge.net/project/zero-install/0install/2.3.12/0install-2.3.12.tar.bz2" size="454707"/>
     </implementation>
-    <implementation id="sha1new=4ede123d2954c6630eb39f5cf16884223350d168" license="OSI Approved :: GNU Lesser General Public License (LGPL)" released="2021-01-28" version="2.3.13">
+    <implementation id="sha1new=4ede123d2954c6630eb39f5cf16884223350d168" license="OSI Approved :: GNU Lesser General Public License (LGPL)" released="2021-01-28" stability="stable" version="2.3.13">
       <manifest-digest sha256new="IJK75D4MWTFWQADUXCUPY6EAM2DG45UMFJ5Z3BAZPZV5PXT34AYQ"/>
       <archive extract="0install-2.3.13" href="https://downloads.sourceforge.net/project/zero-install/0install/2.3.13/0install-2.3.13.tar.bz2" size="468847"/>
+    </implementation>
+    <implementation id="sha1new=90cafde7c4b28c60335814303629d999bc17a1e3" license="OSI Approved :: GNU Lesser General Public License (LGPL)" released="2021-02-17" version="2.3.14">
+      <manifest-digest sha256new="TFUFHK4D23XJMGJ2UVRGAP252PI6TKK67FLYLML4ZAWRDW5XBQMA"/>
+      <archive extract="0install-2.3.14" href="https://downloads.sourceforge.net/project/zero-install/0install/2.3.14/0install-2.3.14.tar.bz2" size="468865"/>
     </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAmAS2IEACgkQBxM/lsp02LqPWwf8CBqO
-YafWNEtl6kAkDDitMZlAQRPpv9WaYIaBkNZQOxFkjv3Y22RNtiprcyutGfjTja8MtgasdV6yXYkh
-3OLxnjcQjQgq2iphAlfyILzfx9F4SJBhSJMbY4ck2fKBl3C3yCZovGeNi+kOZJSxhQn4GB10pq1X
-8Tg3kcH8tWh4vUWypa0zAG7BZvUD+XynSwvfFktX7BB7BEf6UcrMz0IV7FO0HqqcjD81bLAMDOGP
-HpBotnGMo885pZSeis8nvC8RrzbvV65tWsSFOjS6maonvEDFRMe7ZzR3Nd44Qq13PXWTccPE7NBu
-fltb6ZmEy3OSP4495157Z/Cg4dAm9MIxLQ==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAmAs2UwACgkQBxM/lsp02Lrb5wf6A16Z
+/iohpObX9gybl1IAX9JMkIqCL/gYYfDaMLw3IHw+kRS+5+f+u+0YK0aSV9qVlFoCjBg8z7TGCIWI
+1f5ndrQo6GD4wzFKZRnExXdxIA/Hvx0aWAYKTis2ivtUThJ8bbxPrRjalZhgpX+M4fAYETvqukYJ
+ni7z1ib19CYMqaxczpNB9uapp9eKyCeyUcaRgaDNrUpBiaIDJ80WX6fzmsh1FHyWcHgedlBVV/UW
+wARZ6bafaeDZGC40jtJLNIcnKa5BltqWRLyEu3CucAgtlRSHRmesjDfVAYZvDSTxRWIz30lzwZgO
+uQIZ6kka9SQs1Pp0NRPNijeUfwPPIQak4g==
 
 -->
