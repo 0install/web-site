@@ -425,18 +425,18 @@ interfere with those provided by the distribution.
       <manifest-digest sha256new="IJK75D4MWTFWQADUXCUPY6EAM2DG45UMFJ5Z3BAZPZV5PXT34AYQ"/>
       <archive extract="0install-2.3.13" href="https://downloads.sourceforge.net/project/zero-install/0install/2.3.13/0install-2.3.13.tar.bz2" size="468847"/>
     </implementation>
-    <implementation id="sha1new=90cafde7c4b28c60335814303629d999bc17a1e3" license="OSI Approved :: GNU Lesser General Public License (LGPL)" released="2021-02-17" version="2.3.14">
+    <implementation id="sha1new=90cafde7c4b28c60335814303629d999bc17a1e3" license="OSI Approved :: GNU Lesser General Public License (LGPL)" released="2021-02-17" stability="stable" version="2.3.14">
       <manifest-digest sha256new="TFUFHK4D23XJMGJ2UVRGAP252PI6TKK67FLYLML4ZAWRDW5XBQMA"/>
       <archive extract="0install-2.3.14" href="https://downloads.sourceforge.net/project/zero-install/0install/2.3.14/0install-2.3.14.tar.bz2" size="468865"/>
     </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAmAs2UwACgkQBxM/lsp02Lrb5wf6A16Z
-/iohpObX9gybl1IAX9JMkIqCL/gYYfDaMLw3IHw+kRS+5+f+u+0YK0aSV9qVlFoCjBg8z7TGCIWI
-1f5ndrQo6GD4wzFKZRnExXdxIA/Hvx0aWAYKTis2ivtUThJ8bbxPrRjalZhgpX+M4fAYETvqukYJ
-ni7z1ib19CYMqaxczpNB9uapp9eKyCeyUcaRgaDNrUpBiaIDJ80WX6fzmsh1FHyWcHgedlBVV/UW
-wARZ6bafaeDZGC40jtJLNIcnKa5BltqWRLyEu3CucAgtlRSHRmesjDfVAYZvDSTxRWIz30lzwZgO
-uQIZ6kka9SQs1Pp0NRPNijeUfwPPIQak4g==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAmBM35wACgkQBxM/lsp02LpH0wgAhmnC
+vxoeEpvu226WMvCXfuzPtthEAeUql81JFo76IAaPjeh/n8GsgPHbvsBKP0W1psr4Q1bmWO6hSy19
+AlwwA6Q+nIcO0osD6RpX20OxNvGy/jtE3IUZ/qacwtGu8h14XoIRmsi3Ni2f5/m++huB0JzmURJx
+h2cEPvJe2vjCgfMw7NzJwu7+zts2Ef6zked4LIgNXf14eFeGY9E+2hYaAQj66Aqw6hVSH15dUSV3
+a/AQ7DkTxW9oYKrJBgiEoPSzNQvvcKj9pC9dZO343Fhdu0RO4z5k6pHVPkDlUtLgcEPAuB2worBe
+I2/V9Jx2URVv8uI2aA7cvyA8jfV2ayERGw==
 
 -->
