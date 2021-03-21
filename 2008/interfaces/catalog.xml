@@ -7,11 +7,7 @@ package is published in a &quot;feed&quot; file.
 Before downloading a package over the internet, 0launch can check to see if any
 nearby machines have a copy, and get it from them instead if so. This will
 normally be much faster. The secure hash from the feed is used to check that the
-software hasn't been modified.</description><homepage>https://docs.0install.net/tools/0share/</homepage><category>Network</category><needs-terminal/></interface><interface uri="http://0install.net/2008/interfaces/0test.xml"><name>0test</name><summary>test Zero Install programs</summary><description>
-Use 0test to run the unit tests for a Zero Install program. You can use this to
-test released versions or developer snapshots. You can give a selection of
-versions to test, and you can test against different versions of dependencies to
-create a matrix of test results.</description><homepage>https://docs.0install.net/tools/0test/</homepage><category>Development</category><needs-terminal/></interface><interface uri="http://0install.net/2008/interfaces/ZeroInstall-GUI.xml"><name>ZeroInstall-GUI</name><summary>graphical interface for the Zero Install injector</summary><description>
+software hasn't been modified.</description><homepage>https://docs.0install.net/tools/0share/</homepage><category>Network</category><needs-terminal/></interface><interface uri="http://0install.net/2008/interfaces/ZeroInstall-GUI.xml"><name>ZeroInstall-GUI</name><summary>graphical interface for the Zero Install injector</summary><description>
 The Zero Install GUI displays a window showing which versions of various
 components will be used when running a program, and allows you to alter various
 policy settings to affect the selection process. You can use this to mark
@@ -41,11 +37,11 @@ is limited, only decoder is needed and the data can be decompressed from the
 standard input to the standard output. This has been achieved by simply ignoring
 all command line arguments except --help.</description><homepage>http://tukaani.org/lzma/</homepage><category>Utility</category></interface></c:catalog>
 <!-- Base64 Signature
-iQEyBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl/4VM8ACgkQBxM/lsp02LpH9Af41DAn
-0eD0KsmQAYhp6Uo9EDf/TKceKRNSREbj6mM6PDgnia6iqM4w5plshSsNXhKsiYgYfIDyBjACgLyS
-rCP0UXdFga2LCurnoNA+8k+oafMKVfsQ4KR4UbONVvUXI9FrqKVLbtVjjLBV1Jv8RvqpaP7/JSeq
-lgpRiGUf2kdoWADeHKpQfsYwKGL3sdv+Q8sGPxZbgG3qE+kszFGEy3PySWdeed405lewkFIJfPED
-34hdtvf7UaE+SXLRR+oywp5ZwLwskxEOlP8eMqy8036WXT401xcwQmEOAFKqYTqtZ9UJbOmRlDke
-q/0GoV7aB5bPcuLcEGRLJtGoW/e+P1Xo
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAmBXlj8ACgkQBxM/lsp02Lpvvgf9G+bM
+OvV04u591Q7M7oiEvubQaq6EIG90GSARXmyfeoYHl9axiIDuTMYq1oSyrScq8lH19cpzP+wXp5Pk
+umtvZLIk8CJXnBxssqnaMcqNvPGDTJe6vH2lo0hs/EL0ZwpDZ8YcFrYd13HY4SER+KSVvIrAeNtA
+L7UG1Vc2NrNjYliwQP04bveIppmsT2ITufQLs25nqSUrEvxFvadpw6pdPaWpHNm5NQxFgynnYj5M
+gZmj6c6kEu5z8gy6/1Czcjo3pNwXpXl9uZ0Nsfe1Uhc7rBNJ4AFAnujZf+yE8+5UfmaTkgBCOcWQ
+FzDwz+r0yh6r8l5eCCRyu4uodUMnCRmcOg==
 
 -->

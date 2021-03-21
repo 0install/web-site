@@ -24,15 +24,15 @@ in an existing Debian package and uses it to generate the feed.</description>
     </implementation>
     <implementation id="sha1new=9ec0a8cdf2ccdbeb9883f1da9ee4b806b4d5167f" released="2008-05-24" version="0.3">
       <archive extract="deb2zero-0.3" href="http://downloads.sourceforge.net/project/zero-install/deb2zero/0.3/deb2zero-0.3.tar.bz2" size="15304" type="application/x-bzip-compressed-tar"/>
-      <requires interface="http://0install.net/2006/interfaces/0publish">
+      <requires interface="https://apps.0install.net/0install/0publish.xml">
         <environment insert="" mode="prepend" name="PATH"/>
       </requires>
     </implementation>
     <group>
-      <requires interface="http://0install.net/2006/interfaces/0publish">
+      <requires interface="https://apps.0install.net/0install/0publish.xml">
         <environment insert="0publish" mode="prepend" name="PUBLISH_COMMAND"/>
       </requires>
-      <requires interface="http://0install.net/2007/interfaces/ZeroInstall.xml">
+      <requires interface="https://apps.0install.net/0install/0install-python.xml">
         <version not-before="0.33"/>
         <environment insert="" mode="prepend" name="PYTHONPATH"/>
       </requires>
@@ -51,11 +51,11 @@ in an existing Debian package and uses it to generate the feed.</description>
 
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl3GnWAACgkQBxM/lsp02LqX2ggAq4TV
-of2Dr/KAcxnKTxwQpZakdA7ReLth20Dj6dnCrg+FId7QYhj2JHAngpBPS7UiyZwkSYSgS0Wb3LsP
-lmYkpV5lP+rFwLvfTgMpRjU+pYliHu1vebvYyF8ma+3d983HZAq//PeiZT8akGhwhv22wQFWSr9q
-1xPS/kcZkOvUh6I1yJUJReoui5l0tjEniuFKVzyfmqEJ2F8w9rkupw9HNAzLfC3Kr8a28nZkpsoc
-wCTOsgfklJClhPsgte7Vaa7Xy7JPCtkuhkBOfsQjGp85GrUcuX3Rm19gj/Brpc7L3w1jiFUSdxb0
-wIErbkPuG//g7NLuOD0WAL+SZdO9Vb8mtg==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAmBXljsACgkQBxM/lsp02LplTwgAhfOF
+nkfMsnibDuKkE89CF+qUMHHNRka4MTUdFdNWoTC76O0JWqaz/ZjD71aeEiqsFGAhE+2j29g8UWXv
+Yc6D0ifrWRGepraX7LKbuagR8ZYFI6Ek+SA7dnDt2dOZoB86lqyDjQoympyTkOmz0iURjWHQ0uqE
+KoqtuvtamKIH9yz//9UAbsFdmzMR31DktiTQQmmDk+Wx+3sufLEUHPL4kpQ81sSl4jJWINpxA+qr
+ia8N8DU4fnad4eV4Z37Y3fUTmikI5FBRr9otzPzdc0PrCHUKw4CjWxbB0F6ZUYwsDTTJoKkC8j/e
+qKFTm1hTKa46s2JePvo2H6mN2wJ9+dSgZQ==
 
 -->

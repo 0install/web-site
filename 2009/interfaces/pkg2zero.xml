@@ -16,10 +16,10 @@ in an existing package and uses it to generate the feed.</description>
   <needs-terminal/>
 
   <group doc-dir="doc" license="OSI Approved :: GNU General Public License v3" main="pkg2zero">
-    <requires interface="http://0install.net/2006/interfaces/0publish">
+    <requires interface="https://apps.0install.net/0install/0publish.xml">
       <environment insert="0publish" mode="replace" name="PUBLISH_COMMAND"/>
     </requires>
-    <requires interface="http://0install.net/2007/interfaces/ZeroInstall.xml">
+    <requires interface="https://apps.0install.net/0install/0install-python.xml">
       <version not-before="0.33"/>
       <environment insert="" mode="prepend" name="PYTHONPATH"/>
     </requires>
@@ -31,11 +31,11 @@ in an existing package and uses it to generate the feed.</description>
 
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl3GnWAACgkQBxM/lsp02LpJswf/ZPbh
-uq2/B7VJtkEdZrhccH5uL9UguLgnE5Aqg0U8o1C5z6GCEsqxZb8q+vE963xl+oJf+gjiLwGWOxjp
-OqXX1HASuh4ndH8j6HGclpk21tFwSN2jlH29R1YmoYd66AHUA05aCrsASH2vUP+bRRGogLF41k/F
-niLd09OgUmE1BmjeQBTX2sXXRywjDmH2oy2svVO9EzChgWfTSPb8cr4w+cInMWT3fWAb7L36uIrn
-yGsNqyA2imq+5bjeHW7KMoRee5cdwodBhO6PemTrbyL3NyHinA75sNxwJWYCYqsxhi0UsgbyJLW2
-bPUpePfXhmR38tIYcYzt+w/zDeJ4UxlqIA==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAmBXlj4ACgkQBxM/lsp02LqFJgf+O9Gn
+w8nAf3fo4+K3f4YAqoGewl0LeZvcRmxmhC48eAsilOTypvnCW1gqUPp+M4QeE7yWddHUhJ6iRMsa
+ed2NH9zv2S8y+axGl7m5hVI/cies0iybqV+dKV/I+51eiy1ijEqS7PK04zCY4epULLI3NpioAaD5
+nCcSgbb7K7UwZq4DtL6aDEYdWZ1V9Eie4cm1YT4U7fGi6r7wImIBa/sL1r5Dxm6oQjCcV8A1pT4f
+wEp3/2AW9QRmhjuMav6VXmPT6KrVkSyc4ekrR91qjpL2/YwvNWAiFYNPFJ1i7I7HRA8j6hUf/odR
+5lWSQ+Sbc/OBETgXA0XZ7HgDsJhOlGbVJQ==
 
 -->

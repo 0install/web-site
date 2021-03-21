@@ -11,83 +11,16 @@
   <homepage>https://docs.0install.net/tools/0template/</homepage>
   <needs-terminal/>
 
-  <release:management xmlns:release="http://zero-install.sourceforge.net/2007/namespaces/0release"><!-- Update the copy of the version number in the code -->
-    <release:action phase="commit-release">sed -i &quot;s/^version = '.*'$/version = '$RELEASE_VERSION'/&quot; 0template.py</release:action>
-  </release:management>
 
-  <group license="OSI Approved :: GNU Lesser General Public License (LGPL)">
-    <command name="run" path="0template.py">
-      <runner interface="https://apps.0install.net/python/python.xml"/>
-    </command>
-
-    <command name="test" path="tests/test0template.py">
-      <runner interface="https://apps.0install.net/python/python.xml"/>
-      <executable-in-path name="0template"/>
-    </command>
-
-    <requires interface="https://apps.0install.net/python/python.xml">
-      <version not-before="2.7"/>
-    </requires>
-
-    <requires interface="http://0install.net/2007/interfaces/ZeroInstall.xml">
-      <environment insert="" mode="prepend" name="PYTHONPATH"/>
-      <version not-before="2.0"/>
-    </requires>
-
-    <implementation id="sha1new=dec3cbacde62afc57cca4c111b4a85ba3f030df3" released="2013-03-09" stability="stable" version="0.1">
-      <manifest-digest sha256new="TPC5QVL4RVSCQ43OPTG6NMMFFNY6CW4FXCIMTAPWSYSNB2HC6DKQ"/>
-      <archive extract="0template-0.1" href="http://downloads.sourceforge.net/project/zero-install/0template/0.1/0template-0.1.tar.bz2" size="14210"/>
-    </implementation>
-  </group>
-
-  <group>
-    <requires interface="https://apps.0install.net/python/python.xml">
-      <version not-before="2.7"/>
-    </requires>
-    <requires interface="http://0install.net/2007/interfaces/ZeroInstall.xml">
-      <environment insert="" mode="prepend" name="PYTHONPATH"/>
-      <version not-before="2.2-post"/>
-    </requires>
-    <requires interface="https://apps.0install.net/0install/0publish-win.xml" os="Windows">
-      <executable-in-var command="0publish" name="0TEMPLATE_EXTERNAL_TOOL"/>
-    </requires>
-    <command name="test" path="tests/test0template.py">
-      <runner interface="https://apps.0install.net/python/python.xml"/>
-      <executable-in-path name="0template"/>
-    </command>
-    <command name="run" path="0template.py">
-      <runner interface="https://apps.0install.net/python/python.xml"/>
-    </command>
-    <implementation id="sha1new=f88e42082640316608fc28be303521fc0692573e" license="OSI Approved :: GNU Lesser General Public License (LGPL)" released="2014-09-02" stability="stable" version="0.2">
-      <manifest-digest sha256new="ERLRSPYBXSOGULSDGW56DUSFZ2DELXOG7JSTAZP6W2UX3NYRQOXQ"/>
-      <archive extract="0template-0.2" href="https://downloads.sourceforge.net/project/zero-install/0template/0.2/0template-0.2.tar.bz2" size="15294"/>
-    </implementation>
-    <implementation id="sha1new=3c1cf27d0c25a878cda5a47faed64c8fe5b07dc8" license="OSI Approved :: GNU Lesser General Public License (LGPL)" released="2015-08-13" stability="stable" version="0.3">
-      <manifest-digest sha256new="YMMDCPWXMW3XTYDX6BIFXSBMZ5WTQV6CIKEZ3QVQ4EDV6NJ4N36A"/>
-      <archive extract="0template-0.3" href="https://downloads.sourceforge.net/project/zero-install/0template/0.3/0template-0.3.tar.bz2" size="15513"/>
-    </implementation>
-    <implementation id="sha1new=077fb1eb8f805d72a7c8e49dde422ab4fe0a4001" license="OSI Approved :: GNU Lesser General Public License (LGPL)" released="2017-05-14" stability="stable" version="0.4">
-      <manifest-digest sha256new="XPGVWCMI33FL44HCWMQUXVX3ZSWL427RHIVY3KLCGNV3ERDYENNA"/>
-      <archive extract="0template-0.4" href="https://downloads.sourceforge.net/project/zero-install/0template/0.4/0template-0.4.tar.bz2" size="17107"/>
-    </implementation>
-    <implementation id="sha1new=01c9dfc0fc41c920b4213ff11e8a376a3236909c" license="OSI Approved :: GNU Lesser General Public License (LGPL)" released="2017-07-30" stability="stable" version="0.5">
-      <manifest-digest sha256new="PN4O6HVQQ4YV7SBXFOKGJ6T3BSCJ33VTWYZAXZKDO7LD36TCTUNQ"/>
-      <archive extract="0template-0.5" href="https://downloads.sourceforge.net/project/zero-install/0template/0.5/0template-0.5.tar.bz2" size="17556"/>
-    </implementation>
-    <implementation id="sha1new=03a80899236770b139c3c4be1d2255e4644a1a32" license="OSI Approved :: GNU Lesser General Public License (LGPL)" released="2018-11-17" stability="stable" version="0.6">
-      <manifest-digest sha256new="GHJMUQA4THAAAG62R4R55U2CLFGHNVIRH2TTBLKYH4SKBMZF7JPQ"/>
-      <archive extract="0template-0.6" href="https://downloads.sourceforge.net/project/zero-install/0template/0.6/0template-0.6.tar.bz2" size="17585"/>
-    </implementation>
-  </group>
-
-  <entry-point binary-name="0template" command="run"/>
+  <replaced-by interface="https://apps.0install.net/0install/0template.xml"/>
+  <feed src="https://apps.0install.net/0install/0template.xml"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl5IIDEACgkQBxM/lsp02Lrd5Qf/ezFo
-ycS0M7Ky35qyGF3T6b6KZefhnlFwc3IB61PYKb4kscFT1nDps1UHYCKNaCMXuOfJjkIBs4d/1UOe
-KeMwNcPeNeS1IjfxfjYSAOYZqN/txYZmFWbAi9nahr5rYzIGZ1BdfgVoqF8q35hR4x2LMhGNOeCu
-vEGnBIoQmO1x1p5T/o9x+ybIWfw/hrnWDMPaSXdtRr3Oy5hrHXpO0GAdy+67ZtqZFwtO56GZY9gh
-/es0FlIjkIi7mxsnej2Z+Q+4ScUxbcBaNK6Ar1UQf0MfisZGiF6edun68glNSpvyrYZb79hGntFO
-u2ZzHi00DjqFLRoBeVu7/5KEJN5kzQrt6w==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAmBXlj8ACgkQBxM/lsp02LqGagf+Idj4
+AVWVvw04yXvFeF26885y971+LbmY3EkW7CS4LUpgXADUgnmZcrASOPqpP21p2zxOVYJ0mQeoqwBG
+1NP/XLZrXFuua4YLZEHfGIsv+BOrpJy6inZo7zT+wRJzE0qZdchHOH7STzNJ8MDuYvCN3GU5d+OP
+sl+8v8bzYe0KLQfQKdUHca32rZ/puGqYe9uI0WlzTM05TiqYFbBJk0nARWtvaQjclUqOVNYz8Kz3
+3vInl6Ppt4u0d14iI00NEuEZ8BoATw+SL63AHrbfiUQhIN/IH+Rmccxmwg608NxdYHRUeWS2mphD
+7qmT3OhzdWsMYgINYDjhLM5djnWqlZhvDQ==
 
 -->

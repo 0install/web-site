@@ -32,13 +32,13 @@ still shared between users, and will get updates over the web where possible.</d
       <manifest-digest sha256="0fbac33455908b0b431b6895dba43dfc892b682004e24e67dd2c77e3f57e56cf"/>
       <archive extract="0export-0.1" href="http://downloads.sourceforge.net/project/zero-install/0export/0.1/0export-0.1.tar.bz2" size="20343"/>
     </implementation>
-    <requires interface="http://0install.net/2007/interfaces/ZeroInstall.xml">
+    <requires interface="https://apps.0install.net/0install/0install-python.xml">
       <version before="0.49" not-before="0.33"/>
       <environment insert="" mode="replace" name="0EXPORT_ZEROINSTALL"/>
     </requires>
   </group>
   <group>
-    <requires interface="http://0install.net/2007/interfaces/ZeroInstall.xml">
+    <requires interface="https://apps.0install.net/0install/0install-python.xml">
       <version before="0.52" not-before="0.49"/>
       <environment insert="" mode="replace" name="0EXPORT_ZEROINSTALL"/>
     </requires>
@@ -48,7 +48,7 @@ still shared between users, and will get updates over the web where possible.</d
     </implementation>
   </group>
   <group>
-    <requires interface="http://0install.net/2007/interfaces/ZeroInstall.xml">
+    <requires interface="https://apps.0install.net/0install/0install-python.xml">
       <version before="1.4" not-before="0.52"/>
       <environment insert="" mode="replace" name="0EXPORT_ZEROINSTALL"/>
     </requires>
@@ -58,7 +58,7 @@ still shared between users, and will get updates over the web where possible.</d
     </implementation>
   </group>
   <group>
-    <requires interface="http://0install.net/2007/interfaces/ZeroInstall.xml">
+    <requires interface="https://apps.0install.net/0install/0install-python.xml">
       <version before="1.13" not-before="1.8"/>
       <environment insert="" mode="replace" name="0EXPORT_ZEROINSTALL"/>
     </requires>
@@ -78,7 +78,7 @@ still shared between users, and will get updates over the web where possible.</d
     </implementation>
   </group>
   <group main="0export">
-    <requires interface="http://0install.net/2007/interfaces/ZeroInstall.xml">
+    <requires interface="https://apps.0install.net/0install/0install-python.xml">
       <version not-before="1.8"/>
       <environment insert="" mode="replace" name="0EXPORT_ZEROINSTALL"/>
     </requires>
@@ -100,11 +100,11 @@ still shared between users, and will get updates over the web where possible.</d
 
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4R8k0ACgkQBxM/lsp02Lpuwgf9GohH
-v/is86YkqTbb2nRN0m++WrA+ohtcyB3Z5uNZgHmh9/xhdYSlgl/uRNOc4crGCya2dXFXr1zA3vH+
-GxQCBqSStVMGboCVfKRYdQkH33fOHhbG686F4O8/dpmTwBDMKrHQZm7OqhoGsz/i47gBF+hXZgqB
-4kicFf5qRyoLLF452iK38gy3+MAwZgVsh52G/h/TSflpkRh7lGgvTWB7Eaaemmjm9hD033KP2WJi
-xbHsfTh25WZQhDHhhEb/h/QwAMbQ4J/LFVN7jiO42BlsmPX8Lwah4V0amUNWHuGv13XPomGZVmHW
-ZRzAKzL71oTFxjwfizecqCBJm+j5yE+y3w==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAmBXlj8ACgkQBxM/lsp02LryyQf9EJfC
+uipqjKrUVpiR7YZN7S1NizVuialwoHoFERI+GiUH4DQ8FIBcCn3eemuZZY4dnAmHEWAo7bIJdfdl
+4saIxoyXflqPR6KGvpVjlMFSwc/giF6FmT1fjxo6A12EpyPvgGVrqStGw51AQvwE/SnaD9+ARruV
+1IOdXAvVjOUhcnajsNlI+wkJm8fWMcEJkYVOgnh7FOGU9QZuuJhDbqCWNTIolh6sipxzfXr/fyLx
+1q/0XqzsQwTRP8M8zvKm6aAQp8IzdF1lYFK/ZSdnx90Wv9+/K+M9x/DAVZChdRNRYAu24vL5GU49
+pcK3/7czrW8IJBi+zz98s+I4ZyHGI01BrA==
 
 -->

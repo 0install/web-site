@@ -11,37 +11,15 @@
   <homepage>https://0install.net/</homepage>
   <category>System</category>
 
-  <group license="OSI Approved :: GNU Lesser General Public License (LGPL)">
-    <implementation id="sha1new=bb0491587ded1ab073834cd5783b332793f7cf7c" released="2012-09-22" stability="stable" version="1.12">
-      <manifest-digest sha256="81d551e211179d244364a87bafb708036e0028bf6716e2cc802c8e17a4aa9144"/>
-      <archive extract="0install-runenv-cli-1.12" href="http://downloads.sourceforge.net/project/zero-install/runenv-cli/1.12/0install-runenv-cli-1.12.tar.bz2" size="4837"/>
-    </implementation>
-    <implementation id="sha1new=b86cd8995adf636b5bc0c7bdae789f18db76d7df" released="2012-10-06" stability="stable" version="1.13">
-      <manifest-digest sha256="a702e205ed32c0a960b4ae4605eec42cfa818f489815cf340012cb5f47fb6441"/>
-      <archive extract="0install-runenv-cli-1.13" href="http://downloads.sourceforge.net/project/zero-install/runenv-cli/1.13/0install-runenv-cli-1.13.tar.bz2" size="5695"/>
-    </implementation>
-    <group>
-      <command name="compile" shell-command="mcs &quot;$SRCDIR/runenv.cli.cs&quot; -out:&quot;$DISTDIR/runenv.cli.template&quot;">
-      <compile:implementation arch="*-*"/>
-    </command>
-      <implementation arch="*-src" id="sha1new=80c76895c3ba81f6d94e78c936d2c5b8b4d3d96b" released="2013-03-18" stability="stable" version="2.0.2">
-      <manifest-digest sha256new="H3ARQQ3OW2K6YGBWVBG3X5R6DL6534ZQ6WYMRJZM4UIKHYH6XHSQ"/>
-      <archive extract="0install-runenv-cli-2.0.2" href="http://downloads.sourceforge.net/project/zero-install/runenv-cli/2.0.2/0install-runenv-cli-2.0.2.tar.bz2" size="3503"/>
-    </implementation>
-    </group>
-  </group>
-  <implementation id="sha1new=78f12032eb296233909aa5f6ec4aae8cbb9c121a" released="2013-03-18" stability="stable" version="2.0.2">
-      <manifest-digest sha256new="XMEYQHKYT7CNDYAWDQHGDIDJK2QORBV5KRFQX6BQ7RNXTANR6PGQ"/>
-      <archive extract="0install-runenv-cli-bin-2.0.2" href="http://downloads.sourceforge.net/project/zero-install/runenv-cli/2.0.2/0install-runenv-cli-bin-2.0.2.tar.bz2" size="3554"/>
-    </implementation>
-
+  <replaced-by interface="https://apps.0install.net/0install/0install-runenv-cli.xml"/>
+  <feed src="https://apps.0install.net/0install/0install-runenv-cli.xml"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl3GnWAACgkQBxM/lsp02LoSCwf9EDOz
-S+yeuuQJWVgFUGqhYtjrOSs/SRmN8yYLuhMr2dwph119A69XHEX24gFnzaV58NAk89R4wypIr1JE
-ejJmMfBY1eCB70dBtGYNydcmkD3RkNHBluwJtXGFzhzYERbgSJoKHtjPjBt19Zcb5KE0i5zFEgdt
-cG7xrvuxHnF8hbJxBA6y7qFoo+8Giq0WY1FOtUuGqVl2P5drcgXHKtyc3tSfX7Urdm6xR7fdzzLu
-TOYYWZceZ1AZ4DlpLz2vBYDa9gHenY6y01apcILvpwW+9MVWVndorMhoTdHyoe0vTGKm/hZCeT4G
-PKELNsj152XDqg6hadE6ypvRVYCaV3SsqQ==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAmBXlj4ACgkQBxM/lsp02Lp6Wwf/UMVN
+3iSoaM2OEqyUvkZDLT8Jv5jT5+vI3vC1LlpZPrGdx9r1n0e34hcGbc8PIbi1rQXsw5qQBwLioTNU
+MvDHmfnujquHZYHuRk0kfoJYq/TJweRJ3x8MH3vr7ObJGkLqk+519eYPu/VUrzTdcyq2Dl136xST
+kJFPb2GLwvQ8Vq0roZ4lXfIx8UeVCjVeKObcMWSSOBZYdLWmku05y+fUC7tUutwMKjRShq2eIlnm
+HABkM35W3uBu7/F03riFfLbFMYTH96I7eLluY9j7n56p1aZhV4JUatJ7X6bKh5zugqDYwazJUHCc
+pdxHz5YzueMgGoC6mO95AmEpaEc8v2cpBw==
 
 -->

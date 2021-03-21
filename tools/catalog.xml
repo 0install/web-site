@@ -14,30 +14,13 @@ program.
 
 Unlike the bundles created by the related zero2bundle program, programs
 installed using setup.sh are added to the Zero Install cache and are therefore
-still shared between users, and will get updates over the web where possible.</description><homepage>https://docs.0install.net/tools/0export/</homepage><category>Development</category><needs-terminal/></interface><interface uri="http://0install.net/tools/0install.xml"><name>0install</name><summary>decentralised installation system</summary><description>
-Zero Install is a decentralised cross-platform software installation
-system available under the LGPL. It allows software developers to publish
-programs directly from their own web-sites, while supporting features familiar
-from centralised distribution repositories such as shared libraries, automatic
-updates and digital signatures. It is intended to complement, rather than
-replace, the operating system's package management. 0install packages never
-interfere with those provided by the distribution.
-</description><homepage>https://0install.net/</homepage><icon href="https://0install.net/feed_icons/ZeroInstall.png" type="image/png"/><category>System</category></interface><interface uri="http://0install.net/tools/0repo.xml"><name>0repo</name><summary>manage a repository of 0install feeds</summary><description>
-    0repo allows a group of developers to publish a set of feeds. It can be
-    used by a single developer, generating a set of static files to publish on
-    a web-server, or as a service which accepts signed updates from a group
-    of developers.
-  </description><homepage>https://docs.0install.net/tools/0repo/</homepage><needs-terminal/></interface><interface uri="http://0install.net/tools/0template.xml"><name>0template</name><summary>utility to make creating feeds easier</summary><description>
-    0template takes a template XML file (e.g. with place-holders for the version),
-    fills in the place-holders, and then fills in everything else it can. For example,
-    it will download the archive, fill in the size, calculate the digests, etc.
-  </description><homepage>https://docs.0install.net/tools/0template/</homepage><needs-terminal/><entry-point binary-name="0template" command="run"/></interface></c:catalog>
+still shared between users, and will get updates over the web where possible.</description><homepage>https://docs.0install.net/tools/0export/</homepage><category>Development</category><needs-terminal/></interface></c:catalog>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl/68h0ACgkQBxM/lsp02LptTwf7BjZD
-Hs1BShNNDzAOgUG0c+4kpMAhabzvcpp87+m7dX+80ce5wpP1aPceh5fY0VTxjwtZ2mhOnZdsSdtg
-WBL9BeE5wlyj/554YTOa9xFw4kV5QnEbd2kIVDlmacRUaGk0/U4PVbQ0YiH88AH+oDeXJbT21p3S
-gByUA1PiMwkI+msR3l4k5/Zw6ZKfa05xlq4a/vckpeZixGgHCDvt65YkDuo1s7WggA1kxFAXyfxS
-KTEnA594g/t+L7gQCp6iz4jAysfMj5tXMjaoQFByLdn9lHIlNPUCUOBItXKAyOZUJpG9N8BC/co+
-loru/M7Lp6EyRwNsGuyzAwA6QOQUgMoUUA==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAmBXlj8ACgkQBxM/lsp02Lo0rggAgQuM
+k1uarsvyv+g5eOxMkw5br82/cl6bTRwK9+j5Cf3JdkalATANFhKilcvjFE5Ce7sloj5ysIOiT7EL
+KtOZKsAYuM7Ox7aq9/EoOdN5bV33Jxn75mLVqD/fRVgIUbGR+k63uiAW9CAcuwQzZf6U3HZkWDbV
+v7SIkdytX8BLazq2VMQFNbh9zWxP5cEvpgeNVXDU+xH45YEs3bidJWkMBus7z6Epejob741jmYxn
+kwVYk0vIbXKYUtsjEFQNqNr9Oiq1pUb/HA7t5bR+3pVu3FpHW3VsBE0Mx/VfKFJQKh82tdOY9kpY
+5DEv8sPhlZ5fE0B/FbSCv+YFJAPGGW1YxA==
 
 -->

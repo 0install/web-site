@@ -1,27 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type='text/xsl' href='../../resources/catalog.xsl'?>
-<c:catalog xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:c="http://0install.de/schema/injector/catalog"><interface uri="http://0install.net/2007/interfaces/ZeroInstall.xml"><name>0install</name><summary>decentralised installation system</summary><description>
-Zero Install is a decentralised cross-platform software installation
-system available under the LGPL. It allows software developers to publish
-programs directly from their own web-sites, while supporting features familiar
-from centralised distribution repositories such as shared libraries, automatic
-updates and digital signatures. It is intended to complement, rather than
-replace, the operating system's package management. 0install packages never
-interfere with those provided by the distribution.
-  </description><homepage>https://0install.net/</homepage><icon href="https://0install.net/feed_icons/ZeroInstall.png" type="image/png"/><category>System</category></interface><interface uri="http://0install.net/2007/interfaces/0publish-gui.xml"><name>0publish-gui</name><summary>GTK editor for Zero Install feeds</summary><description>
-Publishing a program using Zero Install requires you to create an XML file
-listing the available versions, where to get them, and what other software they
-depend on.
-
-This program provides a simple graphical interface for creating and editing
-these feeds.</description><homepage>https://docs.0install.net/packaging/</homepage><icon href="https://0install.net/feed_icons/0publish-gui.png" type="image/png"/><category>Development</category></interface><interface uri="http://0install.net/2007/interfaces/0release.xml"><name>0release</name><summary>manage new releases with Zero Install</summary><description>
-If you have a local feed in the development version of your program, 0release
-can help you to create new releases easily.</description><homepage>https://docs.0install.net/tools/0release/</homepage><category>Development</category><needs-terminal/></interface><interface uri="http://0install.net/2007/interfaces/FeedLint.xml"><name>FeedLint</name><summary>check your Zero Install feeds</summary><description>
-FeedLint is a tool for Zero Install feed authors. It checks that your Zero
-Install feed can be downloaded, that it is valid and that all the links in it
-still work.
-
-Run this on all your feeds from time-to-time to make sure they still work.</description><homepage>https://docs.0install.net/tools/feedlint/</homepage><category>Development</category><needs-terminal/></interface><interface uri="http://0install.net/2007/interfaces/Make-headers.xml"><name>Make-headers</name><summary>creates -dev packages</summary><description>
+<c:catalog xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:c="http://0install.de/schema/injector/catalog"><interface uri="http://0install.net/2007/interfaces/Make-headers.xml"><name>Make-headers</name><summary>creates -dev packages</summary><description>
 Given a standard autoconf source package (in $SRCDIR), this script builds it
 (configure --prefix=$DISTDIR &amp;&amp; make install) and then removes files which
 shouldn't be in a -dev package (.so and .la files, etc).
@@ -42,11 +21,11 @@ This program is run automatically by the '0launch' command. If you want to add
 an installer to your desktop menus, you want something like Zero2Desktop
 instead.</description><homepage>https://0install.net/</homepage></interface></c:catalog>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl/68h0ACgkQBxM/lsp02Lp+CQf/ZOkE
-/flWZlHIoa33rDH1gzcW6CbJStg00RzNeOEIq2b13R0Id+gYTVAk9PdF8XfY4a7bvRSqriqHKoBr
-47YwxjmD5fTswVHvA18ZAEbfqT7Z+QbgY3RuFxA6HTWLN0ZP2ntGz37wxO5rrk/o+2+F5WnhyFj9
-hkuWAZvL3FurozROoBbxaNJEFSwPuPrRWKlc3oqalYDFw8fKQtaUIRogbciBRUMthIoV8qUa0v73
-TVy93vRj5qT6nL3Punq7ASar8Jvtufk94qFzEjRZ/x525dh6th7mjq0xnnnqa4FQP8DzFk4UgakV
-nQ7B8JivrClfaLwJD9VpGr6ndgRIG/7NUQ==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAmBXlj8ACgkQBxM/lsp02Lp4Ogf/YNV8
+zOBr5YKtchNr1kwBStWCGSVO8Bd1dwudc/ejjwbXwcQDpjBlOD86oJgV7xyAkZTKWI8SwtUDb1Z3
+vFtQevq/KMJc9GgUpD18YwbTtNUJiygoo7hoTNLiKSKrJexbNqKA4ZjDvI1+BtWXJrYek+ocCCSO
+pN9vj5PQnoH9YeeoSMSoBmQhjXrsvL+n6fS3805fMylBU3P5Vpr7mAyhv5b0TlEpyMbSh89vV7Zb
+G9gVx9aW9bEmtV4VO555KByHcr8vLOHgsJ9u82HQduFWJ5O2A9pEaVV8A1ziTwK1Pfk/kHAK2jFF
+qIQiW5ZS5dUT/cg7MKUx+mKw123ti1LP3Q==
 
 -->

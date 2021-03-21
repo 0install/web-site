@@ -31,7 +31,7 @@ Zero Install.</description>
     <requires interface="http://repo.roscidus.com/e/e-swt">
       <environment insert="rune" name="EBOX_RUNE"/>
     </requires>
-    <requires interface="http://0install.net/2007/interfaces/ZeroInstall.xml">
+    <requires interface="https://apps.0install.net/0install/0install-python.xml">
       <version before="0.51"/>
       <environment insert="." name="PYTHONPATH"/>
     </requires>
@@ -47,7 +47,7 @@ Zero Install.</description>
     <requires interface="http://repo.roscidus.com/e/e-swt">
       <environment insert="rune" name="EBOX_RUNE"/>
     </requires>
-    <requires interface="http://0install.net/2007/interfaces/ZeroInstall.xml">
+    <requires interface="https://apps.0install.net/0install/0install-python.xml">
       <version not-before="1"/>
       <environment insert="" mode="replace" name="EBOX_ZEROINSTALL"/>
     </requires>
@@ -57,11 +57,11 @@ Zero Install.</description>
 
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAl4R8kwACgkQBxM/lsp02LphBgf/U5y+
-2pwY3JNB7hKzBnt29NfPL8cHjnY1sV1az/yp6IOQyGU0UJGHNadQ3IFjuEgTBVUE6AgKnlbPYg60
-PROSaGCPVufptRJCU9zoKufW/ZtuGtZTmCVB36Hc/PI56vDDeroKPHeuDeL61JBr3yimA7GrPBzg
-TG/1iaOHHMNA+YZbtFQp4FLaiSVa8wN6F/mOFIPjFrO8INO6qirfWAOusVYYBCSF5K4ys6GgYn/4
-yTJRnQuWcbvww9vbGQPlXuYKnemnKSBbx6cHsPRnAdSQnqf3JkLekQdOnc7W8ToUr1B4VMGv6/3a
-1DMG4YI8YllOIvzuHTK0W0DfeLbVkLelDA==
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAmBXlj4ACgkQBxM/lsp02LoRjggAovPU
+YeLXrE0xZcdRBFTY6Rro+vabQHDtKCqLk/wRArwp1AvYOB9DFzyzuBumJIdb/q0kYJyS1Bfh7/1E
+7wKgcI6fWaYVx0QQAIgtkaP+y6wnItAA5ZsBo68AEhtLk3HhSzSNrHf0gXo/I23Bt0vmDTI5Kc2K
+epubCC8j1nP6K8SGv4R6GfhIT85YOdFcwpEkJc+cqMv0q5tqYLO4Zx86PpH/gyiNMwC8bmQT4LXh
+iz1s452myDQ4jC6EnvwD7wst+Q8dr2diLFi4eDViYxFwelLnfT2tpET00322fpc/GsgiKD0GvtwS
+tHJOMALzX9vATlF/BAFHStC1k2pwuKk3CQ==
 
 -->
