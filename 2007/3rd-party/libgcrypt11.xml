@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
-<interface uri="http://0install.net/2007/3rd-party/libgcrypt11.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+<interface xmlns="http://zero-install.sourceforge.net/2004/injector/interface" uri="http://0install.net/2007/3rd-party/libgcrypt11.xml">
   <name>libgcrypt11</name>
   <summary>LGPL Crypto library - runtime library</summary>
   <description>libgcrypt contains cryptographic functions. Many important free
@@ -13,21 +13,17 @@ RMD160, RSA, SEED, SHA1, SHA-384, SHA-512, twofish, tiger.</description>
     <requires interface="http://0install.net/2007/3rd-party/libgpg-error0.xml">
       <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
     </requires>
-    <implementation id="sha1new=feab6d80bacee7c5bf025db890e7f4c8e47667aa" released="2009-09-25" stability="stable" version="1.4.1-1">
-      <archive href="http://ftp.debian.org/debian/pool/main/libg/libgcrypt11/libgcrypt11_1.4.1-1_i386.deb" size="241564"/>
-    </implementation>
-    <implementation arch="Linux-x86_64" id="sha1new=ae98f7c52e0626bf0ee5de289dcdcffaaaff7aa3" released="2009-09-25" stability="stable" version="1.4.1-1">
-      <archive href="http://ftp.debian.org/debian/pool/main/libg/libgcrypt11/libgcrypt11_1.4.1-1_amd64.deb" size="244792"/>
-    </implementation>
+    <implementation id="sha1new=feab6d80bacee7c5bf025db890e7f4c8e47667aa" released="2009-09-25" stability="stable" version="1.4.1-1"/>
+    <implementation arch="Linux-x86_64" id="sha1new=ae98f7c52e0626bf0ee5de289dcdcffaaaff7aa3" released="2009-09-25" stability="stable" version="1.4.1-1"/>
   </group>
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJRkLPIAAoJEAcTP5bKdNi6iLIIAIG/cGfZsq8Qr5k5j+A+PxvOHHTiZYI8soYd
-umm5O0T9hZeRBVn3PTEjdPF38pn2A+60w8v0AUZTjHWF/M81kmCLHZQV9b12/6IsZt/8qzgPFgPb
-/51C+Lm5DTjKWueoPTaSBEdujwUX9S4ZQhRTKuyWr/Cmj2CrKEB0LSs/S4LUyub3l2tjLhBhmPyN
-s5U236+aJ5DZjLdAAbRlHE039igg5XTdEqiWmdachjZgSLJKTk7WLpviaAv0cmK4mabF2TpUfaOe
-RJfBjQqNVVO4+hYehh1fHEW5Dg4OdqjJSsggufKPb8x+CWY6njGOwOmU7kV0fadCRzEOJfOXZgNL
-DlY=
+iQEzBAABCgAdFiEE2pglrsrQiXV82r2OBxM/lsp02LoFAmH/rAQACgkQBxM/lsp02LrZzwgAo/Pm
+U308/rgHy07O1jlpWzaRTkL2pLPHl0Q7ZZwDumm4FVRPPSuG3i47beqV4QtsyQKgB14BNg6JwKFl
+QVAk135WVSHF68Ff6++buG5B14xOUoAsoGYBYVAHg45EphwboVDn9BSUaf+RdeHtxIyWw3TirwzY
+tx8PObJWJUX8WME9048QSnCCNheZlLW4kPZuOUQfXx5fAdBY7UsTDnm3vsIvVb4tIOn6/9Sp/43H
+7vfbUlmsaIit3WyQQXE4Bb9g85smReLLMKOCGib3E+9XPI+hyljMRG2AEcAClt3MlF7epETJ+Lqy
+dpWvIdjf+mf6X60NWUp7jE4vGibU6lCw3g==
 
 -->
