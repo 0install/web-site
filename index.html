@@ -3,15 +3,16 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
   <meta name="description" content="A decentralised cross-platform software installation system.">
   <title>Zero Install</title>
   <link rel="canonical" href="https://0install.net/" />
   <link rel="icon" href="logo/favicon.ico" type="image/vnd.microsoft.icon" />
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/fontawesome.min.css">
-  <script src="js/jquery.slim.min.js"></script>
-  <script src="js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="css/site.css">
+  <script src="js/site.js"></script>
   <script>
     if (location.protocol === 'http:') {
       location.replace(`https:${location.href.substring(location.protocol.length)}`);
@@ -21,121 +22,105 @@
 
 <body>
   <div class="container">
-    <nav class="navbar navbar-expand my-3">
-      <div class="media">
-        <a href="https://0install.net/"><img class="mr-2" src="logo/zeroinstall-icon.png" width="64" height="64" alt="Zero Install Logo"></a>
-        <a class="navbar-brand text-dark media-body align-self-center" href="https://0install.net/">Zero Install</a>
-      </div>
-      <div class="nav nav-pills">
-        <a class="nav-item nav-link" href="https://get.0install.net/">Get</a>
-        <a class="nav-item nav-link" href="https://apps.0install.net/">Apps</a>
-        <a class="nav-item nav-link" href="https://0install.net/support.html">Support</a>
-        <a class="nav-item nav-link" href="https://docs.0install.net/">Docs</a>
-      </div>
-      <div class="nav ml-auto d-none d-md-block">
-        <a class="nav-item nav-link" href="https://github.com/0install"><i class="fab fa-github"></i> GitHub</a>
-      </div>
-    </nav>
+    <header class="site-header d-flex flex-wrap align-items-center gap-3">
+      <a class="site-brand d-flex align-items-center gap-2 text-decoration-none" href="https://0install.net/">
+        <img src="logo/zeroinstall-icon.png" width="40" height="40" alt="Zero Install Logo">
+        Zero Install
+      </a>
+      <nav class="nav site-nav">
+        <a class="nav-link" href="https://get.0install.net/">Get</a>
+        <a class="nav-link" href="https://apps.0install.net/">Apps</a>
+        <a class="nav-link" href="https://0install.net/support.html">Support</a>
+        <a class="nav-link" href="https://docs.0install.net/">Docs</a>
+      </nav>
+      <nav class="nav site-nav ms-auto d-none d-md-flex">
+        <a class="nav-link" href="https://github.com/0install"><i class="fab fa-github"></i> GitHub</a>
+      </nav>
+    </header>
 
     <main>
-      <div class="jumbotron">
-        <p class="h2">A decentralised cross-platform software installation system.</p>
-        <p class="lead">Works on Linux, Windows and macOS. Fully open source.</p>
-        <p class="lead">
-          <a class="btn btn-lg btn-primary mr-1 mb-1" href="https://get.0install.net/">Get Zero Install</a>
-          <a class="btn btn-lg btn-outline-primary mr-1 mb-1" href="https://docs.0install.net/"><i class="fas fa-file-alt"></i> Read the docs</a>
+      <section class="hero">
+        <h1>A decentralised cross-platform software installation system.</h1>
+        <p class="lead text-body-secondary">Works on Linux, Windows and macOS. Fully open source.</p>
+        <p class="d-flex justify-content-center gap-2 flex-wrap mb-0">
+          <a class="btn btn-primary btn-lg" href="https://get.0install.net/"><i class="fa-solid fa-download"></i> Get Zero Install</a>
+          <a class="btn btn-outline-secondary btn-lg" href="https://docs.0install.net/"><i class="fas fa-file-alt"></i> Read the docs</a>
         </p>
-      </div>
-      <div class="row">
-        <div class="col-lg pb-3">
-          <div class="card">
+      </section>
+
+      <div class="row row-cols-1 row-cols-lg-2 g-3">
+        <div class="col">
+          <div class="card feature-card h-100">
             <div class="card-body">
-              <h5><i class="fas fa-mouse"></i> Run apps with a single click</h5>
-              Run applications without having to install them first.<br>
-              Control everything from a command-line or graphical interface.
+              <div class="feature-icon"><i class="fas fa-mouse"></i></div>
+              <h2 class="h5">Run apps with a single click</h2>
+              <p class="mb-0 text-body-secondary">Run applications without having to install them first. Control everything from a command-line or graphical interface.</p>
             </div>
           </div>
         </div>
-        <div class="col-lg pb-3">
-          <div class="card">
+        <div class="col">
+          <div class="card feature-card h-100">
             <div class="card-body">
-              <h5><i class="fas fa-user"></i> You control your own computer</h5>
-              You don't have to guess what happens during installation.<br>
-              Mix and match stable and experimental apps on a single system.
+              <div class="feature-icon"><i class="fas fa-user"></i></div>
+              <h2 class="h5">You control your own computer</h2>
+              <p class="mb-0 text-body-secondary">You don't have to guess what happens during installation. Mix and match stable and experimental apps on a single system.</p>
             </div>
           </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-lg pb-3">
-          <div class="card">
+        <div class="col">
+          <div class="card feature-card h-100">
             <div class="card-body">
-              <h5><i class="fas fa-cubes"></i> Anyone can distribute software</h5>
-              Create one package that works on multiple platforms.<br>
-              Publish on any static web host; no central point of control.<br>
-              With dependency handling and automatic updates.
+              <div class="feature-icon"><i class="fas fa-cubes"></i></div>
+              <h2 class="h5">Anyone can distribute software</h2>
+              <p class="mb-0 text-body-secondary">Create one package that works on multiple platforms. Publish on any static web host; no central point of control. With dependency handling and automatic updates.</p>
             </div>
           </div>
         </div>
-        <div class="col-lg pb-3">
-          <div class="card">
+        <div class="col">
+          <div class="card feature-card h-100">
             <div class="card-body">
-              <h5><i class="fas fa-shield-alt"></i> Security is central</h5>
-              Installing an app doesn't grant it administrator access.<br>
-              Digital signatures are always checked before new software is run.<br>
-              Apps can share libraries without having to trust each other.
+              <div class="feature-icon"><i class="fas fa-shield-alt"></i></div>
+              <h2 class="h5">Security is central</h2>
+              <p class="mb-0 text-body-secondary">Installing an app doesn't grant it administrator access. Digital signatures are always checked before new software is run. Apps can share libraries without having to trust each other.</p>
             </div>
           </div>
         </div>
       </div>
 
-      <section class="accordion" id="news">
-        <div class="card">
-          <div class="card-header">
-            <h5 class="mb-0">News</h5>
-          </div>
-          <dl class="card-body">
-            <dt>May 2026</dt>
-            <dd><a href="https://github.com/0install/0install-win/releases/tag/2.29.0">Zero Install for Windows 2.29.0</a> released. Replaced fallback to external solver with built-in SAT solver, added support for <code>arm64ec</code>.<br>
-            <a href="https://github.com/0install/0install-win/releases/tag/2.28.7">Zero Install for Windows 2.28.7</a> released. Fixed <code>http_proxy</code> support, improved translations.</dd>
-            <dt>Feb 2026</dt>
-            <dd>Zero Install for Windows <a href="https://github.com/0install/0install-win/releases/tag/2.28.3">2.28.3</a> and <a href="https://github.com/0install/0install-win/releases/tag/2.28.4">2.28.4</a> released. Added support for <code>source</code> parameter in <code>&lt;copy-from&gt;</code>.</dd>
-            <dt>Jan 2026</dt>
-            <dd><a href="https://github.com/0install/0install-win/releases/tag/2.28.2">Zero Install for Windows 2.28.2</a> released. Raised minimum .NET Framework version to 4.8.</dd>
-            <dt>Dec 2025</dt>
-            <dd><a href="https://github.com/0install/0install-win/releases/tag/2.28.1">Zero Install for Windows 2.28.1</a> released. Improved handling of store audits and desktop integration notifications.</dd>
-            <dt>Sep 2025</dt>
-            <dd><a href="https://github.com/0install/0install-win/releases/tag/2.28.0">Zero Install for Windows 2.28.0</a> released. Added <code>--pin</code> and <code>--unpin</code> options.</dd>
-            <dt>Aug 2025</dt>
-            <dd>Zero Install for Windows <a href="https://github.com/0install/0install-win/releases/tag/2.27.5">2.27.5</a>, <a href="https://github.com/0install/0install-win/releases/tag/2.27.7">2.27.7</a> and <a href="https://github.com/0install/0install-win/releases/tag/2.27.8">2.27.8</a> released. Bootstrapper improvements and bugfixes.</dd>
-            <dt>Jul 2025</dt>
-            <dd>Zero Install for Windows <a href="https://github.com/0install/0install-win/releases/tag/2.27.0">2.27.0</a> through <a href="https://github.com/0install/0install-win/releases/tag/2.27.4">2.27.4</a> released. Added browser <code>&lt;native-messaging&gt;</code> capability.</dd>
-            <dt>Jun 2025</dt>
-            <dd><a href="https://github.com/0install/0install-win/releases/tag/2.26.7">Zero Install for Windows 2.26.7</a> released. Support for bundling custom stub EXEs in Bootstrapper.</dd>
-            <dt>May 2025</dt>
-            <dd><a href="https://github.com/0install/0install-win/releases/tag/2.26.6">Zero Install for Windows 2.26.6</a> released. GUI aliases for <code>0install store list</code> and <code>0install catalog list</code>.</dd>
-            <dt>Mar 2025</dt>
-            <dd><a href="https://github.com/0install/0install-win/releases/tag/2.26.5">Zero Install for Windows 2.26.5</a> released. Improved error handling.</dd>
-            <dt>Jan 2025</dt>
-            <dd><a href="https://github.com/0install/0install-win/releases/tag/2.26.3">Zero Install for Windows 2.26.3</a> released. Improved error handling.</dd>
-        </div>
-        <div class="card" id="news-archive">
-          <div class="card-header">
-            <button class="btn w-100 text-left collapsed" type="button" data-toggle="collapse" data-target="#news-archive-expanded" aria-expanded="false" aria-controls="news-archive-expanded">Archive <i class="fas fa-chevron-down float-right"></i></button>
-          </div>
-          <div class="card-body collapse" id="news-archive-expanded" data-parent="#news-archive">
-            <iframe src="news-archive.html" loading="lazy" style="border: none; width: 100%; height: 20em;"></iframe>
-          </div>
-        </div>
+      <section class="mt-5" id="news">
+        <h2 class="h4 mb-3">News</h2>
+        <dl class="news-list">
+          <dt>May 2026</dt>
+          <dd><a href="https://github.com/0install/0install-win/releases/tag/2.29.0">Zero Install for Windows 2.29.0</a> released. Replaced fallback to external solver with built-in SAT solver, added support for <code>arm64ec</code>.<br>
+          <a href="https://github.com/0install/0install-win/releases/tag/2.28.7">Zero Install for Windows 2.28.7</a> released. Fixed <code>http_proxy</code> support, improved translations.</dd>
+          <dt>Feb 2026</dt>
+          <dd>Zero Install for Windows <a href="https://github.com/0install/0install-win/releases/tag/2.28.3">2.28.3</a> and <a href="https://github.com/0install/0install-win/releases/tag/2.28.4">2.28.4</a> released. Added support for <code>source</code> parameter in <code>&lt;copy-from&gt;</code>.</dd>
+          <dt>Jan 2026</dt>
+          <dd><a href="https://github.com/0install/0install-win/releases/tag/2.28.2">Zero Install for Windows 2.28.2</a> released. Raised minimum .NET Framework version to 4.8.</dd>
+          <dt>Dec 2025</dt>
+          <dd><a href="https://github.com/0install/0install-win/releases/tag/2.28.1">Zero Install for Windows 2.28.1</a> released. Improved handling of store audits and desktop integration notifications.</dd>
+          <dt>Sep 2025</dt>
+          <dd><a href="https://github.com/0install/0install-win/releases/tag/2.28.0">Zero Install for Windows 2.28.0</a> released. Added <code>--pin</code> and <code>--unpin</code> options.</dd>
+          <dt>Aug 2025</dt>
+          <dd>Zero Install for Windows <a href="https://github.com/0install/0install-win/releases/tag/2.27.5">2.27.5</a>, <a href="https://github.com/0install/0install-win/releases/tag/2.27.7">2.27.7</a> and <a href="https://github.com/0install/0install-win/releases/tag/2.27.8">2.27.8</a> released. Bootstrapper improvements and bugfixes.</dd>
+          <dt>Jul 2025</dt>
+          <dd>Zero Install for Windows <a href="https://github.com/0install/0install-win/releases/tag/2.27.0">2.27.0</a> through <a href="https://github.com/0install/0install-win/releases/tag/2.27.4">2.27.4</a> released. Added browser <code>&lt;native-messaging&gt;</code> capability.</dd>
+          <dt>Jun 2025</dt>
+          <dd><a href="https://github.com/0install/0install-win/releases/tag/2.26.7">Zero Install for Windows 2.26.7</a> released. Support for bundling custom stub EXEs in Bootstrapper.</dd>
+          <dt>May 2025</dt>
+          <dd><a href="https://github.com/0install/0install-win/releases/tag/2.26.6">Zero Install for Windows 2.26.6</a> released. GUI aliases for <code>0install store list</code> and <code>0install catalog list</code>.</dd>
+          <dt>Mar 2025</dt>
+          <dd><a href="https://github.com/0install/0install-win/releases/tag/2.26.5">Zero Install for Windows 2.26.5</a> released. Improved error handling.</dd>
+          <dt>Jan 2025</dt>
+          <dd><a href="https://github.com/0install/0install-win/releases/tag/2.26.3">Zero Install for Windows 2.26.3</a> released. Improved error handling.</dd>
+        </dl>
+        <p class="mt-3 mb-0"><a href="news-archive.html">News archive <i class="fas fa-arrow-right fa-xs"></i></a></p>
       </section>
     </main>
 
-    <footer>
-      <hr>
-      <small class="text-muted">
-        © Copyright 2003-2024 Thomas Leonard, Bastian Eicher and others<br>
-        Permission is granted to use the site (excluding the software, which is licensed separately) in accordance with the terms of the <a href="https://creativecommons.org/licenses/by-sa/2.5/">Creative Commons Attribution-ShareAlike 2.5 license</a>.
-      </small>
+    <footer class="site-footer">
+      © Copyright 2003-2026 Thomas Leonard, Bastian Eicher and others<br>
+      Permission is granted to use the site (excluding the software, which is licensed separately) in accordance with the terms of the <a href="https://creativecommons.org/licenses/by-sa/2.5/">Creative Commons Attribution-ShareAlike 2.5 license</a>.
     </footer>
   </div>
 </body>
