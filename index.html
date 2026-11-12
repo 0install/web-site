@@ -126,22 +126,37 @@
                   <th scope="col"></th>
                   <th scope="col">Zero Install</th>
                   <th scope="col">APT / DNF</th>
+                  <th scope="col">Flatpak</th>
                   <th scope="col">winget</th>
+                  <th scope="col">Scoop</th>
                   <th scope="col">Homebrew</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
+                  <th scope="row">Run apps without installing them</th>
+                  <td><i class="fas fa-check-double text-success" title="Yes"></i><span class="visually-hidden">Yes</span></td>
+                  <td><i class="fas fa-times text-danger" title="No"></i><span class="visually-hidden">No</span></td>
+                  <td><i class="fas fa-times text-danger" title="No"></i><span class="visually-hidden">No</span></td>
+                  <td><i class="fas fa-times text-danger" title="No"></i><span class="visually-hidden">No</span></td>
+                  <td><i class="fas fa-times text-danger" title="No"></i><span class="visually-hidden">No</span></td>
+                  <td><i class="fas fa-times text-danger" title="No"></i><span class="visually-hidden">No</span></td>
+                </tr>
+                <tr>
                   <th scope="row">Non-admins can install software</th>
                   <td><i class="fas fa-check-double text-success" title="Yes"></i><span class="visually-hidden">Yes</span></td>
                   <td><i class="fas fa-times text-danger" title="No"></i><span class="visually-hidden">No</span></td>
+                  <td><i class="fas fa-check-double text-success" title="Yes"></i><span class="visually-hidden">Yes</span></td>
                   <td><i class="fas fa-check partly" title="Partly"></i> Some</td>
+                  <td><i class="fas fa-check-double text-success" title="Yes"></i><span class="visually-hidden">Yes</span></td>
                   <td><i class="fas fa-check-double text-success" title="Yes"></i><span class="visually-hidden">Yes</span></td>
                 </tr>
                 <tr>
                   <th scope="row">Supports multiple platforms</th>
                   <td><i class="fas fa-check-double text-success" title="Yes"></i><span class="visually-hidden">Yes</span></td>
                   <td><i class="fas fa-times text-danger" title="No"></i> Linux</td>
+                  <td><i class="fas fa-times text-danger" title="No"></i> Linux</td>
+                  <td><i class="fas fa-times text-danger" title="No"></i> Windows</td>
                   <td><i class="fas fa-times text-danger" title="No"></i> Windows</td>
                   <td><i class="fas fa-check partly" title="Partly"></i> macOS and Linux</td>
                 </tr>
@@ -149,20 +164,26 @@
                   <th scope="row">Multiple versions coexist</th>
                   <td><i class="fas fa-check-double text-success" title="Yes"></i><span class="visually-hidden">Yes</span></td>
                   <td><i class="fas fa-times text-danger" title="No"></i><span class="visually-hidden">No</span></td>
+                  <td><i class="fas fa-check partly" title="Partly"></i> Runtimes</td>
                   <td><i class="fas fa-times text-danger" title="No"></i><span class="visually-hidden">No</span></td>
+                  <td><i class="fas fa-check partly" title="Partly"></i> Switchable</td>
                   <td><i class="fas fa-check partly" title="Partly"></i> Some</td>
                 </tr>
                 <tr>
                   <th scope="row">Decentralized</th>
                   <td><i class="fas fa-check-double text-success" title="Yes"></i><span class="visually-hidden">Yes</span></td>
-                  <td><i class="fas fa-times text-danger" title="No"></i><span class="visually-hidden">No</span></td>
+                  <td><i class="fas fa-check partly" title="Partly"></i> Extra repos</td>
+                  <td><i class="fas fa-check-double text-success" title="Yes"></i> Remotes</td>
                   <td><i class="fas fa-check partly" title="Partly"></i> Extra sources</td>
+                  <td><i class="fas fa-check-double text-success" title="Yes"></i> Buckets</td>
                   <td><i class="fas fa-check-double text-success" title="Yes"></i> Taps</td>
                 </tr>
                 <tr>
                   <th scope="row">Digital signatures</th>
                   <td><i class="fas fa-check-double text-success" title="Yes"></i><span class="visually-hidden">Yes</span></td>
                   <td><i class="fas fa-check-double text-success" title="Yes"></i><span class="visually-hidden">Yes</span></td>
+                  <td><i class="fas fa-check-double text-success" title="Yes"></i><span class="visually-hidden">Yes</span></td>
+                  <td><i class="fas fa-check partly" title="Partly"></i> Hashes</td>
                   <td><i class="fas fa-check partly" title="Partly"></i> Hashes</td>
                   <td><i class="fas fa-check partly" title="Partly"></i> Hashes</td>
                 </tr>
@@ -170,13 +191,15 @@
                   <th scope="row">Can install systems software</th>
                   <td><i class="fas fa-times text-danger" title="No"></i><span class="visually-hidden">No</span></td>
                   <td><i class="fas fa-check-double text-success" title="Yes"></i><span class="visually-hidden">Yes</span></td>
+                  <td><i class="fas fa-times text-danger" title="No"></i><span class="visually-hidden">No</span></td>
                   <td><i class="fas fa-check-double text-success" title="Yes"></i><span class="visually-hidden">Yes</span></td>
+                  <td><i class="fas fa-times text-danger" title="No"></i><span class="visually-hidden">No</span></td>
                   <td><i class="fas fa-times text-danger" title="No"></i><span class="visually-hidden">No</span></td>
                 </tr>
               </tbody>
             </table>
           </div>
-          <div class="card-footer small text-end"><a href="https://docs.0install.net/about/comparison/">Full comparison with Flatpak, Snap, Scoop, Nix and more <i class="fas fa-arrow-right fa-xs"></i></a></div>
+          <div class="card-footer small text-end"><a href="https://docs.0install.net/about/comparison/">Full comparison with Snap, AppImage, Nix and more <i class="fas fa-arrow-right fa-xs"></i></a></div>
         </div>
       </section>
 
