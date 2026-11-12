@@ -89,31 +89,25 @@
         </div>
       </section>
 
-      <section class="mt-5" id="how-it-works">
-        <h2 class="h4 mb-3">How does it work?</h2>
-        <ol class="steps row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-3 list-unstyled mb-0">
+      <section class="mt-5" id="why">
+        <h2 class="h4 mb-3">Why use it?</h2>
+        <ul class="row row-cols-1 row-cols-md-3 g-3 list-unstyled mb-0">
           <li class="col">
-            <div class="feature-icon d-inline-flex align-items-center justify-content-center rounded-3 mb-2 text-primary bg-primary bg-opacity-10"><i class="fas fa-file-signature"></i></div>
-            <h3 class="h6">Fetch the feed</h3>
-            <p class="small text-body-secondary mb-0">The URL points to a GPG-signed XML feed listing versions, downloads and dependencies.</p>
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center rounded-3 mb-2 text-primary bg-primary bg-opacity-10"><i class="fas fa-unlock-alt"></i></div>
+            <h3 class="h6">No admin rights needed</h3>
+            <p class="small text-body-secondary mb-0">Use the tools you need on a locked-down work or university PC. Everything stays within your user account.</p>
           </li>
           <li class="col">
-            <div class="feature-icon d-inline-flex align-items-center justify-content-center rounded-3 mb-2 text-primary bg-primary bg-opacity-10"><i class="fas fa-project-diagram"></i></div>
-            <h3 class="h6">Pick versions</h3>
-            <p class="small text-body-secondary mb-0">A solver picks compatible versions of the app and its dependencies for your OS and CPU.</p>
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center rounded-3 mb-2 text-primary bg-primary bg-opacity-10"><i class="fas fa-layer-group"></i></div>
+            <h3 class="h6">Any version, side by side</h3>
+            <p class="small text-body-secondary mb-0">Run two versions of Node.js or the JDK at the same time and pin a version per project, without extra version managers.</p>
           </li>
           <li class="col">
-            <div class="feature-icon d-inline-flex align-items-center justify-content-center rounded-3 mb-2 text-primary bg-primary bg-opacity-10"><i class="fas fa-fingerprint"></i></div>
-            <h3 class="h6">Download and verify</h3>
-            <p class="small text-body-secondary mb-0">Archives are hash-checked against the signed feed and unpacked into a content-addressed cache.</p>
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center rounded-3 mb-2 text-primary bg-primary bg-opacity-10"><i class="fas fa-broom"></i></div>
+            <h3 class="h6">Nothing left behind</h3>
+            <p class="small text-body-secondary mb-0">Apps live in a cache instead of system directories. Trying one is risk-free and removing it is clean.</p>
           </li>
-          <li class="col">
-            <div class="feature-icon d-inline-flex align-items-center justify-content-center rounded-3 mb-2 text-primary bg-primary bg-opacity-10"><i class="fas fa-play"></i></div>
-            <h3 class="h6">Run</h3>
-            <p class="small text-body-secondary mb-0">The app runs from the cache, with environment variables pointing to its dependencies.</p>
-          </li>
-        </ol>
-        <p class="small mt-3 mb-0 text-end"><a href="https://docs.0install.net/details/security/">Security model <i class="fas fa-arrow-right fa-xs"></i></a></p>
+        </ul>
       </section>
 
       <section class="mt-5">
@@ -203,11 +197,38 @@
         </div>
       </section>
 
+      <section class="mt-5" id="how-it-works">
+        <h2 class="h4 mb-3">How does it work?</h2>
+        <ol class="steps row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-3 list-unstyled mb-0">
+          <li class="col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center rounded-3 mb-2 text-primary bg-primary bg-opacity-10"><i class="fas fa-file-signature"></i></div>
+            <h3 class="h6">Look up the app</h3>
+            <p class="small text-body-secondary mb-0">Each app is identified by a URL. Behind it is a file signed by the publisher, listing versions and dependencies.</p>
+          </li>
+          <li class="col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center rounded-3 mb-2 text-primary bg-primary bg-opacity-10"><i class="fas fa-project-diagram"></i></div>
+            <h3 class="h6">Pick versions</h3>
+            <p class="small text-body-secondary mb-0">Zero Install picks versions of the app and its dependencies that fit your OS and CPU.</p>
+          </li>
+          <li class="col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center rounded-3 mb-2 text-primary bg-primary bg-opacity-10"><i class="fas fa-fingerprint"></i></div>
+            <h3 class="h6">Download and verify</h3>
+            <p class="small text-body-secondary mb-0">Downloads are checked against the signed file and stored in a cache, where apps share common dependencies.</p>
+          </li>
+          <li class="col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center rounded-3 mb-2 text-primary bg-primary bg-opacity-10"><i class="fas fa-play"></i></div>
+            <h3 class="h6">Run</h3>
+            <p class="small text-body-secondary mb-0">The app starts straight from the cache. Nothing is written to system directories.</p>
+          </li>
+        </ol>
+        <p class="small mt-3 mb-0 text-end"><a href="https://docs.0install.net/details/security/">Security model <i class="fas fa-arrow-right fa-xs"></i></a></p>
+      </section>
+
       <section class="card mt-5">
         <div class="card-body row g-3 align-items-center mx-0">
           <div class="col-md">
             <h2 class="h5"><i class="fas fa-cubes text-primary"></i> Distribute your software</h2>
-            <p class="text-body-secondary mb-0">Publish on any static web host, with no central registry to be admitted to.</p>
+            <p class="text-body-secondary mb-0">Publish from your own website. You keep control of your releases and users get updates automatically.</p>
           </div>
           <p class="col-md-auto d-flex gap-2 flex-wrap mb-0">
             <a class="btn btn-primary" href="https://docs.0install.net/packaging/"><i class="fas fa-box-open"></i> Packaging guide</a>
