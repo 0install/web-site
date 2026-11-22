@@ -19,7 +19,16 @@
             other.classList.toggle('active', selected);
             other.setAttribute('aria-selected', selected);
             other.tabIndex = selected ? 0 : -1;
-            document.getElementById(other.getAttribute('aria-controls')).hidden = !selected;
+            var panel = document.getElementById(other.getAttribute('aria-controls'));
+            panel.hidden = !selected;
+
+            // Defer loading images (e.g. animated GIFs) until their panel is shown
+            if (selected) {
+                panel.querySelectorAll('img[data-src]').forEach(function (img) {
+                    img.src = img.dataset.src;
+                    img.removeAttribute('data-src');
+                });
+            }
         });
 
         // Keep the selected tab visible in tablists that scroll sideways
